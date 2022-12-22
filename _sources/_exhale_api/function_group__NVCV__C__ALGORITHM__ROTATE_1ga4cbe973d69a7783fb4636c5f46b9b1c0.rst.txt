@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__ROTATE_1ga4cbe973d69a7783fb4636c5f46b9b1c0:
+
+Function cvcudaRotateSubmit
+===========================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaRotateSubmit()
+   :project: cvcuda

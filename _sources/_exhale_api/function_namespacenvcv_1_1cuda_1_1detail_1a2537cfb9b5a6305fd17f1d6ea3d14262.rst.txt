@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1cuda_1_1detail_1a2537cfb9b5a6305fd17f1d6ea3d14262:
+
+Function nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS(dim3, unsigned int, 3, 3, 0, UINT_MAX)
+=========================================================================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_cuda_detail_Metaprogramming.hpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS(dim3, unsigned int, 3, 3, 0, UINT_MAX)
+   :project: cvcuda

@@ -1,0 +1,151 @@
+
+.. _file_nvcv_types_include_nvcv_ImageBatch.h:
+
+File ImageBatch.h
+=================
+
+
+Public C interface to NVCV image batch representation. 
+
+
+Definition (``nvcv_types/include/nvcv/ImageBatch.h``)
+-----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_ImageBatch.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Export.h`` (:ref:`file_nvcv_types_include_nvcv_Export.h`)
+
+- ``Fwd.h`` (:ref:`file_nvcv_types_include_nvcv_detail_CudaFwd.h`)
+
+- ``Image.h`` (:ref:`file_nvcv_types_include_nvcv_IImage.hpp`)
+
+- ``ImageBatchData.h`` (:ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`)
+
+- ``Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
+
+- ``alloc/Allocator.h`` (:ref:`file_nvcv_types_include_nvcv_alloc_Allocator.h`)
+
+- ``alloc/Requirements.h`` (:ref:`file_nvcv_types_include_nvcv_alloc_Requirements.h`)
+
+- ``detail/CudaFwd.h`` (:ref:`file_nvcv_types_include_nvcv_detail_CudaFwd.h`)
+
+- ``nvcv/ImageFormat.h`` (:ref:`file_nvcv_types_include_nvcv_ImageFormat.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_IImageBatch.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpComposite.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCopyMakeBorder.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCvtColor.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpErase.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpNormalize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpPerspective.h`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structNVCVImageBatchVarShapeRequirementsRec`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_ImageBatch_8h_1a0d93c6d932ab567b863fb1e079b40945`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_ImageBatch_8h_1a7a764d55a19cd6312ca4b786543535bb`
+
+- :ref:`exhale_function_ImageBatch_8h_1a1ba6d25de5366cd42375aa55134fceab`
+
+- :ref:`exhale_function_ImageBatch_8h_1a4637c537504744bdc800fae20a9fbeb8`
+
+- :ref:`exhale_function_ImageBatch_8h_1af2ecd66de8d879ebf134dcc2e3bcd1da`
+
+- :ref:`exhale_function_ImageBatch_8h_1a41d456aa595a44e5e7dac327f1151758`
+
+- :ref:`exhale_function_ImageBatch_8h_1a0686bab196e250289d933264c900cb3b`
+
+- :ref:`exhale_function_ImageBatch_8h_1af60694ceead121f703820c227db4cf21`
+
+- :ref:`exhale_function_ImageBatch_8h_1a63492344c73e85de776c5506cf59d870`
+
+- :ref:`exhale_function_ImageBatch_8h_1a1b7237be10915e916db576724e00797a`
+
+- :ref:`exhale_function_ImageBatch_8h_1a19b19750a46cddf976dc951d3fe3853f`
+
+- :ref:`exhale_function_ImageBatch_8h_1aa75f517e0f4442c2034dda9d7ebcd1a0`
+
+- :ref:`exhale_function_ImageBatch_8h_1aa7639e25d2ee0bda5da8a47c959a7eef`
+
+- :ref:`exhale_function_ImageBatch_8h_1a695acf13b682d5791d2f5ea057712adc`
+
+- :ref:`exhale_function_ImageBatch_8h_1a83647b898658f2d53ab56bdf51388b78`
+
+- :ref:`exhale_function_ImageBatch_8h_1a384c6338c4dfdcbaf56e865898d37046`
+
+- :ref:`exhale_function_ImageBatch_8h_1a8f13f6c5234fcb26452eed18c0794259`
+
+- :ref:`exhale_function_ImageBatch_8h_1a5641c1781ee33fef20c7cce912328e9d`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_ImageBatch_8h_1a8fd086b45fdbff5cedfd5a7681ffbdbc`
+
+- :ref:`exhale_typedef_ImageBatch_8h_1abe7066d4b604e453aff818758d0753cd`
+
+- :ref:`exhale_typedef_ImageBatch_8h_1a82497ac36cf62bf626d850bde08da0dc`
+
+- :ref:`exhale_typedef_ImageBatch_8h_1ae4718c0ce8f37276823534a3e645356f`
+

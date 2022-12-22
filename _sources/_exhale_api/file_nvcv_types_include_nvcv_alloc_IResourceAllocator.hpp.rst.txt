@@ -1,0 +1,65 @@
+
+.. _file_nvcv_types_include_nvcv_alloc_IResourceAllocator.hpp:
+
+File IResourceAllocator.hpp
+===========================
+
+
+Defines C++ interface for resource allocation. 
+
+
+Definition (``nvcv_types/include/nvcv/alloc/IResourceAllocator.hpp``)
+---------------------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_alloc_IResourceAllocator.hpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``cassert``
+
+- ``cstddef``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_alloc_AllocatorWrapHandle.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_alloc_CustomResourceAllocator.hpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_nvcv`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classnvcv_1_1ICudaMemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1IHostMemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1IHostPinnedMemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1IMemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1IResourceAllocator`
+

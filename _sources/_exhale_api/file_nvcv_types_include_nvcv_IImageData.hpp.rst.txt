@@ -1,0 +1,66 @@
+
+.. _file_nvcv_types_include_nvcv_IImageData.hpp:
+
+File IImageData.hpp
+===================
+Definition (``nvcv_types/include/nvcv/IImageData.hpp``)
+-------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_IImageData.hpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``ImageData.h`` (:ref:`file_nvcv_types_include_nvcv_IImageData.hpp`)
+
+- ``Size.hpp`` (:ref:`file_nvcv_types_include_nvcv_Size.hpp`)
+
+- ``detail/IImageDataImpl.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_IImageDataImpl.hpp`)
+
+- ``nvcv/ImageFormat.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageFormat.hpp`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_TensorWrap.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_IImage.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_ImageData.hpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_nvcv`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classnvcv_1_1IImageData`
+
+- :ref:`exhale_class_classnvcv_1_1IImageDataCudaArray`
+
+- :ref:`exhale_class_classnvcv_1_1IImageDataStrided`
+
+- :ref:`exhale_class_classnvcv_1_1IImageDataStridedCuda`
+
+- :ref:`exhale_class_classnvcv_1_1IImageDataStridedHost`
+

@@ -1,0 +1,14 @@
+.. _exhale_function_Image_8h_1af03ff44f7bbbf8873edc648c967cad9b:
+
+Function nvcvImageConstruct
+===========================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Image.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageConstruct(const NVCVImageRequirements *, NVCVAllocatorHandle, NVCVImageHandle *)
+   :project: cvcuda

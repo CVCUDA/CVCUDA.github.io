@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__NORMALIZE_1gad08b5698701accf432543de445183cc8:
+
+Function cvcudaNormalizeVarShapeSubmit
+======================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpNormalize.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaNormalizeVarShapeSubmit()
+   :project: cvcuda

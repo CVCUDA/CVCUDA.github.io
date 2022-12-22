@@ -1,0 +1,14 @@
+.. _exhale_typedef_Allocator_8h_1a3d0898d5a5354d8b5027ce3f907f4332:
+
+Typedef NVCVCustomAllocator
+===========================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_alloc_Allocator.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: NVCVCustomAllocator
+   :project: cvcuda

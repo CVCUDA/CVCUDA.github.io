@@ -1,0 +1,27 @@
+.. _exhale_class_classnvcv_1_1TensorDataAccessStridedImage:
+
+Class TensorDataAccessStridedImage
+==================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_TensorDataAccess.hpp`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Types
+**********
+
+- ``private nvcv::detail::BaseFromMember< TensorShapeInfoImage >`` (:ref:`exhale_class_classnvcv_1_1detail_1_1BaseFromMember`)
+- ``public nvcv::detail::TensorDataAccessStridedImageImpl`` (:ref:`exhale_class_classnvcv_1_1detail_1_1TensorDataAccessStridedImageImpl`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: nvcv::TensorDataAccessStridedImage
+   :project: cvcuda
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,58 @@
+
+.. _file_cvcuda_include_cvcuda_OpConv2D.h:
+
+File OpConv2D.h
+===============
+
+
+Defines types and functions to handle the 2D Convolution operation. 
+
+
+Definition (``cvcuda/include/cvcuda/OpConv2D.h``)
+-------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_cvcuda_include_cvcuda_OpConv2D.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Operator.h`` (:ref:`file_cvcuda_include_cvcuda_IOperator.hpp`)
+
+- ``Types.h`` (:ref:`file_cvcuda_include_cvcuda_Types.h`)
+
+- ``cuda_runtime.h``
+
+- ``detail/Export.h`` (:ref:`file_cvcuda_include_cvcuda_detail_Export.h`)
+
+- ``nvcv/Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
+
+- ``nvcv/Tensor.h`` (:ref:`file_nvcv_types_include_nvcv_Tensor.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_cvcuda_include_cvcuda_OpConv2D.hpp`
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__CONV2D_1ga2c58f581338c32fe0fc2d75b4c4b6c43`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__CONV2D_1ga3b7caf0307bbad0144cfb0fb7af0d4fe`
+

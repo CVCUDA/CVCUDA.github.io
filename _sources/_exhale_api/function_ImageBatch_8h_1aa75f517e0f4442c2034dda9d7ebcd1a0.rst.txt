@@ -1,0 +1,14 @@
+.. _exhale_function_ImageBatch_8h_1aa75f517e0f4442c2034dda9d7ebcd1a0:
+
+Function nvcvImageBatchVarShapeConstruct
+========================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageBatchVarShapeConstruct(const NVCVImageBatchVarShapeRequirements *, NVCVAllocatorHandle, NVCVImageBatchHandle *)
+   :project: cvcuda

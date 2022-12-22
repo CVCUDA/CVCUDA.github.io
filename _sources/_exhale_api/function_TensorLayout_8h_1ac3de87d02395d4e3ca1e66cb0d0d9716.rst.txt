@@ -1,0 +1,14 @@
+.. _exhale_function_TensorLayout_8h_1ac3de87d02395d4e3ca1e66cb0d0d9716:
+
+Function nvcvTensorLayoutMakeSubRange
+=====================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_TensorLayout.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvTensorLayoutMakeSubRange(NVCVTensorLayout, int32_t, int32_t, NVCVTensorLayout *)
+   :project: cvcuda

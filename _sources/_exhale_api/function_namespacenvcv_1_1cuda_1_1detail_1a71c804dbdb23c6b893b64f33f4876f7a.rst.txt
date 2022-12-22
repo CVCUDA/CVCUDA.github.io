@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1cuda_1_1detail_1a71c804dbdb23c6b893b64f33f4876f7a:
+
+Function nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS(double, double, 0, 1, DBL_MIN, DBL_MAX)
+==========================================================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS(double, double, 0, 1, DBL_MIN, DBL_MAX)
+   :project: cvcuda

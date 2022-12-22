@@ -1,0 +1,62 @@
+
+.. _file_cvcuda_include_cvcuda_OpBilateralFilter.h:
+
+File OpBilateralFilter.h
+========================
+
+
+Defines types and functions to handle the bilateral filter operation. 
+
+
+Definition (``cvcuda/include/cvcuda/OpBilateralFilter.h``)
+----------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_cvcuda_include_cvcuda_OpBilateralFilter.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Operator.h`` (:ref:`file_cvcuda_include_cvcuda_IOperator.hpp`)
+
+- ``Types.h`` (:ref:`file_cvcuda_include_cvcuda_Types.h`)
+
+- ``cuda_runtime.h``
+
+- ``detail/Export.h`` (:ref:`file_cvcuda_include_cvcuda_detail_Export.h`)
+
+- ``nvcv/Rect.h`` (:ref:`file_nvcv_types_include_nvcv_Rect.h`)
+
+- ``nvcv/Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
+
+- ``nvcv/Tensor.h`` (:ref:`file_nvcv_types_include_nvcv_Tensor.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.hpp`
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITM__BILATERAL__FILTER_1ga1f14a2b0fbe60929e77f38d1b5422268`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITM__BILATERAL__FILTER_1ga70a558206e82bdb1ff839193a1730cd1`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITM__BILATERAL__FILTER_1ga87b52be1bf5e3b0896f5903d2907450a`
+

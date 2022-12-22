@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1cuda_1_1detail_1a0195b7b4228f1db3455d7772caeda5f3:
+
+Function nvcv::cuda::detail::asm("cvt.sat.u8.s32 %)
+===================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::detail::asm("cvt.sat.u8.s32 %)
+   :project: cvcuda

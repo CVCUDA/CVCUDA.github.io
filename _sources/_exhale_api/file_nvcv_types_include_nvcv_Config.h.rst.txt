@@ -1,0 +1,54 @@
+
+.. _file_nvcv_types_include_nvcv_Config.h:
+
+File Config.h
+=============
+
+
+Public C interface to NVCV configuration. 
+
+
+Definition (``nvcv_types/include/nvcv/Config.h``)
+-------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_Config.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Export.h`` (:ref:`file_nvcv_types_include_nvcv_Export.h`)
+
+- ``Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_Config.hpp`
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_Config_8h_1a2b08fc37ec16d1841bd6e8ce0b5c97d8`
+
+- :ref:`exhale_function_Config_8h_1adc3f94da60b36e2805fafa4fa80b2a6b`
+
+- :ref:`exhale_function_Config_8h_1a41afa725d014b923bb45b321bd01c75c`
+
+- :ref:`exhale_function_Config_8h_1ab6d2f5cbc2807e0be932cf0d869ced58`
+

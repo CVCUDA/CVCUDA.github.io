@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__UTIL__STATUS_1ga54f046859494ffbe926219ef1108bf5e:
+
+Function nvcvStatusGetName
+==========================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Status.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvStatusGetName(NVCVStatus)
+   :project: cvcuda

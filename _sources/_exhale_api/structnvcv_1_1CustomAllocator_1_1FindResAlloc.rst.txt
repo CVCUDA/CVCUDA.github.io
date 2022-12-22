@@ -1,0 +1,23 @@
+.. _exhale_struct_structnvcv_1_1CustomAllocator_1_1FindResAlloc:
+
+Template Struct CustomAllocator::FindResAlloc
+=============================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_alloc_CustomAllocator.hpp`
+
+
+Nested Relationships
+--------------------
+
+This struct is a nested type of :ref:`exhale_class_classnvcv_1_1CustomAllocator`.
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: nvcv::CustomAllocator::FindResAlloc
+   :project: cvcuda
+   :members:
+   :protected-members:
+   :undoc-members:

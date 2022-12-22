@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__CVTCOLOR_1ga9ef7e2556c44ee590d3ae768a426a850:
+
+Function cvcudaCvtColorCreate
+=============================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpCvtColor.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaCvtColorCreate(NVCVOperatorHandle *)
+   :project: cvcuda

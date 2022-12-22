@@ -1,0 +1,7 @@
+:orphan:
+
+bilateral filter
+================
+
+.. doxygengroup:: NVCV_C_ALGORITM_BILATERAL_FILTER
+   :project: cvcuda

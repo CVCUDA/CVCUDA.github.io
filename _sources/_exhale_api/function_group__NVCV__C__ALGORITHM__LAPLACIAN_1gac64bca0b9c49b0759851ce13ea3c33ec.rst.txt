@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__LAPLACIAN_1gac64bca0b9c49b0759851ce13ea3c33ec:
+
+Function cvcudaLaplacianSubmit
+==============================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaLaplacianSubmit(NVCVOperatorHandle, cudaStream_t, NVCVTensorHandle, NVCVTensorHandle, int32_t, float, NVCVBorderType)
+   :project: cvcuda

@@ -1,0 +1,58 @@
+
+.. _file_nvcv_types_include_nvcv_Tensor.hpp:
+
+File Tensor.hpp
+===============
+Definition (``nvcv_types/include/nvcv/Tensor.hpp``)
+---------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_Tensor.hpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``IImage.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImage.hpp`)
+
+- ``ITensor.hpp`` (:ref:`file_nvcv_types_include_nvcv_ITensor.hpp`)
+
+- ``Size.hpp`` (:ref:`file_nvcv_types_include_nvcv_Size.hpp`)
+
+- ``TensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ITensorData.hpp`)
+
+- ``alloc/IAllocator.hpp`` (:ref:`file_nvcv_types_include_nvcv_alloc_IAllocator.hpp`)
+
+- ``detail/TensorImpl.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_TensorImpl.hpp`)
+
+- ``nvcv/ImageFormat.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageFormat.hpp`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_nvcv`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classnvcv_1_1Tensor`
+
+- :ref:`exhale_class_classnvcv_1_1TensorWrapData`
+
+- :ref:`exhale_class_classnvcv_1_1TensorWrapImage`
+

@@ -1,0 +1,28 @@
+.. _exhale_class_classnvcv_1_1ITensor:
+
+Class ITensor
+=============
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_ITensor.hpp`
+
+
+Inheritance Relationships
+-------------------------
+
+Derived Types
+*************
+
+- ``public nvcv::Tensor`` (:ref:`exhale_class_classnvcv_1_1Tensor`)
+- ``public nvcv::TensorWrapData`` (:ref:`exhale_class_classnvcv_1_1TensorWrapData`)
+- ``public nvcv::TensorWrapImage`` (:ref:`exhale_class_classnvcv_1_1TensorWrapImage`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: nvcv::ITensor
+   :project: cvcuda
+   :members:
+   :protected-members:
+   :undoc-members:

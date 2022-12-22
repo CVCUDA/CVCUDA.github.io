@@ -1,0 +1,14 @@
+.. _exhale_function_TensorLayout_8h_1aeedd728008e9d51d2ce68ac37c5b3fe9:
+
+Function nvcvTensorLayoutGetLabel
+=================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_TensorLayout.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvTensorLayoutGetLabel(NVCVTensorLayout, int)
+   :project: cvcuda

@@ -1,0 +1,93 @@
+
+.. _file_nvcv_types_include_nvcv_alloc_Requirements.h:
+
+File Requirements.h
+===================
+
+
+Defines the public C interface to NVCV resource requirements. 
+
+
+Definition (``nvcv_types/include/nvcv/alloc/Requirements.h``)
+-------------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_alloc_Requirements.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Several objects in NVCV require resource allocation. Resource requirements is a way for them to inform how many resources they need. This information can be used by allocators to pre-allocate the resources that will be used. 
+
+
+
+
+Includes
+--------
+
+
+- ``../Status.h``
+
+- ``stdint.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_alloc_Requirements.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_Image.h`
+
+- :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+- :ref:`file_nvcv_types_include_nvcv_Tensor.h`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structNVCVMemRequirementsRec`
+
+- :ref:`exhale_struct_structNVCVRequirementsRec`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_Requirements_8h_1ae62a273012440a03f4b51f339bd0ea60`
+
+- :ref:`exhale_function_Requirements_8h_1aa21eb2a9fb046adc34204556055fd658`
+
+- :ref:`exhale_function_Requirements_8h_1a4a303dad5246cd93da5e19ffc0808062`
+
+- :ref:`exhale_function_Requirements_8h_1a992f35f930a781e72141d541bdcbed85`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_Requirements_8h_1aa0377c5b6f8efd560ec58448729bdc92`
+
+- :ref:`exhale_define_Requirements_8h_1a4757a8f50b8789029172f4aa3a9f461f`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_Requirements_8h_1a1c2607343500f6949220947a48c2b140`
+
+- :ref:`exhale_typedef_Requirements_8h_1a07facfeb156ac5afa09a8967e131528a`
+

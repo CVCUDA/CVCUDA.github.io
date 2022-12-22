@@ -1,0 +1,17 @@
+.. _exhale_struct_structnvcv_1_1Size2D:
+
+Struct Size2D
+=============
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Size.hpp`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: nvcv::Size2D
+   :project: cvcuda
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1cuda_1_1detail_1a23240e4273eb85572d7513e3b6d7f7dd:
+
+Function nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS_1_TO_4(float, float, FLT_MIN, FLT_MAX)
+=========================================================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS_1_TO_4(float, float, FLT_MIN, FLT_MAX)
+   :project: cvcuda

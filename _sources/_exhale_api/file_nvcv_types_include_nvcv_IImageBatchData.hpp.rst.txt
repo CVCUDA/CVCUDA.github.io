@@ -1,0 +1,64 @@
+
+.. _file_nvcv_types_include_nvcv_IImageBatchData.hpp:
+
+File IImageBatchData.hpp
+========================
+Definition (``nvcv_types/include/nvcv/IImageBatchData.hpp``)
+------------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_IImageBatchData.hpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``ImageBatchData.h`` (:ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`)
+
+- ``ImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageData.hpp`)
+
+- ``detail/CudaFwd.h`` (:ref:`file_nvcv_types_include_nvcv_detail_CudaFwd.h`)
+
+- ``detail/IImageBatchDataImpl.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_IImageBatchDataImpl.hpp`)
+
+- ``detail/Optional.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_Optional.hpp`)
+
+- ``nvcv/ImageFormat.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageFormat.hpp`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_ImageBatchData.hpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_nvcv`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classnvcv_1_1IImageBatchData`
+
+- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShapeData`
+
+- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShapeDataStrided`
+
+- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShapeDataStridedCuda`
+

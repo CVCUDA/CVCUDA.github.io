@@ -1,0 +1,14 @@
+.. _exhale_define_FormatUtils_8h_1a2595a5ffc1d2048094c95f2362ddc3f0:
+
+Define NVCV_DETAIL_MAKE_YCbCr_FMT
+=================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_detail_FormatUtils.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: NVCV_DETAIL_MAKE_YCbCr_FMT
+   :project: cvcuda

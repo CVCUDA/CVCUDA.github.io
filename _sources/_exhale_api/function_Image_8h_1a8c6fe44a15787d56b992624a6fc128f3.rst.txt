@@ -1,0 +1,14 @@
+.. _exhale_function_Image_8h_1a8c6fe44a15787d56b992624a6fc128f3:
+
+Function nvcvImageWrapDataConstruct
+===================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Image.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageWrapDataConstruct(const NVCVImageData *, NVCVImageDataCleanupFunc, void *, NVCVImageHandle *)
+   :project: cvcuda

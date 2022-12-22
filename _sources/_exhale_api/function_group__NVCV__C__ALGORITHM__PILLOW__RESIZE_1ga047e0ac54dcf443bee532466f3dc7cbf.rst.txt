@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__PILLOW__RESIZE_1ga047e0ac54dcf443bee532466f3dc7cbf:
+
+Function nvcvopPillowResizeVarShapeSubmit
+=========================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvopPillowResizeVarShapeSubmit()
+   :project: cvcuda

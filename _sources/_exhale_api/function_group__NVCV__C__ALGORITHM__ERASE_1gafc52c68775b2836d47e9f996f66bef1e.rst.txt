@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__ERASE_1gafc52c68775b2836d47e9f996f66bef1e:
+
+Function cvcudaEraseVarShapeSubmit
+==================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpErase.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaEraseVarShapeSubmit()
+   :project: cvcuda

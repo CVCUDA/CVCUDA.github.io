@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1cuda_1_1detail_1a35962f8b8927594358f5d3d406aad974:
+
+Function nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS_1_TO_4(char, signed char, SCHAR_MIN, SCHAR_MAX)
+==================================================================================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_cuda_detail_Metaprogramming.hpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS_1_TO_4(char, signed char, SCHAR_MIN, SCHAR_MAX)
+   :project: cvcuda

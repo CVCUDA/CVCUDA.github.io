@@ -1,0 +1,103 @@
+
+.. _file_cvcuda_include_cvcuda_Operator.h:
+
+File Operator.h
+===============
+
+
+Defines types and functions to handle operators. 
+
+
+Definition (``cvcuda/include/cvcuda/Operator.h``)
+-------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_cvcuda_include_cvcuda_Operator.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``detail/Export.h`` (:ref:`file_cvcuda_include_cvcuda_detail_Export.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_cvcuda_include_cvcuda_IOperator.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCenterCrop.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpChannelReorder.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpComposite.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpConv2D.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpConvertTo.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCopyMakeBorder.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCustomCrop.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCvtColor.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpErase.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpFlip.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMorphology.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpNormalize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpReformat.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpPerspective.h`
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_Operator_8h_1afbf008bc3266b078628a30d809604dfe`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_Operator_8h_1af049cd97bda4b8876af466105790c8de`
+

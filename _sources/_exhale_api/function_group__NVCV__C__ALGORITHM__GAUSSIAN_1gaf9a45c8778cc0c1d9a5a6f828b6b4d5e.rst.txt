@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__GAUSSIAN_1gaf9a45c8778cc0c1d9a5a6f828b6b4d5e:
+
+Function cvcudaGaussianCreate
+=============================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaGaussianCreate(NVCVOperatorHandle *, int32_t, int32_t, int32_t)
+   :project: cvcuda

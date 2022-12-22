@@ -1,0 +1,14 @@
+.. _exhale_define_FormatUtils_8h_1ac44ab3f5b5e864987c6b6d21ad78f436:
+
+Define NVCV_DETAIL_MAKE_COLOR_FMT3
+==================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_detail_FormatUtils.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: NVCV_DETAIL_MAKE_COLOR_FMT3
+   :project: cvcuda

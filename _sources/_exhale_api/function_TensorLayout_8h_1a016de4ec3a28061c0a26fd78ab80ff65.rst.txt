@@ -1,0 +1,14 @@
+.. _exhale_function_TensorLayout_8h_1a016de4ec3a28061c0a26fd78ab80ff65:
+
+Function nvcvTensorLayoutMake
+=============================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_TensorLayout.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvTensorLayoutMake(const char *, NVCVTensorLayout *)
+   :project: cvcuda

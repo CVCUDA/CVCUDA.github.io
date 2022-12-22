@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga954ba4068154d4f720c481d30a84b1f4:
+
+Template Function nvcv::cuda::math::det(const Matrix<T, 1, 1>&)
+===============================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::math::det(const Matrix<T, 1, 1>&)
+   :project: cvcuda

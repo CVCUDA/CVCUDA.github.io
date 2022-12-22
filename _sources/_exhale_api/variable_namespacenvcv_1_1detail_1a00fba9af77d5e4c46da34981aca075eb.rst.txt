@@ -1,0 +1,14 @@
+.. _exhale_variable_namespacenvcv_1_1detail_1a00fba9af77d5e4c46da34981aca075eb:
+
+Variable nvcv::detail::NullOpt
+==============================
+
+.. did not find file this was defined in
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: nvcv::detail::NullOpt
+   :project: cvcuda

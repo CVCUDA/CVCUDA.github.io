@@ -1,0 +1,14 @@
+.. _exhale_function_ImageBatch_8h_1a1ba6d25de5366cd42375aa55134fceab:
+
+Function nvcvImageBatchExportData
+=================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageBatchExportData(NVCVImageBatchHandle, CUstream, NVCVImageBatchData *)
+   :project: cvcuda

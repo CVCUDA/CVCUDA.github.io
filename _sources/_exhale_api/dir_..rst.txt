@@ -1,0 +1,17 @@
+.. _dir_.:
+
+
+Directory .
+===========
+
+
+*Directory path:* ``.``
+
+Subdirectories
+--------------
+
+- :ref:`dir__home_milesp_cvcuda_src_cvcuda`
+- :ref:`dir__home_milesp_cvcuda_src_nvcv_types`
+
+
+

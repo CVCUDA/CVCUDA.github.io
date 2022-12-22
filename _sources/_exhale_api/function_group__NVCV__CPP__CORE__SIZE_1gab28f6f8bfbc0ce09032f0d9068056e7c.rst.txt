@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__CPP__CORE__SIZE_1gab28f6f8bfbc0ce09032f0d9068056e7c:
+
+Function nvcv::operator!=(const Size2D&, const Size2D&)
+=======================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::operator!=(const Size2D&, const Size2D&)
+   :project: cvcuda

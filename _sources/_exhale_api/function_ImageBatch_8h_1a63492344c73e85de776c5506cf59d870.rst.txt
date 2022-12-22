@@ -1,0 +1,14 @@
+.. _exhale_function_ImageBatch_8h_1a63492344c73e85de776c5506cf59d870:
+
+Function nvcvImageBatchSetUserPointer
+=====================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageBatchSetUserPointer(NVCVImageBatchHandle, void *)
+   :project: cvcuda

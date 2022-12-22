@@ -1,0 +1,26 @@
+.. _exhale_class_classnvcv_1_1IResourceAllocator:
+
+Class IResourceAllocator
+========================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_alloc_IResourceAllocator.hpp`
+
+
+Inheritance Relationships
+-------------------------
+
+Derived Type
+************
+
+- ``public nvcv::IMemAllocator`` (:ref:`exhale_class_classnvcv_1_1IMemAllocator`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: nvcv::IResourceAllocator
+   :project: cvcuda
+   :members:
+   :protected-members:
+   :undoc-members:

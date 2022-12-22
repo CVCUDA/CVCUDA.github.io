@@ -1,0 +1,27 @@
+.. _exhale_class_classnvcv_1_1CustomCudaMemAllocator:
+
+Class CustomCudaMemAllocator
+============================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_alloc_CustomResourceAllocator.hpp`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Types
+**********
+
+- ``public nvcv::ICudaMemAllocator`` (:ref:`exhale_class_classnvcv_1_1ICudaMemAllocator`)
+- ``private nvcv::detail::CustomMemAllocatorImpl`` (:ref:`exhale_class_classnvcv_1_1detail_1_1CustomMemAllocatorImpl`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: nvcv::CustomCudaMemAllocator
+   :project: cvcuda
+   :members:
+   :protected-members:
+   :undoc-members:

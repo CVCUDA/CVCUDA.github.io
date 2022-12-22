@@ -1,0 +1,14 @@
+.. _exhale_function_ImageBatch_8h_1a19b19750a46cddf976dc951d3fe3853f:
+
+Function nvcvImageBatchVarShapeClear
+====================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageBatchVarShapeClear(NVCVImageBatchHandle)
+   :project: cvcuda

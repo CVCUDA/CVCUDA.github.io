@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1cuda_1_1detail_1ac8de7e26c978b7a1cf1c1d6bef1558dc:
+
+Function nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS_1_TO_4(uint, unsigned int, 0, UINT_MAX)
+==========================================================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS_1_TO_4(uint, unsigned int, 0, UINT_MAX)
+   :project: cvcuda

@@ -1,0 +1,23 @@
+.. _exhale_class_classnvcv_1_1IImageBatchVarShape_1_1Iterator:
+
+Class IImageBatchVarShape::Iterator
+===================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_IImageBatch.hpp`
+
+
+Nested Relationships
+--------------------
+
+This class is a nested type of :ref:`exhale_class_classnvcv_1_1IImageBatchVarShape`.
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: nvcv::IImageBatchVarShape::Iterator
+   :project: cvcuda
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__CONV2D_1ga2c58f581338c32fe0fc2d75b4c4b6c43:
+
+Function cvcudaConv2DCreate
+===========================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpConv2D.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaConv2DCreate(NVCVOperatorHandle *)
+   :project: cvcuda

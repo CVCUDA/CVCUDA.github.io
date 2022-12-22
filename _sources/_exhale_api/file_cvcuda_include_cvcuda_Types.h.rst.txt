@@ -1,0 +1,94 @@
+
+.. _file_cvcuda_include_cvcuda_Types.h:
+
+File Types.h
+============
+
+
+Defines types to be used by operators. 
+
+
+Definition (``cvcuda/include/cvcuda/Types.h``)
+----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_cvcuda_include_cvcuda_Types.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``detail/Export.h`` (:ref:`file_cvcuda_include_cvcuda_detail_Export.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_BorderWrap.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpComposite.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpConv2D.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCopyMakeBorder.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCvtColor.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpErase.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpFlip.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMorphology.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpPerspective.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpPerspective.hpp`
+
+
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1ga47d27ddb621b5837b703742548a1b263`
+
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1ga1b0c8e931110b304a5db967abbfa3099`
+
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1gab529f9ddbef23848c189fa7459dbf9fb`
+
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1ga0dd853096644bdd240132736a88cdac0`
+

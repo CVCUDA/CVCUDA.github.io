@@ -1,0 +1,14 @@
+.. _exhale_function_ImageBatch_8h_1a5641c1781ee33fef20c7cce912328e9d:
+
+Function nvcvImageBatchVarShapePushImagesCallback
+=================================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageBatchVarShapePushImagesCallback(NVCVImageBatchHandle, NVCVPushImageFunc, void *)
+   :project: cvcuda

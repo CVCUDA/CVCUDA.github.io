@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1detail_1a6db927c52bdc2b350593bd33221842d5:
+
+Function nvcv::detail::GetImageHandle(NVCVImageHandle)
+======================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::detail::GetImageHandle(NVCVImageHandle)
+   :project: cvcuda

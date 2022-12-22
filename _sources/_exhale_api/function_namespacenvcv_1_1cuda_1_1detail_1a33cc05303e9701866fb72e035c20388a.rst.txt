@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1cuda_1_1detail_1a33cc05303e9701866fb72e035c20388a:
+
+Function nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS(short, short, 0, 1, SHRT_MIN, SHRT_MAX)
+==========================================================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS(short, short, 0, 1, SHRT_MIN, SHRT_MAX)
+   :project: cvcuda

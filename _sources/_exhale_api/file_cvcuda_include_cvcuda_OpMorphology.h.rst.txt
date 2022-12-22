@@ -1,0 +1,60 @@
+
+.. _file_cvcuda_include_cvcuda_OpMorphology.h:
+
+File OpMorphology.h
+===================
+
+
+Defines types and functions to handle the morphology operation. 
+
+
+Definition (``cvcuda/include/cvcuda/OpMorphology.h``)
+-----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_cvcuda_include_cvcuda_OpMorphology.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Operator.h`` (:ref:`file_cvcuda_include_cvcuda_IOperator.hpp`)
+
+- ``Types.h`` (:ref:`file_cvcuda_include_cvcuda_Types.h`)
+
+- ``cuda_runtime.h``
+
+- ``detail/Export.h`` (:ref:`file_cvcuda_include_cvcuda_detail_Export.h`)
+
+- ``nvcv/Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
+
+- ``nvcv/Tensor.h`` (:ref:`file_nvcv_types_include_nvcv_Tensor.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_cvcuda_include_cvcuda_OpMorphology.hpp`
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MORPHOLOGY_1gaebb9dcf0490a4418784383e902358d79`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MORPHOLOGY_1gaede0989fabe5046ded496f467a24e052`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MORPHOLOGY_1ga0b161fea624412a442848ca76be14e36`
+

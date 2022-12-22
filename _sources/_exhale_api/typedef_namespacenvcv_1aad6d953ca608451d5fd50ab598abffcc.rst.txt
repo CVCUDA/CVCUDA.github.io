@@ -1,0 +1,14 @@
+.. _exhale_typedef_namespacenvcv_1aad6d953ca608451d5fd50ab598abffcc:
+
+Typedef nvcv::HandleTypeOf
+==========================
+
+.. did not find file this was defined in
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: nvcv::HandleTypeOf
+   :project: cvcuda

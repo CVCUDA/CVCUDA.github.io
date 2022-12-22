@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITM__BILATERAL__FILTER_1ga70a558206e82bdb1ff839193a1730cd1:
+
+Function cvcudaBilateralFilterSubmit
+====================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaBilateralFilterSubmit(NVCVOperatorHandle, cudaStream_t, NVCVTensorHandle, NVCVTensorHandle, int, float, float, NVCVBorderType)
+   :project: cvcuda

@@ -1,0 +1,52 @@
+
+.. _file_nvcv_types_include_nvcv_ImageBatchData.hpp:
+
+File ImageBatchData.hpp
+=======================
+Definition (``nvcv_types/include/nvcv/ImageBatchData.hpp``)
+-----------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_ImageBatchData.hpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``IImageBatchData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`)
+
+- ``detail/ImageBatchDataImpl.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_ImageBatchDataImpl.hpp`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_IImageBatch.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_ImageBatch.hpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_nvcv`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classnvcv_1_1ImageBatchVarShapeDataStridedCuda`
+

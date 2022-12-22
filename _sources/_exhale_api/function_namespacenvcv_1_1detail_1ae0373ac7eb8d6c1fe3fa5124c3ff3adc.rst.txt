@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1detail_1ae0373ac7eb8d6c1fe3fa5124c3ff3adc:
+
+Template Function nvcv::detail::GetImageHandle(const T \*)
+==========================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::detail::GetImageHandle(const T *)
+   :project: cvcuda

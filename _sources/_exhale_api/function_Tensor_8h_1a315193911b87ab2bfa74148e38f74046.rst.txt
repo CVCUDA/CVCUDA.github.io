@@ -1,0 +1,14 @@
+.. _exhale_function_Tensor_8h_1a315193911b87ab2bfa74148e38f74046:
+
+Function nvcvTensorGetUserPointer
+=================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Tensor.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvTensorGetUserPointer(NVCVTensorHandle, void **)
+   :project: cvcuda

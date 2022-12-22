@@ -1,0 +1,14 @@
+.. _exhale_function_Allocator_8h_1a6ef1257d16fbcd571d5916aecfe1b09f:
+
+Function nvcvAllocatorConstructCustom
+=====================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_alloc_Allocator.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvAllocatorConstructCustom(const NVCVCustomAllocator *, int32_t, NVCVAllocatorHandle *)
+   :project: cvcuda

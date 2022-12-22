@@ -1,0 +1,14 @@
+.. _exhale_variable_namespacenvcv_1_1cuda_1_1detail_1aea9fd80b2c50f179dfa6ac08475d11c9:
+
+Variable nvcv::cuda::detail::short
+==================================
+
+.. did not find file this was defined in
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: nvcv::cuda::detail::short
+   :project: cvcuda

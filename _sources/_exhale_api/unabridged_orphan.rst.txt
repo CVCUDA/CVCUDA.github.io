@@ -1,0 +1,813 @@
+:orphan:
+
+
+Full API
+========
+
+Directories
+***********
+
+
+.. toctree::
+   :maxdepth: 1
+
+   dir_..rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_cvcuda.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_cvcuda_include.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_cvcuda_include_cvcuda.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_cvcuda_include_cvcuda_detail.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_nvcv_types.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_nvcv_types_include.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_nvcv_types_include_nvcv.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_nvcv_types_include_nvcv_alloc.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_nvcv_types_include_nvcv_cuda.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_nvcv_types_include_nvcv_cuda_detail.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_nvcv_types_include_nvcv_cuda_math.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   dir__home_milesp_cvcuda_src_nvcv_types_include_nvcv_detail.rst
+
+Files
+*****
+
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_alloc_Allocator.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_alloc_AllocatorWrapHandle.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_BaseFromMember.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_BorderWrap.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Casts.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_CastsImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_CheckError.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ColorSpec.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ColorSpec.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_CompilerUtils.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_Concepts.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Config.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Config.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_CudaFwd.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_alloc_CustomAllocator.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_alloc_CustomResourceAllocator.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_DataLayout.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_DataLayout.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_DataType.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_DataType.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_DropCast.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Exception.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Export.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_detail_Export.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_FormatUtils.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_alloc_Fwd.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Fwd.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_alloc_Fwd.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Fwd.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_alloc_IAllocator.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_IImage.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_IImageBatch.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_IImageBatchData.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_IImageBatchDataImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_IImageBatchImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_IImageData.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_IImageDataImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_IImageImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Image.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Image.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ImageBatch.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ImageBatch.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ImageBatchData.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ImageBatchData.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_ImageBatchDataImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_ImageBatchImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ImageData.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ImageData.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_ImageDataImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ImageFormat.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ImageFormat.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_ImageImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_IndexSequence.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_InPlace.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_IOperator.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_alloc_IResourceAllocator.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ITensor.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ITensorData.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_ITensorDataImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_ITensorImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_math_LinAlg.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_MathOps.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_MathWrappers.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_detail_MathWrappersImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_detail_Metaprogramming.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpAverageBlur.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpAverageBlur.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpBilateralFilter.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpBilateralFilter.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpCenterCrop.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpCenterCrop.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpChannelReorder.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpChannelReorder.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpComposite.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpComposite.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpConv2D.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpConv2D.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpConvertTo.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpConvertTo.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpCopyMakeBorder.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpCopyMakeBorder.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpCustomCrop.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpCustomCrop.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpCvtColor.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpCvtColor.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpErase.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpErase.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_Operator.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpFlip.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpFlip.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpGammaContrast.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpGammaContrast.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpGaussian.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpGaussian.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpLaplacian.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpLaplacian.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpMedianBlur.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpMedianBlur.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpMorphology.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpMorphology.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpNormalize.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpNormalize.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpPadAndStack.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpPadAndStack.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpPillowResize.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpPillowResize.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpReformat.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpReformat.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpResize.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpResize.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpRotate.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpRotate.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_Optional.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpWarpAffine.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpWarpAffine.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpWarpPerspective.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpWarpPerspective.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_RangeCast.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_detail_RangeCastImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Rect.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_alloc_Requirements.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_alloc_Requirements.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_SaturateCast.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_detail_SaturateCastImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Shape.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Size.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_StaticCast.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Status.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Status.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Tensor.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Tensor.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorData.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorData.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorDataAccess.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_TensorDataImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_TensorImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorLayout.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorLayout.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorLayoutInfo.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorShape.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorShape.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorShapeInfo.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_TensorWrap.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_Types.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_TypeTraits.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Version.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_Version.h.rst

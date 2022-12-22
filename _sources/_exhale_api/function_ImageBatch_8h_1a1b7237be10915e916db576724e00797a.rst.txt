@@ -1,0 +1,14 @@
+.. _exhale_function_ImageBatch_8h_1a1b7237be10915e916db576724e00797a:
+
+Function nvcvImageBatchVarShapeCalcRequirements
+===============================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageBatchVarShapeCalcRequirements(int32_t, NVCVImageBatchVarShapeRequirements *)
+   :project: cvcuda

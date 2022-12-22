@@ -1,0 +1,14 @@
+.. _exhale_function_ImageBatch_8h_1a4637c537504744bdc800fae20a9fbeb8:
+
+Function nvcvImageBatchGetAllocator
+===================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageBatchGetAllocator(NVCVImageBatchHandle, NVCVAllocatorHandle *)
+   :project: cvcuda

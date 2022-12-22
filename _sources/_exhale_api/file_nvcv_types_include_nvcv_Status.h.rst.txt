@@ -1,0 +1,148 @@
+
+.. _file_nvcv_types_include_nvcv_Status.h:
+
+File Status.h
+=============
+
+
+Declaration of NVCV C status codes handling functions. 
+
+
+Definition (``nvcv_types/include/nvcv/Status.h``)
+-------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_Status.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Export.h`` (:ref:`file_nvcv_types_include_nvcv_Export.h`)
+
+- ``stdarg.h``
+
+- ``stdint.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_alloc_Allocator.h`
+
+- :ref:`file_nvcv_types_include_nvcv_alloc_Requirements.h`
+
+- :ref:`file_nvcv_types_include_nvcv_ColorSpec.h`
+
+- :ref:`file_nvcv_types_include_nvcv_Config.h`
+
+- :ref:`file_nvcv_types_include_nvcv_DataLayout.h`
+
+- :ref:`file_nvcv_types_include_nvcv_detail_CastsImpl.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_detail_CheckError.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_Image.h`
+
+- :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+- :ref:`file_nvcv_types_include_nvcv_Status.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_Tensor.h`
+
+- :ref:`file_nvcv_types_include_nvcv_TensorLayout.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCenterCrop.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpChannelReorder.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpComposite.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpConv2D.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpConvertTo.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCopyMakeBorder.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCustomCrop.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCvtColor.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpErase.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpFlip.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMorphology.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpNormalize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpReformat.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpPerspective.h`
+
+
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_group__NVCV__C__UTIL__STATUS_1gab0aaf56c79437759a25a24d3bfe895bf`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_group__NVCV__C__UTIL__STATUS_1ga1b2d257e24b719e32b52fd03fbf18331`
+
+- :ref:`exhale_function_group__NVCV__C__UTIL__STATUS_1ga980637923d24debf78ac5f1abcd216e8`
+
+- :ref:`exhale_function_group__NVCV__C__UTIL__STATUS_1gad54b8402051df0126be16a0945178579`
+
+- :ref:`exhale_function_group__NVCV__C__UTIL__STATUS_1gaaf02fe6e789a3b91768563c8573a1c10`
+
+- :ref:`exhale_function_group__NVCV__C__UTIL__STATUS_1ga0a0c3bcc350cd8a08984cf5c215ff800`
+
+- :ref:`exhale_function_group__NVCV__C__UTIL__STATUS_1gaea42eb8020e060338d0cbbc45475482b`
+
+- :ref:`exhale_function_group__NVCV__C__UTIL__STATUS_1ga54f046859494ffbe926219ef1108bf5e`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_group__NVCV__C__UTIL__STATUS_1gae5e088294b0754c8502b8da150c68b71`
+

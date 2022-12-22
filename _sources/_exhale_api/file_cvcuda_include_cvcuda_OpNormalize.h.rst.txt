@@ -1,0 +1,67 @@
+
+.. _file_cvcuda_include_cvcuda_OpNormalize.h:
+
+File OpNormalize.h
+==================
+
+
+Defines types and functions to handle the normalize operation. 
+
+
+Definition (``cvcuda/include/cvcuda/OpNormalize.h``)
+----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_cvcuda_include_cvcuda_OpNormalize.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Operator.h`` (:ref:`file_cvcuda_include_cvcuda_IOperator.hpp`)
+
+- ``cuda_runtime.h``
+
+- ``detail/Export.h`` (:ref:`file_cvcuda_include_cvcuda_detail_Export.h`)
+
+- ``nvcv/ImageBatch.h`` (:ref:`file_nvcv_types_include_nvcv_ImageBatch.h`)
+
+- ``nvcv/Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
+
+- ``nvcv/Tensor.h`` (:ref:`file_nvcv_types_include_nvcv_Tensor.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_cvcuda_include_cvcuda_OpNormalize.hpp`
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__NORMALIZE_1ga2a636ee9c202d1c50739abba8d8450c4`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__NORMALIZE_1gad67fba06748f15cd77628cfd5ae012f3`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__NORMALIZE_1gad08b5698701accf432543de445183cc8`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_group__NVCV__C__ALGORITHM__NORMALIZE_1ga064dd3b9bf075a74851826ef4e5bfea7`
+

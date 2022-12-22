@@ -1,0 +1,66 @@
+
+.. _file_nvcv_types_include_nvcv_cuda_MathOps.hpp:
+
+File MathOps.hpp
+================
+
+
+Defines math operations. 
+
+
+Definition (``nvcv_types/include/nvcv/cuda/MathOps.hpp``)
+---------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_cuda_MathOps.hpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``StaticCast.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_StaticCast.hpp`)
+
+- ``TypeTraits.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_TypeTraits.hpp`)
+
+- ``utility``
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_nvcv`
+
+- :ref:`namespace_nvcv__cuda`
+
+- :ref:`namespace_nvcv__cuda__detail`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHOPERATORS_1ga929cdc8cbda04c64866e4f81177ea145`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHOPERATORS_1gaf9a0067bab1b9bb9edbbc1026cd504f3`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_group__NVCV__CPP__CUDATOOLS__MATHOPERATORS_1ga6a7d6708444d9fbb456eadc25ddd943c`
+
+- :ref:`exhale_define_group__NVCV__CPP__CUDATOOLS__MATHOPERATORS_1ga1e8c4f559f77f2e8d3b770ad07aa4dc7`
+

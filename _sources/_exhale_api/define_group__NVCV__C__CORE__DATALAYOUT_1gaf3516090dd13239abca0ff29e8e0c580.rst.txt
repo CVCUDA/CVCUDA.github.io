@@ -1,0 +1,14 @@
+.. _exhale_define_group__NVCV__C__CORE__DATALAYOUT_1gaf3516090dd13239abca0ff29e8e0c580:
+
+Define NVCV_MAKE_SWIZZLE
+========================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_DataLayout.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: NVCV_MAKE_SWIZZLE
+   :project: cvcuda

@@ -1,0 +1,328 @@
+
+.. _namespace_nvcv:
+
+Namespace nvcv
+==============
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_nvcv__cfg`
+
+- :ref:`namespace_nvcv__cuda`
+
+- :ref:`namespace_nvcv__detail`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structnvcv_1_1CustomAllocator_1_1FindResAlloc`
+
+- :ref:`exhale_struct_structnvcv_1_1Exception_1_1InternalCtorTag`
+
+- :ref:`exhale_struct_structnvcv_1_1PackingParams`
+
+- :ref:`exhale_struct_structnvcv_1_1Size2D`
+
+- :ref:`exhale_class_classnvcv_1_1ColorSpec`
+
+- :ref:`exhale_class_classnvcv_1_1CustomAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1CustomCudaMemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1CustomHostMemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1CustomHostPinnedMemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1DataType`
+
+- :ref:`exhale_class_classnvcv_1_1Exception`
+
+- :ref:`exhale_class_classnvcv_1_1IAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1ICudaMemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1IHostMemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1IHostPinnedMemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1IImage`
+
+- :ref:`exhale_class_classnvcv_1_1IImageBatch`
+
+- :ref:`exhale_class_classnvcv_1_1IImageBatchData`
+
+- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShape`
+
+- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShape_1_1Iterator`
+
+- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShapeData`
+
+- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShapeDataStrided`
+
+- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShapeDataStridedCuda`
+
+- :ref:`exhale_class_classnvcv_1_1IImageData`
+
+- :ref:`exhale_class_classnvcv_1_1IImageDataCudaArray`
+
+- :ref:`exhale_class_classnvcv_1_1IImageDataStrided`
+
+- :ref:`exhale_class_classnvcv_1_1IImageDataStridedCuda`
+
+- :ref:`exhale_class_classnvcv_1_1IImageDataStridedHost`
+
+- :ref:`exhale_class_classnvcv_1_1Image`
+
+- :ref:`exhale_class_classnvcv_1_1ImageBatchVarShape`
+
+- :ref:`exhale_class_classnvcv_1_1ImageBatchVarShapeDataStridedCuda`
+
+- :ref:`exhale_class_classnvcv_1_1ImageDataCudaArray`
+
+- :ref:`exhale_class_classnvcv_1_1ImageDataStridedCuda`
+
+- :ref:`exhale_class_classnvcv_1_1ImageDataStridedHost`
+
+- :ref:`exhale_class_classnvcv_1_1ImageFormat`
+
+- :ref:`exhale_class_classnvcv_1_1ImageWrapData`
+
+- :ref:`exhale_class_classnvcv_1_1IMemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1IResourceAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1ITensor`
+
+- :ref:`exhale_class_classnvcv_1_1ITensorData`
+
+- :ref:`exhale_class_classnvcv_1_1ITensorDataStrided`
+
+- :ref:`exhale_class_classnvcv_1_1ITensorDataStridedCuda`
+
+- :ref:`exhale_class_classnvcv_1_1MemAlignment`
+
+- :ref:`exhale_class_classnvcv_1_1Requirements`
+
+- :ref:`exhale_class_classnvcv_1_1Requirements_1_1ConstMemory`
+
+- :ref:`exhale_class_classnvcv_1_1Requirements_1_1Memory`
+
+- :ref:`exhale_class_classnvcv_1_1Shape`
+
+- :ref:`exhale_class_classnvcv_1_1Tensor`
+
+- :ref:`exhale_class_classnvcv_1_1TensorDataAccessStrided`
+
+- :ref:`exhale_class_classnvcv_1_1TensorDataAccessStridedImage`
+
+- :ref:`exhale_class_classnvcv_1_1TensorDataAccessStridedImagePlanar`
+
+- :ref:`exhale_class_classnvcv_1_1TensorDataStridedCuda`
+
+- :ref:`exhale_class_classnvcv_1_1TensorLayout`
+
+- :ref:`exhale_class_classnvcv_1_1TensorLayoutInfo`
+
+- :ref:`exhale_class_classnvcv_1_1TensorLayoutInfoImage`
+
+- :ref:`exhale_class_classnvcv_1_1TensorShape`
+
+- :ref:`exhale_class_classnvcv_1_1TensorShapeInfo`
+
+- :ref:`exhale_class_classnvcv_1_1TensorShapeInfoImage`
+
+- :ref:`exhale_class_classnvcv_1_1TensorShapeInfoImagePlanar`
+
+- :ref:`exhale_class_classnvcv_1_1TensorWrapData`
+
+- :ref:`exhale_class_classnvcv_1_1TensorWrapImage`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_namespacenvcv_1af921ab47450ed999f4eb09e9abd85569`
+
+- :ref:`exhale_enum_group__NVCV__CPP__CORE__DATALAYOUT_1ga5f4996b34fd86cb881f08fd90f4ae35e`
+
+- :ref:`exhale_enum_group__NVCV__CPP__CORE__DATALAYOUT_1ga04947d15146c6dec36b41161fc48444d`
+
+- :ref:`exhale_enum_namespacenvcv_1a4997b35073af2050a9116c9c34f859d1`
+
+- :ref:`exhale_enum_namespacenvcv_1a092bcdbcf6b823b6b55ecd65c910d25b`
+
+- :ref:`exhale_enum_namespacenvcv_1a8d520f9c603bbe984cf64f9ae079ea1d`
+
+- :ref:`exhale_enum_namespacenvcv_1ae88251944fa945ac4da94863fd480374`
+
+- :ref:`exhale_enum_namespacenvcv_1acffea8da1131190848c888bd7f589aa7`
+
+- :ref:`exhale_enum_namespacenvcv_1a893bda0840fe00a793808f37822e6966`
+
+- :ref:`exhale_enum_group__NVCV__CPP__CORE__DATALAYOUT_1ga08e808a08be98700d81947cc1b0eefc3`
+
+- :ref:`exhale_enum_group__NVCV__CPP__CORE__DATALAYOUT_1ga5c916a14bc5cee28d56022ab40ae36dd`
+
+- :ref:`exhale_enum_group__NVCV__CPP__CORE__DATALAYOUT_1ga3450a1a62585d703b52423925e939072`
+
+- :ref:`exhale_enum_namespacenvcv_1a9f6434a1e2242912aab5fbfd2cfdc4a0`
+
+- :ref:`exhale_enum_group__NVCV__CPP__UTIL__STATUS_1ga2842870d2b0211d2539141f3569f1b32`
+
+- :ref:`exhale_enum_group__NVCV__CPP__CORE__DATALAYOUT_1gadc01b5523e7b0b811c5fa302162497ba`
+
+- :ref:`exhale_enum_namespacenvcv_1aa6e09b0b07e89a1e63f580a69e395c0a`
+
+- :ref:`exhale_enum_namespacenvcv_1af02dc8e101ff1af13bcbc67cc9a3d24a`
+
+- :ref:`exhale_enum_namespacenvcv_1a858bcb07a88426579e24b98979078573`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_namespacenvcv_1a282132e4ccf00038c66957cf0478ed58`
+
+- :ref:`exhale_function_namespacenvcv_1a7e4704c7af51acdb3c84f4575387f320`
+
+- :ref:`exhale_function_namespacenvcv_1a9bfb0f0bd9d0b2e108249a2c91ea6119`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga8effddb03bafd403d57ff90cf68b5916`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga3d1b79b6e9b0af4af7a7f41c88d8f06c`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga822463bf76c5383c52b88ae7155b53d5`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga072edd90f8c14752fddab5136337ccd8`
+
+- :ref:`exhale_function_namespacenvcv_1a795f595476831fcfea3412c05178798f`
+
+- :ref:`exhale_function_group__NVCV__CPP__UTIL__STATUS_1gad42be5e73b95633d822f2913750a6dec`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga949938805e0f1e117c3b95113e3be0b7`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga24ee36de849d99cd2aceab5b2bcfadb3`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga1b5ee34180b56479689609ea832f0daa`
+
+- :ref:`exhale_function_namespacenvcv_1a3f1905ab71e8a9e027061a99df97753e`
+
+- :ref:`exhale_function_namespacenvcv_1ac917ee306e661480ac38ff33bdb4bfc1`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__IMAGETYPE_1ga0661225051b72b25dea066d7ec403bca`
+
+- :ref:`exhale_function_namespacenvcv_1ae5ae5948181c37e27adf8aeea6af7cc2`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga20a7c2219e38a7b29f8e0d24c2ff805f`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga8c92261f24e903a1e07172af1b20afea`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1gabda265dd58098753687257bc2d9991eb`
+
+- :ref:`exhale_function_namespacenvcv_1a5cd83a06033da6d9632f20e1485a8f20`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1gab28f6f8bfbc0ce09032f0d9068056e7c`
+
+- :ref:`exhale_function_namespacenvcv_1aee055d6e69a66715e9517a4d33522156`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1gacda569b090ddeea9957bd76e2503fea0`
+
+- :ref:`exhale_function_namespacenvcv_1a30daa8004f7b1e15b52502c44467bfc1`
+
+- :ref:`exhale_function_namespacenvcv_1a585f9379b49365c9cb0070a8a4632935`
+
+- :ref:`exhale_function_namespacenvcv_1a8f297910650d206508f32fffd3553975`
+
+- :ref:`exhale_function_namespacenvcv_1a00684c3628e85f9b5a984f55b45b8561`
+
+- :ref:`exhale_function_namespacenvcv_1af6ceb5009e457d4ab8cab3830f5fc9ce`
+
+- :ref:`exhale_function_namespacenvcv_1af12b996225c7bd03e873d20fa6baebbb`
+
+- :ref:`exhale_function_namespacenvcv_1a85930c40fbfbc8b5d1493c99c3a4f8c9`
+
+- :ref:`exhale_function_namespacenvcv_1af226273080a10e80e2fa3c5cdb6e1260`
+
+- :ref:`exhale_function_namespacenvcv_1af13479fdf47a175be67ff7f9ca4c7b31`
+
+- :ref:`exhale_function_namespacenvcv_1a89337b0a885cf5367a5b91dc8c945065`
+
+- :ref:`exhale_function_namespacenvcv_1a31c29de666b777c32b886293ba4ded42`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga57f24590a61ed18fd381e041796f0a02`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga7db2fb1665a06f0129298d8b17613064`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga02f23422c57c483dbadc47814520a709`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga0dd654a9c1c7f8169651168b2bebe7af`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1gae1fac6c2807849613f695f0b6fc473e3`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1gad6555517721099a61b1e1a760f2bba3e`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__DATATYPE_1ga7541e9da66f5f631260f06bcf35ba9cf`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__IMAGETYPE_1ga56f4de7779b881c0bc5169ececf5d141`
+
+- :ref:`exhale_function_namespacenvcv_1a9da346e617827c30247d7097aed25a84`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1ga45246c41fe62d206dfaa5a2a1dc794e8`
+
+- :ref:`exhale_function_group__NVCV__CPP__UTIL__STATUS_1ga56c60a25f3e2b79393493ae862e30478`
+
+- :ref:`exhale_function_group__NVCV__CPP__UTIL__STATUS_1gaa951fbd3cb3abd6561b237fe58b92c1c`
+
+- :ref:`exhale_function_namespacenvcv_1aec5b13c9a9a6faca09598d4865e7c450`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1ga14cffef3be0413a40be154887198651d`
+
+- :ref:`exhale_function_namespacenvcv_1a115831c728891c3d1ed3d3c322a57454`
+
+- :ref:`exhale_function_namespacenvcv_1acaa8be839a795a043ffab6c006ad3709`
+
+- :ref:`exhale_function_namespacenvcv_1a4cd49732c014df74730d6e2c29c57dfb`
+
+- :ref:`exhale_function_group__NVCV__CPP__UTIL__EXCEPTION_1gac6ad83a045a08ecb9742be2c89ddafa1`
+
+- :ref:`exhale_function_group__NVCV__CPP__UTIL__EXCEPTION_1ga54062252bddd196874dbff365c31b52d`
+
+- :ref:`exhale_function_namespacenvcv_1a52c178809e7d6ca37060d00d4c1b596e`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_namespacenvcv_1ab6705fed8ba1b73ae791063afc11c848`
+
+- :ref:`exhale_typedef_namespacenvcv_1aad6d953ca608451d5fd50ab598abffcc`
+
+- :ref:`exhale_typedef_namespacenvcv_1a9d8bae8250c9ef9f13b082ca2bddcacc`
+
+- :ref:`exhale_typedef_namespacenvcv_1ad7abff543eccdf12a9394c4b4bc471a6`
+
+- :ref:`exhale_typedef_namespacenvcv_1afd43af73dc57aed8d6f921c7c11188ce`
+
+- :ref:`exhale_typedef_namespacenvcv_1a34a02d9ce0e016158e9a95d6372c85d6`
+
+- :ref:`exhale_typedef_namespacenvcv_1ac395eeebe4ac387eb752fe1e6819e156`
+
+- :ref:`exhale_typedef_namespacenvcv_1a8625fc2698306a869662795a9fdb8015`
+
+- :ref:`exhale_typedef_namespacenvcv_1a861a2ddac3078fe50b38330cf9899ea6`
+
+
+Unions
+------
+
+
+- :ref:`exhale_union_unionnvcv_1_1IImage_1_1Arena`

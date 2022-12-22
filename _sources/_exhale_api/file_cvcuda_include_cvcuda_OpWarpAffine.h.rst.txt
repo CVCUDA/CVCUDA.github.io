@@ -1,0 +1,69 @@
+
+.. _file_cvcuda_include_cvcuda_OpWarpAffine.h:
+
+File OpWarpAffine.h
+===================
+
+
+Defines types and functions to handle the WarpAffine operation. 
+
+
+Definition (``cvcuda/include/cvcuda/OpWarpAffine.h``)
+-----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_cvcuda_include_cvcuda_OpWarpAffine.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Operator.h`` (:ref:`file_cvcuda_include_cvcuda_IOperator.hpp`)
+
+- ``Types.h`` (:ref:`file_cvcuda_include_cvcuda_Types.h`)
+
+- ``cuda_runtime.h``
+
+- ``detail/Export.h`` (:ref:`file_cvcuda_include_cvcuda_detail_Export.h`)
+
+- ``nvcv/ImageBatch.h`` (:ref:`file_nvcv_types_include_nvcv_ImageBatch.h`)
+
+- ``nvcv/Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
+
+- ``nvcv/Tensor.h`` (:ref:`file_nvcv_types_include_nvcv_Tensor.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.hpp`
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__WARP__AFFINE_1ga3ee46c2c04ae64c5de004e054cd493e6`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__WARP__AFFINE_1ga7a94c3b97a84998014c49728ab5aee97`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__WARP__AFFINE_1gab6f05a7a284296fbbef6639930817aab`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_group__NVCV__C__ALGORITHM__WARP__AFFINE_1ga631c46e6db0a069b920fee26a67c7d84`
+

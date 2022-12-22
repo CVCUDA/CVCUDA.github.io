@@ -1,0 +1,14 @@
+.. _exhale_function_Image_8h_1a2dfed43dab1ff79d3c59e90f60480787:
+
+Function nvcvImageExportData
+============================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Image.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageExportData(NVCVImageHandle, NVCVImageData *)
+   :project: cvcuda

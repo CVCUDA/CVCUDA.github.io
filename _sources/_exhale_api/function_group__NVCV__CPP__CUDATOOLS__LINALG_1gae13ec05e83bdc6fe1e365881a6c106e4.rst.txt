@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gae13ec05e83bdc6fe1e365881a6c106e4:
+
+Template Function nvcv::cuda::math::identity
+============================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_cuda_math_LinAlg.hpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::math::identity()
+   :project: cvcuda

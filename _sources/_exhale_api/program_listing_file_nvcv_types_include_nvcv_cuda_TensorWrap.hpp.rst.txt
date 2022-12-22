@@ -1,0 +1,235 @@
+
+.. _program_listing_file_nvcv_types_include_nvcv_cuda_TensorWrap.hpp:
+
+Program Listing for File TensorWrap.hpp
+=======================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_nvcv_types_include_nvcv_cuda_TensorWrap.hpp>` (``nvcv_types/include/nvcv/cuda/TensorWrap.hpp``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   /*
+    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-License-Identifier: Apache-2.0
+    *
+    * Licensed under the Apache License, Version 2.0 (the "License");
+    * you may not use this file except in compliance with the License.
+    * You may obtain a copy of the License at
+    *
+    * http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    * See the License for the specific language governing permissions and
+    * limitations under the License.
+    */
+   
+   #ifndef NVCV_CUDA_TENSOR_WRAP_HPP
+   #define NVCV_CUDA_TENSOR_WRAP_HPP
+   
+   #include "TypeTraits.hpp" // for HasTypeTraits, etc.
+   
+   #include <nvcv/IImageData.hpp>  // for IImageDataStridedCuda, etc.
+   #include <nvcv/ITensorData.hpp> // for ITensorDataStridedCuda, etc.
+   
+   #include <utility>
+   
+   namespace nvcv::cuda {
+   
+   template<typename T, int... Strides>
+   class TensorWrap;
+   
+   template<typename T, int... Strides>
+   class TensorWrap<const T, Strides...>
+   {
+       static_assert(HasTypeTraits<T>, "TensorWrap<T> can only be used if T has type traits");
+   
+   public:
+       using ValueType = const T;
+   
+       static constexpr int kNumDimensions   = sizeof...(Strides);
+       static constexpr int kVariableStrides = ((Strides == -1) + ...);
+       static constexpr int kConstantStrides = kNumDimensions - kVariableStrides;
+   
+       TensorWrap() = default;
+   
+       template<typename... Args>
+       explicit __host__ __device__ TensorWrap(const void *data, Args... strides)
+           : m_data(data)
+           , m_strides{std::forward<int>(strides)...}
+       {
+           static_assert(std::conjunction_v<std::is_same<int, Args>...>);
+           static_assert(sizeof...(Args) == kVariableStrides);
+       }
+   
+       __host__ TensorWrap(const IImageDataStridedCuda &image)
+       {
+           static_assert(kVariableStrides == 1 && kNumDimensions == 2);
+   
+           m_data = reinterpret_cast<const void *>(image.plane(0).basePtr);
+   
+           m_strides[0] = image.plane(0).rowStride;
+       }
+   
+       __host__ TensorWrap(const ITensorDataStridedCuda &tensor)
+       {
+           m_data = reinterpret_cast<const void *>(tensor.basePtr());
+   
+   #pragma unroll
+           for (int i = 0; i < kVariableStrides; ++i)
+           {
+               assert(tensor.stride(i) <= TypeTraits<int>::max);
+   
+               m_strides[i] = tensor.stride(i);
+           }
+       }
+   
+       __host__ __device__ const int *strides() const
+       {
+           return m_strides;
+       }
+   
+       inline const __host__ __device__ T &operator[](int1 c) const
+       {
+           return *doGetPtr(c.x);
+       }
+   
+       inline const __host__ __device__ T &operator[](int2 c) const
+       {
+           return *doGetPtr(c.y, c.x);
+       }
+   
+       inline const __host__ __device__ T &operator[](int3 c) const
+       {
+           return *doGetPtr(c.z, c.y, c.x);
+       }
+   
+       inline const __host__ __device__ T &operator[](int4 c) const
+       {
+           return *doGetPtr(c.w, c.z, c.y, c.x);
+       }
+   
+       template<typename... Args>
+       inline const __host__ __device__ T *ptr(Args... c) const
+       {
+           return doGetPtr(c...);
+       }
+   
+   protected:
+       template<typename... Args>
+       inline const __host__ __device__ T *doGetPtr(Args... c) const
+       {
+           static_assert(std::conjunction_v<std::is_same<int, Args>...>);
+           static_assert(sizeof...(Args) <= kNumDimensions);
+   
+           constexpr int kArgSize  = sizeof...(Args);
+           constexpr int kVarSize  = kArgSize < kVariableStrides ? kArgSize : kVariableStrides;
+           constexpr int kDimSize  = kArgSize < kNumDimensions ? kArgSize : kNumDimensions;
+           constexpr int kStride[] = {std::forward<int>(Strides)...};
+   
+           int coords[] = {std::forward<int>(c)...};
+   
+           // Computing offset first potentially postpones or avoids 64-bit math during addressing
+           int offset = 0;
+   #pragma unroll
+           for (int i = 0; i < kVarSize; ++i)
+           {
+               offset += coords[i] * m_strides[i];
+           }
+   #pragma unroll
+           for (int i = kVariableStrides; i < kDimSize; ++i)
+           {
+               offset += coords[i] * kStride[i];
+           }
+   
+           return reinterpret_cast<const T *>(reinterpret_cast<const uint8_t *>(m_data) + offset);
+       }
+   
+   private:
+       const void *m_data                      = nullptr;
+       int         m_strides[kVariableStrides] = {};
+   };
+   
+   template<typename T, int... Strides>
+   class TensorWrap : public TensorWrap<const T, Strides...>
+   {
+       using Base = TensorWrap<const T, Strides...>;
+   
+   public:
+       using ValueType = T;
+   
+       using Base::kConstantStrides;
+       using Base::kNumDimensions;
+       using Base::kVariableStrides;
+   
+       TensorWrap() = default;
+   
+       template<typename... Args>
+       explicit __host__ __device__ TensorWrap(void *data, Args... strides)
+           : Base(data, strides...)
+       {
+       }
+   
+       __host__ TensorWrap(const IImageDataStridedCuda &image)
+           : Base(image)
+       {
+       }
+   
+       __host__ TensorWrap(const ITensorDataStridedCuda &tensor)
+           : Base(tensor)
+       {
+       }
+   
+       inline __host__ __device__ T &operator[](int1 c) const
+       {
+           return *doGetPtr(c.x);
+       }
+   
+       inline __host__ __device__ T &operator[](int2 c) const
+       {
+           return *doGetPtr(c.y, c.x);
+       }
+   
+       inline __host__ __device__ T &operator[](int3 c) const
+       {
+           return *doGetPtr(c.z, c.y, c.x);
+       }
+   
+       inline __host__ __device__ T &operator[](int4 c) const
+       {
+           return *doGetPtr(c.w, c.z, c.y, c.x);
+       }
+   
+       template<typename... Args>
+       inline __host__ __device__ T *ptr(Args... c) const
+       {
+           return doGetPtr(c...);
+       }
+   
+   protected:
+       template<typename... Args>
+       inline __host__ __device__ T *doGetPtr(Args... c) const
+       {
+           // The const_cast here is the *only* place where it is used to remove the base pointer constness
+           return const_cast<T *>(Base::doGetPtr(c...));
+       }
+   };
+   
+   template<typename T>
+   using Tensor1DWrap = TensorWrap<T, sizeof(T)>;
+   
+   template<typename T>
+   using Tensor2DWrap = TensorWrap<T, -1, sizeof(T)>;
+   
+   template<typename T>
+   using Tensor3DWrap = TensorWrap<T, -1, -1, sizeof(T)>;
+   
+   template<typename T>
+   using Tensor4DWrap = TensorWrap<T, -1, -1, -1, sizeof(T)>;
+   
+   } // namespace nvcv::cuda
+   
+   #endif // NVCV_CUDA_TENSOR_WRAP_HPP

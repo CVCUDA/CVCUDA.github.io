@@ -1,0 +1,154 @@
+
+.. _file_nvcv_types_include_nvcv_Tensor.h:
+
+File Tensor.h
+=============
+
+
+Public C interface to NVCV tensor representation. 
+
+
+Definition (``nvcv_types/include/nvcv/Tensor.h``)
+-------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_Tensor.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Export.h`` (:ref:`file_nvcv_types_include_nvcv_Export.h`)
+
+- ``Fwd.h`` (:ref:`file_nvcv_types_include_nvcv_detail_CudaFwd.h`)
+
+- ``Image.h`` (:ref:`file_nvcv_types_include_nvcv_IImage.hpp`)
+
+- ``Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
+
+- ``TensorData.h`` (:ref:`file_nvcv_types_include_nvcv_ITensorData.hpp`)
+
+- ``alloc/Allocator.h`` (:ref:`file_nvcv_types_include_nvcv_alloc_Allocator.h`)
+
+- ``alloc/Requirements.h`` (:ref:`file_nvcv_types_include_nvcv_alloc_Requirements.h`)
+
+- ``detail/CudaFwd.h`` (:ref:`file_nvcv_types_include_nvcv_detail_CudaFwd.h`)
+
+- ``nvcv/ImageFormat.h`` (:ref:`file_nvcv_types_include_nvcv_ImageFormat.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_ITensor.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCenterCrop.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpChannelReorder.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpComposite.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpConv2D.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpConvertTo.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCopyMakeBorder.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCustomCrop.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCvtColor.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpErase.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpFlip.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMorphology.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpNormalize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpReformat.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpWarpPerspective.h`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structNVCVTensorRequirementsRec`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_Tensor_8h_1a8cf6d4881edf26b301b7839bde1d98e8`
+
+- :ref:`exhale_function_Tensor_8h_1a0d64cfeec1720c311e2996f0c0ce5097`
+
+- :ref:`exhale_function_Tensor_8h_1a5acf9a9597f338616586b0ff95313650`
+
+- :ref:`exhale_function_Tensor_8h_1a7566c4fd3e555638c143b5114e4cbf4a`
+
+- :ref:`exhale_function_Tensor_8h_1ab79f56b786288a9c6d7b7d631c0093fa`
+
+- :ref:`exhale_function_Tensor_8h_1ae73876a632d7bd2d5001222ae52ee0a1`
+
+- :ref:`exhale_function_Tensor_8h_1a57016d4f92abff228174b32ac18e92be`
+
+- :ref:`exhale_function_Tensor_8h_1aff03fa6e4a6d19ccbf812cfb9b9af5c9`
+
+- :ref:`exhale_function_Tensor_8h_1a908f3b700602efb2a4002fd56665ce98`
+
+- :ref:`exhale_function_Tensor_8h_1a315193911b87ab2bfa74148e38f74046`
+
+- :ref:`exhale_function_Tensor_8h_1a31e8a34db166b243b09870d413f6f50e`
+
+- :ref:`exhale_function_Tensor_8h_1a62561b09e02a7cab576ae1fda407688d`
+
+- :ref:`exhale_function_Tensor_8h_1abda6589d610e2218ee2b5e5c715e59f3`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_Tensor_8h_1ada2579277f1b259bef7a5a832911174a`
+
+- :ref:`exhale_typedef_Tensor_8h_1a06e34fc1dcef513d36b0ee3b9e78b6b6`
+
+- :ref:`exhale_typedef_Tensor_8h_1aa2e51bc6885025924b8d8e3d6faa3e83`
+

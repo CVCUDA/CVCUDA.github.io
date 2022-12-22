@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__CONVERT__TO_1ga5df27a5569d8eb5da2c993530ec93a8c:
+
+Function cvcudaConvertToCreate
+==============================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpConvertTo.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaConvertToCreate(NVCVOperatorHandle *)
+   :project: cvcuda

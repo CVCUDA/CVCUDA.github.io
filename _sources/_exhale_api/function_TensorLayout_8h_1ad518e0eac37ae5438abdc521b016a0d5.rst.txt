@@ -1,0 +1,14 @@
+.. _exhale_function_TensorLayout_8h_1ad518e0eac37ae5438abdc521b016a0d5:
+
+Function nvcvTensorLayoutMakeRange
+==================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_TensorLayout.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvTensorLayoutMakeRange(const char *, const char *, NVCVTensorLayout *)
+   :project: cvcuda

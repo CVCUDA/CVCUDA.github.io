@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1cuda_1_1detail_1a7fbcd63dc3dc68c7e74d5fbd56ee9575:
+
+Function nvcv::cuda::detail::NVCV_CUDA_MAKE_TYPE_0_TO_4(unsigned int, uint)
+===========================================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::detail::NVCV_CUDA_MAKE_TYPE_0_TO_4(unsigned int, uint)
+   :project: cvcuda

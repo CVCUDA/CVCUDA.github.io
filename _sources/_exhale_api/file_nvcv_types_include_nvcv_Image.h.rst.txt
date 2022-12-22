@@ -1,0 +1,109 @@
+
+.. _file_nvcv_types_include_nvcv_Image.h:
+
+File Image.h
+============
+
+
+Public C interface to NVCV image representation. 
+
+
+Definition (``nvcv_types/include/nvcv/Image.h``)
+------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_Image.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Export.h`` (:ref:`file_nvcv_types_include_nvcv_Export.h`)
+
+- ``Fwd.h`` (:ref:`file_nvcv_types_include_nvcv_detail_CudaFwd.h`)
+
+- ``ImageData.h`` (:ref:`file_nvcv_types_include_nvcv_IImageData.hpp`)
+
+- ``Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
+
+- ``alloc/Allocator.h`` (:ref:`file_nvcv_types_include_nvcv_alloc_Allocator.h`)
+
+- ``alloc/Requirements.h`` (:ref:`file_nvcv_types_include_nvcv_alloc_Requirements.h`)
+
+- ``detail/CudaFwd.h`` (:ref:`file_nvcv_types_include_nvcv_detail_CudaFwd.h`)
+
+- ``nvcv/ImageFormat.h`` (:ref:`file_nvcv_types_include_nvcv_ImageFormat.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_IImage.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+- :ref:`file_nvcv_types_include_nvcv_Tensor.h`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structNVCVImageRequirementsRec`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_Image_8h_1a7749e7ece6e45724a5a269bda221ab4d`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_Image_8h_1aff9ac619389fe87e27f8abdae37981bb`
+
+- :ref:`exhale_function_Image_8h_1af03ff44f7bbbf8873edc648c967cad9b`
+
+- :ref:`exhale_function_Image_8h_1ad210dc760b98207d3be0fcb4a5a2ef47`
+
+- :ref:`exhale_function_Image_8h_1a2dfed43dab1ff79d3c59e90f60480787`
+
+- :ref:`exhale_function_Image_8h_1a013da7d94355dd2c623d92bc60bd1058`
+
+- :ref:`exhale_function_Image_8h_1ac1cb812a5362c872fa3492058be7ee4a`
+
+- :ref:`exhale_function_Image_8h_1a3cc6f69529a5adb330324fe91b440a25`
+
+- :ref:`exhale_function_Image_8h_1a11fb9fed0d6c9658a3c031a743bffaa6`
+
+- :ref:`exhale_function_Image_8h_1ab7517654ed8c4cd2c8c8fd764da4ad37`
+
+- :ref:`exhale_function_Image_8h_1a49b957240d97d36e3a7e2b53594e7822`
+
+- :ref:`exhale_function_Image_8h_1a8c6fe44a15787d56b992624a6fc128f3`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_Image_8h_1a7fdba59b347904372bb48e2724b207d9`
+
+- :ref:`exhale_typedef_Image_8h_1af873f6710f9bf1820e511610d0cd348a`
+
+- :ref:`exhale_typedef_Image_8h_1af80424b995b5369d46d349d8c0f10235`
+

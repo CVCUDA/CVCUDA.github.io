@@ -1,0 +1,63 @@
+
+.. _file_nvcv_types_include_nvcv_cuda_BorderWrap.hpp:
+
+File BorderWrap.hpp
+===================
+
+
+Defines border wrapper over tensors for border handling. 
+
+
+Definition (``nvcv_types/include/nvcv/cuda/BorderWrap.hpp``)
+------------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_cuda_BorderWrap.hpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``TensorWrap.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_TensorWrap.hpp`)
+
+- ``TypeTraits.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_TypeTraits.hpp`)
+
+- ``cvcuda/Types.h`` (:ref:`file_cvcuda_include_cvcuda_Types.h`)
+
+- ``nvcv/ITensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ITensorData.hpp`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_nvcv`
+
+- :ref:`namespace_nvcv__cuda`
+
+- :ref:`namespace_nvcv__cuda__detail`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1BorderWrapImpl_1_1ActiveMap`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderWrap`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderWrap_3_01TensorWrapper_00_01NVCV__BORDER__CONSTANT_00_01ActiveDimensions_8_8_8_01_4`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1BorderWrapImpl`
+

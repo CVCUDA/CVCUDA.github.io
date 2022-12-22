@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__CONV2D_1ga3b7caf0307bbad0144cfb0fb7af0d4fe:
+
+Function cvcudaConv2DVarShapeSubmit
+===================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpConv2D.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaConv2DVarShapeSubmit(NVCVOperatorHandle, cudaStream_t, NVCVImageBatchHandle, NVCVImageBatchHandle, NVCVImageBatchHandle, NVCVTensorHandle, NVCVBorderType)
+   :project: cvcuda

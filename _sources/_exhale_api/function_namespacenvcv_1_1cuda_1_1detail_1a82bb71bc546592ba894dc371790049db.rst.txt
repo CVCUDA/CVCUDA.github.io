@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1cuda_1_1detail_1a82bb71bc546592ba894dc371790049db:
+
+Function nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS_1_TO_4(long, long, LONG_MIN, LONG_MAX)
+=========================================================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS_1_TO_4(long, long, LONG_MIN, LONG_MAX)
+   :project: cvcuda

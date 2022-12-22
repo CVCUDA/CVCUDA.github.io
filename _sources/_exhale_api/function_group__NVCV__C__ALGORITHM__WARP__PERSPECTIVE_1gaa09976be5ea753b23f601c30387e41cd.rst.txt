@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__WARP__PERSPECTIVE_1gaa09976be5ea753b23f601c30387e41cd:
+
+Function cvcudaWarpPerspectiveCreate
+====================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpWarpPerspective.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaWarpPerspectiveCreate(NVCVOperatorHandle *, const int32_t)
+   :project: cvcuda

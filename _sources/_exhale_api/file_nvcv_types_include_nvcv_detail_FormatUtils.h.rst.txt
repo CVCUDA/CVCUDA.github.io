@@ -1,0 +1,155 @@
+
+.. _file_nvcv_types_include_nvcv_detail_FormatUtils.h:
+
+File FormatUtils.h
+==================
+Definition (``nvcv_types/include/nvcv/detail/FormatUtils.h``)
+-------------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_detail_FormatUtils.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``stdint.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_ColorSpec.h`
+
+- :ref:`file_nvcv_types_include_nvcv_DataLayout.h`
+
+- :ref:`file_nvcv_types_include_nvcv_DataType.h`
+
+
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_FormatUtils_8h_1ac08f354a62ca39c19c75a3975d08bbdd`
+
+- :ref:`exhale_define_FormatUtils_8h_1a691251414302393167bb97cdd61d95c7`
+
+- :ref:`exhale_define_FormatUtils_8h_1a6fc79307a26fb9b197782cf93eed48cc`
+
+- :ref:`exhale_define_FormatUtils_8h_1af5e2335c5ad6ec1a9d52859075e68136`
+
+- :ref:`exhale_define_FormatUtils_8h_1a6beb9949f99d21545260814872b25eac`
+
+- :ref:`exhale_define_FormatUtils_8h_1a063843cf22c66b83f085961b07c82939`
+
+- :ref:`exhale_define_FormatUtils_8h_1a6800d77825baf4f5230e0d1d81bb8845`
+
+- :ref:`exhale_define_FormatUtils_8h_1a122c5a5c5a61c25c52aa1e38964503aa`
+
+- :ref:`exhale_define_FormatUtils_8h_1adfe12a59be1c49a41355a6ca16e10e5d`
+
+- :ref:`exhale_define_FormatUtils_8h_1ac44ab3f5b5e864987c6b6d21ad78f436`
+
+- :ref:`exhale_define_FormatUtils_8h_1a64bc7760204ab50900603124eabeddc4`
+
+- :ref:`exhale_define_FormatUtils_8h_1acd92133bff4ba09948032cc25704f774`
+
+- :ref:`exhale_define_FormatUtils_8h_1a990973295382c2aeed37abf6e78fb3dd`
+
+- :ref:`exhale_define_FormatUtils_8h_1ad69499e3cf58d7c086a9d74235f2c357`
+
+- :ref:`exhale_define_FormatUtils_8h_1a0328f2a8ff6fd3ab202a7c016f932a9b`
+
+- :ref:`exhale_define_FormatUtils_8h_1ac080cf2f5d9fc78850e3d3019c667f73`
+
+- :ref:`exhale_define_FormatUtils_8h_1a032ef44745416340b092e4c4af76ca86`
+
+- :ref:`exhale_define_FormatUtils_8h_1a5a7881e1394cc8722400092c34a2e105`
+
+- :ref:`exhale_define_FormatUtils_8h_1ae3fdb960274efa0b46501902adee9cf3`
+
+- :ref:`exhale_define_FormatUtils_8h_1a65a14759b77ca2f6a61f2ce8fa5dc249`
+
+- :ref:`exhale_define_FormatUtils_8h_1aa140ee2ed4bf4be92ac7bf2ec38b6c74`
+
+- :ref:`exhale_define_FormatUtils_8h_1a9a49f8c17c780d32c0c024ada03988c9`
+
+- :ref:`exhale_define_FormatUtils_8h_1ab45917175879e1b3bc4d5d766b1113e7`
+
+- :ref:`exhale_define_FormatUtils_8h_1ab9a2674cc0bf2a1333e248ebe9c3c65b`
+
+- :ref:`exhale_define_FormatUtils_8h_1a1cb9f7b43f2d01b4c37eacb3cde82411`
+
+- :ref:`exhale_define_FormatUtils_8h_1afcc58e4861a0a069c9831d76eb4e83be`
+
+- :ref:`exhale_define_FormatUtils_8h_1aac93149af79aa010acd5c4e7ece88640`
+
+- :ref:`exhale_define_FormatUtils_8h_1a254104e22bfa2645951eac11d1598df1`
+
+- :ref:`exhale_define_FormatUtils_8h_1a43ad8349f626d062ebe15f8bad255c28`
+
+- :ref:`exhale_define_FormatUtils_8h_1acb5f89d22e204be8709b955e5b6a3182`
+
+- :ref:`exhale_define_FormatUtils_8h_1a05c50b98b66a122f29cf48301288d875`
+
+- :ref:`exhale_define_FormatUtils_8h_1a1d4c4a0a0202d53a5214c8e682a2f2fe`
+
+- :ref:`exhale_define_FormatUtils_8h_1a91fe8c00b73b8b1fd910ad56c3041b70`
+
+- :ref:`exhale_define_FormatUtils_8h_1a2844b1401760ca2413737598a6b2a68d`
+
+- :ref:`exhale_define_FormatUtils_8h_1af78d7b8aedcaf5db36c2b659dd1e47fa`
+
+- :ref:`exhale_define_FormatUtils_8h_1ab3337c0d5136da007784a4305691661e`
+
+- :ref:`exhale_define_FormatUtils_8h_1a6e965fb3f62463bf47c4c68373d091b3`
+
+- :ref:`exhale_define_FormatUtils_8h_1ae0dfd372eb5ce4520c8ba87115855bb5`
+
+- :ref:`exhale_define_FormatUtils_8h_1a1df3cf26a64896284e1bf6fe389df1bc`
+
+- :ref:`exhale_define_FormatUtils_8h_1ac8471fa946706b8aea41528246965a23`
+
+- :ref:`exhale_define_FormatUtils_8h_1a011e49e74f132ab3e6ebca2e8e1b1a47`
+
+- :ref:`exhale_define_FormatUtils_8h_1aa862f0c45cd58b5a77833ed79fa5a982`
+
+- :ref:`exhale_define_FormatUtils_8h_1a1ac95954373b9bca4584908e0660a09d`
+
+- :ref:`exhale_define_FormatUtils_8h_1a230b8ee80ddf8e6dc501a3f892c9d024`
+
+- :ref:`exhale_define_FormatUtils_8h_1a27f19d920362ed75b22078b00aa86334`
+
+- :ref:`exhale_define_FormatUtils_8h_1a2595a5ffc1d2048094c95f2362ddc3f0`
+
+- :ref:`exhale_define_FormatUtils_8h_1a9da129ec44c7e298672f138da3f86b61`
+
+- :ref:`exhale_define_FormatUtils_8h_1a4bb0a17be54e32939c026346e5d7ec0a`
+
+- :ref:`exhale_define_FormatUtils_8h_1a55ad15df7ddd274dde32e83bfbc5e9d9`
+
+- :ref:`exhale_define_FormatUtils_8h_1a6c266845ce3cbc62dc5bfeac00e3a1a3`
+
+- :ref:`exhale_define_FormatUtils_8h_1ad723cbe458305c3673561a0499a4408e`
+
+- :ref:`exhale_define_FormatUtils_8h_1a2848979e7900d172b2e0a4e1116a1b6d`
+
+- :ref:`exhale_define_FormatUtils_8h_1a1354892fd6866f45d655387314a0d5ae`
+
+- :ref:`exhale_define_FormatUtils_8h_1aa0ec80398c24bdf2aad4afd84e4504c1`
+
+- :ref:`exhale_define_FormatUtils_8h_1a11b93b9c44485799e13199a87e195328`
+
+- :ref:`exhale_define_FormatUtils_8h_1a92180dcf02ae12991ef194a4e98b2e5a`
+

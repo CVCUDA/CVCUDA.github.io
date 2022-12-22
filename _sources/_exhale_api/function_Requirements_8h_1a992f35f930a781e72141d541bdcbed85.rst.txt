@@ -1,0 +1,14 @@
+.. _exhale_function_Requirements_8h_1a992f35f930a781e72141d541bdcbed85:
+
+Function nvcvRequirementsInit
+=============================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_alloc_Requirements.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvRequirementsInit(NVCVRequirements *)
+   :project: cvcuda

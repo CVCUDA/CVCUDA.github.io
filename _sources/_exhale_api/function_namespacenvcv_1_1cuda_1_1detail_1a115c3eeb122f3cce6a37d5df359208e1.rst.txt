@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1_1cuda_1_1detail_1a115c3eeb122f3cce6a37d5df359208e1:
+
+Function nvcv::cuda::detail::NVCV_CUDA_MAKE_TYPE_0_TO_4(short, short)
+=====================================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::detail::NVCV_CUDA_MAKE_TYPE_0_TO_4(short, short)
+   :project: cvcuda

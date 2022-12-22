@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gac878b7a2b896a666beb3e69d8a178224:
+
+Function nvcvMakeColorImageFormat
+=================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_ImageFormat.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvMakeColorImageFormat(NVCVImageFormat *, NVCVColorModel, NVCVColorSpec, NVCVMemLayout, NVCVDataKind, NVCVSwizzle, NVCVPacking, NVCVPacking, NVCVPacking, NVCVPacking)
+   :project: cvcuda

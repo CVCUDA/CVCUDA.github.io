@@ -1,0 +1,118 @@
+
+.. _file_nvcv_types_include_nvcv_TensorLayout.h:
+
+File TensorLayout.h
+===================
+Definition (``nvcv_types/include/nvcv/TensorLayout.h``)
+-------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_nvcv_types_include_nvcv_TensorLayout.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Export.h`` (:ref:`file_nvcv_types_include_nvcv_Export.h`)
+
+- ``Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
+
+- ``TensorLayoutDef.inc``
+
+- ``detail/CompilerUtils.h`` (:ref:`file_nvcv_types_include_nvcv_detail_CompilerUtils.h`)
+
+- ``stdint.h``
+
+- ``string.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_TensorData.h`
+
+- :ref:`file_nvcv_types_include_nvcv_TensorLayout.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_TensorShape.h`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structNVCVTensorLayoutRec`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_TensorLayout_8h_1a57cbe53727cb048c8a0a2664d0d1daa2`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_TensorLayout_8h_1a1a82fc9a0d2a4ad0f8795e2dd904bee4`
+
+- :ref:`exhale_function_TensorLayout_8h_1a97434b8b4229876fc9d4b399064eff6b`
+
+- :ref:`exhale_function_TensorLayout_8h_1a458a92fc7875d6a3c6419d53468e1407`
+
+- :ref:`exhale_function_TensorLayout_8h_1aeedd728008e9d51d2ce68ac37c5b3fe9`
+
+- :ref:`exhale_function_TensorLayout_8h_1a35470056562527b20c2dca1e8e26dbb1`
+
+- :ref:`exhale_function_TensorLayout_8h_1a9c5bca6c38e59f6a6b7c357e41c00c97`
+
+- :ref:`exhale_function_TensorLayout_8h_1a016de4ec3a28061c0a26fd78ab80ff65`
+
+- :ref:`exhale_function_TensorLayout_8h_1ac6d26132c3187cb6444f5b437015bed2`
+
+- :ref:`exhale_function_TensorLayout_8h_1a30a8d308a5078a68bc339de66c5bac43`
+
+- :ref:`exhale_function_TensorLayout_8h_1ad518e0eac37ae5438abdc521b016a0d5`
+
+- :ref:`exhale_function_TensorLayout_8h_1ac3de87d02395d4e3ca1e66cb0d0d9716`
+
+- :ref:`exhale_function_TensorLayout_8h_1a2138a83e052c2a1c1a1971fab4ebc154`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_TensorLayout_8h_1a54adaf0b2f39179aa2b25a93c90ea6d4`
+
+- :ref:`exhale_define_TensorLayout_8h_1a0dd31cdade5bd674415c7eefb0708f0d`
+
+- :ref:`exhale_define_TensorLayout_8h_1a01439cf7f0fcfe247c82475bfc033c97`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_TensorLayout_8h_1a84a9e470e8a35dcfb335fc141aa674eb`
+
+
+Variables
+---------
+
+
+- :ref:`exhale_variable_TensorLayout_8h_1af44332e5886cc620dcc0ef4e162ec1c4`
+
+- :ref:`exhale_variable_TensorLayout_8h_1abd9e9380d6ed83264385a95e789e4dd7`
+

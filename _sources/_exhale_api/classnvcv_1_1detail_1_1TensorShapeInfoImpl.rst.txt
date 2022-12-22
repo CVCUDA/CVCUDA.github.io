@@ -1,0 +1,27 @@
+.. _exhale_class_classnvcv_1_1detail_1_1TensorShapeInfoImpl:
+
+Class TensorShapeInfoImpl
+=========================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_TensorShapeInfo.hpp`
+
+
+Inheritance Relationships
+-------------------------
+
+Derived Types
+*************
+
+- ``public nvcv::TensorShapeInfo`` (:ref:`exhale_class_classnvcv_1_1TensorShapeInfo`)
+- ``public nvcv::detail::TensorShapeInfoImageImpl`` (:ref:`exhale_class_classnvcv_1_1detail_1_1TensorShapeInfoImageImpl`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: nvcv::detail::TensorShapeInfoImpl
+   :project: cvcuda
+   :members:
+   :protected-members:
+   :undoc-members:

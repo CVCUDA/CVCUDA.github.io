@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__GAUSSIAN_1gae6492fc2fea8dced74a93b400cfdd5ae:
+
+Function cvcudaGaussianVarShapeSubmit
+=====================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaGaussianVarShapeSubmit(NVCVOperatorHandle, cudaStream_t, NVCVImageBatchHandle, NVCVImageBatchHandle, NVCVTensorHandle, NVCVTensorHandle, NVCVBorderType)
+   :project: cvcuda

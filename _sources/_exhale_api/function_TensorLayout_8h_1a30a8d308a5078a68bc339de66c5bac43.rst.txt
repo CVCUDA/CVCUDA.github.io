@@ -1,0 +1,14 @@
+.. _exhale_function_TensorLayout_8h_1a30a8d308a5078a68bc339de66c5bac43:
+
+Function nvcvTensorLayoutMakeLast
+=================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_TensorLayout.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvTensorLayoutMakeLast(NVCVTensorLayout, int32_t, NVCVTensorLayout *)
+   :project: cvcuda

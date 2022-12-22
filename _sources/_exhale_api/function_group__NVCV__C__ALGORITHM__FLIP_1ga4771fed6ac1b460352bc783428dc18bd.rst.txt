@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__FLIP_1ga4771fed6ac1b460352bc783428dc18bd:
+
+Function cvcudaFlipVarShapeSubmit
+=================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpFlip.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaFlipVarShapeSubmit(NVCVOperatorHandle, cudaStream_t, NVCVImageBatchHandle, NVCVImageBatchHandle, NVCVTensorHandle)
+   :project: cvcuda

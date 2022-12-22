@@ -1,0 +1,14 @@
+.. _exhale_function_ImageBatch_8h_1a7a764d55a19cd6312ca4b786543535bb:
+
+Function nvcvImageBatchDestroy
+==============================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageBatchDestroy(NVCVImageBatchHandle)
+   :project: cvcuda

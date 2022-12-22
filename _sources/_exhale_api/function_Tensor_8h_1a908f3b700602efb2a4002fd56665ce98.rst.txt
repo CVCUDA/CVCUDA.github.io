@@ -1,0 +1,14 @@
+.. _exhale_function_Tensor_8h_1a908f3b700602efb2a4002fd56665ce98:
+
+Function nvcvTensorGetShape
+===========================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Tensor.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvTensorGetShape(NVCVTensorHandle, int32_t *, int64_t *)
+   :project: cvcuda

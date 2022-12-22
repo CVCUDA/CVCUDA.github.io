@@ -1,0 +1,7 @@
+:orphan:
+
+BorderWrap shortcuts
+====================
+
+.. doxygengroup:: NVCV_CPP_CUDATOOLS_BORDERWRAPS
+   :project: cvcuda

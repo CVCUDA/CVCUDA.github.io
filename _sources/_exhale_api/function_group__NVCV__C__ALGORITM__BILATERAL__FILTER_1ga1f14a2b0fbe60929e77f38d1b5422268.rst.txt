@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITM__BILATERAL__FILTER_1ga1f14a2b0fbe60929e77f38d1b5422268:
+
+Function cvcudaBilateralFilterCreate
+====================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaBilateralFilterCreate(NVCVOperatorHandle *)
+   :project: cvcuda

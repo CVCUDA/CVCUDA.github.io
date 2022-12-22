@@ -1,0 +1,26 @@
+.. _exhale_class_classnvcv_1_1ITensorData:
+
+Class ITensorData
+=================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_ITensorData.hpp`
+
+
+Inheritance Relationships
+-------------------------
+
+Derived Type
+************
+
+- ``public nvcv::ITensorDataStrided`` (:ref:`exhale_class_classnvcv_1_1ITensorDataStrided`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: nvcv::ITensorData
+   :project: cvcuda
+   :members:
+   :protected-members:
+   :undoc-members:

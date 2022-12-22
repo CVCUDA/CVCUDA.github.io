@@ -1,0 +1,16 @@
+.. _dir__home_milesp_cvcuda_src_nvcv_types_include_nvcv_alloc:
+
+
+Directory alloc
+===============
+
+
+|exhale_lsh| :ref:`Parent directory <dir__home_milesp_cvcuda_src_nvcv_types_include_nvcv>` (``/home/milesp/cvcuda/src/nvcv_types/include/nvcv``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+*Directory path:* ``/home/milesp/cvcuda/src/nvcv_types/include/nvcv/alloc``
+
+
+

@@ -1,0 +1,361 @@
+
+.. _program_listing_file_nvcv_types_include_nvcv_cuda_BorderWrap.hpp:
+
+Program Listing for File BorderWrap.hpp
+=======================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_nvcv_types_include_nvcv_cuda_BorderWrap.hpp>` (``nvcv_types/include/nvcv/cuda/BorderWrap.hpp``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   /*
+    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-License-Identifier: Apache-2.0
+    *
+    * Licensed under the Apache License, Version 2.0 (the "License");
+    * you may not use this file except in compliance with the License.
+    * You may obtain a copy of the License at
+    *
+    * http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    * See the License for the specific language governing permissions and
+    * limitations under the License.
+    */
+   
+   #ifndef NVCV_CUDA_BORDER_WRAP_HPP
+   #define NVCV_CUDA_BORDER_WRAP_HPP
+   
+   #include "TensorWrap.hpp" // for TensorWrap, etc.
+   #include "TypeTraits.hpp" // for NumElements, etc.
+   
+   #include <cvcuda/Types.h>       // for NVCVBorderType, etc.
+   #include <nvcv/ITensorData.hpp> // for ITensorDataStridedCuda, etc.
+   
+   namespace nvcv::cuda {
+   
+   template<bool Active = true, typename T>
+   constexpr inline bool __host__ __device__ IsOutside(T c, T s)
+   {
+       if constexpr (Active)
+       {
+           return (c < 0) || (c >= s);
+       }
+       return false;
+   }
+   
+   template<NVCVBorderType B, bool Active = true, typename T>
+   constexpr inline T __host__ __device__ GetIndexWithBorder(T c, T s)
+   {
+       static_assert(B != NVCV_BORDER_CONSTANT, "GetIndexWithBorder cannot be used with NVCV_BORDER_CONSTANT");
+   
+       if constexpr (Active)
+       {
+           if constexpr (B == NVCV_BORDER_REPLICATE)
+           {
+               c = (c < 0) ? 0 : (c >= s ? s - 1 : c);
+           }
+           else if constexpr (B == NVCV_BORDER_WRAP)
+           {
+               c = c % s;
+               if (c < 0)
+               {
+                   c += s;
+               }
+           }
+           else if constexpr (B == NVCV_BORDER_REFLECT)
+           {
+               T s2 = s * 2;
+               c    = c % s2;
+               if (c < 0)
+               {
+                   c += s2;
+               }
+               c = s - 1 - (abs(2 * c + 1 - s2) >> 1);
+           }
+           else if constexpr (B == NVCV_BORDER_REFLECT101)
+           {
+               c = c % (2 * s - 2);
+               if (c < 0)
+               {
+                   c += 2 * s - 2;
+               }
+               c = s - 1 - abs(s - 1 - c);
+           }
+       }
+   
+       return c;
+   }
+   
+   namespace detail {
+   
+   template<class TensorWrapper, NVCVBorderType B, bool... ActiveDimensions>
+   class BorderWrapImpl
+   {
+   public:
+       using TensorWrap = TensorWrapper;
+       using ValueType  = typename TensorWrap::ValueType;
+   
+       static constexpr int            kNumDimensions = TensorWrap::kNumDimensions;
+       static constexpr NVCVBorderType kBorderType    = B;
+   
+       static_assert(kNumDimensions == sizeof...(ActiveDimensions));
+   
+       static constexpr bool kActiveDimensions[]  = {ActiveDimensions...};
+       static constexpr int  kNumActiveDimensions = ((ActiveDimensions ? 1 : 0) + ...);
+   
+       struct ActiveMap
+       {
+           int from[kNumDimensions];
+   
+           constexpr ActiveMap()
+               : from()
+           {
+               int j = 0;
+               for (int i = 0; i < kNumDimensions; ++i)
+               {
+                   from[i] = kActiveDimensions[i] ? j++ : -1;
+               }
+           }
+       };
+   
+       static constexpr ActiveMap kMap{};
+   
+       BorderWrapImpl() = default;
+   
+       template<typename... Args>
+       explicit __host__ __device__ BorderWrapImpl(TensorWrap tensorWrap, Args... tensorShape)
+           : m_tensorWrap(tensorWrap)
+           , m_tensorShape{std::forward<int>(tensorShape)...}
+       {
+           static_assert(std::conjunction_v<std::is_same<int, Args>...>);
+           static_assert(sizeof...(Args) == kNumActiveDimensions);
+       }
+   
+       explicit __host__ BorderWrapImpl(const ITensorDataStridedCuda &tensor)
+           : m_tensorWrap(tensor)
+       {
+           int j = 0;
+   #pragma unroll
+           for (int i = 0; i < kNumDimensions; ++i)
+           {
+               if (kActiveDimensions[i])
+               {
+                   m_tensorShape[j++] = tensor.shape(i);
+               }
+           }
+       }
+   
+       inline const __host__ __device__ TensorWrap &tensorWrap() const
+       {
+           return m_tensorWrap;
+       }
+   
+       inline __host__ __device__ const int *tensorShape() const
+       {
+           return m_tensorShape;
+       }
+   
+       inline __host__ __device__ ValueType borderValue() const
+       {
+           return ValueType{};
+       }
+   
+   protected:
+       const TensorWrap m_tensorWrap                        = {};
+       int              m_tensorShape[kNumActiveDimensions] = {0};
+   };
+   
+   } // namespace detail
+   
+   template<class TensorWrapper, NVCVBorderType B, bool... ActiveDimensions>
+   class BorderWrap : public detail::BorderWrapImpl<TensorWrapper, B, ActiveDimensions...>
+   {
+       using Base = detail::BorderWrapImpl<TensorWrapper, B, ActiveDimensions...>;
+   
+   public:
+       using typename Base::TensorWrap;
+       using typename Base::ValueType;
+   
+       using Base::kActiveDimensions;
+       using Base::kBorderType;
+       using Base::kMap;
+       using Base::kNumActiveDimensions;
+       using Base::kNumDimensions;
+   
+       BorderWrap() = default;
+   
+       template<typename... Args>
+       explicit __host__ __device__ BorderWrap(TensorWrap tensorWrap, ValueType borderValue, Args... tensorShape)
+           : Base(tensorWrap, tensorShape...)
+       {
+       }
+   
+       explicit __host__ BorderWrap(const ITensorDataStridedCuda &tensor, ValueType borderValue = {})
+           : Base(tensor)
+       {
+       }
+   
+       // Get the tensor wrapped by this border wrap
+       using Base::tensorWrap;
+   
+       // Get the shape of the tensor wrapped by this border wrap
+       using Base::tensorShape;
+   
+       // Get border value of this border wrap, none is stored so an empty value is returned
+       using Base::borderValue;
+   
+       template<typename DimType>
+       inline __host__ __device__ ValueType &operator[](DimType c) const
+       {
+           constexpr int N = NumElements<DimType>;
+           static_assert(kNumDimensions >= N);
+   
+           constexpr auto Is = std::make_index_sequence<N>{};
+   
+           if constexpr (N == 1)
+           {
+               return *doGetPtr(Is, c.x);
+           }
+           else if constexpr (N == 2)
+           {
+               return *doGetPtr(Is, c.y, c.x);
+           }
+           else if constexpr (N == 3)
+           {
+               return *doGetPtr(Is, c.z, c.y, c.x);
+           }
+           else if constexpr (N == 4)
+           {
+               return *doGetPtr(Is, c.w, c.z, c.y, c.x);
+           }
+       }
+   
+       template<typename... Args>
+       inline __host__ __device__ ValueType *ptr(Args... c) const
+       {
+           return doGetPtr(std::index_sequence_for<Args...>{}, std::forward<Args>(c)...);
+       }
+   
+   private:
+       template<typename... Args, std::size_t... Is>
+       inline __host__ __device__ ValueType *doGetPtr(std::index_sequence<Is...>, Args... c) const
+       {
+           return Base::m_tensorWrap.ptr(
+               GetIndexWithBorder<kBorderType, kActiveDimensions[Is]>(c, Base::m_tensorShape[kMap.from[Is]])...);
+       }
+   };
+   
+   template<class TensorWrapper, bool... ActiveDimensions>
+   class BorderWrap<TensorWrapper, NVCV_BORDER_CONSTANT, ActiveDimensions...>
+       : public detail::BorderWrapImpl<TensorWrapper, NVCV_BORDER_CONSTANT, ActiveDimensions...>
+   {
+       using Base = detail::BorderWrapImpl<TensorWrapper, NVCV_BORDER_CONSTANT, ActiveDimensions...>;
+   
+   public:
+       using typename Base::TensorWrap;
+       using typename Base::ValueType;
+   
+       using Base::kActiveDimensions;
+       using Base::kBorderType;
+       using Base::kMap;
+       using Base::kNumActiveDimensions;
+       using Base::kNumDimensions;
+   
+       BorderWrap() = default;
+   
+       template<typename... Args>
+       explicit __host__ __device__ BorderWrap(TensorWrap tensorWrap, ValueType borderValue, Args... tensorShape)
+           : Base(tensorWrap, tensorShape...)
+           , m_borderValue(borderValue)
+       {
+       }
+   
+       explicit __host__ BorderWrap(const ITensorDataStridedCuda &tensor, ValueType borderValue = {})
+           : Base(tensor)
+           , m_borderValue(borderValue)
+       {
+       }
+   
+       // Get the tensor wrapped by this border wrap
+       using Base::tensorWrap;
+   
+       // Get the shape of the tensor wrapped by this border wrap
+       using Base::tensorShape;
+   
+       inline __host__ __device__ ValueType borderValue() const
+       {
+           return m_borderValue;
+       }
+   
+       template<typename DimType>
+       inline __host__ __device__ ValueType &operator[](DimType c) const
+       {
+           constexpr int N = NumElements<DimType>;
+           static_assert(kNumDimensions >= N);
+   
+           constexpr auto Is = std::make_index_sequence<N>{};
+   
+           ValueType *p = nullptr;
+   
+           if constexpr (N == 1)
+           {
+               p = doGetPtr(Is, c.x);
+           }
+           else if constexpr (N == 2)
+           {
+               p = doGetPtr(Is, c.y, c.x);
+           }
+           else if constexpr (N == 3)
+           {
+               p = doGetPtr(Is, c.z, c.y, c.x);
+           }
+           else if constexpr (N == 4)
+           {
+               p = doGetPtr(Is, c.w, c.z, c.y, c.x);
+           }
+   
+           if (p == nullptr)
+           {
+               return m_borderValue;
+           }
+   
+           return *p;
+       }
+   
+       template<typename... Args>
+       inline __host__ __device__ ValueType *ptr(Args... c) const
+       {
+           return doGetPtr(std::index_sequence_for<Args...>{}, std::forward<Args>(c)...);
+       }
+   
+   private:
+       template<typename... Args, std::size_t... Is>
+       inline __host__ __device__ ValueType *doGetPtr(std::index_sequence<Is...>, Args... c) const
+       {
+           if ((IsOutside<kActiveDimensions[Is]>(c, Base::m_tensorShape[kMap.from[Is]]) || ...))
+           {
+               return nullptr;
+           }
+           return Base::m_tensorWrap.ptr(c...);
+       }
+   
+       const ValueType m_borderValue = SetAll<ValueType>(0);
+   };
+   
+   template<typename T, NVCVBorderType B>
+   using BorderWrapHW = BorderWrap<Tensor2DWrap<T>, B, true, true>;
+   
+   template<typename T, NVCVBorderType B>
+   using BorderWrapNHW = BorderWrap<Tensor3DWrap<T>, B, false, true, true>;
+   
+   template<typename T, NVCVBorderType B>
+   using BorderWrapNHWC = BorderWrap<Tensor4DWrap<T>, B, false, true, true, false>;
+   
+   } // namespace nvcv::cuda
+   
+   #endif // NVCV_CUDA_BORDER_WRAP_HPP

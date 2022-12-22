@@ -1,0 +1,14 @@
+.. _exhale_typedef_namespacenvcv_1a8625fc2698306a869662795a9fdb8015:
+
+Typedef nvcv::TensorDataCleanupFunc
+===================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Tensor.hpp`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: nvcv::TensorDataCleanupFunc
+   :project: cvcuda
