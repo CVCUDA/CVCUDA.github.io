@@ -11,7 +11,7 @@ Program Listing for File TensorImpl.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -80,41 +80,35 @@ Program Listing for File TensorImpl.hpp
    
    inline Tensor::~Tensor()
    {
-       nvcvTensorDestroy(m_handle);
+       nvcvTensorDecRef(m_handle, nullptr);
    }
    
    // TensorWrapData implementation -------------------------------------
    
-   inline TensorWrapData::TensorWrapData(const ITensorData &data, std::function<TensorDataCleanupFunc> cleanup)
-       : m_cleanup(std::move(cleanup))
+   inline TensorWrapData::TensorWrapData(const TensorData &data, TensorDataCleanupCallback &&cleanup)
    {
-       detail::CheckThrow(nvcvTensorWrapDataConstruct(&data.cdata(), m_cleanup ? &doCleanup : nullptr, this, &m_handle));
-       detail::SetObjectAssociation(nvcvTensorSetUserPointer, this, m_handle);
+       detail::CheckThrow(
+           nvcvTensorWrapDataConstruct(&data.cdata(), cleanup.targetFunc(), cleanup.targetHandle(), &m_handle));
+       cleanup.release(); // already owned by the handle
+       try
+       {
+           detail::SetObjectAssociation(nvcvTensorSetUserPointer, this, m_handle);
+       }
+       catch (...)
+       {
+           nvcvTensorDecRef(m_handle, nullptr);
+           throw;
+       }
    }
    
    inline TensorWrapData::~TensorWrapData()
    {
-       nvcvTensorDestroy(m_handle);
+       nvcvTensorDecRef(m_handle, nullptr);
    }
    
    inline NVCVTensorHandle TensorWrapData::doGetHandle() const
    {
        return m_handle;
-   }
-   
-   inline void TensorWrapData::doCleanup(void *ctx, const NVCVTensorData *data)
-   {
-       assert(data != nullptr);
-   
-       auto *this_ = reinterpret_cast<TensorWrapData *>(ctx);
-       assert(this_ != nullptr);
-   
-       // exportData refers to 'data'
-       const ITensorData *batchData = this_->exportData();
-       assert(batchData != nullptr);
-   
-       assert(this_->m_cleanup != nullptr);
-       this_->m_cleanup(*batchData);
    }
    
    // TensorWrapImage implementation -------------------------------------
@@ -127,7 +121,7 @@ Program Listing for File TensorImpl.hpp
    
    inline TensorWrapImage::~TensorWrapImage()
    {
-       nvcvTensorDestroy(m_handle);
+       nvcvTensorDecRef(m_handle, nullptr);
    }
    
    inline NVCVTensorHandle TensorWrapImage::doGetHandle() const

@@ -20,7 +20,7 @@ Includes
 --------
 
 
-- ``ImageData.h`` (:ref:`file_nvcv_types_include_nvcv_IImageData.hpp`)
+- ``ImageData.h`` (:ref:`file_nvcv_types_include_nvcv_ImageData.h`)
 
 - ``nvcv/ImageFormat.h`` (:ref:`file_nvcv_types_include_nvcv_ImageFormat.h`)
 

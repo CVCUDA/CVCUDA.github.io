@@ -11,7 +11,7 @@ Program Listing for File ImageImpl.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -58,7 +58,7 @@ Program Listing for File ImageImpl.hpp
    
    inline Image::~Image()
    {
-       nvcvImageDestroy(m_handle);
+       nvcvImageDecRef(m_handle, nullptr);
    }
    
    inline NVCVImageHandle Image::doGetHandle() const
@@ -68,36 +68,30 @@ Program Listing for File ImageImpl.hpp
    
    // ImageWrapData implementation -------------------------------------
    
-   inline ImageWrapData::ImageWrapData(const IImageData &data, std::function<ImageDataCleanupFunc> cleanup)
-       : m_cleanup(std::move(cleanup))
+   inline ImageWrapData::ImageWrapData(const ImageData &data, ImageDataCleanupCallback &&cleanup)
    {
-       detail::CheckThrow(nvcvImageWrapDataConstruct(&data.cdata(), m_cleanup ? &doCleanup : nullptr, this, &m_handle));
-       detail::SetObjectAssociation(nvcvImageSetUserPointer, this, m_handle);
+       detail::CheckThrow(
+           nvcvImageWrapDataConstruct(&data.cdata(), cleanup.targetFunc(), cleanup.targetHandle(), &m_handle));
+       cleanup.release(); // the handle now owns the callback
+       try
+       {
+           detail::SetObjectAssociation(nvcvImageSetUserPointer, this, m_handle);
+       }
+       catch (...)
+       {
+           nvcvImageDecRef(m_handle, nullptr);
+           throw;
+       }
    }
    
    inline ImageWrapData::~ImageWrapData()
    {
-       nvcvImageDestroy(m_handle);
+       nvcvImageDecRef(m_handle, nullptr);
    }
    
    inline NVCVImageHandle ImageWrapData::doGetHandle() const
    {
        return m_handle;
-   }
-   
-   inline void ImageWrapData::doCleanup(void *ctx, const NVCVImageData *data)
-   {
-       assert(data != nullptr);
-   
-       auto *this_ = reinterpret_cast<ImageWrapData *>(ctx);
-       assert(this_ != nullptr);
-   
-       // exportData refers to 'data'
-       const IImageData *imgData = this_->exportData();
-       assert(imgData != nullptr);
-   
-       assert(this_->m_cleanup != nullptr);
-       this_->m_cleanup(*imgData);
    }
    
    } // namespace nvcv

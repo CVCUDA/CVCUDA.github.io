@@ -11,7 +11,7 @@ Program Listing for File SaturateCast.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -35,10 +35,13 @@ Program Listing for File SaturateCast.hpp
    
    namespace nvcv::cuda {
    
-   template<typename T, typename U, class = Require<HasTypeTraits<T, U> && !IsCompound<T>>>
+   template<typename T, typename U,
+            class = Require<(NumComponents<T> == NumComponents<U>) || (NumComponents<T> == 0 && HasTypeTraits<U>)>>
    __host__ __device__ auto SaturateCast(U u)
    {
-       using RT = ConvertBaseTypeTo<T, U>;
+       using BU = BaseType<U>;
+       using BT = BaseType<T>;
+       using RT = ConvertBaseTypeTo<BT, U>;
        if constexpr (std::is_same_v<U, RT>)
        {
            return u;
@@ -50,7 +53,7 @@ Program Listing for File SaturateCast.hpp
    #pragma unroll
            for (int e = 0; e < NumElements<RT>; ++e)
            {
-               GetElement(out, e) = detail::SaturateCastImpl<T, BaseType<U>>(GetElement(u, e));
+               GetElement(out, e) = detail::SaturateCastImpl<BT, BU>(GetElement(u, e));
            }
    
            return out;

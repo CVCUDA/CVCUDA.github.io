@@ -27,9 +27,13 @@ Includes
 
 - ``TypeTraits.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_TypeTraits.hpp`)
 
-- ``nvcv/IImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageData.hpp`)
+- ``nvcv/ImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageData.hpp`)
 
-- ``nvcv/ITensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ITensorData.hpp`)
+- ``nvcv/TensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorData.hpp`)
+
+- ``nvcv/TensorDataAccess.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorDataAccess.hpp`)
+
+- ``util/Assert.h``
 
 - ``utility``
 

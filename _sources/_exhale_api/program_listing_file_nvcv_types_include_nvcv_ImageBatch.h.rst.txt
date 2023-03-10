@@ -11,7 +11,7 @@ Program Listing for File ImageBatch.h
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -71,7 +71,11 @@ Program Listing for File ImageBatch.h
    NVCV_PUBLIC NVCVStatus nvcvImageBatchVarShapeConstruct(const NVCVImageBatchVarShapeRequirements *reqs,
                                                           NVCVAllocatorHandle alloc, NVCVImageBatchHandle *handle);
    
-   NVCV_PUBLIC void nvcvImageBatchDestroy(NVCVImageBatchHandle handle);
+   NVCV_PUBLIC NVCVStatus nvcvImageBatchDecRef(NVCVImageBatchHandle handle, int *newRefCount);
+   
+   NVCV_PUBLIC NVCVStatus nvcvImageBatchIncRef(NVCVImageBatchHandle handle, int *newRefCount);
+   
+   NVCV_PUBLIC NVCVStatus nvcvImageBatchRefCount(NVCVImageBatchHandle handle, int *newRefCount);
    
    NVCV_PUBLIC NVCVStatus nvcvImageBatchSetUserPointer(NVCVImageBatchHandle handle, void *userPtr);
    

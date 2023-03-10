@@ -20,15 +20,23 @@ Includes
 --------
 
 
-- ``IImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageData.hpp`)
+- ``ImageData.h`` (:ref:`file_nvcv_types_include_nvcv_ImageData.h`)
+
+- ``ImageFormat.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageFormat.hpp`)
+
+- ``Size.hpp`` (:ref:`file_nvcv_types_include_nvcv_Size.hpp`)
 
 - ``detail/ImageDataImpl.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_ImageDataImpl.hpp`)
+
+- ``detail/Optional.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_Optional.hpp`)
 
 
 
 Included By
 -----------
 
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_TensorWrap.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_IImage.hpp`
 
@@ -50,7 +58,11 @@ Classes
 -------
 
 
+- :ref:`exhale_class_classnvcv_1_1ImageData`
+
 - :ref:`exhale_class_classnvcv_1_1ImageDataCudaArray`
+
+- :ref:`exhale_class_classnvcv_1_1ImageDataStrided`
 
 - :ref:`exhale_class_classnvcv_1_1ImageDataStridedCuda`
 

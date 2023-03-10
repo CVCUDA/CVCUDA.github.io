@@ -11,7 +11,7 @@ Program Listing for File Image.h
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -76,7 +76,11 @@ Program Listing for File Image.h
    NVCV_PUBLIC NVCVStatus nvcvImageWrapDataConstruct(const NVCVImageData *data, NVCVImageDataCleanupFunc cleanup,
                                                      void *ctxCleanup, NVCVImageHandle *handle);
    
-   NVCV_PUBLIC void nvcvImageDestroy(NVCVImageHandle handle);
+   NVCV_PUBLIC NVCVStatus nvcvImageDecRef(NVCVImageHandle handle, int *newRefCount);
+   
+   NVCV_PUBLIC NVCVStatus nvcvImageIncRef(NVCVImageHandle handle, int *newRefCount);
+   
+   NVCV_PUBLIC NVCVStatus nvcvImageRefCount(NVCVImageHandle handle, int *newRefCount);
    
    NVCV_PUBLIC NVCVStatus nvcvImageSetUserPointer(NVCVImageHandle handle, void *userPtr);
    

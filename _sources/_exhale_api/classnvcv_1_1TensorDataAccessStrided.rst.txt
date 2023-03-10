@@ -9,11 +9,10 @@ Class TensorDataAccessStrided
 Inheritance Relationships
 -------------------------
 
-Base Types
-**********
+Base Type
+*********
 
-- ``private nvcv::detail::BaseFromMember< TensorShapeInfo >`` (:ref:`exhale_class_classnvcv_1_1detail_1_1BaseFromMember`)
-- ``public nvcv::detail::TensorDataAccessStridedImpl`` (:ref:`exhale_class_classnvcv_1_1detail_1_1TensorDataAccessStridedImpl`)
+- ``public nvcv::detail::TensorDataAccessStridedImpl< TensorShapeInfo >`` (:ref:`exhale_class_classnvcv_1_1detail_1_1TensorDataAccessStridedImpl`)
 
 
 Class Documentation

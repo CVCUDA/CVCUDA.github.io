@@ -41,8 +41,6 @@ Includes
 
 - ``nvcv/alloc/Requirements.hpp`` (:ref:`file_nvcv_types_include_nvcv_alloc_Requirements.hpp`)
 
-- ``nvcv/cuda/math/LinAlg.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_math_LinAlg.hpp`)
-
 
 
 

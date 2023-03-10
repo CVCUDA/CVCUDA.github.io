@@ -1,0 +1,14 @@
+.. _exhale_function_Image_8h_1a08dc489c1a102437ca6a700f1f719410:
+
+Function nvcvImageIncRef
+========================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Image.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageIncRef(NVCVImageHandle, int *)
+   :project: cvcuda

@@ -1,0 +1,14 @@
+.. _exhale_function_Tensor_8h_1a6eae10653ea0cfba27871bb61c16d59c:
+
+Function nvcvTensorDecRef
+=========================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Tensor.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvTensorDecRef(NVCVTensorHandle, int *)
+   :project: cvcuda

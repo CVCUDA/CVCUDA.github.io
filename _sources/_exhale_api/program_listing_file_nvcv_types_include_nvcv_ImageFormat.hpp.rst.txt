@@ -11,7 +11,7 @@ Program Listing for File ImageFormat.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -173,6 +173,14 @@ Program Listing for File ImageFormat.hpp
    constexpr ImageFormat FMT_F64{NVCV_IMAGE_FORMAT_F64};
    
    constexpr ImageFormat FMT_2F32{NVCV_IMAGE_FORMAT_2F32};
+   
+   constexpr ImageFormat FMT_C64{NVCV_IMAGE_FORMAT_C64};
+   
+   constexpr ImageFormat FMT_2C64{NVCV_IMAGE_FORMAT_2C64};
+   
+   constexpr ImageFormat FMT_C128{NVCV_IMAGE_FORMAT_C128};
+   
+   constexpr ImageFormat FMT_2C128{NVCV_IMAGE_FORMAT_2C128};
    
    constexpr ImageFormat FMT_Y8{NVCV_IMAGE_FORMAT_Y8};
    

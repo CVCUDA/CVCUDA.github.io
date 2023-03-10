@@ -9,11 +9,10 @@ Class TensorShapeInfoImage
 Inheritance Relationships
 -------------------------
 
-Base Types
-**********
+Base Type
+*********
 
-- ``private nvcv::detail::BaseFromMember< TensorLayoutInfoImage >`` (:ref:`exhale_class_classnvcv_1_1detail_1_1BaseFromMember`)
-- ``public nvcv::detail::TensorShapeInfoImageImpl`` (:ref:`exhale_class_classnvcv_1_1detail_1_1TensorShapeInfoImageImpl`)
+- ``public nvcv::detail::TensorShapeInfoImpl< TensorLayoutInfoImage >`` (:ref:`exhale_class_classnvcv_1_1detail_1_1TensorShapeInfoImpl`)
 
 
 Derived Type

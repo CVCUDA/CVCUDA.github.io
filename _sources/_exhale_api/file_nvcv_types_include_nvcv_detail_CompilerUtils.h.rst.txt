@@ -22,6 +22,8 @@ Included By
 -----------
 
 
+- :ref:`file_nvcv_types_include_nvcv_HandleWrapper.hpp`
+
 - :ref:`file_nvcv_types_include_nvcv_TensorLayout.h`
 
 
@@ -32,4 +34,6 @@ Defines
 
 
 - :ref:`exhale_define_CompilerUtils_8h_1ac286234acfde7a30b73ebacb76466c2b`
+
+- :ref:`exhale_define_CompilerUtils_8h_1a448a17769c34b23f73258cb47c227cfa`
 

@@ -11,7 +11,7 @@ Program Listing for File Tensor.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -32,11 +32,11 @@ Program Listing for File Tensor.hpp
    
    #include "IImage.hpp"
    #include "ITensor.hpp"
+   #include "ImageFormat.hpp"
    #include "Size.hpp"
    #include "TensorData.hpp"
    #include "alloc/IAllocator.hpp"
-   
-   #include <nvcv/ImageFormat.hpp>
+   #include "detail/Callback.hpp"
    
    namespace nvcv {
    
@@ -65,12 +65,25 @@ Program Listing for File Tensor.hpp
    };
    
    // TensorWrapData definition -------------------------------------
-   using TensorDataCleanupFunc = void(const ITensorData &);
+   using TensorDataCleanupFunc = void(const TensorData &);
+   
+   struct TranslateTensorDataCleanup
+   {
+       template<typename CppCleanup>
+       void operator()(CppCleanup &&c, const NVCVTensorData *data) const noexcept
+       {
+           c(TensorData(*data));
+       }
+   };
+   
+   using TensorDataCleanupCallback
+       = CleanupCallback<TensorDataCleanupFunc, detail::RemovePointer_t<NVCVTensorDataCleanupFunc>,
+                         TranslateTensorDataCleanup>;
    
    class TensorWrapData : public ITensor
    {
    public:
-       explicit TensorWrapData(const ITensorData &data, std::function<TensorDataCleanupFunc> cleanup = nullptr);
+       explicit TensorWrapData(const TensorData &data, TensorDataCleanupCallback &&cleanup = {});
        ~TensorWrapData();
    
        TensorWrapData(const TensorWrapData &) = delete;
@@ -78,11 +91,7 @@ Program Listing for File Tensor.hpp
    private:
        NVCVTensorHandle doGetHandle() const final override;
    
-       static void doCleanup(void *ctx, const NVCVTensorData *data);
-   
        NVCVTensorHandle m_handle;
-   
-       std::function<TensorDataCleanupFunc> m_cleanup;
    };
    
    // TensorWrapImage definition -------------------------------------

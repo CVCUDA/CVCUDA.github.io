@@ -157,9 +157,12 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../modules/cpp_cudatools.html">CUDA Tools</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__BORDER.html">Border functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__BORDERVARSHAPEWRAP.html">BorderVarShapeWrap classes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__BORDERWRAP.html">BorderWrap classes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__BORDERWRAPS.html">BorderWrap shortcuts</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__DROPCAST.html">Drop Cast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__FULLTENSORWRAP.html">FullTensorWrap classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__IMAGEWRAP.html">Image Wrapper classes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__LINALG.html">Linear algebra</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__MATHOPERATORS.html">Math operators</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS.html">Math wrappers</a></li>
@@ -179,6 +182,7 @@
 <li class="toctree-l2 current"><a class="reference internal" href="cvcuda_api.html#full-api">Full API</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="cvcuda_api.html#namespaces">Namespaces</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="namespace_cvcuda.html">Namespace cvcuda</a></li>
+<li class="toctree-l4"><a class="reference internal" href="namespace_decltypeIsStdFunctionFstd.html">Namespace decltypeIsStdFunctionFstd</a></li>
 <li class="toctree-l4"><a class="reference internal" href="namespace_nvcv.html">Namespace nvcv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="namespace_nvcv__cfg.html">Namespace nvcv::cfg</a></li>
 <li class="toctree-l4"><a class="reference internal" href="namespace_nvcv__cuda.html">Namespace nvcv::cuda</a></li>
@@ -190,6 +194,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="cvcuda_api.html#classes-and-structs">Classes and Structs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1Callback_3_01Ret_07Args_8_8_8_08_00_01CRet_07CtxArg_00_01CArgs_8_8_8_08_00_01Transb7b914e11bb6d38fbd5e59f4add41c3d.html">Template Struct Callback&lt; Ret(Args…), CRet(CtxArg, CArgs…), TranslateCall, SingleUse &gt;::TargetBlob</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1cuda_1_1detail_1_1BorderWrapImpl_1_1ActiveMap.html">Struct BorderWrapImpl::ActiveMap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1cuda_1_1detail_1_1ConvertBaseTypeTo.html">Template Struct ConvertBaseTypeTo</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1cuda_1_1detail_1_1ConvertBaseTypeTo_3_01BT_00_01const_01T_01_4.html">Template Struct ConvertBaseTypeTo&lt; BT, const T &gt;</a></li>
@@ -208,18 +213,30 @@
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01const_01volatile_01T_01_4.html">Template Struct TypeTraits&lt; const volatile T &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01volatile_01T_01_4.html">Template Struct TypeTraits&lt; volatile T &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1CustomAllocator_1_1FindResAlloc.html">Template Struct CustomAllocator::FindResAlloc</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1AddContext.html">Template Struct AddContext</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1AddContext_3_01Ret_07Args_8_8_8_08_4.html">Template Struct AddContext&lt; Ret(Args…) &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1DynamicCast.html">Template Struct DynamicCast</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1DynamicCast_3_01T_01_5_01_4.html">Template Struct DynamicCast&lt; T * &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1IndexSequence.html">Template Struct IndexSequence</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1InPlaceT.html">Struct InPlaceT</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1IsCallback.html">Template Struct IsCallback</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1IsCallback_3_01Callback_3_01Cpp_00_01C_00_01Tr_00_01SingleUse_01_4_01_4.html">Template Struct IsCallback&lt; Callback&lt; Cpp, C, Tr, SingleUse &gt; &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1IsInvocable.html">Template Struct IsInvocable</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1IsInvocableR.html">Template Struct IsInvocableR</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1IsStdFunction.html">Template Struct IsStdFunction</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1MakeIndexSequenceImpl.html">Template Struct MakeIndexSequenceImpl</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1MakeIndexSequenceImpl_3_010_00_01II_8_8_8_01_4.html">Template Struct MakeIndexSequenceImpl&lt; 0, II… &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1NoTranslation.html">Struct NoTranslation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1NullOptT.html">Struct NullOptT</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1SharedHandleOps.html">Template Struct SharedHandleOps</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1StaticCast.html">Template Struct StaticCast</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1StaticCast_3_01T_01_5_01_4.html">Template Struct StaticCast&lt; T * &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1detail_1_1UniqueHandleOps.html">Template Struct UniqueHandleOps</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1Exception_1_1InternalCtorTag.html">Struct Exception::InternalCtorTag</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1PackingParams.html">Struct PackingParams</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1Size2D.html">Struct Size2D</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1TranslateImageDataCleanup.html">Struct TranslateImageDataCleanup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1TranslateTensorDataCleanup.html">Struct TranslateTensorDataCleanup</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structNVCVByte.html">Struct NVCVByte</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structNVCVCustomAllocatorRec.html">Struct NVCVCustomAllocatorRec</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structNVCVCustomMemAllocatorRec.html">Struct NVCVCustomMemAllocatorRec</a></li>
@@ -255,6 +272,7 @@
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1GammaContrast.html">Class GammaContrast</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1Gaussian.html">Class Gaussian</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1IOperator.html">Class IOperator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1JointBilateralFilter.html">Class JointBilateralFilter</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1Laplacian.html">Class Laplacian</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1MedianBlur.html">Class MedianBlur</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1Morphology.html">Class Morphology</a></li>
@@ -266,10 +284,20 @@
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1Rotate.html">Class Rotate</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1WarpAffine.html">Class WarpAffine</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1WarpPerspective.html">Class WarpPerspective</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1Callback.html">Template Class Callback</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1Callback_3_01Ret_07Args_8_8_8_08_00_01CRet_07CtxArg_00_01CArgs_8_8_8_08_00_01TranslateCall_00_01SingleUse_01_4.html">Template Class Callback&lt; Ret(Args…), CRet(CtxArg, CArgs…), TranslateCall, SingleUse &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ColorSpec.html">Class ColorSpec</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1BorderVarShapeWrap.html">Template Class BorderVarShapeWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1BorderVarShapeWrap_3_01T_00_01NVCV__BORDER__CONSTANT_01_4.html">Template Class BorderVarShapeWrap&lt; T, NVCV_BORDER_CONSTANT &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1BorderWrap.html">Template Class BorderWrap</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1BorderWrap_3_01TensorWrapper_00_01NVCV__BORDER__CONSTANT_00_01ActiveDimensions_8_8_8_01_4.html">Template Class BorderWrap&lt; TensorWrapper, NVCV_BORDER_CONSTANT, ActiveDimensions… &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1BorderWrap_3_01TW_00_01NVCV__BORDER__CONSTANT_00_01ActiveDimensions_8_8_8_01_4.html">Template Class BorderWrap&lt; TW, NVCV_BORDER_CONSTANT, ActiveDimensions… &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1detail_1_1BorderVarShapeWrapImpl.html">Template Class BorderVarShapeWrapImpl</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1detail_1_1BorderWrapImpl.html">Template Class BorderWrapImpl</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1FullTensorWrap.html">Template Class FullTensorWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1FullTensorWrap_3_01const_01T_00_01N_01_4.html">Template Class FullTensorWrap&lt; const T, N &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1ImageBatchVarShapeWrap.html">Template Class ImageBatchVarShapeWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1ImageBatchVarShapeWrap_3_01const_01T_01_4.html">Template Class ImageBatchVarShapeWrap&lt; const T &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1ImageBatchVarShapeWrapNHWC.html">Template Class ImageBatchVarShapeWrapNHWC</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1math_1_1Matrix.html">Template Class Matrix</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1math_1_1Vector.html">Template Class Vector</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorWrap.html">Template Class TensorWrap</a></li>
@@ -283,11 +311,10 @@
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1BaseFromMember_3_01T_01_6_00_01ID_01_4.html">Template Class BaseFromMember&lt; T &amp;, ID &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1CustomMemAllocatorImpl.html">Class CustomMemAllocatorImpl</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1Optional.html">Template Class Optional</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1TensorDataAccessStridedImageImpl.html">Class TensorDataAccessStridedImageImpl</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1TensorDataAccessStridedImagePlanarImpl.html">Class TensorDataAccessStridedImagePlanarImpl</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1TensorDataAccessStridedImpl.html">Class TensorDataAccessStridedImpl</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1TensorShapeInfoImageImpl.html">Class TensorShapeInfoImageImpl</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1TensorShapeInfoImpl.html">Class TensorShapeInfoImpl</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1TensorDataAccessStridedImageImpl.html">Template Class TensorDataAccessStridedImageImpl</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1TensorDataAccessStridedImagePlanarImpl.html">Template Class TensorDataAccessStridedImagePlanarImpl</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1TensorDataAccessStridedImpl.html">Template Class TensorDataAccessStridedImpl</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1TensorShapeInfoImpl.html">Template Class TensorShapeInfoImpl</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1WrapHandle.html">Template Class WrapHandle</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1WrapHandle_3_01IAllocator_01_4.html">Template Class WrapHandle&lt; IAllocator &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1detail_1_1WrapHandle_3_01IAllocator_01_4_1_1CudaMemAllocator.html">Template Class WrapHandle&lt; IAllocator &gt;::CudaMemAllocator</a></li>
@@ -306,15 +333,12 @@
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1IImageBatchVarShapeData.html">Class IImageBatchVarShapeData</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1IImageBatchVarShapeDataStrided.html">Class IImageBatchVarShapeDataStrided</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1IImageBatchVarShapeDataStridedCuda.html">Class IImageBatchVarShapeDataStridedCuda</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1IImageData.html">Class IImageData</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1IImageDataCudaArray.html">Class IImageDataCudaArray</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1IImageDataStrided.html">Class IImageDataStrided</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1IImageDataStridedCuda.html">Class IImageDataStridedCuda</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1IImageDataStridedHost.html">Class IImageDataStridedHost</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1Image.html">Class Image</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ImageBatchVarShape.html">Class ImageBatchVarShape</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ImageBatchVarShapeDataStridedCuda.html">Class ImageBatchVarShapeDataStridedCuda</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ImageData.html">Class ImageData</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ImageDataCudaArray.html">Class ImageDataCudaArray</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ImageDataStrided.html">Class ImageDataStrided</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ImageDataStridedCuda.html">Class ImageDataStridedCuda</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ImageDataStridedHost.html">Class ImageDataStridedHost</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ImageFormat.html">Class ImageFormat</a></li>
@@ -322,18 +346,18 @@
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1IMemAllocator.html">Class IMemAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1IResourceAllocator.html">Class IResourceAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ITensor.html">Class ITensor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ITensorData.html">Class ITensorData</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ITensorDataStrided.html">Class ITensorDataStrided</a></li>
-<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1ITensorDataStridedCuda.html">Class ITensorDataStridedCuda</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1MemAlignment.html">Class MemAlignment</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1Requirements.html">Class Requirements</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1Requirements_1_1ConstMemory.html">Class Requirements::ConstMemory</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1Requirements_1_1Memory.html">Class Requirements::Memory</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1Shape.html">Template Class Shape</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1SharedHandle.html">Template Class SharedHandle</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1Tensor.html">Class Tensor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1TensorData.html">Class TensorData</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1TensorDataAccessStrided.html">Class TensorDataAccessStrided</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1TensorDataAccessStridedImage.html">Class TensorDataAccessStridedImage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1TensorDataAccessStridedImagePlanar.html">Class TensorDataAccessStridedImagePlanar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1TensorDataStrided.html">Class TensorDataStrided</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1TensorDataStridedCuda.html">Class TensorDataStridedCuda</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1TensorLayout.html">Class TensorLayout</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1TensorLayoutInfo.html">Class TensorLayoutInfo</a></li>
@@ -344,6 +368,7 @@
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1TensorShapeInfoImagePlanar.html">Class TensorShapeInfoImagePlanar</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1TensorWrapData.html">Class TensorWrapData</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1TensorWrapImage.html">Class TensorWrapImage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1UniqueHandle.html">Template Class UniqueHandle</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="cvcuda_api.html#enums">Enums</a><ul>
@@ -365,7 +390,7 @@
 <li class="toctree-l4"><a class="reference internal" href="enum_namespacenvcv_1aa6e09b0b07e89a1e63f580a69e395c0a.html">Enum TensorLabel</a></li>
 <li class="toctree-l4"><a class="reference internal" href="enum_namespacenvcv_1af02dc8e101ff1af13bcbc67cc9a3d24a.html">Enum WhitePoint</a></li>
 <li class="toctree-l4"><a class="reference internal" href="enum_namespacenvcv_1a858bcb07a88426579e24b98979078573.html">Enum YCbCrEncoding</a></li>
-<li class="toctree-l4"><a class="reference internal" href="enum_group__NVCV__C__TYPES_1ga47d27ddb621b5837b703742548a1b263.html">Enum NVCVBorderType</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_BorderType_8h_1a47d27ddb621b5837b703742548a1b263.html">Enum NVCVBorderType</a></li>
 <li class="toctree-l4"><a class="reference internal" href="enum_group__NVCV__C__CORE__DATALAYOUT_1ga7331c5b8dadde7c924309ea200bb564f.html">Enum NVCVByteOrder</a></li>
 <li class="toctree-l4"><a class="reference internal" href="enum_group__NVCV__C__CORE__DATALAYOUT_1ga989019c1cdc301ea91c0b86e558387c3.html">Enum NVCVChannel</a></li>
 <li class="toctree-l4"><a class="reference internal" href="enum_group__NVCV__C__CORE__COLORSPEC_1gab29dd5e17c57e72cad31c8288d9e2288.html">Enum NVCVChromaLocation</a></li>
@@ -396,7 +421,6 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="cvcuda_api.html#unions">Unions</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="unionnvcv_1_1IImage_1_1Arena.html">Union IImage::Arena</a></li>
 <li class="toctree-l4"><a class="reference internal" href="unionNVCVCustomResourceAllocatorRec.html">Union NVCVCustomResourceAllocatorRec</a></li>
 <li class="toctree-l4"><a class="reference internal" href="unionNVCVImageBatchBufferRec.html">Union NVCVImageBatchBufferRec</a></li>
 <li class="toctree-l4"><a class="reference internal" href="unionNVCVImageBufferRec.html">Union NVCVImageBufferRec</a></li>
@@ -442,6 +466,9 @@
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__GAUSSIAN_1ga8bf432e888534b06d74a411f2a75f3d3.html">Function cvcudaGaussianSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__GAUSSIAN_1gae6492fc2fea8dced74a93b400cfdd5ae.html">Function cvcudaGaussianVarShapeSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_cvcuda_2include_2cvcuda_2Version_8h_1aa58f802c1681353a87d2553bc074386c.html">Function cvcudaGetVersion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITM__JOINT__BILATERAL__FILTER_1gadf7aac58855f7423d5bcb230bb547ff2.html">Function cvcudaJointBilateralFilterCreate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITM__JOINT__BILATERAL__FILTER_1ga0bc2d3e0d1e4ed933bce67347a5b9de1.html">Function cvcudaJointBilateralFilterSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITM__JOINT__BILATERAL__FILTER_1gac16cbd423703487c0de62b948d055cbb.html">Function cvcudaJointBilateralFilterVarShapeSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__LAPLACIAN_1ga47554bd432154f9207a777a9471645fc.html">Function cvcudaLaplacianCreate</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__LAPLACIAN_1gac64bca0b9c49b0759851ce13ea3c33ec.html">Function cvcudaLaplacianSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__LAPLACIAN_1gacc85de4ac5709184c4cc2b8ff1cda1e7.html">Function cvcudaLaplacianVarShapeSubmit</a></li>
@@ -479,6 +506,10 @@
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cfg_1a9831d67cdcf4e26bcf83f8355f860643.html">Function nvcv::cfg::SetMaxTensorCount</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1a7e4704c7af51acdb3c84f4575387f320.html">Template Function nvcv::CreateCustomAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga80cceb5d17e7ad93542a66db496682ec.html">Template Function nvcv::cuda::abs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga3eb1210248838710c8e3f61ef6f1d82e.html">Template Function nvcv::cuda::clamp</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1a5611507770bfac407b6ae9766e993f13.html">Template Function nvcv::cuda::CreateBorderWrapNHW</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1a04a88fb7885934b7b7c9341061937994.html">Template Function nvcv::cuda::CreateTensorWrapNHW</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1a09ee62666969bb01aa7fadd9140dcb2a.html">Template Function nvcv::cuda::CreateTensorWrapNHWC</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1a0438290d7a559104f5a5f5c6bf44f0c0.html">Template Function nvcv::cuda::detail::AbsImpl</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1a019f39f100dff456e9c0fff35616b3d4.html">Function nvcv::cuda::detail::asm(“cvt.sat.u8.s16 %)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1a77fb282d7213fc18aa94133520a54ffb.html">Function nvcv::cuda::detail::asm(“cvt.sat.u8.u16 %)</a></li>
@@ -508,6 +539,7 @@
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1af1e7bfd49dd0f09a7fc4de5eb2264af2.html">Function nvcv::cuda::detail::asm(“cvt.sat.u32.s8 %)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1a794d34e9bd1f113fe0174c9e8bc1f417.html">Function nvcv::cuda::detail::asm(“cvt.sat.u32.s16 %)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1af24aaf7073ffb36b126f8213d9ca80c6.html">Template Function nvcv::cuda::detail::BaseSaturateCastImpl</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1a75a681a5cb21e7f6c1916a491b70e7e4.html">Template Function nvcv::cuda::detail::ClampImpl</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1aa5c474cce2ca9ae5d0474b5182dbefaa.html">Template Function nvcv::cuda::detail::ExpImpl</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1a1bd7a3b5a313395299038cfa89df86ab.html">Template Function nvcv::cuda::detail::MaxImpl</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1aa4b0905609af92ac3bd853fa6a2734b1.html">Template Function nvcv::cuda::detail::MinImpl</a></li>
@@ -551,6 +583,7 @@
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1a24ab4fcce02ee8c5f31c69a4d9a1cbed.html">Function nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS_1_TO_4(ulonglong, unsigned long long, 0, ULLONG_MAX)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1a23240e4273eb85572d7513e3b6d7f7dd.html">Function nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS_1_TO_4(float, float, FLT_MIN, FLT_MAX)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1a07daf5dafb5c3c8202a6fbd24c35dd2d.html">Function nvcv::cuda::detail::NVCV_CUDA_TYPE_TRAITS_1_TO_4(double, double, DBL_MIN, DBL_MAX)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1abc54c427721a92bd3ca2c18267277ed9.html">Template Function nvcv::cuda::detail::PowImpl</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1aa59834e88d7eabc68851e9eea25f239e.html">Template Function nvcv::cuda::detail::RangeCastImpl</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1ab904a2e7a05c8f8bf5c9f286b516c30d.html">Template Function nvcv::cuda::detail::RoundImpl(U)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1cuda_1_1detail_1a8323bc7d1da2166d338adcda08c2795f.html">Template Function nvcv::cuda::detail::RoundImpl(U)</a></li>
@@ -634,6 +667,7 @@
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga76dc1d10cc06f995dff624a9f68390e6.html">Template Function nvcv::cuda::math::zeros()</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga1171d552aa9e1f6cf2f79172e7c7483b.html">Template Function nvcv::cuda::max</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga9bf35cc2ae25642d36432919596d6eba.html">Template Function nvcv::cuda::min</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga188abd89ee4acaace4604db852f98593.html">Template Function nvcv::cuda::pow</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CUDATOOLS__RANGECAST_1ga3c70f4a4c5508987ad2acec5a6b602ca.html">Template Function nvcv::cuda::RangeCast</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1gaebe969bdebffdce996456830b10be3c2.html">Template Function nvcv::cuda::round(U)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga54088ce520d5783168ea54eda027d13f.html">Template Function nvcv::cuda::round(U)</a></li>
@@ -649,21 +683,27 @@
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a6db927c52bdc2b350593bd33221842d5.html">Function nvcv::detail::GetImageHandle(NVCVImageHandle)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a1e6eed2e71b9d704ea63bc81ac94652b.html">Template Function nvcv::detail::GetImageHandle(const std::reference_wrapper&lt;T&gt;&amp;)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1ae0373ac7eb8d6c1fe3fa5124c3ff3adc.html">Template Function nvcv::detail::GetImageHandle(const T *)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a3abeba6abfa82a1abe862ceea1a86610.html">Template Function nvcv::detail::IsInvocableF(F *)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a0d53f54cc7b74e4693bb33fe2e8c2873.html">Template Function nvcv::detail::IsInvocableF(…)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1afcbef051127daeba6199aa62101226af.html">Template Function nvcv::detail::IsInvocableRF(F *)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a0be80a09ed8287550d8c6d7b5b49f339.html">Template Function nvcv::detail::IsInvocableRF(…)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a245c14b49d39b73fdcc5fadc41203e57.html">Function nvcv::detail::IsStdFunctionF(…)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1ad419cc72e95c5a0ab033d007882fc8f0.html">Template Function nvcv::detail::IsStdFunctionF(const std::function&lt;T&gt; *)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a838d1389b6c32764f6bdb77bb4a01200.html">Template Function nvcv::detail::operator!=(const Optional&lt;T&gt;&amp;, const Optional&lt;T&gt;&amp;)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a889073b21674370dba19cd29b12d1d65.html">Template Function nvcv::detail::operator!=(const Optional&lt;T&gt;&amp;, nullptr_t)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a44a9f99f45f9d19818f47937ddeac017.html">Template Function nvcv::detail::operator!=(nullptr_t, const Optional&lt;T&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a6bf5c033ac3f14a7b61fdff61ebda896.html">Template Function nvcv::detail::operator!=(const Optional&lt;T&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1af132ea36c553869b01a454987598e83f.html">Template Function nvcv::detail::operator!=(std::nullptr_t, const Optional&lt;T&gt;&amp;)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a0c6715b9ee42bde7f0695f42deba02b9.html">Template Function nvcv::detail::operator!=(const Optional&lt;T&gt;&amp;, const T&amp;)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1ad39b0218f42d17655eb3f0fc6ef22f90.html">Template Function nvcv::detail::operator!=(const T&amp;, const Optional&lt;T&gt;&amp;)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a05ce53241953e63da485e40d7849e27e.html">Template Function nvcv::detail::operator==(const Optional&lt;T&gt;&amp;, const Optional&lt;T&gt;&amp;)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1af811ab5c7970c679c3a1935bc78f81d6.html">Template Function nvcv::detail::operator==(const Optional&lt;T&gt;&amp;, NullOptT)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a9d6ae44bdefa612a770e6515f6aecf01.html">Template Function nvcv::detail::operator==(NullOptT, const Optional&lt;T&gt;&amp;)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1aadf288ab240b97914ac1921c8a1ca3c6.html">Template Function nvcv::detail::operator==(const Optional&lt;T&gt;&amp;, nullptr_t)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1adbad3f7e8f906c87f5670874fc41b65e.html">Template Function nvcv::detail::operator==(nullptr_t, const Optional&lt;T&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1aded463023f770ee26626c91370f561fd.html">Template Function nvcv::detail::operator==(const Optional&lt;T&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a938b2e1346ea829b0618a00cd27f1140.html">Template Function nvcv::detail::operator==(std::nullptr_t, const Optional&lt;T&gt;&amp;)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1af70fc2a7063612877a299dba1700afd1.html">Template Function nvcv::detail::operator==(const Optional&lt;T&gt;&amp;, const T&amp;)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a94161d65df9e996bd33a890bfa8e9dc3.html">Template Function nvcv::detail::operator==(const T&amp;, const Optional&lt;T&gt;&amp;)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1a819d8ad38df82493cea64d8afdd816ca.html">Template Function nvcv::detail::SetObjectAssociation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1_1detail_1abaa78e19ddb7a632d7b0fc90c3afa91c.html">Function nvcv::detail::ThrowException</a></li>
-<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1a9bfb0f0bd9d0b2e108249a2c91ea6119.html">Template Function nvcv::DynamicCast</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1a936bfff28e431091a2991b2b4c86b6e6.html">Template Function nvcv::DynamicCast</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__DATALAYOUT_1ga8effddb03bafd403d57ff90cf68b5916.html">Function nvcv::GetAlignment</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__DATALAYOUT_1ga3d1b79b6e9b0af4af7a7f41c88d8f06c.html">Function nvcv::GetBitsPerComponent</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__DATALAYOUT_1ga822463bf76c5383c52b88ae7155b53d5.html">Function nvcv::GetBitsPerPixel</a></li>
@@ -675,12 +715,18 @@
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__DATALAYOUT_1ga1b5ee34180b56479689609ea832f0daa.html">Function nvcv::GetParams</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1a3f1905ab71e8a9e027061a99df97753e.html">Function nvcv::GetSamplesHoriz</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1ac917ee306e661480ac38ff33bdb4bfc1.html">Function nvcv::GetSamplesVert</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1a3fd41c5646f7c47493a10b658ad24b5b.html">Template Function nvcv::HandleDecRef</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1a8e3c041aa3bc91a3231d5315aaec91b6.html">Template Function nvcv::HandleDestroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1a76fe262ac060fde6834dcbdd8eee172f.html">Template Function nvcv::HandleIncRef</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1ac45859e650ee349e772f9573ae54e74c.html">Template Function nvcv::HandleIsNull</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1ad470464d5493708d0d2b02c951f6f8e6.html">Template Function nvcv::HandleRefCount</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__IMAGETYPE_1ga0661225051b72b25dea066d7ec403bca.html">Function nvcv::HasSameDataLayout</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1ae5ae5948181c37e27adf8aeea6af7cc2.html">Function nvcv::MakeChromaSubsampling</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__DATALAYOUT_1ga20a7c2219e38a7b29f8e0d24c2ff805f.html">Function nvcv::MakeConstSwizzle</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__DATALAYOUT_1ga8c92261f24e903a1e07172af1b20afea.html">Function nvcv::MakePacking</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__DATALAYOUT_1gabda265dd58098753687257bc2d9991eb.html">Function nvcv::MakeSwizzle</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1a5cd83a06033da6d9632f20e1485a8f20.html">Function nvcv::NeedsColorspec</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1a988b6827a1d0fb1c1e128df2199335f9.html">Template Function nvcv::NullHandle</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__SIZE_1gab28f6f8bfbc0ce09032f0d9068056e7c.html">Function nvcv::operator!=(const Size2D&amp;, const Size2D&amp;)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1aee055d6e69a66715e9517a4d33522156.html">Function nvcv::operator!=(const TensorLayout&amp;, const NVCVTensorLayout&amp;)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__SIZE_1gacda569b090ddeea9957bd76e2503fea0.html">Function nvcv::operator&lt;(const Size2D&amp;, const Size2D&amp;)</a></li>
@@ -714,16 +760,18 @@
 <li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1a4cd49732c014df74730d6e2c29c57dfb.html">Function nvcv::Permute</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__UTIL__EXCEPTION_1gac6ad83a045a08ecb9742be2c89ddafa1.html">Template Function nvcv::ProtectCall</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__UTIL__EXCEPTION_1ga54062252bddd196874dbff365c31b52d.html">Function nvcv::SetThreadError</a></li>
-<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1a52c178809e7d6ca37060d00d4c1b596e.html">Template Function nvcv::StaticCast</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacenvcv_1ab6fd1bac15045b4f9cfef78cae376800.html">Template Function nvcv::StaticCast</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1a40953753f8ce7bf78004f5d97b0b50f1.html">Function nvcvAllocatorAllocCudaMemory</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1a554ab989862f85f4d76bb061187aa42d.html">Function nvcvAllocatorAllocHostMemory</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1a7fb3fb5c8de18f06bd093a3626d3404c.html">Function nvcvAllocatorAllocHostPinnedMemory</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1a6ef1257d16fbcd571d5916aecfe1b09f.html">Function nvcvAllocatorConstructCustom</a></li>
-<li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1a76231660c377d9948ff6904cc4e2edf0.html">Function nvcvAllocatorDestroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1a816dd205d6941468375ee0b6fb40e15a.html">Function nvcvAllocatorDecRef</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1a6eb27ae5f0958d34ca6d3ec52be44577.html">Function nvcvAllocatorFreeCudaMemory</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1a3ca86a86f4aa1d2dbc9c7602910cfa9b.html">Function nvcvAllocatorFreeHostMemory</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1ac7b4d988f82d8d97c1f35c99b53ef25a.html">Function nvcvAllocatorFreeHostPinnedMemory</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1ad14d45cbf5851e146d0b0bd137cb28e5.html">Function nvcvAllocatorGetUserPointer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1ac12cb0457052f19e8ed983df85b784f5.html">Function nvcvAllocatorIncRef</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1a4c725a34e376b6931916764654e50142.html">Function nvcvAllocatorRefCount</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Allocator_8h_1a7a10d6fc4b511b8b736f9f299c33e48a.html">Function nvcvAllocatorSetUserPointer</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__CORE__DATALAYOUT_1ga1899dbfcb7df1e13296a743351a374ee.html">Function nvcvByteOrderGetName</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__CORE__DATALAYOUT_1gae64b3c46d52bf6e3b94fd15f166bb4c6.html">Function nvcvChannelGetName</a></li>
@@ -763,13 +811,15 @@
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__UTIL__STATUS_1ga1b2d257e24b719e32b52fd03fbf18331.html">Function nvcvGetLastError</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__UTIL__STATUS_1ga980637923d24debf78ac5f1abcd216e8.html">Function nvcvGetLastErrorMessage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_nvcv__types_2include_2nvcv_2Version_8h_1aabb0682c617511bd305ae772d6ac0fd0.html">Function nvcvGetVersion</a></li>
-<li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1a7a764d55a19cd6312ca4b786543535bb.html">Function nvcvImageBatchDestroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1a748062bbe626efd3aa98dc430d3bcfe8.html">Function nvcvImageBatchDecRef</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1a1ba6d25de5366cd42375aa55134fceab.html">Function nvcvImageBatchExportData</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1a4637c537504744bdc800fae20a9fbeb8.html">Function nvcvImageBatchGetAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1af2ecd66de8d879ebf134dcc2e3bcd1da.html">Function nvcvImageBatchGetCapacity</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1a41d456aa595a44e5e7dac327f1151758.html">Function nvcvImageBatchGetNumImages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1a0686bab196e250289d933264c900cb3b.html">Function nvcvImageBatchGetType</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1af60694ceead121f703820c227db4cf21.html">Function nvcvImageBatchGetUserPointer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1a64522ef34447dc57b27ed8b52c74469e.html">Function nvcvImageBatchIncRef</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1ac9ccacb43963b27893c6db11c45a01bb.html">Function nvcvImageBatchRefCount</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1a63492344c73e85de776c5506cf59d870.html">Function nvcvImageBatchSetUserPointer</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1a1b7237be10915e916db576724e00797a.html">Function nvcvImageBatchVarShapeCalcRequirements</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1a19b19750a46cddf976dc951d3fe3853f.html">Function nvcvImageBatchVarShapeClear</a></li>
@@ -782,7 +832,7 @@
 <li class="toctree-l4"><a class="reference internal" href="function_ImageBatch_8h_1a5641c1781ee33fef20c7cce912328e9d.html">Function nvcvImageBatchVarShapePushImagesCallback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1aff9ac619389fe87e27f8abdae37981bb.html">Function nvcvImageCalcRequirements</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1af03ff44f7bbbf8873edc648c967cad9b.html">Function nvcvImageConstruct</a></li>
-<li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1ad210dc760b98207d3be0fcb4a5a2ef47.html">Function nvcvImageDestroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1a01b67382917865e58d266b68d2b4d92d.html">Function nvcvImageDecRef</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1a2dfed43dab1ff79d3c59e90f60480787.html">Function nvcvImageExportData</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__CORE__IMAGETYPE_1ga232e5c3623e134b7c81a3f12e4819dab.html">Function nvcvImageFormatGetBitsPerChannel</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__CORE__IMAGETYPE_1gaf4a4ef3f2426efd354649bb8e01ce78d.html">Function nvcvImageFormatGetChromaSubsampling</a></li>
@@ -816,6 +866,8 @@
 <li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1a3cc6f69529a5adb330324fe91b440a25.html">Function nvcvImageGetSize</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1a11fb9fed0d6c9658a3c031a743bffaa6.html">Function nvcvImageGetType</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1ab7517654ed8c4cd2c8c8fd764da4ad37.html">Function nvcvImageGetUserPointer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1a08dc489c1a102437ca6a700f1f719410.html">Function nvcvImageIncRef</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1a8167b0e8f9c0a8dd49b7f713ca415046.html">Function nvcvImageRefCount</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1a49b957240d97d36e3a7e2b53594e7822.html">Function nvcvImageSetUserPointer</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Image_8h_1a8c6fe44a15787d56b992624a6fc128f3.html">Function nvcvImageWrapDataConstruct</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__CORE__COLORSPEC_1gad0e47a619dfacccfb79dabc42415929d.html">Function nvcvMakeChromaSubsampling</a></li>
@@ -854,13 +906,14 @@
 <li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1a8cf6d4881edf26b301b7839bde1d98e8.html">Function nvcvTensorCalcRequirements</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1a0d64cfeec1720c311e2996f0c0ce5097.html">Function nvcvTensorCalcRequirementsForImages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1a5acf9a9597f338616586b0ff95313650.html">Function nvcvTensorConstruct</a></li>
-<li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1a7566c4fd3e555638c143b5114e4cbf4a.html">Function nvcvTensorDestroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1a6eae10653ea0cfba27871bb61c16d59c.html">Function nvcvTensorDecRef</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1ab79f56b786288a9c6d7b7d631c0093fa.html">Function nvcvTensorExportData</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1ae73876a632d7bd2d5001222ae52ee0a1.html">Function nvcvTensorGetAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1a57016d4f92abff228174b32ac18e92be.html">Function nvcvTensorGetDataType</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1aff03fa6e4a6d19ccbf812cfb9b9af5c9.html">Function nvcvTensorGetLayout</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1a908f3b700602efb2a4002fd56665ce98.html">Function nvcvTensorGetShape</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1a315193911b87ab2bfa74148e38f74046.html">Function nvcvTensorGetUserPointer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1ac837da5af3af9f710a6eda17a15348a0.html">Function nvcvTensorIncRef</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_TensorLayout_8h_1a1a82fc9a0d2a4ad0f8795e2dd904bee4.html">Function nvcvTensorLayoutCompare</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_TensorLayout_8h_1a97434b8b4229876fc9d4b399064eff6b.html">Function nvcvTensorLayoutEndsWith</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_TensorLayout_8h_1a458a92fc7875d6a3c6419d53468e1407.html">Function nvcvTensorLayoutFindDimIndex</a></li>
@@ -873,6 +926,7 @@
 <li class="toctree-l4"><a class="reference internal" href="function_TensorLayout_8h_1ad518e0eac37ae5438abdc521b016a0d5.html">Function nvcvTensorLayoutMakeRange</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_TensorLayout_8h_1ac3de87d02395d4e3ca1e66cb0d0d9716.html">Function nvcvTensorLayoutMakeSubRange</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_TensorLayout_8h_1a2138a83e052c2a1c1a1971fab4ebc154.html">Function nvcvTensorLayoutStartsWith</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1a1fac74424cbf526c66b2c727bb301de2.html">Function nvcvTensorRefCount</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1a31e8a34db166b243b09870d413f6f50e.html">Function nvcvTensorSetUserPointer</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_TensorShape_8h_1a06079520f6d8ae9f64cefd429c04286a.html">Function nvcvTensorShapePermute</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_Tensor_8h_1a62561b09e02a7cab576ae1fda407688d.html">Function nvcvTensorWrapDataConstruct</a></li>
@@ -892,7 +946,7 @@
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__COLORSPEC_1ga27756ef265d4d05c91465279c9af4e2c.html">Function operator&lt;&lt;(std::ostream&amp;, NVCVColorSpace)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__COLORSPEC_1ga671987a9dbf20c913c6170f8a0890c1c.html">Function operator&lt;&lt;(std::ostream&amp;, NVCVChromaLocation)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__CPP__CORE__COLORSPEC_1ga808f819deea99450a503fcab23a073bf.html">Function operator&lt;&lt;(std::ostream&amp;, NVCVRawPattern)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="function_TypeTraits_8hpp_1a4becfa7a27df01f5fbf43aca94985c59.html">Template Function operator&lt;&lt;(std::ostream&amp;, const T&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_cuda_2TypeTraits_8hpp_1a4becfa7a27df01f5fbf43aca94985c59.html">Template Function operator&lt;&lt;(std::ostream&amp;, const T&amp;)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_DataLayout_8hpp_1ac4e5cda4ebe623de4a40d47f98c01f4c.html">Function operator&lt;&lt;(std::ostream&amp;, NVCVDataKind)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_DataLayout_8hpp_1a357986f61c3b3ae765fd6af53729307e.html">Function operator&lt;&lt;(std::ostream&amp;, NVCVPacking)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_DataLayout_8hpp_1aad3e11daafa1a1bdaa14ac7fed88c1ac.html">Function operator&lt;&lt;(std::ostream&amp;, NVCVMemLayout)</a></li>
@@ -940,6 +994,8 @@
 <li class="toctree-l4"><a class="reference internal" href="define_Metaprogramming_8hpp_1a9e2eddb6bd190063bb233f9ae8629c6d.html">Define NVCV_CUDA_TYPE_TRAITS_1_TO_4</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__CPP__CUDATOOLS__MATHOPERATORS_1ga1e8c4f559f77f2e8d3b770ad07aa4dc7.html">Define NVCV_CUDA_UNARY_OPERATOR</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga789cae214a37a2f3535444e3d6f942b9.html">Define NVCV_CUDA_UNARY_SIMD</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1gaf929c6c57b854868e67c93c9d8054666.html">Define NVCV_DATA_TYPE_2C128</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1gad6ba71e4e459c09d98dd0b3fc1189ebf.html">Define NVCV_DATA_TYPE_2C64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga2a5a2446bf59c2ba2c17ee3199767b31.html">Define NVCV_DATA_TYPE_2F32</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga3f3a78530b1419a9d2457a733c8d600a.html">Define NVCV_DATA_TYPE_2F64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga3113138f14745017763a19e74dfcc2f1.html">Define NVCV_DATA_TYPE_2S16</a></li>
@@ -950,6 +1006,7 @@
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga8b787acceaab394ca792cf3164555ae7.html">Define NVCV_DATA_TYPE_2U32</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1gae848be89957fbdf0fe318240bb41d626.html">Define NVCV_DATA_TYPE_2U64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga421c23b4b7c829d686ede9e4358f5fb1.html">Define NVCV_DATA_TYPE_2U8</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1gabaf09d8a2b301f013bc2df5b2a0dc31d.html">Define NVCV_DATA_TYPE_3C64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1gad935c7f81436a0b2f72be00df233d853.html">Define NVCV_DATA_TYPE_3F32</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1gaf7e7d3d3cdb493b41deff9bb1db5c0c7.html">Define NVCV_DATA_TYPE_3F64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga06355d2936532be4ec7274151fb604ba.html">Define NVCV_DATA_TYPE_3S16</a></li>
@@ -960,6 +1017,7 @@
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1gaa5de1e5cf8c07172918e1ae982ec9054.html">Define NVCV_DATA_TYPE_3U32</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga8bc270e7ae01bee400f7047ab3b5184f.html">Define NVCV_DATA_TYPE_3U64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga4f7174405018bb7755e3bd378c89b34c.html">Define NVCV_DATA_TYPE_3U8</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga007307a040ba78c02628946382aeefac.html">Define NVCV_DATA_TYPE_4C64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga139b54d9082afb98c2bb050e7c1cd82e.html">Define NVCV_DATA_TYPE_4F32</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga0baf3fb0d82527de7d1489e129e107e6.html">Define NVCV_DATA_TYPE_4F64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga939c06ae9b0b2bf6627bde925e56bb2f.html">Define NVCV_DATA_TYPE_4S16</a></li>
@@ -970,6 +1028,8 @@
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga1e21fc2afad4f617ce24d5af06c31675.html">Define NVCV_DATA_TYPE_4U32</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga99d0eff3215b6277734d0344d2b4869d.html">Define NVCV_DATA_TYPE_4U64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga440530dddbe5f3f4331538a6bc3cdb47.html">Define NVCV_DATA_TYPE_4U8</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga610953d045ea26f66aa283b1543c5ad5.html">Define NVCV_DATA_TYPE_C128</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1gac279dbe67bcb94548635426ff877e426.html">Define NVCV_DATA_TYPE_C64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga683b6af6cef8c8af93113c485679c1a4.html">Define NVCV_DATA_TYPE_F32</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga55c027eb1d84c52914b2b7809a960ff0.html">Define NVCV_DATA_TYPE_F64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1ga66813530e1a4df5c1fffe9f4ac18e3d1.html">Define NVCV_DATA_TYPE_NONE</a></li>
@@ -984,7 +1044,6 @@
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1ac08f354a62ca39c19c75a3975d08bbdd.html">Define NVCV_DETAIL_ADJUST_BPP_ENCODING</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a691251414302393167bb97cdd61d95c7.html">Define NVCV_DETAIL_BPP_NCH</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_TensorLayout_8h_1a54adaf0b2f39179aa2b25a93c90ea6d4.html">Define NVCV_DETAIL_DEF_TLAYOUT</a></li>
-<li class="toctree-l4"><a class="reference internal" href="define_TensorLayout_8hpp_1a54adaf0b2f39179aa2b25a93c90ea6d4.html">Define NVCV_DETAIL_DEF_TLAYOUT</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_TensorLayout_8hpp_1a54adaf0b2f39179aa2b25a93c90ea6d4.html">Define NVCV_DETAIL_DEF_TLAYOUT</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a6fc79307a26fb9b197782cf93eed48cc.html">Define NVCV_DETAIL_ENCODE_BPP</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1af5e2335c5ad6ec1a9d52859075e68136.html">Define NVCV_DETAIL_ENCODE_PACKING</a></li>
@@ -1040,6 +1099,8 @@
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1aa0ec80398c24bdf2aad4afd84e4504c1.html">Define NVCV_DETAIL_MAKE_YCbCr_FORMAT3</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a11b93b9c44485799e13199a87e195328.html">Define NVCV_DETAIL_MAKE_YCbCr_FORMAT4</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a92180dcf02ae12991ef194a4e98b2e5a.html">Define NVCV_DETAIL_SET_BITFIELD</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga07b3066e709ba024f9811448c933d279.html">Define NVCV_IMAGE_FORMAT_2C128</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga38fc441e6c9233531b05c7897b6a1438.html">Define NVCV_IMAGE_FORMAT_2C64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga3f84a7869e4d035e4616478d53cc634d.html">Define NVCV_IMAGE_FORMAT_2F32</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga4c1cb319761a905b2d1db02a10b6169a.html">Define NVCV_IMAGE_FORMAT_2S16</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1gaa00a58d141945f7f39f035a4430982ee.html">Define NVCV_IMAGE_FORMAT_2S16_BL</a></li>
@@ -1051,6 +1112,8 @@
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga30dc2b23789eff08f1fcba9efcebc0e7.html">Define NVCV_IMAGE_FORMAT_BGRAf32p</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1gad5a702335d4506ae13cd9cee4094e1b9.html">Define NVCV_IMAGE_FORMAT_BGRf32</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1gad2c8b16cf2b3f67756962a0a9fd2cdac.html">Define NVCV_IMAGE_FORMAT_BGRf32p</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga54f1e2c59110445377f89f0984fd5572.html">Define NVCV_IMAGE_FORMAT_C128</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga323516c83bf14fb5119e23408086053d.html">Define NVCV_IMAGE_FORMAT_C64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga9f556be7295af9dae078594611b19f1d.html">Define NVCV_IMAGE_FORMAT_F32</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga9a5501bcb49fbea0d214d71d91c224b8.html">Define NVCV_IMAGE_FORMAT_F64</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga74887afb449228260499d1ef01776cbd.html">Define NVCV_IMAGE_FORMAT_HSV8</a></li>
@@ -1095,6 +1158,12 @@
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1gaf0de001163aad7dec7b0028487672243.html">Define NVCV_IMAGE_FORMAT_YUYV_BL</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1gaa61e878ae1032125471f59d713d7e1b7.html">Define NVCV_IMAGE_FORMAT_YUYV_ER</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga62c9dc9a939f0a4fcb30587fb9902316.html">Define NVCV_IMAGE_FORMAT_YUYV_ER_BL</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_HandleWrapper_8hpp_1a6048b2e6eb281691a61c708026473e8d.html">Define NVCV_IMPL_DEC_REF</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_HandleWrapper_8hpp_1a9f75e4cd7a5b07de2e5a8e688581202e.html">Define NVCV_IMPL_DESTROY</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_HandleWrapper_8hpp_1a3181f61e5bd1de2ebadaba27a71b7501.html">Define NVCV_IMPL_DESTROY_VOID</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_HandleWrapper_8hpp_1a9e8854fc429dc02db5ef5da7a2dc2a29.html">Define NVCV_IMPL_INC_REF</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_HandleWrapper_8hpp_1aa9a888410f91db8f7d21952801141192.html">Define NVCV_IMPL_REF_COUNT</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_HandleWrapper_8hpp_1a337acb5df48c7bce29c23875bc1b6cc5.html">Define NVCV_IMPL_SHARED_HANDLE</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__COLORSPEC_1ga76459db0f2c08b9bce47f7bc63974ab6.html">Define NVCV_MAKE_COLOR_SPEC</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATATYPE_1gaaa41629fb7477e5fa3c86685f475bed4.html">Define NVCV_MAKE_DATA_TYPE</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__DATALAYOUT_1gaf3516090dd13239abca0ff29e8e0c580.html">Define NVCV_MAKE_SWIZZLE</a></li>
@@ -1103,6 +1172,7 @@
 <li class="toctree-l4"><a class="reference internal" href="define_Requirements_8h_1a4757a8f50b8789029172f4aa3a9f461f.html">Define NVCV_MAX_MEM_REQUIREMENTS_LOG2_BLOCK_SIZE</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_ImageData_8h_1a7d024c9e979bc0c7c20c6b6d36523e64.html">Define NVCV_MAX_PLANE_COUNT</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__UTIL__STATUS_1gae5e088294b0754c8502b8da150c68b71.html">Define NVCV_MAX_STATUS_MESSAGE_LENGTH</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_CompilerUtils_8h_1a448a17769c34b23f73258cb47c227cfa.html">Define NVCV_NODISCARD</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_Allocator_8h_1a9cf181e9a48422249fe737e0e2df34d6.html">Define NVCV_NUM_RESOURCE_TYPES</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_nvcv__types_2include_2nvcv_2Export_8h_1a5fcff81b5aa697af48f4af7290881b70.html">Define NVCV_PUBLIC</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_TensorLayout_8h_1a0dd31cdade5bd674415c7eefb0708f0d.html">Define NVCV_TENSOR_LAYOUT_MAKE</a></li>
@@ -1113,10 +1183,8 @@
 <li class="toctree-l4"><a class="reference internal" href="typedef_CudaFwd_8h_1aaf8b3ba752727d996074a71ee997ce68.html">Typedef cudaArray_t</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_CudaFwd_8h_1ab946c7f02e09efd788a204718015d88a.html">Typedef CUstream</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1ab6705fed8ba1b73ae791063afc11c848.html">Typedef nvcv::AllocatorWrapHandle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1ac45b2c0b49b2d190372eb764ae761f09.html">Typedef nvcv::CleanupCallback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TYPETRAITS_1ga1a94bf87b01a240ed3e0b85f0984ec52.html">Typedef nvcv::cuda::BaseType</a></li>
-<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__BORDERWRAPS_1gaf432c7c1640f38901df1d777b2f2588c.html">Typedef nvcv::cuda::BorderWrapHW</a></li>
-<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__BORDERWRAPS_1ga53d998c720a5bdd7de34f682cfaeb1b7.html">Typedef nvcv::cuda::BorderWrapNHW</a></li>
-<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__BORDERWRAPS_1gaa0be163162f0f4a6ed9d6443cffb86ce.html">Typedef nvcv::cuda::BorderWrapNHWC</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TYPETRAITS_1ga0a09ebca974bcf5d56636479b62f1025.html">Typedef nvcv::cuda::ConvertBaseTypeTo</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1cuda_1_1detail_1a12e241db429bdd5e423329abc64244cd.html">Typedef nvcv::cuda::detail::ConvertBaseTypeTo_t</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1cuda_1_1detail_1a24bd77e9b09e598bffd002cc265c64c0.html">Typedef nvcv::cuda::detail::CopyConstness_t</a></li>
@@ -1127,15 +1195,29 @@
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gab393e759b75d7039b4faf7519c35798c.html">Typedef nvcv::cuda::Tensor2DWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1ga849270e14890911a82e5f7c1601fafb8.html">Typedef nvcv::cuda::Tensor3DWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gaee996a011705513c21fa20d602a05cc0.html">Typedef nvcv::cuda::Tensor4DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gaf7c730f72cf3adc7fb16dbbe9935b76f.html">Typedef nvcv::cuda::TensorNDWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1abf675187bc3cd1271d0ad7e39c84d40a.html">Typedef nvcv::detail::AddContext_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1acce6696a71a555dc03806d8a8f5c88f0.html">Typedef nvcv::detail::AddLRef_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1acca7b4dcf5f8e8b7618c7175605f4921.html">Typedef nvcv::detail::AddPointer_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1a20b34ecd434b94b603bcc9701a93e4fc.html">Typedef nvcv::detail::AddRRef_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1a42b88a6506dd0898a8c167e49367c30d.html">Typedef nvcv::detail::Conditional_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1ae2b4cb5d7e278517639ecb673b98708d.html">Typedef nvcv::detail::EnableIf_t</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1a21b74c58e389ac4952e2e6d0fbea9582.html">Typedef nvcv::detail::IsRandomAccessIterator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1a2e6b25cefbde8e985091a3f28f66d6fa.html">Typedef nvcv::detail::MakeIndexSequence</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1a596167d30b036c20ce58e28fc51e22da.html">Typedef nvcv::detail::RemoveCV_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1ae78e632657be1cc1568fe747a8695fbe.html">Typedef nvcv::detail::RemoveCVRef_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1a63790194f324d8f24687fcae78a72d8a.html">Typedef nvcv::detail::RemovePointer_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1_1detail_1ada9db1d7da471eb59d374d8cf00a4011.html">Typedef nvcv::detail::RemoveRef_t</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1aad6d953ca608451d5fd50ab598abffcc.html">Typedef nvcv::HandleTypeOf</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a9d8bae8250c9ef9f13b082ca2bddcacc.html">Typedef nvcv::ImageBatchVarShapeWrapHandle</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1ad7abff543eccdf12a9394c4b4bc471a6.html">Typedef nvcv::ImageBatchWrapHandle</a></li>
-<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1afd43af73dc57aed8d6f921c7c11188ce.html">Typedef nvcv::ImageDataCleanupFunc</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a66e8596460d91ad20dc5f84cdfa68849.html">Typedef nvcv::ImageBufferStrided</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1aad92d8356b62f703d12fd5100bf04074.html">Typedef nvcv::ImageDataCleanupCallback</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a880e7401a58f90bc0c71b178b575c7b4.html">Typedef nvcv::ImageDataCleanupFunc</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a34a02d9ce0e016158e9a95d6372c85d6.html">Typedef nvcv::ImagePlaneStrided</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1ac395eeebe4ac387eb752fe1e6819e156.html">Typedef nvcv::ImageWrapHandle</a></li>
-<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a8625fc2698306a869662795a9fdb8015.html">Typedef nvcv::TensorDataCleanupFunc</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a9d6e867ce019b36fec6e4b0cbc78a7b0.html">Typedef nvcv::TensorDataCleanupCallback</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1adaec8087c883ab0d144f9ef666ceded6.html">Typedef nvcv::TensorDataCleanupFunc</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a861a2ddac3078fe50b38330cf9899ea6.html">Typedef nvcv::TensorWrapHandle</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__C__ALGORITHM__WARP__AFFINE_1ga631c46e6db0a069b920fee26a67c7d84.html">Typedef NVCVAffineTransform</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_Allocator_8h_1a57b8b22fc98e640fdade0590321e34a8.html">Typedef NVCVAllocatorHandle</a></li>
@@ -1203,6 +1285,13 @@
 <li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.2.0-alpha.html#acknowledgements">Acknowledgements</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../relnotes/v0.2.1-alpha.html">Alpha.1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.2.1-alpha.html#general">General</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.2.1-alpha.html#new-operators">New Operators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.2.1-alpha.html#improved-testing">Improved Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.2.1-alpha.html#bug-fixes">Bug Fixes</a></li>
+</ul>
+</li>
 </ul>
 
         </div>
@@ -1218,9 +1307,9 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="cvcuda_api.html">Library API</a> &raquo;</li>
-      <li>Define NVCV_DETAIL_MAKE_NONCOLOR_FMT1</li>
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="cvcuda_api.html">Library API</a></li>
+      <li class="breadcrumb-item active">Define NVCV_DETAIL_MAKE_NONCOLOR_FMT1</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/_exhale_api/define_FormatUtils_8h_1ab9a2674cc0bf2a1333e248ebe9c3c65b.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -1257,7 +1346,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, NVIDIA..
-      <span class="lastupdated">Last updated on Dec 21, 2022.
+      <span class="lastupdated">Last updated on Mar 10, 2023.
       </span></p>
   </div>
 

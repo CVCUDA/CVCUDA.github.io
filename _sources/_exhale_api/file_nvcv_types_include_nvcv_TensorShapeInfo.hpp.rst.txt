@@ -28,8 +28,6 @@ Includes
 
 - ``cassert``
 
-- ``detail/BaseFromMember.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_BaseFromMember.hpp`)
-
 
 
 Included By
@@ -53,8 +51,6 @@ Namespaces
 Classes
 -------
 
-
-- :ref:`exhale_class_classnvcv_1_1detail_1_1TensorShapeInfoImageImpl`
 
 - :ref:`exhale_class_classnvcv_1_1detail_1_1TensorShapeInfoImpl`
 

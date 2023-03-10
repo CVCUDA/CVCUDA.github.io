@@ -22,6 +22,16 @@ Includes
 
 - ``InPlace.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_InPlace.hpp`)
 
+- ``cassert``
+
+- ``cstddef``
+
+- ``stdexcept``
+
+- ``type_traits``
+
+- ``utility``
+
 
 
 Included By
@@ -32,9 +42,11 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`
 
+- :ref:`file_nvcv_types_include_nvcv_ImageData.hpp`
+
 - :ref:`file_nvcv_types_include_nvcv_ITensor.hpp`
 
-- :ref:`file_nvcv_types_include_nvcv_ITensorData.hpp`
+- :ref:`file_nvcv_types_include_nvcv_TensorData.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_TensorLayoutInfo.hpp`
 

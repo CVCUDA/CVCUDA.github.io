@@ -33,10 +33,6 @@ Included By
 -----------
 
 
-- :ref:`file_nvcv_types_include_nvcv_cuda_BorderWrap.hpp`
-
-- :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.h`
-
 - :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpComposite.h`
@@ -54,6 +50,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
 
@@ -83,8 +81,6 @@ Included By
 Enums
 -----
 
-
-- :ref:`exhale_enum_group__NVCV__C__TYPES_1ga47d27ddb621b5837b703742548a1b263`
 
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1ga1b0c8e931110b304a5db967abbfa3099`
 

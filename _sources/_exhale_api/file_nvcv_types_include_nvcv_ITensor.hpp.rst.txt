@@ -24,7 +24,7 @@ Includes
 
 - ``Tensor.h`` (:ref:`file_nvcv_types_include_nvcv_ITensor.hpp`)
 
-- ``TensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ITensorData.hpp`)
+- ``TensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorData.hpp`)
 
 - ``TensorLayout.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorLayout.hpp`)
 
@@ -71,6 +71,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.hpp`
 

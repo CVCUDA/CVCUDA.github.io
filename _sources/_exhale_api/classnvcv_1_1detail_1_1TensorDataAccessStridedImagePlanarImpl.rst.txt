@@ -1,7 +1,7 @@
 .. _exhale_class_classnvcv_1_1detail_1_1TensorDataAccessStridedImagePlanarImpl:
 
-Class TensorDataAccessStridedImagePlanarImpl
-============================================
+Template Class TensorDataAccessStridedImagePlanarImpl
+=====================================================
 
 - Defined in :ref:`file_nvcv_types_include_nvcv_TensorDataAccess.hpp`
 
@@ -12,13 +12,7 @@ Inheritance Relationships
 Base Type
 *********
 
-- ``public nvcv::detail::TensorDataAccessStridedImageImpl`` (:ref:`exhale_class_classnvcv_1_1detail_1_1TensorDataAccessStridedImageImpl`)
-
-
-Derived Type
-************
-
-- ``public nvcv::TensorDataAccessStridedImagePlanar`` (:ref:`exhale_class_classnvcv_1_1TensorDataAccessStridedImagePlanar`)
+- ``public nvcv::detail::TensorDataAccessStridedImageImpl< ShapeInfo >`` (:ref:`exhale_class_classnvcv_1_1detail_1_1TensorDataAccessStridedImageImpl`)
 
 
 Class Documentation

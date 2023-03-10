@@ -26,6 +26,7 @@ Derived Types
 - ``public cvcuda::Flip`` (:ref:`exhale_class_classcvcuda_1_1Flip`)
 - ``public cvcuda::GammaContrast`` (:ref:`exhale_class_classcvcuda_1_1GammaContrast`)
 - ``public cvcuda::Gaussian`` (:ref:`exhale_class_classcvcuda_1_1Gaussian`)
+- ``public cvcuda::JointBilateralFilter`` (:ref:`exhale_class_classcvcuda_1_1JointBilateralFilter`)
 - ``public cvcuda::Laplacian`` (:ref:`exhale_class_classcvcuda_1_1Laplacian`)
 - ``public cvcuda::MedianBlur`` (:ref:`exhale_class_classcvcuda_1_1MedianBlur`)
 - ``public cvcuda::Morphology`` (:ref:`exhale_class_classcvcuda_1_1Morphology`)

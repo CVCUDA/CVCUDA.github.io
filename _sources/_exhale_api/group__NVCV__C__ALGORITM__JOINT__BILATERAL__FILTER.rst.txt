@@ -1,0 +1,7 @@
+:orphan:
+
+joint bilateral filter
+======================
+
+.. doxygengroup:: NVCV_C_ALGORITM_JOINT_BILATERAL_FILTER
+   :project: cvcuda

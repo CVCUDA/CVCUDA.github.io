@@ -39,9 +39,9 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_IImage.hpp`
 
-- :ref:`file_nvcv_types_include_nvcv_IImageData.hpp`
-
 - :ref:`file_nvcv_types_include_nvcv_Image.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_ImageData.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_ImageFormat.hpp`
 
@@ -60,6 +60,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpFlip.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpMorphology.hpp`
 

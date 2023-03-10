@@ -22,7 +22,7 @@ Includes
 
 - ``ImageBatchData.h`` (:ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`)
 
-- ``ImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageData.hpp`)
+- ``ImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageData.hpp`)
 
 - ``detail/CudaFwd.h`` (:ref:`file_nvcv_types_include_nvcv_detail_CudaFwd.h`)
 
@@ -37,6 +37,10 @@ Includes
 Included By
 -----------
 
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_BorderVarShapeWrap.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_ImageBatchVarShapeWrap.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_ImageBatchData.hpp`
 

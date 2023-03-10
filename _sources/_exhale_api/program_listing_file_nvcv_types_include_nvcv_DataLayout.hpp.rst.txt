@@ -11,7 +11,7 @@ Program Listing for File DataLayout.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -111,6 +111,7 @@ Program Listing for File DataLayout.hpp
        X64_Y64_Z64 = NVCV_PACKING_X64_Y64_Z64,
    
        X256 = NVCV_PACKING_X256,
+       X128_Y128 = NVCV_PACKING_X128_Y128,
        X64_Y64_Z64_W64 = NVCV_PACKING_X64_Y64_Z64_W64,
    };
    
@@ -118,7 +119,8 @@ Program Listing for File DataLayout.hpp
    {
        UNSIGNED = NVCV_DATA_KIND_UNSIGNED,
        SIGNED   = NVCV_DATA_KIND_SIGNED,
-       FLOAT    = NVCV_DATA_KIND_FLOAT
+       FLOAT    = NVCV_DATA_KIND_FLOAT,
+       COMPLEX  = NVCV_DATA_KIND_COMPLEX
    };
    
    enum class MemLayout : int8_t

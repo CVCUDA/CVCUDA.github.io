@@ -20,15 +20,21 @@ Includes
 --------
 
 
-- ``ITensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ITensorData.hpp`)
+- ``TensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorData.hpp`)
 
 - ``TensorShapeInfo.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorShapeInfo.hpp`)
 
 - ``cstddef``
 
-- ``detail/BaseFromMember.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_BaseFromMember.hpp`)
 
 
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_BorderWrap.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_TensorWrap.hpp`
 
 
 

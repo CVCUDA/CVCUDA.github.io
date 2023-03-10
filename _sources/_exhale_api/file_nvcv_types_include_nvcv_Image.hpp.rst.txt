@@ -22,11 +22,13 @@ Includes
 
 - ``IImage.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImage.hpp`)
 
-- ``ImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageData.hpp`)
+- ``ImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageData.hpp`)
 
 - ``Size.hpp`` (:ref:`file_nvcv_types_include_nvcv_Size.hpp`)
 
 - ``alloc/IAllocator.hpp`` (:ref:`file_nvcv_types_include_nvcv_alloc_IAllocator.hpp`)
+
+- ``detail/Callback.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_Callback.hpp`)
 
 - ``detail/ImageImpl.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_ImageImpl.hpp`)
 
@@ -55,6 +57,8 @@ Namespaces
 Classes
 -------
 
+
+- :ref:`exhale_struct_structnvcv_1_1TranslateImageDataCleanup`
 
 - :ref:`exhale_class_classnvcv_1_1Image`
 

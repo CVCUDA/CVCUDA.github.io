@@ -11,7 +11,7 @@ Program Listing for File MathWrappers.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -123,6 +123,21 @@ Program Listing for File MathWrappers.hpp
    
    #undef NVCV_CUDA_BINARY_SIMD
    
+   template<typename U, typename S,
+            class = Require<(NumComponents<U> == NumComponents<S>) || (HasTypeTraits<U> && NumComponents<S> == 0)>>
+   inline __host__ __device__ U pow(U x, S y)
+   {
+       U out{};
+   
+   #pragma unroll
+       for (int e = 0; e < nvcv::cuda::NumElements<U>; ++e)
+       {
+           GetElement(out, e) = detail::PowImpl(GetElement(x, e), GetElement(y, e));
+       }
+   
+       return out;
+   }
+   
    template<typename U, class = Require<HasTypeTraits<U>>>
    inline __host__ __device__ U exp(U u)
    {
@@ -181,6 +196,21 @@ Program Listing for File MathWrappers.hpp
    }
    
    #undef NVCV_CUDA_UNARY_SIMD
+   
+   template<typename U, typename S,
+            class = Require<(NumComponents<U> == NumComponents<S>) || (HasTypeTraits<U> && NumComponents<S> == 0)>>
+   inline __host__ __device__ U clamp(U u, S lo, S hi)
+   {
+       U out{};
+   
+   #pragma unroll
+       for (int e = 0; e < nvcv::cuda::NumElements<U>; ++e)
+       {
+           GetElement(out, e) = detail::ClampImpl(GetElement(u, e), GetElement(lo, e), GetElement(hi, e));
+       }
+   
+       return out;
+   }
    
    } // namespace nvcv::cuda
    

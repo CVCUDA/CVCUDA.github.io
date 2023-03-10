@@ -119,7 +119,7 @@ Functions
 
 - :ref:`exhale_function_Allocator_8h_1a6ef1257d16fbcd571d5916aecfe1b09f`
 
-- :ref:`exhale_function_Allocator_8h_1a76231660c377d9948ff6904cc4e2edf0`
+- :ref:`exhale_function_Allocator_8h_1a816dd205d6941468375ee0b6fb40e15a`
 
 - :ref:`exhale_function_Allocator_8h_1a6eb27ae5f0958d34ca6d3ec52be44577`
 
@@ -128,6 +128,10 @@ Functions
 - :ref:`exhale_function_Allocator_8h_1ac7b4d988f82d8d97c1f35c99b53ef25a`
 
 - :ref:`exhale_function_Allocator_8h_1ad14d45cbf5851e146d0b0bd137cb28e5`
+
+- :ref:`exhale_function_Allocator_8h_1ac12cb0457052f19e8ed983df85b784f5`
+
+- :ref:`exhale_function_Allocator_8h_1a4c725a34e376b6931916764654e50142`
 
 - :ref:`exhale_function_Allocator_8h_1a7a10d6fc4b511b8b736f9f299c33e48a`
 

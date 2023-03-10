@@ -11,7 +11,7 @@ Program Listing for File ImageFormat.h
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -70,6 +70,14 @@ Program Listing for File ImageFormat.h
    #define NVCV_IMAGE_FORMAT_F64 NVCV_DETAIL_MAKE_NONCOLOR_FMT1(PL, FLOAT, X000, X64)
    
    #define NVCV_IMAGE_FORMAT_2F32 NVCV_DETAIL_MAKE_NONCOLOR_FMT1(PL, FLOAT, XY00, X32_Y32)
+   
+   #define NVCV_IMAGE_FORMAT_C64 NVCV_DETAIL_MAKE_NONCOLOR_FMT1(PL, COMPLEX, X000, X64)
+   
+   #define NVCV_IMAGE_FORMAT_2C64 NVCV_DETAIL_MAKE_NONCOLOR_FMT1(PL, COMPLEX, XY00, X64_Y64)
+   
+   #define NVCV_IMAGE_FORMAT_C128 NVCV_DETAIL_MAKE_NONCOLOR_FMT1(PL, COMPLEX, X000, X128)
+   
+   #define NVCV_IMAGE_FORMAT_2C128 NVCV_DETAIL_MAKE_NONCOLOR_FMT1(PL, COMPLEX, XY00, X128_Y128)
    
    #define NVCV_IMAGE_FORMAT_Y8 NVCV_DETAIL_MAKE_YCbCr_FMT1(BT601, NONE, PL, UNSIGNED, X000, X8)
    

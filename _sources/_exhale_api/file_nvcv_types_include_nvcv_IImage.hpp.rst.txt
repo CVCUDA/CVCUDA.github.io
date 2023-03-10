@@ -22,11 +22,9 @@ Includes
 
 - ``Casts.hpp`` (:ref:`file_nvcv_types_include_nvcv_Casts.hpp`)
 
-- ``IImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageData.hpp`)
-
 - ``Image.h`` (:ref:`file_nvcv_types_include_nvcv_IImage.hpp`)
 
-- ``ImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageData.hpp`)
+- ``ImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageData.hpp`)
 
 - ``Size.hpp`` (:ref:`file_nvcv_types_include_nvcv_Size.hpp`)
 
@@ -61,11 +59,4 @@ Classes
 
 
 - :ref:`exhale_class_classnvcv_1_1IImage`
-
-
-Unions
-------
-
-
-- :ref:`exhale_union_unionnvcv_1_1IImage_1_1Arena`
 

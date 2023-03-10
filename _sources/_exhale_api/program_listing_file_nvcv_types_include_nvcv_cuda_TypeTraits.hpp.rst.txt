@@ -12,7 +12,7 @@ Program Listing for File TypeTraits.hpp
 
    std::cout << pix;
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -40,19 +40,19 @@ Program Listing for File TypeTraits.hpp
    
    using detail::TypeTraits;
    
-   // @brief Metatype to serve as a requirement for a template object to meet the given boolean expression.
+   // Metatype to serve as a requirement for a template object to meet the given boolean expression.
    template<bool B>
    using Require = std::enable_if_t<B>;
    
-   // @brief Metavariable to check if one or more types have type traits.
+   // Metavariable to check if one or more types have type traits.
    template<typename... Ts>
    constexpr bool HasTypeTraits = (detail::HasTypeTraits_t<Ts>::value && ...);
    
-   // @brief Metavariable to check if a type is a CUDA compound type.
+   // Metavariable to check if a type is a CUDA compound type.
    template<class T, class = Require<HasTypeTraits<T>>>
    constexpr bool IsCompound = TypeTraits<T>::components >= 1;
    
-   // @brief Metavariable to check if a CUDA compound type T has N or more components.
+   // Metavariable to check if a CUDA compound type T has N or more components.
    template<typename T, int N, class = Require<HasTypeTraits<T>>>
    constexpr bool HasEnoughComponents = N <= TypeTraits<T>::components;
    

@@ -11,7 +11,7 @@ Program Listing for File Allocator.h
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,7 +26,6 @@ Program Listing for File Allocator.h
     * See the License for the specific language governing permissions and
     * limitations under the License.
     */
-   
    #ifndef NVCV_ALLOCATOR_H
    #define NVCV_ALLOCATOR_H
    
@@ -80,7 +79,11 @@ Program Listing for File Allocator.h
    NVCV_PUBLIC NVCVStatus nvcvAllocatorConstructCustom(const NVCVCustomAllocator *customAllocators,
                                                        int32_t numCustomAllocators, NVCVAllocatorHandle *handle);
    
-   NVCV_PUBLIC void nvcvAllocatorDestroy(NVCVAllocatorHandle halloc);
+   NVCV_PUBLIC NVCVStatus nvcvAllocatorDecRef(NVCVAllocatorHandle handle, int *newRefCount);
+   
+   NVCV_PUBLIC NVCVStatus nvcvAllocatorIncRef(NVCVAllocatorHandle handle, int *newRefCount);
+   
+   NVCV_PUBLIC NVCVStatus nvcvAllocatorRefCount(NVCVAllocatorHandle handle, int *newRefCount);
    
    NVCV_PUBLIC NVCVStatus nvcvAllocatorSetUserPointer(NVCVAllocatorHandle handle, void *userPtr);
    

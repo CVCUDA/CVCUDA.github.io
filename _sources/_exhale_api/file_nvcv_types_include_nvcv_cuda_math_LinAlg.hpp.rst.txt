@@ -41,14 +41,6 @@ Includes
 
 
 
-Included By
------------
-
-
-- :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.hpp`
-
-- :ref:`file_cvcuda_include_cvcuda_OpWarpPerspective.hpp`
-
 
 
 

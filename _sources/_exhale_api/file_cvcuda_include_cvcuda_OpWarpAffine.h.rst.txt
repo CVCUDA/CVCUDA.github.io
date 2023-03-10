@@ -33,6 +33,8 @@ Includes
 
 - ``detail/Export.h`` (:ref:`file_cvcuda_include_cvcuda_detail_Export.h`)
 
+- ``nvcv/BorderType.h`` (:ref:`file_nvcv_types_include_nvcv_BorderType.h`)
+
 - ``nvcv/ImageBatch.h`` (:ref:`file_nvcv_types_include_nvcv_ImageBatch.h`)
 
 - ``nvcv/Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)

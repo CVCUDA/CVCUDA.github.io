@@ -11,7 +11,7 @@ Program Listing for File TensorWrap.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -32,8 +32,10 @@ Program Listing for File TensorWrap.hpp
    
    #include "TypeTraits.hpp" // for HasTypeTraits, etc.
    
-   #include <nvcv/IImageData.hpp>  // for IImageDataStridedCuda, etc.
-   #include <nvcv/ITensorData.hpp> // for ITensorDataStridedCuda, etc.
+   #include <nvcv/ImageData.hpp>        // for ImageDataStridedCuda, etc.
+   #include <nvcv/TensorData.hpp>       // for TensorDataStridedCuda, etc.
+   #include <nvcv/TensorDataAccess.hpp> // for TensorDataAccessStridedImagePlanar, etc.
+   #include <util/Assert.h>             // for NVCV_ASSERT, etc.
    
    #include <utility>
    
@@ -56,34 +58,45 @@ Program Listing for File TensorWrap.hpp
    
        TensorWrap() = default;
    
-       template<typename... Args>
-       explicit __host__ __device__ TensorWrap(const void *data, Args... strides)
-           : m_data(data)
+       template<typename DataType, typename... Args>
+       explicit __host__ __device__ TensorWrap(const DataType *data, Args... strides)
+           : m_data(reinterpret_cast<const std::byte *>(data))
            , m_strides{std::forward<int>(strides)...}
        {
            static_assert(std::conjunction_v<std::is_same<int, Args>...>);
            static_assert(sizeof...(Args) == kVariableStrides);
        }
    
-       __host__ TensorWrap(const IImageDataStridedCuda &image)
+       __host__ TensorWrap(const ImageDataStridedCuda &image)
        {
            static_assert(kVariableStrides == 1 && kNumDimensions == 2);
    
-           m_data = reinterpret_cast<const void *>(image.plane(0).basePtr);
+           m_data = reinterpret_cast<const std::byte *>(image.plane(0).basePtr);
    
            m_strides[0] = image.plane(0).rowStride;
        }
    
-       __host__ TensorWrap(const ITensorDataStridedCuda &tensor)
+       __host__ TensorWrap(const TensorDataStridedCuda &tensor)
        {
-           m_data = reinterpret_cast<const void *>(tensor.basePtr());
+           constexpr int kStride[] = {std::forward<int>(Strides)...};
+   
+           NVCV_ASSERT(tensor.rank() >= kNumDimensions);
+   
+           m_data = reinterpret_cast<const std::byte *>(tensor.basePtr());
    
    #pragma unroll
-           for (int i = 0; i < kVariableStrides; ++i)
+           for (int i = 0; i < kNumDimensions; ++i)
            {
-               assert(tensor.stride(i) <= TypeTraits<int>::max);
+               if (kStride[i] != -1)
+               {
+                   NVCV_ASSERT(tensor.stride(i) == kStride[i]);
+               }
+               else if (i < kVariableStrides)
+               {
+                   NVCV_ASSERT(tensor.stride(i) <= TypeTraits<int>::max);
    
-               m_strides[i] = tensor.stride(i);
+                   m_strides[i] = tensor.stride(i);
+               }
            }
        }
    
@@ -92,24 +105,32 @@ Program Listing for File TensorWrap.hpp
            return m_strides;
        }
    
-       inline const __host__ __device__ T &operator[](int1 c) const
+       template<typename DimType, class = Require<std::is_same_v<int, BaseType<DimType>>>>
+       inline const __host__ __device__ T &operator[](DimType c) const
        {
-           return *doGetPtr(c.x);
-       }
-   
-       inline const __host__ __device__ T &operator[](int2 c) const
-       {
-           return *doGetPtr(c.y, c.x);
-       }
-   
-       inline const __host__ __device__ T &operator[](int3 c) const
-       {
-           return *doGetPtr(c.z, c.y, c.x);
-       }
-   
-       inline const __host__ __device__ T &operator[](int4 c) const
-       {
-           return *doGetPtr(c.w, c.z, c.y, c.x);
+           if constexpr (NumElements<DimType> == 1)
+           {
+               if constexpr (NumComponents<DimType> == 0)
+               {
+                   return *doGetPtr(c);
+               }
+               else
+               {
+                   return *doGetPtr(c.x);
+               }
+           }
+           else if constexpr (NumElements<DimType> == 2)
+           {
+               return *doGetPtr(c.y, c.x);
+           }
+           else if constexpr (NumElements<DimType> == 3)
+           {
+               return *doGetPtr(c.z, c.y, c.x);
+           }
+           else if constexpr (NumElements<DimType> == 4)
+           {
+               return *doGetPtr(c.w, c.z, c.y, c.x);
+           }
        }
    
        template<typename... Args>
@@ -145,12 +166,12 @@ Program Listing for File TensorWrap.hpp
                offset += coords[i] * kStride[i];
            }
    
-           return reinterpret_cast<const T *>(reinterpret_cast<const uint8_t *>(m_data) + offset);
+           return reinterpret_cast<const T *>(m_data + offset);
        }
    
    private:
-       const void *m_data                      = nullptr;
-       int         m_strides[kVariableStrides] = {};
+       const std::byte *m_data                      = nullptr;
+       int              m_strides[kVariableStrides] = {};
    };
    
    template<typename T, int... Strides>
@@ -167,40 +188,48 @@ Program Listing for File TensorWrap.hpp
    
        TensorWrap() = default;
    
-       template<typename... Args>
-       explicit __host__ __device__ TensorWrap(void *data, Args... strides)
+       template<typename DataType, typename... Args>
+       explicit __host__ __device__ TensorWrap(DataType *data, Args... strides)
            : Base(data, strides...)
        {
        }
    
-       __host__ TensorWrap(const IImageDataStridedCuda &image)
+       __host__ TensorWrap(const ImageDataStridedCuda &image)
            : Base(image)
        {
        }
    
-       __host__ TensorWrap(const ITensorDataStridedCuda &tensor)
+       __host__ TensorWrap(const TensorDataStridedCuda &tensor)
            : Base(tensor)
        {
        }
    
-       inline __host__ __device__ T &operator[](int1 c) const
+       template<typename DimType, class = Require<std::is_same_v<int, BaseType<DimType>>>>
+       inline __host__ __device__ T &operator[](DimType c) const
        {
-           return *doGetPtr(c.x);
-       }
-   
-       inline __host__ __device__ T &operator[](int2 c) const
-       {
-           return *doGetPtr(c.y, c.x);
-       }
-   
-       inline __host__ __device__ T &operator[](int3 c) const
-       {
-           return *doGetPtr(c.z, c.y, c.x);
-       }
-   
-       inline __host__ __device__ T &operator[](int4 c) const
-       {
-           return *doGetPtr(c.w, c.z, c.y, c.x);
+           if constexpr (NumElements<DimType> == 1)
+           {
+               if constexpr (NumComponents<DimType> == 0)
+               {
+                   return *doGetPtr(c);
+               }
+               else
+               {
+                   return *doGetPtr(c.x);
+               }
+           }
+           else if constexpr (NumElements<DimType> == 2)
+           {
+               return *doGetPtr(c.y, c.x);
+           }
+           else if constexpr (NumElements<DimType> == 3)
+           {
+               return *doGetPtr(c.z, c.y, c.x);
+           }
+           else if constexpr (NumElements<DimType> == 4)
+           {
+               return *doGetPtr(c.w, c.z, c.y, c.x);
+           }
        }
    
        template<typename... Args>
@@ -229,6 +258,37 @@ Program Listing for File TensorWrap.hpp
    
    template<typename T>
    using Tensor4DWrap = TensorWrap<T, -1, -1, -1, sizeof(T)>;
+   
+   template<typename T, int N>
+   using TensorNDWrap = std::conditional_t<
+       N == 1, Tensor1DWrap<T>,
+       std::conditional_t<N == 2, Tensor2DWrap<T>,
+                          std::conditional_t<N == 3, Tensor3DWrap<T>, std::conditional_t<N == 4, Tensor4DWrap<T>, void>>>>;
+   
+   template<typename T, class = Require<HasTypeTraits<T>>>
+   __host__ auto CreateTensorWrapNHW(const TensorDataStridedCuda &tensor)
+   {
+       auto tensorAccess = TensorDataAccessStridedImagePlanar::Create(tensor);
+       NVCV_ASSERT(tensorAccess);
+       NVCV_ASSERT(tensorAccess->sampleStride() <= TypeTraits<int>::max);
+       NVCV_ASSERT(tensorAccess->rowStride() <= TypeTraits<int>::max);
+   
+       return Tensor3DWrap<T>(tensor.basePtr(), static_cast<int>(tensorAccess->sampleStride()),
+                              static_cast<int>(tensorAccess->rowStride()));
+   }
+   
+   template<typename T, class = Require<HasTypeTraits<T>>>
+   __host__ auto CreateTensorWrapNHWC(const TensorDataStridedCuda &tensor)
+   {
+       auto tensorAccess = TensorDataAccessStridedImagePlanar::Create(tensor);
+       NVCV_ASSERT(tensorAccess);
+       NVCV_ASSERT(tensorAccess->sampleStride() <= TypeTraits<int>::max);
+       NVCV_ASSERT(tensorAccess->rowStride() <= TypeTraits<int>::max);
+       NVCV_ASSERT(tensorAccess->colStride() <= TypeTraits<int>::max);
+   
+       return Tensor4DWrap<T>(tensor.basePtr(), static_cast<int>(tensorAccess->sampleStride()),
+                              static_cast<int>(tensorAccess->rowStride()), static_cast<int>(tensorAccess->colStride()));
+   }
    
    } // namespace nvcv::cuda
    

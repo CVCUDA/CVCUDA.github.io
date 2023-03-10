@@ -11,7 +11,7 @@ Program Listing for File DataType.h
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -99,6 +99,14 @@ Program Listing for File DataType.h
    #define NVCV_DATA_TYPE_2F64 NVCV_DETAIL_MAKE_PIX_TYPE(FLOAT, X64_Y64)
    #define NVCV_DATA_TYPE_3F64 NVCV_DETAIL_MAKE_PIX_TYPE(FLOAT, X64_Y64_Z64)
    #define NVCV_DATA_TYPE_4F64 NVCV_DETAIL_MAKE_PIX_TYPE(FLOAT, X64_Y64_Z64_W64)
+   
+   #define NVCV_DATA_TYPE_C64  NVCV_DETAIL_MAKE_PIX_TYPE(COMPLEX, X64)
+   #define NVCV_DATA_TYPE_2C64 NVCV_DETAIL_MAKE_PIX_TYPE(COMPLEX, X64_Y64)
+   #define NVCV_DATA_TYPE_3C64 NVCV_DETAIL_MAKE_PIX_TYPE(COMPLEX, X64_Y64_Z64)
+   #define NVCV_DATA_TYPE_4C64 NVCV_DETAIL_MAKE_PIX_TYPE(COMPLEX, X64_Y64_Z64_W64)
+   
+   #define NVCV_DATA_TYPE_C128  NVCV_DETAIL_MAKE_PIX_TYPE(COMPLEX, X128)
+   #define NVCV_DATA_TYPE_2C128 NVCV_DETAIL_MAKE_PIX_TYPE(COMPLEX, X128_Y128)
    
    /* clang-format on */
    

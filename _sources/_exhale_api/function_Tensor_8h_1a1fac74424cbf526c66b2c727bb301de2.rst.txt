@@ -1,0 +1,14 @@
+.. _exhale_function_Tensor_8h_1a1fac74424cbf526c66b2c727bb301de2:
+
+Function nvcvTensorRefCount
+===========================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Tensor.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvTensorRefCount(NVCVTensorHandle, int *)
+   :project: cvcuda

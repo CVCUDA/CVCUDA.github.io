@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1a76fe262ac060fde6834dcbdd8eee172f:
+
+Template Function nvcv::HandleIncRef
+====================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_HandleWrapper.hpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::HandleIncRef(HandleType)
+   :project: cvcuda

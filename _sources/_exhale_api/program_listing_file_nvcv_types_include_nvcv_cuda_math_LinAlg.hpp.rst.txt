@@ -11,7 +11,7 @@ Program Listing for File LinAlg.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -45,8 +45,26 @@ Program Listing for File LinAlg.hpp
    class Vector
    {
    public:
-       // @brief Type of values in this vector.
+       // Type of values in this vector.
        using Type = T;
+   
+       constexpr __host__ __device__ void load(const T *inVector)
+       {
+   #pragma unroll
+           for (int i = 0; i < N; ++i)
+           {
+               m_data[i] = inVector[i];
+           }
+       }
+   
+       constexpr __host__ __device__ void store(T *outVector) const
+       {
+   #pragma unroll
+           for (int i = 0; i < N; ++i)
+           {
+               outVector[i] = m_data[i];
+           }
+       }
    
        constexpr __host__ __device__ int size() const
        {
@@ -111,7 +129,7 @@ Program Listing for File LinAlg.hpp
            return v;
        }
    
-       // @brief On-purpose public data to allow POD-class direct initialization
+       // On-purpose public data to allow POD-class direct initialization.
        T m_data[N] = {};
    };
    
@@ -119,8 +137,36 @@ Program Listing for File LinAlg.hpp
    class Matrix
    {
    public:
-       // @brief Type of values in this matrix.
+       // Type of values in this matrix.
        using Type = T;
+   
+       constexpr __host__ __device__ void load(const T *inFlattenMatrix)
+       {
+           int idx = 0;
+   #pragma unroll
+           for (int i = 0; i < M; ++i)
+           {
+   #pragma unroll
+               for (int j = 0; j < N; ++j)
+               {
+                   m_data[i][j] = inFlattenMatrix[idx++];
+               }
+           }
+       }
+   
+       constexpr __host__ __device__ void store(T *outFlattenMatrix) const
+       {
+           int idx = 0;
+   #pragma unroll
+           for (int i = 0; i < M; ++i)
+           {
+   #pragma unroll
+               for (int j = 0; j < N; ++j)
+               {
+                   outFlattenMatrix[idx++] = m_data[i][j];
+               }
+           }
+       }
    
        constexpr __host__ __device__ int rows() const
        {
@@ -213,7 +259,7 @@ Program Listing for File LinAlg.hpp
            return ret;
        }
    
-       // @brief On-purpose public data to allow POD-class direct initialization
+       // On-purpose public data to allow POD-class direct initialization.
        Vector<T, N> m_data[M];
    };
    

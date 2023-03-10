@@ -44,6 +44,8 @@ Classes
 
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01volatile_01T_01_4`
 
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1BorderVarShapeWrapImpl`
+
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1BorderWrapImpl`
 
 
@@ -56,6 +58,22 @@ Functions
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a019f39f100dff456e9c0fff35616b3d4`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a77fb282d7213fc18aa94133520a54ffb`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a0195b7b4228f1db3455d7772caeda5f3`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1afccff056feaa14f0ef46992324470f3c`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a0d1076206d24c08222c8303101b19fea`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a01a62edffbb1a297ec505df9f3ba0eb8`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a6163e54e3e60226fcbba04fdf9e110a3`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a8e5b8c7cfb0eacf6dd58ec1c1e79d817`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a3563a073e46531525566a37f301fd25b`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1afe81e31a850961d894453faa89dac2cb`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ad4528d1a1ffdd3feb63bed97a46fc594`
 
@@ -91,23 +109,9 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a794d34e9bd1f113fe0174c9e8bc1f417`
 
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a0195b7b4228f1db3455d7772caeda5f3`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1afccff056feaa14f0ef46992324470f3c`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a0d1076206d24c08222c8303101b19fea`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a01a62edffbb1a297ec505df9f3ba0eb8`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a6163e54e3e60226fcbba04fdf9e110a3`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a8e5b8c7cfb0eacf6dd58ec1c1e79d817`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a3563a073e46531525566a37f301fd25b`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1afe81e31a850961d894453faa89dac2cb`
-
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1af24aaf7073ffb36b126f8213d9ca80c6`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a75a681a5cb21e7f6c1916a491b70e7e4`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa5c474cce2ca9ae5d0474b5182dbefaa`
 
@@ -115,9 +119,9 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa4b0905609af92ac3bd853fa6a2734b1`
 
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1afe97122544011cfb5ed27cbd302cf3f2`
-
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1adea5e2344eaddbca4fcc171d31bb81b3`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1afe97122544011cfb5ed27cbd302cf3f2`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a372d2cf0d32d30e7f7eb87625d6183dd`
 
@@ -171,6 +175,16 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a71c804dbdb23c6b893b64f33f4876f7a`
 
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ad5d572cd177323e5d84e10e0d6b4538f`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa7e9ac7d531520ce365be7afffb638f5`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a24ab4fcce02ee8c5f31c69a4d9a1cbed`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a23240e4273eb85572d7513e3b6d7f7dd`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a07daf5dafb5c3c8202a6fbd24c35dd2d`
+
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a35962f8b8927594358f5d3d406aad974`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a852043a0b8ccf5d63a0e3d0c56cf114a`
@@ -185,15 +199,7 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a82bb71bc546592ba894dc371790049db`
 
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ad5d572cd177323e5d84e10e0d6b4538f`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa7e9ac7d531520ce365be7afffb638f5`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a24ab4fcce02ee8c5f31c69a4d9a1cbed`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a23240e4273eb85572d7513e3b6d7f7dd`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a07daf5dafb5c3c8202a6fbd24c35dd2d`
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1abc54c427721a92bd3ca2c18267277ed9`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa59834e88d7eabc68851e9eea25f239e`
 

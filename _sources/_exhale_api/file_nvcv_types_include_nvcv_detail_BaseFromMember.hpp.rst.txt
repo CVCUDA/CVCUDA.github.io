@@ -24,14 +24,6 @@ Includes
 
 
 
-Included By
------------
-
-
-- :ref:`file_nvcv_types_include_nvcv_TensorDataAccess.hpp`
-
-- :ref:`file_nvcv_types_include_nvcv_TensorShapeInfo.hpp`
-
 
 
 

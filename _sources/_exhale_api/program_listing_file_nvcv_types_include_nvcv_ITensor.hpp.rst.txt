@@ -11,7 +11,7 @@ Program Listing for File ITensor.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -57,15 +57,19 @@ Program Listing for File ITensor.hpp
        DataType     dtype() const;
        TensorLayout layout() const;
    
-       const ITensorData *exportData() const;
+       TensorData exportData() const;
+   
+       template<typename DerivedTensorData>
+       detail::Optional<DerivedTensorData> exportData() const
+       {
+           return exportData().cast<DerivedTensorData>();
+       }
    
        void  setUserPointer(void *ptr);
        void *userPointer() const;
    
    private:
        virtual NVCVTensorHandle doGetHandle() const = 0;
-   
-       mutable detail::Optional<TensorDataStridedCuda> m_cacheData;
    };
    
    } // namespace nvcv

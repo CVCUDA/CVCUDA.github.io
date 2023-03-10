@@ -11,7 +11,7 @@ Program Listing for File TensorLayoutInfo.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -38,7 +38,7 @@ Program Listing for File TensorLayoutInfo.hpp
    class TensorLayoutInfo
    {
    public:
-       static bool IsCompatible(const TensorLayout &layout)
+       static bool IsCompatible(const TensorLayout &)
        {
            return true;
        }
@@ -77,7 +77,7 @@ Program Listing for File TensorLayoutInfo.hpp
            m_cacheIsBatch = m_layout.rank() > 0 && m_layout[0] == LABEL_BATCH;
    
            // isImage ----------------
-           if (m_layout != TensorLayout::NONE)
+           if (m_layout != TENSOR_NONE)
            {
                m_cacheIsImage = m_layout.find(LABEL_WIDTH) >= 0;
            }
@@ -91,10 +91,10 @@ Program Listing for File TensorLayoutInfo.hpp
        }
    
    private:
-       const TensorLayout &m_layout;
-       bool                m_cacheIsBatch;
-       bool                m_cacheIsImage;
-       int                 m_cacheIdxSample;
+       TensorLayout m_layout;
+       bool         m_cacheIsBatch;
+       bool         m_cacheIsImage;
+       int          m_cacheIdxSample;
    };
    
    class TensorLayoutInfoImage : public TensorLayoutInfo
@@ -191,7 +191,7 @@ Program Listing for File TensorLayoutInfo.hpp
                                                      }
                                                  });
    
-           m_cacheIsRowMajor = layout.endsWith(TensorLayout::W) || layout.endsWith(TensorLayout::WC);
+           m_cacheIsRowMajor = layout.endsWith(TENSOR_W) || layout.endsWith(TENSOR_WC);
            m_cacheIdxChannel = layout.find(LABEL_CHANNEL);
            m_cacheIdxWidth   = layout.find(LABEL_WIDTH);
            m_cacheIdxHeight  = layout.find(LABEL_HEIGHT);
@@ -199,7 +199,7 @@ Program Listing for File TensorLayoutInfo.hpp
            m_cacheHasChannel = m_cacheIdxChannel >= 0;
    
            // isChannelFirst --------------
-           if (layout != TensorLayout::NONE)
+           if (layout != TENSOR_NONE)
            {
                if (this->isBatch())
                {
@@ -216,7 +216,7 @@ Program Listing for File TensorLayoutInfo.hpp
            }
    
            // isChannelLast --------------
-           if (layout != TensorLayout::NONE)
+           if (layout != TENSOR_NONE)
            {
                m_cacheIsChannelLast = layout[layout.rank() - 1] == LABEL_CHANNEL || !this->hasChannel();
            }

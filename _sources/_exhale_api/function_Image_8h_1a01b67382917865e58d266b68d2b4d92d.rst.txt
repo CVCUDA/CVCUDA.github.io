@@ -1,0 +1,14 @@
+.. _exhale_function_Image_8h_1a01b67382917865e58d266b68d2b4d92d:
+
+Function nvcvImageDecRef
+========================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_Image.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcvImageDecRef(NVCVImageHandle, int *)
+   :project: cvcuda

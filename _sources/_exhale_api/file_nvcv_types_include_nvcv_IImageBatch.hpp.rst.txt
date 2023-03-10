@@ -62,6 +62,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.hpp`

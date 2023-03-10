@@ -131,6 +131,10 @@ Defines
 -------
 
 
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga07b3066e709ba024f9811448c933d279`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga38fc441e6c9233531b05c7897b6a1438`
+
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga3f84a7869e4d035e4616478d53cc634d`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga4c1cb319761a905b2d1db02a10b6169a`
@@ -152,6 +156,10 @@ Defines
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1gad5a702335d4506ae13cd9cee4094e1b9`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1gad2c8b16cf2b3f67756962a0a9fd2cdac`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga54f1e2c59110445377f89f0984fd5572`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga323516c83bf14fb5119e23408086053d`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga9f556be7295af9dae078594611b19f1d`
 

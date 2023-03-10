@@ -28,6 +28,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpCustomCrop.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`
+
 
 
 

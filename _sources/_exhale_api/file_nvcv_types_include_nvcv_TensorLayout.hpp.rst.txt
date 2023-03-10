@@ -80,5 +80,3 @@ Defines
 
 - :ref:`exhale_define_TensorLayout_8hpp_1a54adaf0b2f39179aa2b25a93c90ea6d4`
 
-- :ref:`exhale_define_TensorLayout_8hpp_1a54adaf0b2f39179aa2b25a93c90ea6d4`
-

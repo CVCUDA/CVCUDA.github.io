@@ -12,7 +12,7 @@ Inheritance Relationships
 Base Type
 *********
 
-- ``public nvcv::IImageDataStridedCuda`` (:ref:`exhale_class_classnvcv_1_1IImageDataStridedCuda`)
+- ``public nvcv::ImageDataStrided`` (:ref:`exhale_class_classnvcv_1_1ImageDataStrided`)
 
 
 Class Documentation

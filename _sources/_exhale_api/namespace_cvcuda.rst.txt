@@ -40,6 +40,8 @@ Classes
 
 - :ref:`exhale_class_classcvcuda_1_1IOperator`
 
+- :ref:`exhale_class_classcvcuda_1_1JointBilateralFilter`
+
 - :ref:`exhale_class_classcvcuda_1_1Laplacian`
 
 - :ref:`exhale_class_classcvcuda_1_1MedianBlur`

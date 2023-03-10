@@ -11,7 +11,7 @@ Program Listing for File DataType.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -125,6 +125,14 @@ Program Listing for File DataType.hpp
    constexpr DataType TYPE_2F64{NVCV_DATA_TYPE_2F64};
    constexpr DataType TYPE_3F64{NVCV_DATA_TYPE_3F64};
    constexpr DataType TYPE_4F64{NVCV_DATA_TYPE_4F64};
+   
+   constexpr DataType TYPE_C64{NVCV_DATA_TYPE_C64};
+   constexpr DataType TYPE_2C64{NVCV_DATA_TYPE_2C64};
+   constexpr DataType TYPE_3C64{NVCV_DATA_TYPE_3C64};
+   constexpr DataType TYPE_4C64{NVCV_DATA_TYPE_4C64};
+   
+   constexpr DataType TYPE_C128{NVCV_DATA_TYPE_C128};
+   constexpr DataType TYPE_2C128{NVCV_DATA_TYPE_2C128};
    #endif
    
    inline DataType::DataType(DataKind dataKind, Packing packing)

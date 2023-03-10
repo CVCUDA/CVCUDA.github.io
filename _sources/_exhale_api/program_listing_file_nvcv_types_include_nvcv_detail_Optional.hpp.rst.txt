@@ -11,7 +11,7 @@ Program Listing for File Optional.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -36,6 +36,12 @@ Program Listing for File Optional.hpp
    #endif
    
    #include "InPlace.hpp"
+   
+   #include <cassert>
+   #include <cstddef> // for std::nullptr_t
+   #include <stdexcept>
+   #include <type_traits>
+   #include <utility> // for std::move, std::forward
    
    namespace nvcv { namespace detail {
    
@@ -317,13 +323,13 @@ Program Listing for File Optional.hpp
    }
    
    template<class T>
-   bool operator==(const Optional<T> &a, nullptr_t)
+   bool operator==(const Optional<T> &a, std::nullptr_t)
    {
        return !a;
    }
    
    template<class T>
-   bool operator==(nullptr_t, const Optional<T> &b)
+   bool operator==(std::nullptr_t, const Optional<T> &b)
    {
        return !b;
    }
@@ -347,13 +353,13 @@ Program Listing for File Optional.hpp
    }
    
    template<class T>
-   bool operator!=(const Optional<T> &a, nullptr_t)
+   bool operator!=(const Optional<T> &a, std::nullptr_t)
    {
        return !(a == nullptr);
    }
    
    template<class T>
-   bool operator!=(nullptr_t, const Optional<T> &b)
+   bool operator!=(std::nullptr_t, const Optional<T> &b)
    {
        return !(nullptr == b);
    }

@@ -95,7 +95,22 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_nvcv_types_include_nvcv_BorderType.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_BorderVarShapeWrap.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_nvcv_types_include_nvcv_cuda_BorderWrap.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_Callback.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -205,6 +220,11 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_nvcv_types_include_nvcv_cuda_FullTensorWrap.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_nvcv_types_include_nvcv_alloc_Fwd.h.rst
 
 .. toctree::
@@ -221,6 +241,11 @@ Files
    :maxdepth: 1
 
    file_nvcv_types_include_nvcv_Fwd.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_HandleWrapper.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -251,16 +276,6 @@ Files
    :maxdepth: 1
 
    file_nvcv_types_include_nvcv_detail_IImageBatchImpl.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_IImageData.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_detail_IImageDataImpl.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -306,6 +321,11 @@ Files
    :maxdepth: 1
 
    file_nvcv_types_include_nvcv_detail_ImageBatchImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_ImageBatchVarShapeWrap.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -361,16 +381,6 @@ Files
    :maxdepth: 1
 
    file_nvcv_types_include_nvcv_ITensor.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_ITensorData.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_detail_ITensorDataImpl.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -546,6 +556,16 @@ Files
    :maxdepth: 1
 
    file_cvcuda_include_cvcuda_OpGaussian.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpJointBilateralFilter.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpJointBilateralFilter.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -801,6 +821,11 @@ Files
    :maxdepth: 1
 
    file_nvcv_types_include_nvcv_cuda_TypeTraits.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_TypeTraits.hpp.rst
 
 .. toctree::
    :maxdepth: 1

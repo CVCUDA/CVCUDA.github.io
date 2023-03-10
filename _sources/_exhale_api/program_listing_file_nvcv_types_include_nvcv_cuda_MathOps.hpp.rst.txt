@@ -11,7 +11,7 @@ Program Listing for File MathOps.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -39,11 +39,11 @@ Program Listing for File MathOps.hpp
    
    // clang-format off
    
-   // @brief Metavariable to check if two types are compound and have the same number of components.
+   // Metavariable to check if two types are compound and have the same number of components.
    template<class T, class U, class = Require<HasTypeTraits<T, U>>>
    constexpr bool IsSameCompound = IsCompound<T> && TypeTraits<T>::components == TypeTraits<U>::components;
    
-   // @brief Metavariable to check that at least one type is of compound type out of two types.
+   // Metavariable to check that at least one type is of compound type out of two types.
    // If both are compound type, then it is checked that both have the same number of components.
    template<typename T, typename U, class = Require<HasTypeTraits<T, U>>>
    constexpr bool OneIsCompound =
@@ -51,16 +51,16 @@ Program Listing for File MathOps.hpp
        (TypeTraits<T>::components >= 1 && TypeTraits<U>::components == 0) ||
        IsSameCompound<T, U>;
    
-   // @brief Metavariable to check if a type is of integral type.
+   // Metavariable to check if a type is of integral type.
    template<typename T, class = Require<HasTypeTraits<T>>>
    constexpr bool IsIntegral = std::is_integral_v<typename TypeTraits<T>::base_type>;
    
-   // @brief Metavariable to require that at least one type is of compound type out of two integral types.
+   // Metavariable to require that at least one type is of compound type out of two integral types.
    // If both are compound type, then it is required that both have the same number of components.
    template<typename T, typename U, class = Require<HasTypeTraits<T, U>>>
    constexpr bool OneIsCompoundAndBothAreIntegral = OneIsCompound<T, U> && IsIntegral<T> && IsIntegral<U>;
    
-   // @brief Metavariable to require that a type is a CUDA compound of integral type.
+   // Metavariable to require that a type is a CUDA compound of integral type.
    template<typename T, class = Require<HasTypeTraits<T>>>
    constexpr bool IsIntegralCompound = IsIntegral<T> && IsCompound<T>;
    

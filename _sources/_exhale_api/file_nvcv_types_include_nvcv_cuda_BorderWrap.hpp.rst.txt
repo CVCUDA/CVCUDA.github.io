@@ -25,15 +25,27 @@ Includes
 --------
 
 
-- ``TensorWrap.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_TensorWrap.hpp`)
+- ``FullTensorWrap.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_FullTensorWrap.hpp`)
+
+- ``TensorWrap.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_FullTensorWrap.hpp`)
 
 - ``TypeTraits.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_TypeTraits.hpp`)
 
-- ``cvcuda/Types.h`` (:ref:`file_cvcuda_include_cvcuda_Types.h`)
+- ``nvcv/BorderType.h`` (:ref:`file_nvcv_types_include_nvcv_BorderType.h`)
 
-- ``nvcv/ITensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ITensorData.hpp`)
+- ``nvcv/TensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorData.hpp`)
+
+- ``nvcv/TensorDataAccess.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorDataAccess.hpp`)
+
+- ``util/Assert.h``
 
 
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_BorderVarShapeWrap.hpp`
 
 
 
@@ -57,7 +69,7 @@ Classes
 
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderWrap`
 
-- :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderWrap_3_01TensorWrapper_00_01NVCV__BORDER__CONSTANT_00_01ActiveDimensions_8_8_8_01_4`
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderWrap_3_01TW_00_01NVCV__BORDER__CONSTANT_00_01ActiveDimensions_8_8_8_01_4`
 
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1BorderWrapImpl`
 

@@ -20,9 +20,11 @@ Includes
 --------
 
 
-- ``ITensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ITensorData.hpp`)
+- ``TensorData.h`` (:ref:`file_nvcv_types_include_nvcv_TensorData.h`)
 
 - ``TensorShape.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorShape.hpp`)
+
+- ``detail/Optional.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_Optional.hpp`)
 
 - ``detail/TensorDataImpl.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_TensorDataImpl.hpp`)
 
@@ -34,9 +36,17 @@ Included By
 -----------
 
 
+- :ref:`file_nvcv_types_include_nvcv_cuda_BorderWrap.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_FullTensorWrap.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_TensorWrap.hpp`
+
 - :ref:`file_nvcv_types_include_nvcv_ITensor.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_Tensor.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_TensorDataAccess.hpp`
 
 
 
@@ -51,6 +61,10 @@ Namespaces
 Classes
 -------
 
+
+- :ref:`exhale_class_classnvcv_1_1TensorData`
+
+- :ref:`exhale_class_classnvcv_1_1TensorDataStrided`
 
 - :ref:`exhale_class_classnvcv_1_1TensorDataStridedCuda`
 

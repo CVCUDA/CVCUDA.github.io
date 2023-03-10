@@ -33,7 +33,7 @@ Includes
 
 - ``Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
 
-- ``TensorData.h`` (:ref:`file_nvcv_types_include_nvcv_ITensorData.hpp`)
+- ``TensorData.h`` (:ref:`file_nvcv_types_include_nvcv_TensorData.h`)
 
 - ``alloc/Allocator.h`` (:ref:`file_nvcv_types_include_nvcv_alloc_Allocator.h`)
 
@@ -79,6 +79,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.h`
@@ -121,7 +123,7 @@ Functions
 
 - :ref:`exhale_function_Tensor_8h_1a5acf9a9597f338616586b0ff95313650`
 
-- :ref:`exhale_function_Tensor_8h_1a7566c4fd3e555638c143b5114e4cbf4a`
+- :ref:`exhale_function_Tensor_8h_1a6eae10653ea0cfba27871bb61c16d59c`
 
 - :ref:`exhale_function_Tensor_8h_1ab79f56b786288a9c6d7b7d631c0093fa`
 
@@ -134,6 +136,10 @@ Functions
 - :ref:`exhale_function_Tensor_8h_1a908f3b700602efb2a4002fd56665ce98`
 
 - :ref:`exhale_function_Tensor_8h_1a315193911b87ab2bfa74148e38f74046`
+
+- :ref:`exhale_function_Tensor_8h_1ac837da5af3af9f710a6eda17a15348a0`
+
+- :ref:`exhale_function_Tensor_8h_1a1fac74424cbf526c66b2c727bb301de2`
 
 - :ref:`exhale_function_Tensor_8h_1a31e8a34db166b243b09870d413f6f50e`
 
