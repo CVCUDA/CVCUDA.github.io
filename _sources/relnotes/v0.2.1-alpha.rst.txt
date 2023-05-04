@@ -21,15 +21,15 @@ Alpha.1
 
 General
 -------
-- Added `DLPack <https://dmlc.github.io/dlpack/latest/>`_ interop support to Python
+- Added [DLPack](https://dmlc.github.io/dlpack/latest/) interop support to Python
 - Added CV-CUDA build package for various Python versions
-- Updated documentation to include `NVIDIA VPF <https://github.com/NVIDIA/VideoProcessingFramework>`_ update
-- Downgraded C++ version required from `20 <https://en.cppreference.com/w/cpp/compiler_support/20>`_ to `17 <https://en.cppreference.com/w/cpp/compiler_support/17>`_
-- Made public headers compatible with `C++11 <https://en.cppreference.com/w/cpp/compiler_support/11>`_
+- Updated documentation to include [NVIDIA VPF](https://github.com/NVIDIA/VideoProcessingFramework) update
+- Downgraded C++ version required from [20](https://en.cppreference.com/w/cpp/compiler_support/20) to [17](https://en.cppreference.com/w/cpp/compiler_support/17)
+- Made public headers compatible with [C++11](https://en.cppreference.com/w/cpp/compiler_support/11)
 - Changed default CUDA stream in Python to be 0
-- Removed library build dependency on `OpenSSL <https://www.openssl.org/>`_
+- Removed library build dependency on [OpenSSL](https://www.openssl.org/)
 - Relaxed `nvcv::Tensor` bit restrictions on strides
-- Updated Segmentation sample app with `NVIDIA VPF <https://github.com/NVIDIA/VideoProcessingFramework>`_ and Joint Bilateral Filter
+- Updated Segmentation sample app with [NVIDIA VPF](https://github.com/NVIDIA/VideoProcessingFramework) and Joint Bilateral Filter
 
 New Operators
 -------------
@@ -42,9 +42,9 @@ Improved Testing
 
 Bug Fixes
 ---------
-- Addressed `BUG #25 <https://github.com/CVCUDA/CV-CUDA/issues/25>`_ `TypeError: as_tensor(): incompatible function arguments. The following argument types are supported`
-- Addressed `BUG #26 <https://github.com/CVCUDA/CV-CUDA/issues/26>`_ `libdl-2.17_stub.so: file format not recognized; treating as linker script`
-- Addressed `BUG #28 <https://github.com/CVCUDA/CV-CUDA/issues/28>`_ `cannot find -lcvcuda`
+- [BUG #25 Addressed](https://github.com/CVCUDA/CV-CUDA/issues/25) `TypeError: as_tensor(): incompatible function arguments. The following argument types are supported`
+- [BUG #26 Addressed](https://github.com/CVCUDA/CV-CUDA/issues/26) `libdl-2.17_stub.so: file format not recognized; treating as linker script`
+- [BUG #28 Addressed](https://github.com/CVCUDA/CV-CUDA/issues/28) `cannot find -lcvcuda`
 - Fixed memory leak from exception thrown by constructor
 - Fixed CMake code generation for header compatibility tests
 - Fixed reformated from CHW to NHWC error

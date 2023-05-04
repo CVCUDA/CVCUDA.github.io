@@ -60,7 +60,7 @@ Program Listing for File ImageDataImpl.hpp
    }
    
    template<typename Derived>
-   inline detail::Optional<Derived> ImageData::cast() const
+   inline Optional<Derived> ImageData::cast() const
    {
        static_assert(std::is_base_of<ImageData, Derived>::value, "Cannot cast ImageData to an unrelated type");
    
@@ -73,7 +73,7 @@ Program Listing for File ImageDataImpl.hpp
        }
        else
        {
-           return detail::NullOpt;
+           return NullOpt;
        }
    }
    

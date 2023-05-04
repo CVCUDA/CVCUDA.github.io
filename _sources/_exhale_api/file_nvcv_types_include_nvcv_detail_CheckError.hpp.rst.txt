@@ -32,10 +32,6 @@ Included By
 -----------
 
 
-- :ref:`file_nvcv_types_include_nvcv_alloc_AllocatorWrapHandle.hpp`
-
-- :ref:`file_nvcv_types_include_nvcv_alloc_CustomAllocator.hpp`
-
 - :ref:`file_nvcv_types_include_nvcv_alloc_Requirements.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_ColorSpec.hpp`

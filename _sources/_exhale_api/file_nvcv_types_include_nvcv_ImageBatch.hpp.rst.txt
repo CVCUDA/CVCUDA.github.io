@@ -24,7 +24,7 @@ Includes
 
 - ``IImageBatch.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageBatch.hpp`)
 
-- ``ImageBatchData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`)
+- ``ImageBatchData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageBatchData.hpp`)
 
 - ``detail/ImageBatchImpl.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_ImageBatchImpl.hpp`)
 

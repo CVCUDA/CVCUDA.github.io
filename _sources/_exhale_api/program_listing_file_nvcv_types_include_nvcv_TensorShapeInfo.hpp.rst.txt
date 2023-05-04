@@ -122,7 +122,7 @@ Program Listing for File TensorShapeInfo.hpp
            return true;
        }
    
-       static detail::Optional<TensorShapeInfo> Create(const TensorShape &tshape)
+       static Optional<TensorShapeInfo> Create(const TensorShape &tshape)
        {
            return TensorShapeInfo(tshape);
        }
@@ -133,7 +133,7 @@ Program Listing for File TensorShapeInfo.hpp
        {
        }
    
-       detail::Optional<TensorLayoutInfo> m_infoLayout;
+       Optional<TensorLayoutInfo> m_infoLayout;
    };
    
    class TensorShapeInfoImage : public detail::TensorShapeInfoImpl<TensorLayoutInfoImage>
@@ -146,7 +146,7 @@ Program Listing for File TensorShapeInfo.hpp
            return TensorShapeInfo::IsCompatible(tshape) && TensorLayoutInfo::IsCompatible(tshape.layout());
        }
    
-       static detail::Optional<TensorShapeInfoImage> Create(const TensorShape &tshape)
+       static Optional<TensorShapeInfoImage> Create(const TensorShape &tshape)
        {
            if (IsCompatible(tshape))
            {
@@ -154,7 +154,7 @@ Program Listing for File TensorShapeInfo.hpp
            }
            else
            {
-               return detail::NullOpt;
+               return NullOpt;
            }
        }
    
@@ -254,7 +254,7 @@ Program Listing for File TensorShapeInfo.hpp
            return false;
        }
    
-       static detail::Optional<TensorShapeInfoImagePlanar> Create(const TensorShape &tshape)
+       static Optional<TensorShapeInfoImagePlanar> Create(const TensorShape &tshape)
        {
            if (IsCompatible(tshape))
            {
@@ -262,7 +262,7 @@ Program Listing for File TensorShapeInfo.hpp
            }
            else
            {
-               return detail::NullOpt;
+               return NullOpt;
            }
        }
    

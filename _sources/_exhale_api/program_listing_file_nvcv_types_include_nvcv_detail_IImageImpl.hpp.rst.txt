@@ -81,7 +81,7 @@ Program Listing for File IImageImpl.hpp
    }
    
    template<typename DATA>
-   inline detail::Optional<DATA> IImage::exportData() const
+   inline Optional<DATA> IImage::exportData() const
    {
        return exportData().cast<DATA>();
    }

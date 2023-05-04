@@ -47,17 +47,23 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_IImage.hpp`
 
-- :ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`
-
 - :ref:`file_nvcv_types_include_nvcv_Image.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_ImageBatchData.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_ImageData.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_Tensor.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpAdaptiveThreshold.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpBndBox.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpBoxBlur.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpCenterCrop.hpp`
 
@@ -66,6 +72,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpConvertTo.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpCopyMakeBorder.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCropFlipNormalizeReformat.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpCustomCrop.hpp`
 
@@ -93,9 +101,13 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpReformat.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpRemap.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpResize.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpRotate.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpThreshold.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.hpp`
 

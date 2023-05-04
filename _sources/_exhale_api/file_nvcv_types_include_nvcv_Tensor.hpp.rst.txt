@@ -30,7 +30,7 @@ Includes
 
 - ``TensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorData.hpp`)
 
-- ``alloc/IAllocator.hpp`` (:ref:`file_nvcv_types_include_nvcv_alloc_IAllocator.hpp`)
+- ``alloc/Allocator.hpp`` (:ref:`file_nvcv_types_include_nvcv_alloc_Allocator.hpp`)
 
 - ``detail/Callback.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_Callback.hpp`)
 

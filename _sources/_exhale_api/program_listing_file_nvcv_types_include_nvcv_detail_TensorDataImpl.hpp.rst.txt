@@ -103,7 +103,7 @@ Program Listing for File TensorDataImpl.hpp
    }
    
    template<typename Derived>
-   inline detail::Optional<Derived> TensorData::cast() const
+   inline Optional<Derived> TensorData::cast() const
    {
        static_assert(std::is_base_of<TensorData, Derived>::value, "Cannot cast TensorData to an unrelated type");
    
@@ -115,7 +115,7 @@ Program Listing for File TensorDataImpl.hpp
        }
        else
        {
-           return detail::NullOpt;
+           return NullOpt;
        }
    }
    

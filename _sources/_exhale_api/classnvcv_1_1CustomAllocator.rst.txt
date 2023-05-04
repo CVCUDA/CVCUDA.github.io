@@ -3,17 +3,7 @@
 Template Class CustomAllocator
 ==============================
 
-- Defined in :ref:`file_nvcv_types_include_nvcv_alloc_CustomAllocator.hpp`
-
-
-Nested Relationships
---------------------
-
-
-Nested Types
-************
-
-- :ref:`exhale_struct_structnvcv_1_1CustomAllocator_1_1FindResAlloc`
+- Defined in :ref:`file_nvcv_types_include_nvcv_alloc_Allocator.hpp`
 
 
 Inheritance Relationships
@@ -22,7 +12,7 @@ Inheritance Relationships
 Base Type
 *********
 
-- ``public nvcv::IAllocator`` (:ref:`exhale_class_classnvcv_1_1IAllocator`)
+- ``public nvcv::Allocator`` (:ref:`exhale_class_classnvcv_1_1Allocator`)
 
 
 Class Documentation

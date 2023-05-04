@@ -85,7 +85,12 @@ Files
 .. toctree::
    :maxdepth: 1
 
-   file_nvcv_types_include_nvcv_alloc_AllocatorWrapHandle.hpp.rst
+   file_nvcv_types_include_nvcv_alloc_Allocator.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_alloc_AllocatorImpl.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -160,17 +165,12 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_nvcv_types_include_nvcv_CoreResource.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_nvcv_types_include_nvcv_detail_CudaFwd.h.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_alloc_CustomAllocator.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_alloc_CustomResourceAllocator.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -250,27 +250,12 @@ Files
 .. toctree::
    :maxdepth: 1
 
-   file_nvcv_types_include_nvcv_alloc_IAllocator.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
    file_nvcv_types_include_nvcv_IImage.hpp.rst
 
 .. toctree::
    :maxdepth: 1
 
    file_nvcv_types_include_nvcv_IImageBatch.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_IImageBatchData.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_detail_IImageBatchDataImpl.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -370,12 +355,17 @@ Files
 .. toctree::
    :maxdepth: 1
 
-   file_cvcuda_include_cvcuda_IOperator.hpp.rst
+   file_nvcv_types_include_nvcv_cuda_InterpolationVarShapeWrap.hpp.rst
 
 .. toctree::
    :maxdepth: 1
 
-   file_nvcv_types_include_nvcv_alloc_IResourceAllocator.hpp.rst
+   file_nvcv_types_include_nvcv_cuda_InterpolationWrap.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_IOperator.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -415,6 +405,16 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpAdaptiveThreshold.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpAdaptiveThreshold.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpAverageBlur.h.rst
 
 .. toctree::
@@ -431,6 +431,26 @@ Files
    :maxdepth: 1
 
    file_cvcuda_include_cvcuda_OpBilateralFilter.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpBndBox.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpBndBox.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpBoxBlur.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpBoxBlur.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -491,6 +511,16 @@ Files
    :maxdepth: 1
 
    file_cvcuda_include_cvcuda_OpCopyMakeBorder.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpCropFlipNormalizeReformat.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpCropFlipNormalizeReformat.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -600,6 +630,16 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpNonMaximumSuppression.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpNonMaximumSuppression.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpNormalize.h.rst
 
 .. toctree::
@@ -640,6 +680,16 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpRemap.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpRemap.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpResize.h.rst
 
 .. toctree::
@@ -660,7 +710,17 @@ Files
 .. toctree::
    :maxdepth: 1
 
-   file_nvcv_types_include_nvcv_detail_Optional.hpp.rst
+   file_cvcuda_include_cvcuda_OpThreshold.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpThreshold.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Optional.hpp.rst
 
 .. toctree::
    :maxdepth: 1

@@ -42,5 +42,5 @@ Typedefs
 
 - :ref:`exhale_typedef_alloc_2Fwd_8h_1a57b8b22fc98e640fdade0590321e34a8`
 
-- :ref:`exhale_typedef_alloc_2Fwd_8h_1a3d0898d5a5354d8b5027ce3f907f4332`
+- :ref:`exhale_typedef_alloc_2Fwd_8h_1a4d54055acd355354e61f71441fbdfbb0`
 

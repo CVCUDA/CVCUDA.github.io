@@ -51,9 +51,15 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_ITensor.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpAdaptiveThreshold.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpBndBox.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpBoxBlur.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpCenterCrop.h`
 
@@ -66,6 +72,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpConvertTo.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpCopyMakeBorder.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCropFlipNormalizeReformat.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpCustomCrop.h`
 
@@ -87,6 +95,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpMorphology.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpNonMaximumSuppression.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpNormalize.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
@@ -95,9 +105,13 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpReformat.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpRemap.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpResize.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpThreshold.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.h`
 

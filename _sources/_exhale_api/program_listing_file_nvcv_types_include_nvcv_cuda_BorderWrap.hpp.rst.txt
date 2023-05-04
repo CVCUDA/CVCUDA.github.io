@@ -132,7 +132,10 @@ Program Listing for File BorderWrap.hpp
                int j = 0;
                for (int i = 0; i < kNumDimensions; ++i)
                {
-                   from[i] = kActiveDimensions[i] ? j++ : -1;
+                   if (kActiveDimensions[i])
+                   {
+                       from[i] = j++;
+                   }
                }
            }
        };
@@ -341,7 +344,7 @@ Program Listing for File BorderWrap.hpp
    
            constexpr auto Is = std::make_index_sequence<N>{};
    
-           ValueType *p = nullptr;
+           const ValueType *p = nullptr;
    
            if constexpr (N == 1)
            {
@@ -396,7 +399,7 @@ Program Listing for File BorderWrap.hpp
    };
    
    template<typename T, NVCVBorderType B, class = Require<HasTypeTraits<T>>>
-   __host__ auto CreateBorderWrapNHW(const TensorDataStridedCuda &tensor, const T &borderValue)
+   __host__ auto CreateBorderWrapNHW(const TensorDataStridedCuda &tensor, T borderValue = {})
    {
        auto tensorAccess = TensorDataAccessStridedImagePlanar::Create(tensor);
        NVCV_ASSERT(tensorAccess);
@@ -405,7 +408,21 @@ Program Listing for File BorderWrap.hpp
    
        auto tensorWrap = CreateTensorWrapNHW<T>(tensor);
    
-       return BorderWrap<Tensor3DWrap<T>, B, false, true, true>(
+       return BorderWrap<decltype(tensorWrap), B, false, true, true>(
+           tensorWrap, borderValue, static_cast<int>(tensorAccess->numRows()), static_cast<int>(tensorAccess->numCols()));
+   }
+   
+   template<typename T, NVCVBorderType B, class = Require<HasTypeTraits<T>>>
+   __host__ auto CreateBorderWrapNHWC(const TensorDataStridedCuda &tensor, T borderValue = {})
+   {
+       auto tensorAccess = TensorDataAccessStridedImagePlanar::Create(tensor);
+       NVCV_ASSERT(tensorAccess);
+       NVCV_ASSERT(tensorAccess->numRows() <= TypeTraits<int>::max);
+       NVCV_ASSERT(tensorAccess->numCols() <= TypeTraits<int>::max);
+   
+       auto tensorWrap = CreateTensorWrapNHWC<T>(tensor);
+   
+       return BorderWrap<decltype(tensorWrap), B, false, true, true, false>(
            tensorWrap, borderValue, static_cast<int>(tensorAccess->numRows()), static_cast<int>(tensorAccess->numCols()));
    }
    

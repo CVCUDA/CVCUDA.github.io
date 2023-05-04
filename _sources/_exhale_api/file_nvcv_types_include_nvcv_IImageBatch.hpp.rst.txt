@@ -24,11 +24,11 @@ Includes
 
 - ``ImageBatch.h`` (:ref:`file_nvcv_types_include_nvcv_IImageBatch.hpp`)
 
-- ``ImageBatchData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`)
+- ``ImageBatchData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageBatchData.hpp`)
+
+- ``Optional.hpp`` (:ref:`file_nvcv_types_include_nvcv_Optional.hpp`)
 
 - ``detail/IImageBatchImpl.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_IImageBatchImpl.hpp`)
-
-- ``detail/Optional.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_Optional.hpp`)
 
 - ``iterator``
 
@@ -39,6 +39,8 @@ Included By
 
 
 - :ref:`file_nvcv_types_include_nvcv_ImageBatch.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpAdaptiveThreshold.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.hpp`
 
@@ -51,6 +53,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpConv2D.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpCopyMakeBorder.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCropFlipNormalizeReformat.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpCvtColor.hpp`
 
@@ -76,9 +80,13 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpPillowResize.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpRemap.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpResize.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpRotate.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpThreshold.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.hpp`
 

@@ -1,0 +1,58 @@
+
+.. _file_cvcuda_include_cvcuda_OpBoxBlur.h:
+
+File OpBoxBlur.h
+================
+
+
+Defines types and functions to handle the BoxBlur operation. 
+
+
+Definition (``cvcuda/include/cvcuda/OpBoxBlur.h``)
+--------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_cvcuda_include_cvcuda_OpBoxBlur.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``Operator.h`` (:ref:`file_cvcuda_include_cvcuda_IOperator.hpp`)
+
+- ``Types.h`` (:ref:`file_cvcuda_include_cvcuda_Types.h`)
+
+- ``cuda_runtime.h``
+
+- ``detail/Export.h`` (:ref:`file_cvcuda_include_cvcuda_detail_Export.h`)
+
+- ``nvcv/Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
+
+- ``nvcv/Tensor.h`` (:ref:`file_nvcv_types_include_nvcv_Tensor.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_cvcuda_include_cvcuda_OpBoxBlur.hpp`
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM____BOX__BLUR_1ga96700cac7c23ddb557e5a6a56411925b`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM____BOX__BLUR_1gaa77b6973d1c1cb75ce4295343c17d1b4`
+

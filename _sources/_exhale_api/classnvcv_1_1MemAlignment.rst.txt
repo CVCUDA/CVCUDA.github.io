@@ -3,7 +3,7 @@
 Class MemAlignment
 ==================
 
-- Defined in :ref:`file_nvcv_types_include_nvcv_alloc_IAllocator.hpp`
+- Defined in :ref:`file_nvcv_types_include_nvcv_alloc_Allocator.hpp`
 
 
 Class Documentation

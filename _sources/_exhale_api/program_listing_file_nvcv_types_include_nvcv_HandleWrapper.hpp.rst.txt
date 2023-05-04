@@ -251,13 +251,14 @@ Program Listing for File HandleWrapper.hpp
            std::swap(m_handle, other.m_handle);
        }
    
-       void reset(HandleType &&handle = HandleOps::Null())
+       int reset(HandleType &&handle = HandleOps::Null())
        {
            auto old = m_handle;
            m_handle = std::move(handle);
            handle   = HandleOps::Null();
            if (!HandleOps::IsNull(old))
-               HandleOps::DecRef(old);
+               return HandleOps::DecRef(old);
+           return 0;
        }
    
        NVCV_NODISCARD HandleType release() noexcept

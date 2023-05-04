@@ -23,9 +23,11 @@ Classes
 
 - :ref:`exhale_struct_structnvcv_1_1Callback_3_01Ret_07Args_8_8_8_08_00_01CRet_07CtxArg_00_01CArgs_8_8_8_08_00_01Transb7b914e11bb6d38fbd5e59f4add41c3d`
 
-- :ref:`exhale_struct_structnvcv_1_1CustomAllocator_1_1FindResAlloc`
+- :ref:`exhale_struct_structnvcv_1_1CustomMemAllocator_1_1has__trivial__copy__and__destruction`
 
 - :ref:`exhale_struct_structnvcv_1_1Exception_1_1InternalCtorTag`
+
+- :ref:`exhale_struct_structnvcv_1_1NullOptT`
 
 - :ref:`exhale_struct_structnvcv_1_1PackingParams`
 
@@ -35,51 +37,47 @@ Classes
 
 - :ref:`exhale_struct_structnvcv_1_1TranslateTensorDataCleanup`
 
+- :ref:`exhale_class_classnvcv_1_1Allocator`
+
 - :ref:`exhale_class_classnvcv_1_1Callback`
 
 - :ref:`exhale_class_classnvcv_1_1Callback_3_01Ret_07Args_8_8_8_08_00_01CRet_07CtxArg_00_01CArgs_8_8_8_08_00_01TranslateCall_00_01SingleUse_01_4`
 
 - :ref:`exhale_class_classnvcv_1_1ColorSpec`
 
+- :ref:`exhale_class_classnvcv_1_1CoreResource`
+
+- :ref:`exhale_class_classnvcv_1_1CudaMemAllocator`
+
 - :ref:`exhale_class_classnvcv_1_1CustomAllocator`
 
-- :ref:`exhale_class_classnvcv_1_1CustomCudaMemAllocator`
-
-- :ref:`exhale_class_classnvcv_1_1CustomHostMemAllocator`
-
-- :ref:`exhale_class_classnvcv_1_1CustomHostPinnedMemAllocator`
+- :ref:`exhale_class_classnvcv_1_1CustomMemAllocator`
 
 - :ref:`exhale_class_classnvcv_1_1DataType`
 
 - :ref:`exhale_class_classnvcv_1_1Exception`
 
-- :ref:`exhale_class_classnvcv_1_1IAllocator`
+- :ref:`exhale_class_classnvcv_1_1HostMemAllocator`
 
-- :ref:`exhale_class_classnvcv_1_1ICudaMemAllocator`
-
-- :ref:`exhale_class_classnvcv_1_1IHostMemAllocator`
-
-- :ref:`exhale_class_classnvcv_1_1IHostPinnedMemAllocator`
+- :ref:`exhale_class_classnvcv_1_1HostPinnedMemAllocator`
 
 - :ref:`exhale_class_classnvcv_1_1IImage`
 
 - :ref:`exhale_class_classnvcv_1_1IImageBatch`
 
-- :ref:`exhale_class_classnvcv_1_1IImageBatchData`
-
 - :ref:`exhale_class_classnvcv_1_1IImageBatchVarShape`
 
 - :ref:`exhale_class_classnvcv_1_1IImageBatchVarShape_1_1Iterator`
 
-- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShapeData`
-
-- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShapeDataStrided`
-
-- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShapeDataStridedCuda`
-
 - :ref:`exhale_class_classnvcv_1_1Image`
 
+- :ref:`exhale_class_classnvcv_1_1ImageBatchData`
+
 - :ref:`exhale_class_classnvcv_1_1ImageBatchVarShape`
+
+- :ref:`exhale_class_classnvcv_1_1ImageBatchVarShapeData`
+
+- :ref:`exhale_class_classnvcv_1_1ImageBatchVarShapeDataStrided`
 
 - :ref:`exhale_class_classnvcv_1_1ImageBatchVarShapeDataStridedCuda`
 
@@ -97,19 +95,21 @@ Classes
 
 - :ref:`exhale_class_classnvcv_1_1ImageWrapData`
 
-- :ref:`exhale_class_classnvcv_1_1IMemAllocator`
-
-- :ref:`exhale_class_classnvcv_1_1IResourceAllocator`
-
 - :ref:`exhale_class_classnvcv_1_1ITensor`
 
 - :ref:`exhale_class_classnvcv_1_1MemAlignment`
+
+- :ref:`exhale_class_classnvcv_1_1MemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1Optional`
 
 - :ref:`exhale_class_classnvcv_1_1Requirements`
 
 - :ref:`exhale_class_classnvcv_1_1Requirements_1_1ConstMemory`
 
 - :ref:`exhale_class_classnvcv_1_1Requirements_1_1Memory`
+
+- :ref:`exhale_class_classnvcv_1_1ResourceAllocator`
 
 - :ref:`exhale_class_classnvcv_1_1Shape`
 
@@ -197,7 +197,7 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1a282132e4ccf00038c66957cf0478ed58`
 
-- :ref:`exhale_function_namespacenvcv_1a7e4704c7af51acdb3c84f4575387f320`
+- :ref:`exhale_function_namespacenvcv_1a192c7772dcea1bbf0078b7ecc16d64cc`
 
 - :ref:`exhale_function_namespacenvcv_1a936bfff28e431091a2991b2b4c86b6e6`
 
@@ -246,6 +246,18 @@ Functions
 - :ref:`exhale_function_namespacenvcv_1a5cd83a06033da6d9632f20e1485a8f20`
 
 - :ref:`exhale_function_namespacenvcv_1a988b6827a1d0fb1c1e128df2199335f9`
+
+- :ref:`exhale_function_namespacenvcv_1a2f6215a7a3da10ecf7d4d6acb591ec7f`
+
+- :ref:`exhale_function_namespacenvcv_1adfe7fb628d5bf8f0cbf69c6caeb85f03`
+
+- :ref:`exhale_function_namespacenvcv_1a269a3665d6ab14883b57b88b21a29686`
+
+- :ref:`exhale_function_namespacenvcv_1a0b4dccf734499286c5fc4726de590230`
+
+- :ref:`exhale_function_namespacenvcv_1a1cd9811228e11e3c813e8530b09f07c8`
+
+- :ref:`exhale_function_namespacenvcv_1a7287be07a21b89f9f8aeadd615ebff80`
 
 - :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1gab28f6f8bfbc0ce09032f0d9068056e7c`
 
@@ -301,6 +313,20 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1aec5b13c9a9a6faca09598d4865e7c450`
 
+- :ref:`exhale_function_namespacenvcv_1a85671fb4daf54e513f458b2407fbd747`
+
+- :ref:`exhale_function_namespacenvcv_1a9f318d3a6b6dadad814dc83955bdbee5`
+
+- :ref:`exhale_function_namespacenvcv_1a52dd15b455367113c6d9bcc43a891bcf`
+
+- :ref:`exhale_function_namespacenvcv_1a67695108a207a492a57364b46627ba16`
+
+- :ref:`exhale_function_namespacenvcv_1a7208e3883303d1be005460cd9582dc2b`
+
+- :ref:`exhale_function_namespacenvcv_1a741364304ede5673e941b78c6c6c289c`
+
+- :ref:`exhale_function_namespacenvcv_1aa8597b738290ef0ba0c6beafe6dc0c78`
+
 - :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1ga14cffef3be0413a40be154887198651d`
 
 - :ref:`exhale_function_namespacenvcv_1a115831c728891c3d1ed3d3c322a57454`
@@ -320,9 +346,13 @@ Typedefs
 --------
 
 
-- :ref:`exhale_typedef_namespacenvcv_1ab6705fed8ba1b73ae791063afc11c848`
-
 - :ref:`exhale_typedef_namespacenvcv_1ac45b2c0b49b2d190372eb764ae761f09`
+
+- :ref:`exhale_typedef_namespacenvcv_1a5470a545cf24011baa4304acf9543d36`
+
+- :ref:`exhale_typedef_namespacenvcv_1a2a991a8a3f4e1cfa288e37a705cc3058`
+
+- :ref:`exhale_typedef_namespacenvcv_1af77f93ef256b7bca7b5ac04cf0b2351b`
 
 - :ref:`exhale_typedef_namespacenvcv_1aad6d953ca608451d5fd50ab598abffcc`
 
@@ -345,3 +375,10 @@ Typedefs
 - :ref:`exhale_typedef_namespacenvcv_1adaec8087c883ab0d144f9ef666ceded6`
 
 - :ref:`exhale_typedef_namespacenvcv_1a861a2ddac3078fe50b38330cf9899ea6`
+
+
+Variables
+---------
+
+
+- :ref:`exhale_variable_namespacenvcv_1ab067f036d5d745d9807fa4c1861148f4`

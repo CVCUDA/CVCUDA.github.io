@@ -56,9 +56,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITM__BILATERAL__FILTER_1ga1f14a2b0fbe60929e77f38d1b5422268`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__BILATERAL__FILTER_1ga1f14a2b0fbe60929e77f38d1b5422268`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITM__BILATERAL__FILTER_1ga70a558206e82bdb1ff839193a1730cd1`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__BILATERAL__FILTER_1ga70a558206e82bdb1ff839193a1730cd1`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITM__BILATERAL__FILTER_1ga87b52be1bf5e3b0896f5903d2907450a`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__BILATERAL__FILTER_1ga87b52be1bf5e3b0896f5903d2907450a`
 

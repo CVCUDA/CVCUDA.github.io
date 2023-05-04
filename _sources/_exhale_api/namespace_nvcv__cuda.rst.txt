@@ -23,6 +23,10 @@ Classes
 
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderVarShapeWrap_3_01T_00_01NVCV__BORDER__CONSTANT_01_4`
 
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderVarShapeWrapNHWC`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderVarShapeWrapNHWC_3_01T_00_01NVCV__BORDER__CONSTANT_01_4`
+
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderWrap`
 
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderWrap_3_01TW_00_01NVCV__BORDER__CONSTANT_00_01ActiveDimensions_8_8_8_01_4`
@@ -37,9 +41,36 @@ Classes
 
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1ImageBatchVarShapeWrapNHWC`
 
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1InterpolationVarShapeWrap`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1InterpolationVarShapeWrap_3_01T_00_01B_00_01NVCV__INTERP__AREA_01_4`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1InterpolationVarShapeWrap_3_01T_00_01B_00_01NVCV__INTERP__CUBIC_01_4`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1InterpolationVarShapeWrap_3_01T_00_01B_00_01NVCV__INTERP__LINEAR_01_4`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1InterpolationVarShapeWrap_3_01T_00_01B_00_01NVCV__INTERP__NEAREST_01_4`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1InterpolationWrap`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1InterpolationWrap_3_01BW_00_01NVCV__INTERP__AREA_01_4`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1InterpolationWrap_3_01BW_00_01NVCV__INTERP__CUBIC_01_4`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1InterpolationWrap_3_01BW_00_01NVCV__INTERP__LINEAR_01_4`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1InterpolationWrap_3_01BW_00_01NVCV__INTERP__NEAREST_01_4`
+
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1TensorWrap`
 
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1TensorWrap_3_01const_01T_00_01Strides_8_8_8_01_4`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga9b65bc825ea72a610532546ab60d5d19`
 
 
 Functions
@@ -50,7 +81,13 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga3eb1210248838710c8e3f61ef6f1d82e`
 
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1a5611507770bfac407b6ae9766e993f13`
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1aecbda27da188958e9f9f36f6ba41baa8`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1a2251dd9fbd4c7c2e2ea8781814da53f4`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1a83f730648cc1f3c31c787981323a52e7`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1a75007ace64bc83043cb49b9789f149c1`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1a04a88fb7885934b7b7c9341061937994`
 
@@ -60,7 +97,11 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1gad21f9a695a73c8f814a7e2bcdd42a05d`
 
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__INTERPOLATION_1ga89954a7b5f3b9a956b95df14ae886479`
+
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__TYPETRAITS_1gab9dccb8d8c16c2203fbe72577e8c3c7a`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__INTERPOLATION_1gac7bbc7eb5292ee03c820693abebbe0c7`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__BORDER_1gaf8511642e2a487e42a79470e7bf0f6e8`
 
@@ -76,9 +117,13 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__RANGECAST_1ga3c70f4a4c5508987ad2acec5a6b602ca`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1gaebe969bdebffdce996456830b10be3c2`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga402b86ab1e88e9e05e8ce6c91b20d9cd`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga54088ce520d5783168ea54eda027d13f`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga9a680f15dae1e68d48d46e0fbb87f586`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga6e2b7a07ea5f5abebe26db182eb7f3dd`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1gae536b61d72b9131123237c0f01736243`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__SATURATECAST_1ga4acebb213025a928fb944ce6726f6874`
 

@@ -82,6 +82,8 @@ Included By
 -----------
 
 
+- :ref:`file_nvcv_types_include_nvcv_alloc_Allocator.hpp`
+
 - :ref:`file_nvcv_types_include_nvcv_Image.h`
 
 - :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
@@ -95,9 +97,9 @@ Classes
 -------
 
 
-- :ref:`exhale_struct_structNVCVCustomAllocatorRec`
-
 - :ref:`exhale_struct_structNVCVCustomMemAllocatorRec`
+
+- :ref:`exhale_struct_structNVCVResourceAllocatorRec`
 
 
 Enums
@@ -117,7 +119,7 @@ Functions
 
 - :ref:`exhale_function_Allocator_8h_1a7fb3fb5c8de18f06bd093a3626d3404c`
 
-- :ref:`exhale_function_Allocator_8h_1a6ef1257d16fbcd571d5916aecfe1b09f`
+- :ref:`exhale_function_Allocator_8h_1a634ca901b949df0a50ddd34da67f9a12`
 
 - :ref:`exhale_function_Allocator_8h_1a816dd205d6941468375ee0b6fb40e15a`
 
@@ -126,6 +128,8 @@ Functions
 - :ref:`exhale_function_Allocator_8h_1a3ca86a86f4aa1d2dbc9c7602910cfa9b`
 
 - :ref:`exhale_function_Allocator_8h_1ac7b4d988f82d8d97c1f35c99b53ef25a`
+
+- :ref:`exhale_function_Allocator_8h_1abe4a2db57717d469ce6b086233a3fb47`
 
 - :ref:`exhale_function_Allocator_8h_1ad14d45cbf5851e146d0b0bd137cb28e5`
 
@@ -149,8 +153,6 @@ Typedefs
 
 - :ref:`exhale_typedef_Allocator_8h_1a57b8b22fc98e640fdade0590321e34a8`
 
-- :ref:`exhale_typedef_Allocator_8h_1a3d0898d5a5354d8b5027ce3f907f4332`
-
 - :ref:`exhale_typedef_Allocator_8h_1a5d49da625353a3eabdba893c7f38e0da`
 
 - :ref:`exhale_typedef_Allocator_8h_1a3298d0fd002d2864d7e23c4d2e40f0b9`
@@ -158,6 +160,10 @@ Typedefs
 - :ref:`exhale_typedef_Allocator_8h_1aa9957db3c6333d59e2c6fe7213e6bec7`
 
 - :ref:`exhale_typedef_Allocator_8h_1a8f735ce55e166fc54a6fef6fd0843636`
+
+- :ref:`exhale_typedef_Allocator_8h_1a4d54055acd355354e61f71441fbdfbb0`
+
+- :ref:`exhale_typedef_Allocator_8h_1a6c70c60d21855ef2b1f35a487858f519`
 
 
 Unions

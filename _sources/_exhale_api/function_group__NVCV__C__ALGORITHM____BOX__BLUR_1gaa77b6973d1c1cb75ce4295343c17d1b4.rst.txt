@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM____BOX__BLUR_1gaa77b6973d1c1cb75ce4295343c17d1b4:
+
+Function cvcudaBoxBlurSubmit
+============================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpBoxBlur.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaBoxBlurSubmit(NVCVOperatorHandle, cudaStream_t, NVCVTensorHandle, NVCVTensorHandle, const NVCVBlurBoxesI)
+   :project: cvcuda

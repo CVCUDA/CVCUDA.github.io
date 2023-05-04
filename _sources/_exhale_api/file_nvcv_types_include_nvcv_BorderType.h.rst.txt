@@ -32,6 +32,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpCopyMakeBorder.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpCropFlipNormalizeReformat.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`
@@ -40,7 +42,11 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpMorphology.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpNonMaximumSuppression.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpRemap.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.h`
 

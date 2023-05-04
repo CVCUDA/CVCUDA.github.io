@@ -32,7 +32,7 @@ Program Listing for File ImageBatchVarShapeWrap.hpp
    
    #include "TypeTraits.hpp" // for HasTypeTraits, etc.
    
-   #include <nvcv/IImageBatchData.hpp> // for IImageBatchVarShapeDataStridedCuda, etc.
+   #include <nvcv/ImageBatchData.hpp> // for ImageBatchVarShapeDataStridedCuda, etc.
    
    namespace nvcv::cuda {
    
@@ -58,7 +58,7 @@ Program Listing for File ImageBatchVarShapeWrap.hpp
    
        ImageBatchVarShapeWrap() = default;
    
-       __host__ ImageBatchVarShapeWrap(const IImageBatchVarShapeDataStridedCuda &images)
+       __host__ ImageBatchVarShapeWrap(const ImageBatchVarShapeDataStridedCuda &images)
            : m_imageList(images.imageList())
        {
        }
@@ -129,7 +129,7 @@ Program Listing for File ImageBatchVarShapeWrap.hpp
    
        ImageBatchVarShapeWrap() = default;
    
-       __host__ ImageBatchVarShapeWrap(const IImageBatchVarShapeDataStridedCuda &images)
+       __host__ ImageBatchVarShapeWrap(const ImageBatchVarShapeDataStridedCuda &images)
            : Base(images)
        {
        }
@@ -180,7 +180,7 @@ Program Listing for File ImageBatchVarShapeWrap.hpp
    
        ImageBatchVarShapeWrapNHWC() = default;
    
-       __host__ ImageBatchVarShapeWrapNHWC(const IImageBatchVarShapeDataStridedCuda &images, int numChannels)
+       __host__ ImageBatchVarShapeWrapNHWC(const ImageBatchVarShapeDataStridedCuda &images, int numChannels)
            : Base(images)
            , m_numChannels(numChannels)
        {

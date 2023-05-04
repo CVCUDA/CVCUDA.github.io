@@ -30,40 +30,75 @@ Program Listing for File MathWrappers.hpp
    #ifndef NVCV_CUDA_MATH_WRAPPERS_HPP
    #define NVCV_CUDA_MATH_WRAPPERS_HPP
    
+   #include "StaticCast.hpp"              // for StaticCast, etc.
    #include "TypeTraits.hpp"              // for Require, etc.
    #include "detail/MathWrappersImpl.hpp" // for MathWrappersImpl, etc.
    
+   #include <cfenv> // for FE_TONEAREST, etc.
+   
    namespace nvcv::cuda {
+   
+   // Represents the round mode to be used by \ref round function.
+   enum class RoundMode : int
+   {
+       NEAREST = FE_TONEAREST,  //< Round to nearest even mode, as in "*_rn" CUDA device functions
+       DOWN    = FE_DOWNWARD,   //< Round down mode, as in "*_rd" CUDA device functions
+       UP      = FE_UPWARD,     //< Round up mode, as in "*_ru" CUDA device functions
+       ZERO    = FE_TOWARDZERO, //< Round towards zero mode, as in "*_rz" CUDA device functions
+       DEFAULT = NEAREST        //< Default round mode is round to nearest even mode
+   };
    
    namespace detail {
    
-   template<typename T, typename U, typename RT>
+   template<typename T, typename U, typename RT, RoundMode RM>
    inline __host__ __device__ RT RoundImpl(U u)
    {
-       RT out{};
+       if constexpr (std::is_integral_v<BaseType<U>>)
+       {
+           return StaticCast<T>(u);
+       }
+       else
+       {
+           RT out{};
    
    #pragma unroll
-       for (int e = 0; e < nvcv::cuda::NumElements<RT>; ++e)
-       {
-           GetElement(out, e) = RoundImpl<T, BaseType<U>>(GetElement(u, e));
-       }
+           for (int e = 0; e < nvcv::cuda::NumElements<RT>; ++e)
+           {
+               GetElement(out, e) = RoundImpl<T, BaseType<U>, static_cast<int>(RM)>(GetElement(u, e));
+           }
    
-       return out;
+           return out;
+       }
    }
    
    } // namespace detail
    
-   template<typename T, typename U, typename RT = ConvertBaseTypeTo<T, U>,
-            class = Require<HasTypeTraits<T, U> && !IsCompound<T>>>
-   inline __host__ __device__ std::enable_if_t<!std::is_same_v<T, U>, RT> round(U u)
+   template<RoundMode RM, typename T, typename U,
+            class = Require<(!std::is_same_v<T, U>)&&((NumComponents<T> == NumComponents<U>)
+                                                      || (NumComponents<T> == 0 && HasTypeTraits<U>))>>
+   inline __host__ __device__ auto round(U u)
    {
-       return detail::RoundImpl<T, U, RT>(u);
+       return detail::RoundImpl<BaseType<T>, U, ConvertBaseTypeTo<BaseType<T>, U>, RM>(u);
+   }
+   
+   template<typename T, typename U,
+            class = Require<(!std::is_same_v<T, U>)&&((NumComponents<T> == NumComponents<U>)
+                                                      || (NumComponents<T> == 0 && HasTypeTraits<U>))>>
+   inline __host__ __device__ auto round(U u)
+   {
+       return detail::RoundImpl<BaseType<T>, U, ConvertBaseTypeTo<BaseType<T>, U>, RoundMode::DEFAULT>(u);
+   }
+   
+   template<RoundMode RM, typename U>
+   inline __host__ __device__ auto round(U u)
+   {
+       return detail::RoundImpl<BaseType<U>, U, U, RM>(u);
    }
    
    template<typename U>
-   inline __host__ __device__ U round(U u)
+   inline __host__ __device__ auto round(U u)
    {
-       return detail::RoundImpl<BaseType<U>, U, U>(u);
+       return detail::RoundImpl<BaseType<U>, U, U, RoundMode::DEFAULT>(u);
    }
    
    #define NVCV_CUDA_BINARY_SIMD(TYPE_U, INTRINSIC)                  \

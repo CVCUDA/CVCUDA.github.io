@@ -20,9 +20,9 @@ Includes
 --------
 
 
-- ``TensorLayout.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorLayout.hpp`)
+- ``Optional.hpp`` (:ref:`file_nvcv_types_include_nvcv_Optional.hpp`)
 
-- ``detail/Optional.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_Optional.hpp`)
+- ``TensorLayout.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorLayout.hpp`)
 
 
 

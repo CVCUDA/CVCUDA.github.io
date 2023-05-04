@@ -30,8 +30,8 @@ Program Listing for File TensorLayoutInfo.hpp
    #ifndef NVCV_TENSOR_LAYOUT_INFO_HPP
    #define NVCV_TENSOR_LAYOUT_INFO_HPP
    
+   #include "Optional.hpp"
    #include "TensorLayout.hpp"
-   #include "detail/Optional.hpp"
    
    namespace nvcv {
    
@@ -43,7 +43,7 @@ Program Listing for File TensorLayoutInfo.hpp
            return true;
        }
    
-       static detail::Optional<TensorLayoutInfo> Create(const TensorLayout &layout)
+       static Optional<TensorLayoutInfo> Create(const TensorLayout &layout)
        {
            return TensorLayoutInfo{layout};
        }
@@ -112,7 +112,7 @@ Program Listing for File TensorLayoutInfo.hpp
            }
        }
    
-       static detail::Optional<TensorLayoutInfoImage> Create(const TensorLayout &layout)
+       static Optional<TensorLayoutInfoImage> Create(const TensorLayout &layout)
        {
            if (IsCompatible(layout))
            {
@@ -120,7 +120,7 @@ Program Listing for File TensorLayoutInfo.hpp
            }
            else
            {
-               return detail::NullOpt;
+               return NullOpt;
            }
        }
    

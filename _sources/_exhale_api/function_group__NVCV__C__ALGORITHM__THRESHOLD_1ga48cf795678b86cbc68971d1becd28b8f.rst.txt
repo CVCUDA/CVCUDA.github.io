@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__THRESHOLD_1ga48cf795678b86cbc68971d1becd28b8f:
+
+Function cvcudaThresholdCreate
+==============================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpThreshold.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaThresholdCreate(NVCVOperatorHandle *, uint32_t, int32_t)
+   :project: cvcuda

@@ -65,18 +65,24 @@ Program Listing for File Allocator.h
        NVCVCustomMemAllocator mem;
    } NVCVCustomResourceAllocator;
    
-   typedef struct NVCVCustomAllocatorRec
+   typedef struct NVCVResourceAllocatorRec NVCVResourceAllocator;
+   
+   typedef void (*NVCVResourceAllocatorCleanupFunc)(void *ctx, NVCVResourceAllocator *data);
+   
+   struct NVCVResourceAllocatorRec
    {
        void *ctx;
    
        NVCVResourceType resType;
    
        NVCVCustomResourceAllocator res;
-   } NVCVCustomAllocator;
+   
+       NVCVResourceAllocatorCleanupFunc cleanup;
+   };
    
    typedef struct NVCVAllocator *NVCVAllocatorHandle;
    
-   NVCV_PUBLIC NVCVStatus nvcvAllocatorConstructCustom(const NVCVCustomAllocator *customAllocators,
+   NVCV_PUBLIC NVCVStatus nvcvAllocatorConstructCustom(const NVCVResourceAllocator *customAllocators,
                                                        int32_t numCustomAllocators, NVCVAllocatorHandle *handle);
    
    NVCV_PUBLIC NVCVStatus nvcvAllocatorDecRef(NVCVAllocatorHandle handle, int *newRefCount);
@@ -84,6 +90,9 @@ Program Listing for File Allocator.h
    NVCV_PUBLIC NVCVStatus nvcvAllocatorIncRef(NVCVAllocatorHandle handle, int *newRefCount);
    
    NVCV_PUBLIC NVCVStatus nvcvAllocatorRefCount(NVCVAllocatorHandle handle, int *newRefCount);
+   
+   NVCV_PUBLIC NVCVStatus nvcvAllocatorGet(NVCVAllocatorHandle handle, NVCVResourceType resType,
+                                           NVCVResourceAllocator *result);
    
    NVCV_PUBLIC NVCVStatus nvcvAllocatorSetUserPointer(NVCVAllocatorHandle handle, void *userPtr);
    

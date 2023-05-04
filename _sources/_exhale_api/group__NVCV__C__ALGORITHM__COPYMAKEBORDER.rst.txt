@@ -1,6 +1,6 @@
 :orphan:
 
-Copy make border
+Copy Make Border
 ================
 
 .. doxygengroup:: NVCV_C_ALGORITHM_COPYMAKEBORDER

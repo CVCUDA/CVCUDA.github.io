@@ -31,7 +31,7 @@ Includes
 
 - ``Image.h`` (:ref:`file_nvcv_types_include_nvcv_IImage.hpp`)
 
-- ``ImageBatchData.h`` (:ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`)
+- ``ImageBatchData.h`` (:ref:`file_nvcv_types_include_nvcv_ImageBatchData.h`)
 
 - ``Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
 
@@ -51,11 +51,15 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_IImageBatch.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpAdaptiveThreshold.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpComposite.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpCopyMakeBorder.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpCropFlipNormalizeReformat.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpCvtColor.h`
 
@@ -73,9 +77,13 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpRemap.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpResize.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpThreshold.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpWarpAffine.h`
 

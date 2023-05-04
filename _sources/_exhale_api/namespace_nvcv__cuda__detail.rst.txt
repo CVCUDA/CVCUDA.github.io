@@ -28,6 +28,8 @@ Classes
 
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1HasTypeTraits__t_3_01T_00_01std_1_1void__t_3_01typename_01TypeTr38136be32c8f7597b2a2ee1b2684d748`
 
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1InterpolationWrapImpl_1_1ActiveCoordMap`
+
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType`
 
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01const_01T_00_01C_01_4`
@@ -44,9 +46,13 @@ Classes
 
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01volatile_01T_01_4`
 
-- :ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1BorderVarShapeWrapImpl`
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1BorderIWImpl`
 
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1BorderWrapImpl`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1InterpolationVarShapeWrapImpl`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1InterpolationWrapImpl`
 
 
 Functions
@@ -175,6 +181,12 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a71c804dbdb23c6b893b64f33f4876f7a`
 
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a6f3ec49e7e7b086eef8e11855203a21c`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ac8de7e26c978b7a1cf1c1d6bef1558dc`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a82bb71bc546592ba894dc371790049db`
+
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ad5d572cd177323e5d84e10e0d6b4538f`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa7e9ac7d531520ce365be7afffb638f5`
@@ -193,19 +205,13 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a47b3a5dbc2694977faed64082531297c`
 
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a6f3ec49e7e7b086eef8e11855203a21c`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ac8de7e26c978b7a1cf1c1d6bef1558dc`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a82bb71bc546592ba894dc371790049db`
-
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1abc54c427721a92bd3ca2c18267277ed9`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa59834e88d7eabc68851e9eea25f239e`
 
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a8323bc7d1da2166d338adcda08c2795f`
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa298bd281be563b242872a39d1ac26c3`
 
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ab904a2e7a05c8f8bf5c9f286b516c30d`
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ab907f0717d8cbc21a41a1b6c5f67aa7b`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ae3a984c6451355c4f3744c63e08e07dd`
 
@@ -215,6 +221,10 @@ Functions
 Typedefs
 --------
 
+
+- :ref:`exhale_typedef_namespacenvcv_1_1cuda_1_1detail_1acf404fc0757abb5dee97f078c3773dbc`
+
+- :ref:`exhale_typedef_namespacenvcv_1_1cuda_1_1detail_1a6667cea18b6d65d09f57b57256a0d65b`
 
 - :ref:`exhale_typedef_namespacenvcv_1_1cuda_1_1detail_1a12e241db429bdd5e423329abc64244cd`
 

@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__REMAP_1ga02e599e39a5f9c0eec073e9d89263b02:
+
+Function cvcudaRemapCreate
+==========================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpRemap.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaRemapCreate(NVCVOperatorHandle *)
+   :project: cvcuda

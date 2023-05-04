@@ -30,9 +30,9 @@ Included By
 -----------
 
 
-- :ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`
-
 - :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
+
+- :ref:`file_nvcv_types_include_nvcv_ImageBatchData.hpp`
 
 
 

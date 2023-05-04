@@ -27,7 +27,7 @@ Includes
 
 - ``TypeTraits.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_TypeTraits.hpp`)
 
-- ``nvcv/IImageBatchData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`)
+- ``nvcv/ImageBatchData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageBatchData.hpp`)
 
 
 

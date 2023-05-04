@@ -1,7 +1,7 @@
 :orphan:
 
-CvtColor
-========
+Cvt Color
+=========
 
 .. doxygengroup:: NVCV_C_ALGORITHM_CVTCOLOR
    :project: cvcuda

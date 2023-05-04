@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__REMAP_1ga9d55ade39dbedcf4f8a2601d89f31d38:
+
+Function cvcudaRemapVarShapeSubmit
+==================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpRemap.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaRemapVarShapeSubmit(NVCVOperatorHandle, cudaStream_t, NVCVImageBatchHandle, NVCVImageBatchHandle, NVCVTensorHandle, NVCVInterpolationType, NVCVInterpolationType, NVCVRemapMapValueType, int8_t, NVCVBorderType, float4)
+   :project: cvcuda

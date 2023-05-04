@@ -31,9 +31,15 @@ Includes
 
 - ``TypeTraits.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_TypeTraits.hpp`)
 
-- ``nvcv/IImageBatchData.hpp`` (:ref:`file_nvcv_types_include_nvcv_IImageBatchData.hpp`)
+- ``nvcv/ImageBatchData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageBatchData.hpp`)
 
 
+
+Included By
+-----------
+
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_InterpolationVarShapeWrap.hpp`
 
 
 
@@ -57,5 +63,9 @@ Classes
 
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderVarShapeWrap_3_01T_00_01NVCV__BORDER__CONSTANT_01_4`
 
-- :ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1BorderVarShapeWrapImpl`
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderVarShapeWrapNHWC`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderVarShapeWrapNHWC_3_01T_00_01NVCV__BORDER__CONSTANT_01_4`
+
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1BorderIWImpl`
 

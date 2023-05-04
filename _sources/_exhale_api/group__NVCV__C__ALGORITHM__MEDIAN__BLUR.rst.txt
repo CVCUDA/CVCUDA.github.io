@@ -1,7 +1,7 @@
 :orphan:
 
-MedianBlur
-==========
+Median Blur
+===========
 
 .. doxygengroup:: NVCV_C_ALGORITHM_MEDIAN_BLUR
    :project: cvcuda

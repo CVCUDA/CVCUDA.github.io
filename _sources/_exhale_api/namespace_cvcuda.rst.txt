@@ -10,9 +10,15 @@ Classes
 -------
 
 
+- :ref:`exhale_class_classcvcuda_1_1AdaptiveThreshold`
+
 - :ref:`exhale_class_classcvcuda_1_1AverageBlur`
 
 - :ref:`exhale_class_classcvcuda_1_1BilateralFilter`
+
+- :ref:`exhale_class_classcvcuda_1_1BndBox`
+
+- :ref:`exhale_class_classcvcuda_1_1BoxBlur`
 
 - :ref:`exhale_class_classcvcuda_1_1CenterCrop`
 
@@ -25,6 +31,8 @@ Classes
 - :ref:`exhale_class_classcvcuda_1_1ConvertTo`
 
 - :ref:`exhale_class_classcvcuda_1_1CopyMakeBorder`
+
+- :ref:`exhale_class_classcvcuda_1_1CropFlipNormalizeReformat`
 
 - :ref:`exhale_class_classcvcuda_1_1CustomCrop`
 
@@ -48,6 +56,8 @@ Classes
 
 - :ref:`exhale_class_classcvcuda_1_1Morphology`
 
+- :ref:`exhale_class_classcvcuda_1_1NonMaximumSuppression`
+
 - :ref:`exhale_class_classcvcuda_1_1Normalize`
 
 - :ref:`exhale_class_classcvcuda_1_1PadAndStack`
@@ -56,9 +66,13 @@ Classes
 
 - :ref:`exhale_class_classcvcuda_1_1Reformat`
 
+- :ref:`exhale_class_classcvcuda_1_1Remap`
+
 - :ref:`exhale_class_classcvcuda_1_1Resize`
 
 - :ref:`exhale_class_classcvcuda_1_1Rotate`
+
+- :ref:`exhale_class_classcvcuda_1_1Threshold`
 
 - :ref:`exhale_class_classcvcuda_1_1WarpAffine`
 

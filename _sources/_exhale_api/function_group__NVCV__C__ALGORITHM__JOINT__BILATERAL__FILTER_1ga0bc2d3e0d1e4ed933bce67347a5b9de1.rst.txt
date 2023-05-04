@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__JOINT__BILATERAL__FILTER_1ga0bc2d3e0d1e4ed933bce67347a5b9de1:
+
+Function cvcudaJointBilateralFilterSubmit
+=========================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaJointBilateralFilterSubmit(NVCVOperatorHandle, cudaStream_t, NVCVTensorHandle, NVCVTensorHandle, NVCVTensorHandle, int, float, float, NVCVBorderType)
+   :project: cvcuda

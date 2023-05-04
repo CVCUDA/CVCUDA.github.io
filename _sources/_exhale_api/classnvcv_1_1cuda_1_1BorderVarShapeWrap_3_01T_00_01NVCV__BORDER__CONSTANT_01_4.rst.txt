@@ -12,7 +12,7 @@ Inheritance Relationships
 Base Type
 *********
 
-- ``public nvcv::cuda::detail::BorderVarShapeWrapImpl< T, NVCV_BORDER_CONSTANT >`` (:ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1BorderVarShapeWrapImpl`)
+- ``public nvcv::cuda::detail::BorderIWImpl< T, NVCV_BORDER_CONSTANT >`` (:ref:`exhale_class_classnvcv_1_1cuda_1_1detail_1_1BorderIWImpl`)
 
 
 Class Documentation

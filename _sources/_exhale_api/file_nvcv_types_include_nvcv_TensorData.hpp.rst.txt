@@ -20,11 +20,11 @@ Includes
 --------
 
 
+- ``Optional.hpp`` (:ref:`file_nvcv_types_include_nvcv_Optional.hpp`)
+
 - ``TensorData.h`` (:ref:`file_nvcv_types_include_nvcv_TensorData.h`)
 
 - ``TensorShape.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorShape.hpp`)
-
-- ``detail/Optional.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_Optional.hpp`)
 
 - ``detail/TensorDataImpl.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_TensorDataImpl.hpp`)
 
@@ -39,6 +39,8 @@ Included By
 - :ref:`file_nvcv_types_include_nvcv_cuda_BorderWrap.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_cuda_FullTensorWrap.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_cuda_InterpolationWrap.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_cuda_TensorWrap.hpp`
 

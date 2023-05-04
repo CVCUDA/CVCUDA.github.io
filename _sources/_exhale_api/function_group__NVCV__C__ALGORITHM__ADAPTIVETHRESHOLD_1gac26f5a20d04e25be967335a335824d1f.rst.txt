@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__C__ALGORITHM__ADAPTIVETHRESHOLD_1gac26f5a20d04e25be967335a335824d1f:
+
+Function cvcudaAdaptiveThresholdVarShapeSubmit
+==============================================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_OpAdaptiveThreshold.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: cvcudaAdaptiveThresholdVarShapeSubmit(NVCVOperatorHandle, cudaStream_t, NVCVImageBatchHandle, NVCVImageBatchHandle, NVCVTensorHandle, NVCVAdaptiveThresholdType, NVCVThresholdType, NVCVTensorHandle, NVCVTensorHandle)
+   :project: cvcuda

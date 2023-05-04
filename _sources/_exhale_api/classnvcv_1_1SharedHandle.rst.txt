@@ -6,6 +6,15 @@ Template Class SharedHandle
 - Defined in :ref:`file_nvcv_types_include_nvcv_HandleWrapper.hpp`
 
 
+Inheritance Relationships
+-------------------------
+
+Derived Type
+************
+
+- ``private nvcv::CoreResource< NVCVAllocatorHandle, Allocator >`` (:ref:`exhale_class_classnvcv_1_1CoreResource`)
+
+
 Class Documentation
 -------------------
 
