@@ -35,6 +35,8 @@ Classes
 
 - :ref:`exhale_struct_structnvcv_1_1TranslateImageDataCleanup`
 
+- :ref:`exhale_struct_structnvcv_1_1TranslateImageToHandle`
+
 - :ref:`exhale_struct_structnvcv_1_1TranslateTensorDataCleanup`
 
 - :ref:`exhale_class_classnvcv_1_1Allocator`
@@ -61,19 +63,15 @@ Classes
 
 - :ref:`exhale_class_classnvcv_1_1HostPinnedMemAllocator`
 
-- :ref:`exhale_class_classnvcv_1_1IImage`
-
-- :ref:`exhale_class_classnvcv_1_1IImageBatch`
-
-- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShape`
-
-- :ref:`exhale_class_classnvcv_1_1IImageBatchVarShape_1_1Iterator`
-
 - :ref:`exhale_class_classnvcv_1_1Image`
+
+- :ref:`exhale_class_classnvcv_1_1ImageBatch`
 
 - :ref:`exhale_class_classnvcv_1_1ImageBatchData`
 
 - :ref:`exhale_class_classnvcv_1_1ImageBatchVarShape`
+
+- :ref:`exhale_class_classnvcv_1_1ImageBatchVarShape_1_1Iterator`
 
 - :ref:`exhale_class_classnvcv_1_1ImageBatchVarShapeData`
 
@@ -93,13 +91,11 @@ Classes
 
 - :ref:`exhale_class_classnvcv_1_1ImageFormat`
 
-- :ref:`exhale_class_classnvcv_1_1ImageWrapData`
-
-- :ref:`exhale_class_classnvcv_1_1ITensor`
-
 - :ref:`exhale_class_classnvcv_1_1MemAlignment`
 
 - :ref:`exhale_class_classnvcv_1_1MemAllocator`
+
+- :ref:`exhale_class_classnvcv_1_1NonOwningResource`
 
 - :ref:`exhale_class_classnvcv_1_1Optional`
 
@@ -142,10 +138,6 @@ Classes
 - :ref:`exhale_class_classnvcv_1_1TensorShapeInfoImage`
 
 - :ref:`exhale_class_classnvcv_1_1TensorShapeInfoImagePlanar`
-
-- :ref:`exhale_class_classnvcv_1_1TensorWrapData`
-
-- :ref:`exhale_class_classnvcv_1_1TensorWrapImage`
 
 - :ref:`exhale_class_classnvcv_1_1UniqueHandle`
 
@@ -235,6 +227,8 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CORE__IMAGETYPE_1ga0661225051b72b25dea066d7ec403bca`
 
+- :ref:`exhale_function_namespacenvcv_1a39702e6379a44a7dd7c7695c87aa2849`
+
 - :ref:`exhale_function_namespacenvcv_1ae5ae5948181c37e27adf8aeea6af7cc2`
 
 - :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga20a7c2219e38a7b29f8e0d24c2ff805f`
@@ -249,6 +243,12 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1a2f6215a7a3da10ecf7d4d6acb591ec7f`
 
+- :ref:`exhale_function_namespacenvcv_1a7eb0a0129a4921f596195d27531b9a95`
+
+- :ref:`exhale_function_namespacenvcv_1ad840bc43e8a918dfba5204e4699d2347`
+
+- :ref:`exhale_function_namespacenvcv_1a094b660ed403089ee875ebfb6b52a75f`
+
 - :ref:`exhale_function_namespacenvcv_1adfe7fb628d5bf8f0cbf69c6caeb85f03`
 
 - :ref:`exhale_function_namespacenvcv_1a269a3665d6ab14883b57b88b21a29686`
@@ -262,6 +262,8 @@ Functions
 - :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1gab28f6f8bfbc0ce09032f0d9068056e7c`
 
 - :ref:`exhale_function_namespacenvcv_1aee055d6e69a66715e9517a4d33522156`
+
+- :ref:`exhale_function_namespacenvcv_1ad0b10330cf7df321cb76eefc93c99067`
 
 - :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1gacda569b090ddeea9957bd76e2503fea0`
 
@@ -341,6 +343,10 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1ab6fd1bac15045b4f9cfef78cae376800`
 
+- :ref:`exhale_function_namespacenvcv_1ad24fb00c4da494562b76085e80d8b14f`
+
+- :ref:`exhale_function_namespacenvcv_1ac4e4c81dd93510df85e8b38d9ea7df0e`
+
 
 Typedefs
 --------
@@ -356,25 +362,25 @@ Typedefs
 
 - :ref:`exhale_typedef_namespacenvcv_1aad6d953ca608451d5fd50ab598abffcc`
 
-- :ref:`exhale_typedef_namespacenvcv_1a9d8bae8250c9ef9f13b082ca2bddcacc`
+- :ref:`exhale_typedef_namespacenvcv_1a2d30fd3b296126cda79e295d7935b810`
 
-- :ref:`exhale_typedef_namespacenvcv_1ad7abff543eccdf12a9394c4b4bc471a6`
+- :ref:`exhale_typedef_namespacenvcv_1abd8364387a5dd383f799a47dbaab04d2`
 
 - :ref:`exhale_typedef_namespacenvcv_1a66e8596460d91ad20dc5f84cdfa68849`
 
-- :ref:`exhale_typedef_namespacenvcv_1aad92d8356b62f703d12fd5100bf04074`
+- :ref:`exhale_typedef_namespacenvcv_1a48b10b39b203029a0c3f4ae269f56cfc`
 
 - :ref:`exhale_typedef_namespacenvcv_1a880e7401a58f90bc0c71b178b575c7b4`
 
 - :ref:`exhale_typedef_namespacenvcv_1a34a02d9ce0e016158e9a95d6372c85d6`
 
-- :ref:`exhale_typedef_namespacenvcv_1ac395eeebe4ac387eb752fe1e6819e156`
+- :ref:`exhale_typedef_namespacenvcv_1a085202fcdc0080f6d17097f012256098`
 
 - :ref:`exhale_typedef_namespacenvcv_1a9d6e867ce019b36fec6e4b0cbc78a7b0`
 
 - :ref:`exhale_typedef_namespacenvcv_1adaec8087c883ab0d144f9ef666ceded6`
 
-- :ref:`exhale_typedef_namespacenvcv_1a861a2ddac3078fe50b38330cf9899ea6`
+- :ref:`exhale_typedef_namespacenvcv_1aabd77defdda31602273ea8a566e4704b`
 
 
 Variables

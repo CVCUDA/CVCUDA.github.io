@@ -45,8 +45,6 @@ Included By
 -----------
 
 
-- :ref:`file_nvcv_types_include_nvcv_IImage.hpp`
-
 - :ref:`file_nvcv_types_include_nvcv_Image.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_ImageBatchData.hpp`
@@ -65,7 +63,11 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpBoxBlur.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpBrightnessContrast.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpCenterCrop.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpColorTwist.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpComposite.hpp`
 
@@ -85,6 +87,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpGaussianNoise.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.hpp`
@@ -98,6 +102,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpPillowResize.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpRandomResizedCrop.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpReformat.hpp`
 

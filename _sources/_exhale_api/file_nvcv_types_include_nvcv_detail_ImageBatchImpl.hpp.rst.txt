@@ -33,3 +33,5 @@ Namespaces
 
 - :ref:`namespace_nvcv`
 
+- :ref:`namespace_nvcv__detail`
+

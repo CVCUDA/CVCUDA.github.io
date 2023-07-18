@@ -26,6 +26,8 @@ Functions
 ---------
 
 
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gac83300d56aa8ef6a5059799cef510126`
+
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gab8d22f3290bdb56b2802a3db99c12634`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga053c8356e5a9a31b7c39f3360354f44a`
@@ -56,9 +58,11 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga5919546505e59b0c8977de11791e8240`
 
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga3f0edfd57fe5a46c2887b78cb8b73646`
+
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gafdc5277fb6b5a7a85621e9cb870dbe09`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga3f0edfd57fe5a46c2887b78cb8b73646`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga55442e9aec2c9a22d976c29aabcaee06`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga3cb55f0045235cd1862d5a511237b447`
 
@@ -76,11 +80,7 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga5d5c624a3ad59e4f80ded80ba176ff4c`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga55442e9aec2c9a22d976c29aabcaee06`
-
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga2f4ce1a36a88ea5918cc66fbce666c25`
-
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gaf1a0ef986e5a5346f4a76940c03ec552`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga68c527c4c40c95827a168599c74cdde9`
 
@@ -88,9 +88,11 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gab5237ee7bd1f9837d21305b088be5e4d`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gaeb473950151e9756134932bb894171fe`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gaf1a0ef986e5a5346f4a76940c03ec552`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga2a20d2ed19f2c2c0eb4ae57eeb21ec0d`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gaeb473950151e9756134932bb894171fe`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga0b58a61d5e74d699e7f74d4e747c6fe5`
 
@@ -104,8 +106,6 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gafe35bb6bd1855d3d2c8cf481b3ad8a25`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga7c697cee8a23d28799bcd19f5855fe29`
-
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga2bdfa7b84376c2324a83efe89a319c95`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gacd7517409494f4b12c1e95f48971e748`
@@ -114,11 +114,13 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gad8503401b026728b852f622069278ae9`
 
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga7c697cee8a23d28799bcd19f5855fe29`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga25c574c898d89cc6a81a5c205bd7db7b`
+
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga9459dd4a569f35a7715964993abc3180`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gad2a8d2e2d12d47bdcf320180b48eb15e`
-
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga25c574c898d89cc6a81a5c205bd7db7b`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga8b48b04de8ebbbe9bd075125e115e5e3`
 

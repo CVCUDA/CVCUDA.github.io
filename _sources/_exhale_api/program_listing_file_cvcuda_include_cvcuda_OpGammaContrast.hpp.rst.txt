@@ -34,8 +34,8 @@ Program Listing for File OpGammaContrast.hpp
    #include "OpGammaContrast.h"
    
    #include <cuda_runtime.h>
-   #include <nvcv/IImageBatch.hpp>
-   #include <nvcv/ITensor.hpp>
+   #include <nvcv/ImageBatch.hpp>
+   #include <nvcv/Tensor.hpp>
    #include <nvcv/alloc/Requirements.hpp>
    
    namespace cvcuda {
@@ -47,7 +47,8 @@ Program Listing for File OpGammaContrast.hpp
    
        ~GammaContrast();
    
-       void operator()(cudaStream_t stream, nvcv::IImageBatch &in, nvcv::IImageBatch &out, nvcv::ITensor &gamma);
+       void operator()(cudaStream_t stream, const nvcv::ImageBatch &in, const nvcv::ImageBatch &out,
+                       const nvcv::Tensor &gamma);
    
        virtual NVCVOperatorHandle handle() const noexcept override;
    
@@ -67,8 +68,8 @@ Program Listing for File OpGammaContrast.hpp
        m_handle = nullptr;
    }
    
-   inline void GammaContrast::operator()(cudaStream_t stream, nvcv::IImageBatch &in, nvcv::IImageBatch &out,
-                                         nvcv::ITensor &gamma)
+   inline void GammaContrast::operator()(cudaStream_t stream, const nvcv::ImageBatch &in, const nvcv::ImageBatch &out,
+                                         const nvcv::Tensor &gamma)
    {
        nvcv::detail::CheckThrow(
            cvcudaGammaContrastVarShapeSubmit(m_handle, stream, in.handle(), out.handle(), gamma.handle()));

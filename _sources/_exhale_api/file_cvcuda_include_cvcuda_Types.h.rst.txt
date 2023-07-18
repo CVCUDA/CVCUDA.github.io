@@ -43,6 +43,10 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpBoxBlur.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpBrightnessContrast.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpColorTwist.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpComposite.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpConv2D.h`
@@ -59,6 +63,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpGaussianNoise.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
@@ -72,6 +78,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpRandomResizedCrop.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpRemap.h`
 

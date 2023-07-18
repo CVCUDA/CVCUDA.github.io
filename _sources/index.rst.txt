@@ -19,15 +19,15 @@
 CV-CUDA
 ============================
 
-NVIDIA CV-CUDA™ is an open-source library that enables building high-performance cloud-scale `Artificial Intelligence (AI) Computer Vision (CV) <https://developer.nvidia.com/computer-vision>`_ applications. It provides a specialized set of computer vision and image processing kernels to help developers GPU-accelerate pre- and post-processing stages in their AI pipelines. CV-CUDA enables achieving end-end throughput performance speedup of up to 49x, thus significantly reducing computing cost and energy consumption.
+NVIDIA CV-CUDA™ is an open-source project for building cloud-scale `Artificial Intelligence (AI) imaging and Computer Vision (CV) <https://developer.nvidia.com/computer-vision>`_ applications. It uses graphics processing unit (GPU) acceleration to help developers build highly efficient pre- and post-processing pipelines. It can improve throughput by more than 10x while lowering cloud computing costs.
 
 CV-CUDA includes:
 
-- A unified, specialized set of high-performance CV and image processing operators
-- C/C++ and Python APIs
-- Batching support, with variable shape images
-- Zero-copy interfaces to PyTorch and TensorFlow
-- End-end accelerated sample applications for common computer vision pipelines.
+*  A unified, specialized set of high-performance CV and image processing kernels
+*  C, C++, and Python APIs
+*  Batching support, with variable shape images
+*  Zero-copy interfaces to PyTorch
+*  Sample applications: object classification and image segmentation
 
 
 .. image:: content/cvcuda_arch.jpg
@@ -38,7 +38,7 @@ CV-CUDA includes:
 CV-CUDA Pre- and Post-Processing Operators
 ------------------
 
-CV-CUDA offers more than 30 Computer Vision and Image Processing operators. Find the operator that is right for your workflow below.
+CV-CUDA offers more than 20 Computer Vision and Image Processing operators. Find the operator that is right for your workflow below.
 
 
 .. csv-table::
@@ -123,6 +123,7 @@ Copyright
     :maxdepth: 1
     :hidden:
 
+    Beta.1 <relnotes/v0.3.1-beta>
     Beta <relnotes/v0.3.0-beta>
     Alpha.1 <relnotes/v0.2.1-alpha>
     Alpha <relnotes/v0.2.0-alpha>

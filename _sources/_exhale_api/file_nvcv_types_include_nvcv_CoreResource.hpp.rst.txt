@@ -30,6 +30,12 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_alloc_Allocator.hpp`
 
+- :ref:`file_nvcv_types_include_nvcv_Image.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_ImageBatch.hpp`
+
+- :ref:`file_nvcv_types_include_nvcv_Tensor.hpp`
+
 
 
 
@@ -45,4 +51,13 @@ Classes
 
 
 - :ref:`exhale_class_classnvcv_1_1CoreResource`
+
+- :ref:`exhale_class_classnvcv_1_1NonOwningResource`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_CoreResource_8hpp_1a3b8b5cc220f4e8fd5936e189a2e2874b`
 

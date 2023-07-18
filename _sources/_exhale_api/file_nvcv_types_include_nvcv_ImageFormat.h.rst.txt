@@ -135,6 +135,8 @@ Defines
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga38fc441e6c9233531b05c7897b6a1438`
 
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga461458b5dd2db5fdc1e456a9e65cabed`
+
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga3f84a7869e4d035e4616478d53cc634d`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga4c1cb319761a905b2d1db02a10b6169a`
@@ -149,9 +151,17 @@ Defines
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga44ed9587623c5a5311f53fe550fa418f`
 
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga46197226317807f1fcbb7c24bcf02db6`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga1896a9699f8e5703f83d9a5e967f91a2`
+
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga9bec3b73d59325c20e4cb18d01a468d7`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga30dc2b23789eff08f1fcba9efcebc0e7`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga4aed547e7405ee62302a850848c48348`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1gab1865ce2d940ce13a050fe7ac8aff30f`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1gad5a702335d4506ae13cd9cee4094e1b9`
 
@@ -160,6 +170,8 @@ Defines
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga54f1e2c59110445377f89f0984fd5572`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga323516c83bf14fb5119e23408086053d`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga6c377dc966c6f4f1d2e21399a4c4ffbf`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga9f556be7295af9dae078594611b19f1d`
 
@@ -193,9 +205,17 @@ Defines
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga7b59745821d6da61c9904799980c7290`
 
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga4f5b6a0149e5c54e2c43244739c224ae`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1gaf34632f059a26b7715ec867fb813611e`
+
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1gad003f5e81dd7bb7fe9cb7dbce98bf8c0`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga9d1bbbeffd8bc471e3330e4ad697f3db`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga766b249e026032403e03d5e4f3ab9572`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga69a5f656abe20d219b7e2cff41cd6291`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga34a31238552629a76134729e05f702a5`
 

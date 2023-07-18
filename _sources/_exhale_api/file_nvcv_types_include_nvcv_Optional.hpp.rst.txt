@@ -40,13 +40,9 @@ Included By
 -----------
 
 
-- :ref:`file_nvcv_types_include_nvcv_IImageBatch.hpp`
-
 - :ref:`file_nvcv_types_include_nvcv_ImageBatchData.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_ImageData.hpp`
-
-- :ref:`file_nvcv_types_include_nvcv_ITensor.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_TensorData.hpp`
 

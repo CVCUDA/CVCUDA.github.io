@@ -3,7 +3,7 @@
 Template Function nvcv::cuda::round(U)
 ======================================
 
-- Defined in :ref:`file_nvcv_types_include_nvcv_cuda_MathWrappers.hpp`
+.. did not find file this was defined in
 
 
 Function Documentation

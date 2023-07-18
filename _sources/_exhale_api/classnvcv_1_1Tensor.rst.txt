@@ -12,7 +12,7 @@ Inheritance Relationships
 Base Type
 *********
 
-- ``public nvcv::ITensor`` (:ref:`exhale_class_classnvcv_1_1ITensor`)
+- ``public nvcv::CoreResource< NVCVTensorHandle, Tensor >`` (:ref:`exhale_class_classnvcv_1_1CoreResource`)
 
 
 Class Documentation

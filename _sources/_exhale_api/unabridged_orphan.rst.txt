@@ -95,6 +95,11 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_nvcv_types_include_nvcv_cuda_Atomics.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_nvcv_types_include_nvcv_detail_BaseFromMember.hpp.rst
 
 .. toctree::
@@ -250,26 +255,6 @@ Files
 .. toctree::
    :maxdepth: 1
 
-   file_nvcv_types_include_nvcv_IImage.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_IImageBatch.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_detail_IImageBatchImpl.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_detail_IImageImpl.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
    file_nvcv_types_include_nvcv_Image.h.rst
 
 .. toctree::
@@ -370,16 +355,6 @@ Files
 .. toctree::
    :maxdepth: 1
 
-   file_nvcv_types_include_nvcv_ITensor.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_nvcv_types_include_nvcv_detail_ITensorImpl.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
    file_nvcv_types_include_nvcv_cuda_math_LinAlg.hpp.rst
 
 .. toctree::
@@ -455,6 +430,16 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpBrightnessContrast.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpBrightnessContrast.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpCenterCrop.h.rst
 
 .. toctree::
@@ -471,6 +456,16 @@ Files
    :maxdepth: 1
 
    file_cvcuda_include_cvcuda_OpChannelReorder.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpColorTwist.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpColorTwist.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -590,6 +585,16 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpGaussianNoise.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpGaussianNoise.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpJointBilateralFilter.h.rst
 
 .. toctree::
@@ -666,6 +671,16 @@ Files
    :maxdepth: 1
 
    file_cvcuda_include_cvcuda_OpPillowResize.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpRandomResizedCrop.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpRandomResizedCrop.hpp.rst
 
 .. toctree::
    :maxdepth: 1

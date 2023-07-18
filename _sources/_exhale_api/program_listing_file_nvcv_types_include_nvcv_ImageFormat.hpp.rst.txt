@@ -168,9 +168,13 @@ Program Listing for File ImageFormat.hpp
    
    constexpr ImageFormat FMT_2S16_BL{NVCV_IMAGE_FORMAT_2S16_BL};
    
+   constexpr ImageFormat FMT_F16{NVCV_IMAGE_FORMAT_F16};
+   
    constexpr ImageFormat FMT_F32{NVCV_IMAGE_FORMAT_F32};
    
    constexpr ImageFormat FMT_F64{NVCV_IMAGE_FORMAT_F64};
+   
+   constexpr ImageFormat FMT_2F16{NVCV_IMAGE_FORMAT_2F16};
    
    constexpr ImageFormat FMT_2F32{NVCV_IMAGE_FORMAT_2F32};
    
@@ -245,6 +249,22 @@ Program Listing for File ImageFormat.hpp
    constexpr ImageFormat FMT_RGBA8p{NVCV_IMAGE_FORMAT_RGBA8p};
    
    constexpr ImageFormat FMT_BGRA8p{NVCV_IMAGE_FORMAT_BGRA8p};
+   
+   constexpr ImageFormat FMT_RGBf16{NVCV_IMAGE_FORMAT_RGBf16};
+   
+   constexpr ImageFormat FMT_BGRf16{NVCV_IMAGE_FORMAT_BGRf16};
+   
+   constexpr ImageFormat FMT_RGBAf16{NVCV_IMAGE_FORMAT_RGBAf16};
+   
+   constexpr ImageFormat FMT_BGRAf16{NVCV_IMAGE_FORMAT_BGRAf16};
+   
+   constexpr ImageFormat FMT_RGBf16p{NVCV_IMAGE_FORMAT_RGBf16p};
+   
+   constexpr ImageFormat FMT_BGRf16p{NVCV_IMAGE_FORMAT_BGRf16p};
+   
+   constexpr ImageFormat FMT_RGBAf16p{NVCV_IMAGE_FORMAT_RGBAf16p};
+   
+   constexpr ImageFormat FMT_BGRAf16p{NVCV_IMAGE_FORMAT_BGRAf16p};
    
    constexpr ImageFormat FMT_RGBf32{NVCV_IMAGE_FORMAT_RGBf32};
    

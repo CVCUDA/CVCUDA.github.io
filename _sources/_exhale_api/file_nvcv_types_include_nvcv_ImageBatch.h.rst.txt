@@ -29,7 +29,7 @@ Includes
 
 - ``Fwd.h`` (:ref:`file_nvcv_types_include_nvcv_detail_CudaFwd.h`)
 
-- ``Image.h`` (:ref:`file_nvcv_types_include_nvcv_IImage.hpp`)
+- ``Image.h`` (:ref:`file_nvcv_types_include_nvcv_Image.h`)
 
 - ``ImageBatchData.h`` (:ref:`file_nvcv_types_include_nvcv_ImageBatchData.h`)
 
@@ -49,11 +49,15 @@ Included By
 -----------
 
 
-- :ref:`file_nvcv_types_include_nvcv_IImageBatch.hpp`
+- :ref:`file_nvcv_types_include_nvcv_ImageBatch.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpAdaptiveThreshold.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpBrightnessContrast.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpColorTwist.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpComposite.h`
 
@@ -67,6 +71,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpGaussianNoise.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.h`
@@ -76,6 +82,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpRandomResizedCrop.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpRemap.h`
 

@@ -79,6 +79,12 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga80cceb5d17e7ad93542a66db496682ec`
 
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__ATOMICS_1ga5f79779a92c3d6446cecf0baee094507`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__ATOMICS_1gae591f381f2d8b68182254aa8d1ddf66d`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__ATOMICS_1ga7ac9493ebbcab96929f6d6d85331fe25`
+
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga3eb1210248838710c8e3f61ef6f1d82e`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1aecbda27da188958e9f9f36f6ba41baa8`
@@ -92,6 +98,8 @@ Functions
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1a04a88fb7885934b7b7c9341061937994`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1a09ee62666969bb01aa7fadd9140dcb2a`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1a4d9c99b0e39ec6e0523094ea05eeaa1d`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__DROPCAST_1ga72cb589a63a20ef7d8804a8682178287`
 
@@ -168,6 +176,8 @@ Variables
 - :ref:`exhale_variable_group__NVCV__CPP__CUDATOOLS__TYPETRAITS_1gaae6f96fedfad8b3d0fe16cf26ea687a4`
 
 - :ref:`exhale_variable_group__NVCV__CPP__CUDATOOLS__TYPETRAITS_1gac25f5fd046d016269f588794b8d227e2`
+
+- :ref:`exhale_variable_group__NVCV__CPP__CUDATOOLS__TYPETRAITS_1ga49e6b4804c10bcb960f4b2fbcc5a2950`
 
 - :ref:`exhale_variable_group__NVCV__CPP__CUDATOOLS__TYPETRAITS_1gab07e95c298494887b508ee4cc08d2e41`
 

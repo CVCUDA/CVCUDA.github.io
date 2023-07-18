@@ -1,9 +1,9 @@
 .. _exhale_function_namespacenvcv_1a2f6215a7a3da10ecf7d4d6acb591ec7f:
 
-Function nvcv::NVCV_IMPL_SHARED_HANDLE
-======================================
+Function nvcv::NVCV_IMPL_SHARED_HANDLE(Allocator)
+=================================================
 
-- Defined in :ref:`file_nvcv_types_include_nvcv_alloc_Allocator.hpp`
+.. did not find file this was defined in
 
 
 Function Documentation

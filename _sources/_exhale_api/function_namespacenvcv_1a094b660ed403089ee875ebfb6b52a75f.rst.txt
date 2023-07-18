@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1a094b660ed403089ee875ebfb6b52a75f:
+
+Function nvcv::NVCV_IMPL_SHARED_HANDLE(Tensor)
+==============================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::NVCV_IMPL_SHARED_HANDLE(Tensor)
+   :project: cvcuda

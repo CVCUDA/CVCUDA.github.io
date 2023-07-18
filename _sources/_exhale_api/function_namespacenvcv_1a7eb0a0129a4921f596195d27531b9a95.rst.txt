@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1a7eb0a0129a4921f596195d27531b9a95:
+
+Function nvcv::NVCV_IMPL_SHARED_HANDLE(Image)
+=============================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::NVCV_IMPL_SHARED_HANDLE(Image)
+   :project: cvcuda

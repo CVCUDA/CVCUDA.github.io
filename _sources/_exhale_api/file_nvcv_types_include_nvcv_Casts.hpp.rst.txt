@@ -26,16 +26,6 @@ Includes
 
 
 
-Included By
------------
-
-
-- :ref:`file_nvcv_types_include_nvcv_IImage.hpp`
-
-- :ref:`file_nvcv_types_include_nvcv_ImageBatch.hpp`
-
-- :ref:`file_nvcv_types_include_nvcv_ITensor.hpp`
-
 
 
 

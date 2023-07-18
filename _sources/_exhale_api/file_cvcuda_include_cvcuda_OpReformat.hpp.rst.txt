@@ -31,9 +31,9 @@ Includes
 
 - ``cuda_runtime.h``
 
-- ``nvcv/ITensor.hpp`` (:ref:`file_nvcv_types_include_nvcv_ITensor.hpp`)
-
 - ``nvcv/ImageFormat.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageFormat.hpp`)
+
+- ``nvcv/Tensor.hpp`` (:ref:`file_nvcv_types_include_nvcv_Tensor.hpp`)
 
 - ``nvcv/alloc/Requirements.hpp`` (:ref:`file_nvcv_types_include_nvcv_alloc_Requirements.hpp`)
 

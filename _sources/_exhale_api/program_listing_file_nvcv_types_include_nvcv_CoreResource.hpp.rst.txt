@@ -49,6 +49,13 @@ Program Listing for File CoreResource.hpp
        {
        }
    
+       static Actual FromHandle(HandleType handle, bool incRef)
+       {
+           if (incRef && handle)
+               HandleIncRef(handle);
+           return Actual(std::move(handle));
+       }
+   
        CoreResource(const Actual &other)
            : Base(other)
        {
@@ -71,7 +78,7 @@ Program Listing for File CoreResource.hpp
            return *this;
        }
    
-       HandleType handle() const noexcept
+       const HandleType handle() const noexcept
        {
            return this->get();
        }
@@ -92,8 +99,91 @@ Program Listing for File CoreResource.hpp
        using Base::reset;
        using Base::operator bool;
    
+       template<typename Derived>
+       Derived cast() const
+       {
+           static_assert(std::is_base_of<Actual, Derived>::value, "Requested a cast to a type not derived from this one.");
+           if (*this && Derived::IsCompatibleKind(This().type()))
+           {
+               return Derived::FromHandle(handle(), true);
+           }
+           else
+           {
+               return {};
+           }
+       }
+   
    protected:
        ~CoreResource() = default;
+   
+   private:
+       Actual &This()
+       {
+           return *static_cast<Actual *>(this);
+       }
+   
+       const Actual &This() const
+       {
+           return *static_cast<const Actual *>(this);
+       }
+   };
+   
+   #define NVCV_IMPLEMENT_SHARED_RESOURCE(ClassName, BaseClassName) \
+       using BaseClassName::BaseClassName;                          \
+       using BaseClassName::operator=;                              \
+       ClassName(const ClassName &other)                            \
+           : BaseClassName(other)                                   \
+       {                                                            \
+       }                                                            \
+       ClassName(ClassName &&other)                                 \
+           : BaseClassName(std::move(other))                        \
+       {                                                            \
+       }                                                            \
+       ClassName &operator=(const ClassName &other)                 \
+       {                                                            \
+           BaseClassName::operator=(other);                         \
+           return *this;                                            \
+       }                                                            \
+       ClassName &operator=(ClassName &&other)                      \
+       {                                                            \
+           BaseClassName::operator=(std::move(other));              \
+           return *this;                                            \
+       }
+   
+   template<typename Resource>
+   class NonOwningResource
+   {
+   public:
+       using HandleType = typename Resource::HandleType;
+   
+       NonOwningResource(HandleType handle)
+           : m_resource(std::move(handle))
+       {
+       }
+   
+       NonOwningResource(const NonOwningResource &) = delete;
+       NonOwningResource(NonOwningResource &&)      = default;
+   
+       NonOwningResource &operator=(const NonOwningResource &) = delete;
+       NonOwningResource &operator=(NonOwningResource &&)      = default;
+   
+       const HandleType handle() const
+       {
+           return m_resource.handle();
+       }
+   
+       ~NonOwningResource()
+       {
+           (void)m_resource.release();
+       }
+   
+       operator const Resource &() const &
+       {
+           return m_resource;
+       }
+   
+   private:
+       Resource m_resource;
    };
    
    } // namespace nvcv

@@ -44,8 +44,6 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_cuda_InterpolationVarShapeWrap.hpp`
 
-- :ref:`file_nvcv_types_include_nvcv_IImageBatch.hpp`
-
 - :ref:`file_nvcv_types_include_nvcv_ImageBatch.hpp`
 
 

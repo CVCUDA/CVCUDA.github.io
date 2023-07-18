@@ -1,0 +1,14 @@
+.. _exhale_function_namespacenvcv_1ad840bc43e8a918dfba5204e4699d2347:
+
+Function nvcv::NVCV_IMPL_SHARED_HANDLE(ImageBatch)
+==================================================
+
+.. did not find file this was defined in
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::NVCV_IMPL_SHARED_HANDLE(ImageBatch)
+   :project: cvcuda
