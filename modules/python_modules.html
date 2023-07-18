@@ -1831,7 +1831,7 @@
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Composite operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 max_value (double): Non-zero value assigned to the pixels for which the condition is satisfied.
 adaptive_method (NVCVAdaptiveThresholdType): Adaptive threshold algorithm to use.
 threshold_type (NVCVThresholdType): Threshold type that must be either THRESH_BINARY or THRESH_BINARY_INV.
@@ -1854,7 +1854,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Composite operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing the result of the operation.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing the result of the operation.
 max_value (Tensor): Non-zero value assigned to the pixels for which the condition is satisfied, specified per image.
 adaptive_method (NVCVAdaptiveThresholdType): Adaptive threshold algorithm to use.
 threshold_type (NVCVThresholdType): Threshold type that must be either THRESH_BINARY or THRESH_BINARY_INV.
@@ -1886,7 +1886,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Composite operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 max_value (double): Non-zero value assigned to the pixels for which the condition is satisfied.
 adaptive_method (NVCVAdaptiveThresholdType): Adaptive threshold algorithm to use.
@@ -1910,7 +1910,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Composite operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 src (ImageBatchVarShape): Input image batch containing the result of the operation.
 max_value (Tensor): Non-zero value assigned to the pixels for which the condition is satisfied, specified per image.
 adaptive_method (NVCVAdaptiveThresholdType): Adaptive threshold algorithm to use.
@@ -1943,7 +1943,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the AverageBlur operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 kernel_size (Tuple [int,int]): Specifies the size of the blur kernel.
 kernel_anchor (Tuple [int,int]): Kernel anchor, use (-1,-1) to indicate kernel center.
 border (NVCVBorderType, optional): Border mode to be used when accessing elements outside input image.
@@ -1964,7 +1964,7 @@ API references of the CV-CUDA operator.</p>
 <blockquote>
 <div><p>Executes the AverageBlur operation with a variable shape tensors on the given cuda stream.</p>
 <dl class="simple">
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 max_kernel_size (Tuple [int,int]): Specifies the maximum size of the blur kernel.
 kernel_size (Tuple [int,int]): Specifies the size of the blur kernel within the maximum kernel size.
 kernel_anchor (Tuple [int,int]): Kernel anchor, use (-1,-1) to indicate kernel center.
@@ -1994,7 +1994,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the AverageBlur operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 kernel_size (Tuple [int,int]): Specifies the size of the blur kernel.
 kernel_anchor (Tuple [int,int]): Kernel anchor, use (-1,-1) to indicate kernel center.
@@ -2013,7 +2013,7 @@ API references of the CV-CUDA operator.</p>
 <blockquote>
 <div><p>Executes the AverageBlur operation with a variable shape tensors on the given cuda stream.</p>
 <dl class="simple">
-<dt>Args:</dt><dd><p>dst (ImageBatchVarShape): Output containing one or more images.
+<dt>Parameters:</dt><dd><p>dst (ImageBatchVarShape): Output containing one or more images.
 src (ImageBatchVarShape): Input containing one or more images.
 max_kernel_size (Tuple [int,int]): Specifies the maximum size of the blur kernel.
 kernel_size (Tuple [int,int]): Specifies the size of the blur kernel within the maximum kernel size.
@@ -2044,7 +2044,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Bilateral Filter operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 diameter (int): Bilateral filter diameter.
 sigma_color (float): Gaussian exponent for color difference.
 sigma_space (float): Gaussian exponent for position difference.
@@ -2066,7 +2066,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Bilateral Filter operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input tensor containing one or more images.
 diameter (Tensor): Bilateral filter diameters in each image.
 sigma_color (Tensor): Gaussian exponents for color difference in each image.
 sigma_space (Tensor): Gaussian exponents for position difference in each image.
@@ -2096,7 +2096,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Bilateral Filter operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 diameter (int): Bilateral filter diameter.
 sigma_color (float): Gaussian exponent for color difference.
@@ -2119,7 +2119,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Bilateral Filter operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 src (ImageBatchVarShape): Input image batch containing one or more images.
 diameter (Tensor): Bilateral filter diameters in each image.
 sigma_color (Tensor): Gaussian exponents for color difference in each image.
@@ -2458,7 +2458,7 @@ separate transformations for each sample in the input tensor.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Composite operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>foreground (Tensor): Input tensor containing one or more foreground images. Each image is BGR (3-channel) 8-bit.
+<dt>Parameters:</dt><dd><p>foreground (Tensor): Input tensor containing one or more foreground images. Each image is BGR (3-channel) 8-bit.
 background (Tensor): Input tensor containing one or more background images. Each image is BGR (3-channel) 8-bit.
 fgmask(Tensor): Input foreground mask tensor. Each mask image is grayscale 8-bit
 outchannels(int): Specifies 3 channel for RGB and 4 channel for BGRA.
@@ -2479,7 +2479,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Composite operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>foreground (ImageBatchVarShape): Input tensor containing one or more foreground images. Each image is BGR (3-channel) 8-bit.
+<dt>Parameters:</dt><dd><p>foreground (ImageBatchVarShape): Input tensor containing one or more foreground images. Each image is BGR (3-channel) 8-bit.
 background (ImageBatchVarShape): Input tensor containing one or more background images. Each image is BGR (3-channel) 8-bit.
 fgmask(ImageBatchVarShape): Input foreground mask image batch. Each mask image is grayscale 8-bit.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -2507,7 +2507,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Composite operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 foreground (Tensor): Input tensor containing one or more foreground images. Each image is BGR (3-channel) 8-bit.
 background (Tensor): Input tensor containing one or more background images. Each image is BGR (3-channel) 8-bit.
 fgmask(Tensor): Input foreground mask tensor. Each mask image is grayscale 8-bit.
@@ -2528,7 +2528,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Composite operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 foreground (ImageBatchVarShape): Input tensor containing one or more foreground images. Each image is BGR (3-channel) 8-bit.
 background (ImageBatchVarShape): Input tensor containing one or more background images. Each image is BGR (3-channel) 8-bit.
 fgmask(ImageBatchVarShape): Input foreground mask image batch. Each mask image is grayscale 8-bit.
@@ -2687,7 +2687,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Copy Make Border operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 border_mode(NVCVBorderType, optional): Border mode to be used when accessing elements outside input image.
 border_value(float array, optional): Border value to be used for constant border mode, each element of the array corresponds to the</p>
 <blockquote>
@@ -2714,7 +2714,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Copy Make Border operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 border_mode(NVCVBorderType, optional): Border mode to be used when accessing elements outside input image.
 border_value(float array, optional): Border value to be used for constant border mode, each element of the array corresponds to the</p>
 <blockquote>
@@ -2749,7 +2749,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Copy Make Border operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 border_mode(NVCVBorderType): Border mode to be used when accessing elements outside input image.
 border_value(float array, optional): Border value to be used for constant border mode, each element of the array corresponds to the</p>
@@ -2775,7 +2775,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Copy Make Border operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 src (ImageBatchVarShape): Input image batch containing one or more images.
 border_mode(NVCVBorderType, optional): Border mode to be used when accessing elements outside input image.
 border_value(float array, optional): Border value to be used for constant border mode, each element of the array corresponds to the</p>
@@ -3033,7 +3033,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the CVT Color operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 code (NVCVColorConversionCode): Code describing the desired color conversion.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
 </dd>
@@ -3052,7 +3052,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the CVT Color operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 code (NVCVColorConversionCode): Code describing the desired color conversion.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
 </dd>
@@ -3079,7 +3079,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the CVT Color operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 code (NVCVColorConversionCode): Code describing the desired color conversion.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -3099,7 +3099,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the CVT Color operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 code (NVCVColorConversionCode): Code describing the desired color conversion.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -3127,7 +3127,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Erase operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 anchor (Tensor): anchor an array of size num_erasing_area that gives the</p>
 <blockquote>
 <div><p>x coordinate and y coordinate of the top left point in the eraseing areas.</p>
@@ -3158,7 +3158,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Erase operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 anchor (Tensor): anchor an array of size num_erasing_area that gives the</p>
 <blockquote>
 <div><p>x coordinate and y coordinate of the top left point in the eraseing areas.</p>
@@ -3197,7 +3197,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Erase operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 anchor (Tensor): anchor an array of size num_erasing_area that gives the</p>
 <blockquote>
@@ -3229,7 +3229,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Erase operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 anchor (Tensor): anchor an array of size num_erasing_area that gives the</p>
 <blockquote>
@@ -3268,7 +3268,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Flip operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 flipCode (int): Flag to specify how to flip the array; 0 means flipping</p>
 <blockquote>
 <div><p>around the x-axis and positive value (for example, 1) means flipping
@@ -3292,7 +3292,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Flip operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 flipCode (Tensor): Flag to specify how to flip the array; 0 means flipping</p>
 <blockquote>
 <div><p>around the x-axis and positive value (for example, 1) means flipping
@@ -3324,7 +3324,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Flip operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 flipCode (int): Flag to specify how to flip the array; 0 means flipping</p>
 <blockquote>
@@ -3349,7 +3349,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Flip operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 flipCode (Tensor): Flag to specify how to flip the array; 0 means flipping</p>
 <blockquote>
@@ -3442,7 +3442,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Gaussian operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 kernel_size (Tuple [int,int]): Kernel width, height.
 sigma (Tuple [double,double]): Gaussian kernel standard deviation in X,Y directions.
 border (NVCVBorderType, optional): Border mode to be used when accessing elements outside input image.
@@ -3463,7 +3463,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Gaussian operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 kernel_size (Tensor): Kernel width, height.
 sigma (Tensor): Gaussian kernel standard deviation in X,Y directions.
 border (NVCVBorderType, optional): Border mode to be used when accessing elements outside input image.
@@ -3492,7 +3492,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Gaussian operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 kernel_size (Tuple [int,int]): Kernel width, height.
 sigma (Tuple [double,double]): Gaussian kernel standard deviation in X,Y directions.
@@ -3514,7 +3514,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Gaussian operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 kernel_size (Tensor): Kernel width, height.
 sigma (Tensor): Gaussian kernel standard deviation in X,Y directions.
@@ -3544,7 +3544,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the GaussianNoise operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input image batch containing one or more images.
 mu (Tensor): An array of size batch that gives the mu value of each image.
 sigma (Tensor): An array of size batch that gives the sigma value of each image.
 per_channel (bool): Whether to add the same noise for all channels.
@@ -3566,7 +3566,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the GaussianNoise operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 mu (Tensor): An array of size batch that gives the mu value of each image.
 sigma (Tensor): An array of size batch that gives the sigma value of each image.
 per_channel (bool): Whether to add the same noise for all channels.
@@ -3596,7 +3596,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the GaussianNoise operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output image batch containing the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output image batch containing the result of the operation.
 src (Tensor): Input image batch containing one or more images.
 mu (Tensor): An array of size batch that gives the mu value of each image.
 sigma (Tensor): An array of size batch that gives the sigma value of each image.
@@ -3619,7 +3619,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the GaussianNoise operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 src (ImageBatchVarShape): Input image batch containing one or more images.
 mu (Tensor): An array of size batch that gives the mu value of each image.
 sigma (Tensor): An array of size batch that gives the sigma value of each image.
@@ -3650,7 +3650,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Joint Bilateral Filter operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 srcColor (Tensor): Input tensor for color distance.
 diameter (int): Bilateral filter diameter.
 sigma_color (float): Gaussian exponent for color difference.
@@ -3673,7 +3673,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Joint Bilateral operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 srcColor (ImageBatchVarShape): Input images for color distance.
 diameter (Tensor): Bilateral filter diameter per image.
 sigma_color (Tensor): Gaussian exponent for color difference per image.
@@ -3703,7 +3703,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Joint Bilateral Filter operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 srcColor (Tensor): Input tensor for color distance.
 diameter (int): Bilateral filter diameter.
@@ -3727,7 +3727,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Joint Bilateral operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 diameter (Tensor): Bilateral filter diameter per image.
 sigma_color (Tensor): Gaussian exponent for color difference per image.
@@ -3757,7 +3757,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Laplacian operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 ksize (int): Aperture size used to compute the second-derivative filters, it can be 1 or 3.
 scale (float): Scale factor for the Laplacian values (use 1 for no scale).
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -3777,7 +3777,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Laplacian operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 ksize (Tensor): Aperture size used to compute the second-derivative filters, it can be 1 or 3 for each image.
 scale (Tensor): Scale factor for the Laplacian values (use 1 for no scale) for each image.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -3805,7 +3805,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Laplacian operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 ksize (int): Aperture size used to compute the second-derivative filters, it can be 1 or 3.
 scale (float): Scale factor for the Laplacian values (use 1 for no scale).
@@ -3826,7 +3826,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Laplacian operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 ksize (Tensor): Aperture size used to compute the second-derivative filters, it can be 1 or 3 for each image.
 scale (Tensor): Scale factor for the Laplacian values (use 1 for no scale) for each image.
@@ -3855,7 +3855,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Median Blur operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 ksize (Tuple [int,int]): Width and Height of the kernel.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
 </dd>
@@ -3874,7 +3874,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Median Blur operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 ksize (Tensor): Width and Height of the kernel for each image.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
 </dd>
@@ -3901,7 +3901,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Median Blur operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 ksize (Tuple [int,int]): Width and Height of the kernel.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -3921,7 +3921,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Median Blur operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 ksize (Tensor): Width and Height of the kernel for each image.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -3949,7 +3949,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Morphology operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 morphologyType (MorphologyType): Type of operation to perform (Erode/Dilate).
 maskSize (Tuple [int,int]): Mask width and height for morphology operation.
 anchor (Tuple [int,int]): X,Y offset of kernel, use -1,-1 for center.
@@ -3972,7 +3972,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Morphology operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 morphologyType (MorphologyType): Type of operation to perform (Erode/Dilate).
 maskSize (Tensor): Mask width and height for morphology operation for every image.
 anchor (Tensor): X,Y offset of kernel for every image, use -1,-1 for center.
@@ -4003,7 +4003,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Morphology operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 morphologyType (MorphologyType): Type of operation to perform (Erode/Dilate).
 maskSize (Tuple [int,int]): Mask width and height for morphology operation.
@@ -4027,7 +4027,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Morphology operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 morphologyType (MorphologyType): Type of operation to perform (Erode/Dilate).
 maskSize (Tensor): Mask width and height for morphology operation for every image.
@@ -4144,7 +4144,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Normalize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 base (Tensor): Tensor providing base values for normalization.
 scale (Tensor): Tensor providing scale values for normalization.
 flags (int ,optional): Algorithm flags, use CVCUDA_NORMALIZE_SCALE_IS_STDDEV if scale passed as argument</p>
@@ -4174,7 +4174,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Normalize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 base (Tensor): Tensor providing base values for normalization.
 scale (Tensor): Tensor providing scale values for normalization.
 flags (int ,optional): Algorithm flags, use CVCUDA_NORMALIZE_SCALE_IS_STDDEV if scale passed as argument</p>
@@ -4212,7 +4212,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Normalize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 base (Tensor): Tensor providing base values for normalization.
 scale (Tensor): Tensor providing scale values for normalization.
@@ -4243,7 +4243,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Normalize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 src (ImageBatchVarShape): Input image batch containing one or more images.
 base (Tensor): Tensor providing base values for normalization.
 scale (Tensor): Tensor providing scale values for normalization.
@@ -4348,7 +4348,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Pillow Resize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 shape (Shape): Shape of the output image.
 format (ImageFormat): Format of the input and output images.
 interp(Interp): Interpolation type used for transform.
@@ -4369,7 +4369,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Pillow Resize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 sizes (Tuple vector): Shapes of output images.
 interp(Interp): Interpolation type used for transform.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -4397,7 +4397,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Pillow Resize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 shape (Shape): Shape of the output image.
 format (ImageFormat): Format of the input and output images.
@@ -4419,7 +4419,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Pillow Resize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 sizes (Tuple vector): Shapes of output images.
 interp(Interp): Interpolation type used for transform.
@@ -4448,7 +4448,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the RandomResizedCrop operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 shape (Tuple): Shape of output tensor.
 min_scale (double, optional): Lower bound for the random area of the crop, before resizing. The scale is defined with respect to the area of the original image.
 max_scale (double, optional): Upper bound for the random area of the crop, before resizing. The scale is defined with respect to the area of the original image.
@@ -4473,7 +4473,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the RandomResizedCrop operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 sizes (Tuple vector): Shapes of output images.
 min_scale (double, optional): Lower bound for the random area of the crop, before resizing. The scale is defined with respect to the area of the original image.
 max_scale (double, optional): Upper bound for the random area of the crop, before resizing. The scale is defined with respect to the area of the original image.
@@ -4506,7 +4506,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the RandomResizedCrop operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 min_scale (double, optional): Lower bound for the random area of the crop, before resizing. The scale is defined with respect to the area of the original image.
 max_scale (double, optional): Upper bound for the random area of the crop, before resizing. The scale is defined with respect to the area of the original image.
@@ -4531,7 +4531,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the RandomResizedCrop operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 min_scale (double, optional): Lower bound for the random area of the crop, before resizing. The scale is defined with respect to the area of the original image.
 max_scale (double, optional): Upper bound for the random area of the crop, before resizing. The scale is defined with respect to the area of the original image.
@@ -4643,7 +4643,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Resize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 shape (Tuple): Shape of output tensor.
 interp(Interp): Interpolation type used for transform.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -4663,7 +4663,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Resize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 sizes (Tuple vector): Shapes of output images.
 interp(Interp): Interpolation type used for transform.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -4691,7 +4691,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Resize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 interp(Interp): Interpolation type used for transform.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -4711,7 +4711,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Resize operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 interp(Interp): Interpolation type used for transform.
 stream (Stream, optional): CUDA Stream on which to perform the operation.</p>
@@ -4739,7 +4739,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Rotate operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (): Input tensor containing one or more images.
 angle_deg (double): Angle used for rotation in degrees.
 shift (Tuple [double, double]): Value of shift in {x, y} directions to move the center at the same coord after rotation.
 interpolation (Interp): Interpolation type used for transform.
@@ -4760,7 +4760,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Rotate operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 angle_deg (Tensor): Angle used for rotation in degrees for each image.
 shift (Tensor): Value of shift in {x, y} directions to move the center at the same coord after rotation for each image.
@@ -4790,7 +4790,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Rotate operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (): Output tensor to store the result of the operation.
 src (): Input tensor containing one or more images.
 angle_deg (double): Angle used for rotation in degrees.
 shift (Tuple [double, double]): Value of shift in {x, y} directions to move the center at the same coord after rotation.
@@ -4812,7 +4812,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Rotate operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 angle_deg (Tensor): Angle used for rotation in degrees for each image.
 shift (Tensor): Value of shift in {x, y} directions to move the center at the same coord after rotation for each image.
@@ -4842,7 +4842,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Threshold operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 thresh (Tensor): An array of size batch that gives the threshold value of each image.
 maxval (Tensor): An array of size batch that gives the maxval value of each image,</p>
 <blockquote>
@@ -4866,7 +4866,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Threshold operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 thresh (Tensor): An array of size batch that gives the threshold value of each image.
 maxval (Tensor): An array of size batch that gives the maxval value of each image,</p>
 <blockquote>
@@ -4898,7 +4898,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Threshold operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 thresh (Tensor): An array of size batch that gives the threshold value of each image.
 maxval (Tensor): An array of size batch that gives the maxval value of each image,</p>
@@ -4923,7 +4923,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Threshold operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 src (ImageBatchVarShape): Input image batch containing one or more images.
 thresh (Tensor): An array of size batch that gives the threshold value of each image.
 maxval (Tensor): An array of size batch that gives the maxval value of each image,</p>
@@ -4956,7 +4956,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Warp Affine operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 xform (Tensor): 2x3 float affine transformation matrix.
 flags (int): Combination of interpolation methods(NVCV_INTERP_NEAREST, NVCV_INTERP_LINEAR or NVCV_INTERP_CUBIC)</p>
 <blockquote>
@@ -4984,7 +4984,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Warp Affine operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 xform (Tensor): 2x3 float affine transformation matrix(s) for each image.
 flags (int): Combination of interpolation methods(NVCV_INTERP_NEAREST, NVCV_INTERP_LINEAR or NVCV_INTERP_CUBIC)</p>
 <blockquote>
@@ -5020,7 +5020,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Warp Affine operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 xform (Tensor): 2x3 float affine transformation matrix.
 flags (int): Combination of interpolation methods(NVCV_INTERP_NEAREST, NVCV_INTERP_LINEAR or NVCV_INTERP_CUBIC)</p>
@@ -5049,7 +5049,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Warp Affine operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 src (ImageBatchVarShape): Input image batch containing one or more images.
 xform (Tensor): 2x3 float affine transformation matrix(s) for each image in batch.
 flags (int): Combination of interpolation methods(NVCV_INTERP_NEAREST, NVCV_INTERP_LINEAR or NVCV_INTERP_CUBIC)</p>
@@ -5086,7 +5086,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Warp Perspective operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
+<dt>Parameters:</dt><dd><p>src (Tensor): Input tensor containing one or more images.
 xform (pyarray: 3x3 perspective transformation matrix.
 flags (int): Combination of interpolation methods(NVCV_INTERP_NEAREST, NVCV_INTERP_LINEAR or NVCV_INTERP_CUBIC)</p>
 <blockquote>
@@ -5114,7 +5114,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Warp Perspective operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 xform (Tensor): 3x3 perspective transformation matrix for each image in the batch.
 flags (int): Combination of interpolation methods(NVCV_INTERP_NEAREST, NVCV_INTERP_LINEAR or NVCV_INTERP_CUBIC)</p>
 <blockquote>
@@ -5150,7 +5150,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Warp Perspective operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
+<dt>Parameters:</dt><dd><p>dst (Tensor): Output tensor to store the result of the operation.
 src (Tensor): Input tensor containing one or more images.
 xform (pyarray: 3x3 perspective transformation matrix.
 flags (int): Combination of interpolation methods(NVCV_INTERP_NEAREST, NVCV_INTERP_LINEAR or NVCV_INTERP_CUBIC)</p>
@@ -5179,7 +5179,7 @@ API references of the CV-CUDA operator.</p>
 <dt>See also:</dt><dd><p>Refer to the CV-CUDA C API reference for the Warp Perspective operator
 for more details and usage examples.</p>
 </dd>
-<dt>Args:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
+<dt>Parameters:</dt><dd><p>src (ImageBatchVarShape): Input image batch containing one or more images.
 dst (ImageBatchVarShape): Output image batch containing the result of the operation.
 xform (Tensor): 3x3 perspective transformation matrix for each image in the batch.
 flags (int): Combination of interpolation methods(NVCV_INTERP_NEAREST, NVCV_INTERP_LINEAR or NVCV_INTERP_CUBIC)</p>
