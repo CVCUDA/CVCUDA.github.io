@@ -116,6 +116,7 @@ Copyright
 
     C Modules <modules/c_modules>
     C++ Modules <modules/cpp_modules>
+    Python Modules <modules/python_modules>
     Index <_exhale_api/cvcuda_api>
 
 .. toctree::
