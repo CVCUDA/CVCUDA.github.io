@@ -1,0 +1,17 @@
+.. _exhale_struct_structNVCVSegment:
+
+Struct NVCVSegment
+==================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_Types.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: NVCVSegment
+   :project: cvcuda
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -35,7 +35,6 @@ Program Listing for File Casts.hpp
    #include <type_traits>
    
    namespace nvcv {
-   
    template<class T>
    using HandleTypeOf = typename std::remove_pointer<T>::type::HandleType;
    

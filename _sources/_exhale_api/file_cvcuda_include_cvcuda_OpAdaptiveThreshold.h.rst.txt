@@ -54,9 +54,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__ADAPTIVETHRESHOLD_1ga66f4f3c348357865ad838bb42f273387`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__ADAPTIVETHRESHOLD_1gadd2068fc70cfd0b18a85bf365c5322f5`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__ADAPTIVETHRESHOLD_1gac4d801462dc9433cbd80898ae0b38101`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__ADAPTIVETHRESHOLD_1ga0101d801c13d4235afa3843ec56f401a`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__ADAPTIVETHRESHOLD_1gac26f5a20d04e25be967335a335824d1f`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__ADAPTIVETHRESHOLD_1ga48921361944ef7f2840ad89869321d52`
 

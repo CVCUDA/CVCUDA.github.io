@@ -37,11 +37,11 @@ Program Listing for File ImageData.hpp
    
    namespace nvcv {
    
-   // Interface hierarchy of image contents
    class ImageData
    {
    public:
        ImageData() = default;
+   
        ImageData(const NVCVImageData &data);
    
        ImageFormat format() const;
@@ -62,9 +62,11 @@ Program Listing for File ImageData.hpp
        using Buffer = NVCVImageBufferCudaArray;
    
        explicit ImageDataCudaArray(ImageFormat format, const Buffer &buffer);
+   
        explicit ImageDataCudaArray(const NVCVImageData &data);
    
-       int         numPlanes() const;
+       int numPlanes() const;
+   
        cudaArray_t plane(int p) const;
    
        static constexpr bool IsCompatibleKind(NVCVImageBufferType kind)
@@ -82,9 +84,11 @@ Program Listing for File ImageData.hpp
        explicit ImageDataStrided(const NVCVImageData &data);
    
        using Buffer = ImageBufferStrided;
+   
        Size2D size() const;
    
-       int                      numPlanes() const;
+       int numPlanes() const;
+   
        const ImagePlaneStrided &plane(int p) const;
    
        static constexpr bool IsCompatibleKind(NVCVImageBufferType kind)
@@ -100,6 +104,7 @@ Program Listing for File ImageData.hpp
    {
    public:
        explicit ImageDataStridedCuda(ImageFormat format, const Buffer &buffer);
+   
        explicit ImageDataStridedCuda(const NVCVImageData &data);
    
        static constexpr bool IsCompatibleKind(NVCVImageBufferType kind)
@@ -112,6 +117,7 @@ Program Listing for File ImageData.hpp
    {
    public:
        explicit ImageDataStridedHost(ImageFormat format, const Buffer &buffer);
+   
        explicit ImageDataStridedHost(const NVCVImageData &data);
    
        static constexpr bool IsCompatibleKind(NVCVImageBufferType kind)

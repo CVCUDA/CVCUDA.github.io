@@ -56,7 +56,7 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PADANDSTACK_1ga6e35e5db15fddfdda44f09586af751c8`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PADANDSTACK_1ga8018536ae1a44a4035f1861ea7e34d8c`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PADANDSTACK_1gad4c969b71c685c28f69e61a41b262a25`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PADANDSTACK_1ga84af5d905fdeacacb057795b3e86df20`
 

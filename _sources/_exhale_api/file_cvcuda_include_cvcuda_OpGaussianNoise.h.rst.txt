@@ -54,9 +54,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE_1ga3704e33a21cb6fa9e2c13e5122098a62`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE_1ga5580f8ccecab8bb60e455e740394ab98`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE_1ga4e5600ffaa92e1a765be29e67b948b9d`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE_1ga328eb95ce4afcadb5d7c140f92c880be`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE_1ga79218273153d093a63792e3412578b96`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE_1gac1bdc6317483067dfdee7f0b3ee8d058`
 

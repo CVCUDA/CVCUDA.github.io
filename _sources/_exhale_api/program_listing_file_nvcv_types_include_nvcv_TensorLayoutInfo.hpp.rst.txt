@@ -134,25 +134,21 @@ Program Listing for File TensorLayoutInfo.hpp
            return m_cacheIsRowMajor;
        }
    
-       // -1 if not found
        int idxChannel() const
        {
            return m_cacheIdxChannel;
        }
    
-       // -1 if not found
        int idxWidth() const
        {
            return m_cacheIdxWidth;
        }
    
-       // -1 if not found
        int idxHeight() const
        {
            return m_cacheIdxHeight;
        }
    
-       // -1 if not found
        int idxDepth() const
        {
            return m_cacheIdxDepth;

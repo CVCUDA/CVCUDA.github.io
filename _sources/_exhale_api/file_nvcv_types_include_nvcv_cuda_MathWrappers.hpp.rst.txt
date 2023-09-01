@@ -43,6 +43,8 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_cuda_InterpolationWrap.hpp`
 
+- :ref:`file_nvcv_types_include_nvcv_cuda_math_LinAlg.hpp`
+
 
 
 

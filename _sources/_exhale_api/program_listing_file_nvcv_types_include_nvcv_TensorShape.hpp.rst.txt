@@ -38,7 +38,6 @@ Program Listing for File TensorShape.hpp
    #include <tuple>
    
    namespace nvcv {
-   
    class TensorShape
    {
    public:

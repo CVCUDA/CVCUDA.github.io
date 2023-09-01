@@ -28,6 +28,8 @@ Includes
 
 - ``ImageBatchData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageBatchData.hpp`)
 
+- ``Optional.hpp`` (:ref:`file_nvcv_types_include_nvcv_Optional.hpp`)
+
 - ``detail/ImageBatchImpl.hpp`` (:ref:`file_nvcv_types_include_nvcv_detail_ImageBatchImpl.hpp`)
 
 
@@ -60,6 +62,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpErase.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpFindContours.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpFlip.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.hpp`
@@ -68,11 +72,17 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussianNoise.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpHistogramEq.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpInpaint.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMinMaxLoc.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpMorphology.hpp`
 
@@ -117,4 +127,11 @@ Classes
 - :ref:`exhale_class_classnvcv_1_1ImageBatchVarShape`
 
 - :ref:`exhale_class_classnvcv_1_1ImageBatchVarShape_1_1Iterator`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_ImageBatch_8hpp_1a366f385bffd0273a8359c63222350fe9`
 

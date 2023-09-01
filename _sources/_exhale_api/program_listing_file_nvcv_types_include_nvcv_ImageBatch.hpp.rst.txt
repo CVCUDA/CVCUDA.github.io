@@ -34,6 +34,7 @@ Program Listing for File ImageBatch.hpp
    #include "Image.hpp"
    #include "ImageBatch.h"
    #include "ImageBatchData.hpp"
+   #include "Optional.hpp"
    
    namespace nvcv {
    
@@ -49,6 +50,7 @@ Program Listing for File ImageBatch.hpp
        using HandleType = NVCVImageBatchHandle;
    
        int32_t capacity() const;
+   
        int32_t numImages() const;
    
        NVCVTypeImageBatch type() const;
@@ -58,7 +60,8 @@ Program Listing for File ImageBatch.hpp
        template<typename Data>
        Optional<Data> exportData(CUstream stream) const;
    
-       void  setUserPointer(void *ptr);
+       void setUserPointer(void *ptr);
+   
        void *userPointer() const;
    
        static bool IsCompatibleKind(NVCVTypeImageBatch)
@@ -84,15 +87,18 @@ Program Listing for File ImageBatch.hpp
    {
    public:
        using Requirements = NVCVImageBatchVarShapeRequirements;
+   
        static Requirements CalcRequirements(int32_t capacity);
    
        NVCV_IMPLEMENT_SHARED_RESOURCE(ImageBatchVarShape, ImageBatch);
    
-       explicit ImageBatchVarShape(NVCVImageBatchHandle &&handle);
-       ImageBatchVarShape(const ImageBatch &batch);
-       ImageBatchVarShape(ImageBatch &&batch);
-       explicit ImageBatchVarShape(const Requirements &reqs, const Allocator &alloc = nullptr);
-       explicit ImageBatchVarShape(int32_t capacity, const Allocator &alloc = nullptr);
+       explicit ImageBatchVarShape(NVCVImageBatchHandle &&handle); 
+       ImageBatchVarShape(const ImageBatch &batch);                
+       ImageBatchVarShape(ImageBatch &&batch);                     
+       explicit ImageBatchVarShape(const Requirements &reqs,
+                                   const Allocator    &alloc = nullptr); 
+       explicit ImageBatchVarShape(int32_t          capacity,
+                                   const Allocator &alloc = nullptr); 
    
        ImageBatchVarShape &operator=(const ImageBatch &batch);
        ImageBatchVarShape &operator=(ImageBatch &&batch);
@@ -107,7 +113,8 @@ Program Listing for File ImageBatch.hpp
    
        void clear();
    
-       Size2D      maxSize() const;
+       Size2D maxSize() const;
+   
        ImageFormat uniqueFormat() const;
    
        Image operator[](ptrdiff_t n) const;
@@ -183,6 +190,13 @@ Program Listing for File ImageBatch.hpp
    
        friend Iterator operator+(difference_type diff, const Iterator &it);
    };
+   
+   // Image Batch const ref optional definition ---------------------------
+   
+   using OptionalImageBatchVarShapeConstRef = nvcv::Optional<std::reference_wrapper<const nvcv::ImageBatchVarShape>>;
+   
+   #define NVCV_IMAGE_BATCH_VAR_SHAPE_HANDLE_TO_OPTIONAL(X) \
+       X ? nvcv::OptionalImageBatchVarShapeConstRef(nvcv::ImageBatchVarShapeWrapHandle{X}) : nvcv::NullOpt
    
    } // namespace nvcv
    

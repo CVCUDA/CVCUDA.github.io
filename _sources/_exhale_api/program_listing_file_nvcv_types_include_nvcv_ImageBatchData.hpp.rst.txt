@@ -38,7 +38,6 @@ Program Listing for File ImageBatchData.hpp
    
    namespace nvcv {
    
-   // Interface hierarchy of image batch contents
    class ImageBatchData
    {
    public:
@@ -58,7 +57,8 @@ Program Listing for File ImageBatchData.hpp
        }
    
        const NVCVImageBatchData &cdata() const &;
-       NVCVImageBatchData        cdata() &&;
+   
+       NVCVImageBatchData cdata() &&;
    
        int32_t numImages() const;
    
@@ -73,12 +73,16 @@ Program Listing for File ImageBatchData.hpp
    {
    public:
        using ImageBatchData::ImageBatchData;
+   
        explicit ImageBatchVarShapeData(const NVCVImageBatchData &data);
    
        const NVCVImageFormat *formatList() const;
+   
        const NVCVImageFormat *hostFormatList() const;
-       Size2D                 maxSize() const;
-       ImageFormat            uniqueFormat() const;
+   
+       Size2D maxSize() const;
+   
+       ImageFormat uniqueFormat() const;
    
        static constexpr bool IsCompatibleKind(NVCVImageBatchBufferType type)
        {
@@ -90,6 +94,7 @@ Program Listing for File ImageBatchData.hpp
    {
    public:
        using ImageBatchVarShapeData::ImageBatchVarShapeData;
+   
        explicit ImageBatchVarShapeDataStrided(const NVCVImageBatchData &data);
    
        const NVCVImageBufferStrided *imageList() const;
@@ -101,7 +106,9 @@ Program Listing for File ImageBatchData.hpp
        using Buffer = NVCVImageBatchVarShapeBufferStrided;
    
        using ImageBatchVarShapeDataStrided::ImageBatchVarShapeDataStrided;
+   
        explicit ImageBatchVarShapeDataStridedCuda(int32_t numImages, const Buffer &buffer);
+   
        explicit ImageBatchVarShapeDataStridedCuda(const NVCVImageBatchData &data);
    };
    

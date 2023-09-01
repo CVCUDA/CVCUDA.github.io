@@ -19,6 +19,8 @@ Classes
 -------
 
 
+- :ref:`exhale_class_classnvcv_1_1cuda_1_1ArrayWrap`
+
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderVarShapeWrap`
 
 - :ref:`exhale_class_classnvcv_1_1cuda_1_1BorderVarShapeWrap_3_01T_00_01NVCV__BORDER__CONSTANT_01_4`

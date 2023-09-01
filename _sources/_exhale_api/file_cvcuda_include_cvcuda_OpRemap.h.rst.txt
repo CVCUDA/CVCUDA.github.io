@@ -56,9 +56,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__REMAP_1ga02e599e39a5f9c0eec073e9d89263b02`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__REMAP_1ga7dc00217abce3f0e77cb8b7a758bf74b`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__REMAP_1gaf552ef6dc9e3683e2221e4ecd25354bc`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__REMAP_1gaf162c9ca89fce4455cfc2792064b41b5`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__REMAP_1ga9d55ade39dbedcf4f8a2601d89f31d38`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__REMAP_1gabb36ab65725051638622ca33c08fb57a`
 

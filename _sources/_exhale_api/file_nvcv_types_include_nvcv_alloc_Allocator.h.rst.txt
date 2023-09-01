@@ -84,6 +84,8 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_alloc_Allocator.hpp`
 
+- :ref:`file_nvcv_types_include_nvcv_Array.h`
+
 - :ref:`file_nvcv_types_include_nvcv_Image.h`
 
 - :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
@@ -113,31 +115,33 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_Allocator_8h_1a40953753f8ce7bf78004f5d97b0b50f1`
+- :ref:`exhale_function_Allocator_8h_1a1599b5b0eba6e5a81ef0dd1b97c65e3f`
 
-- :ref:`exhale_function_Allocator_8h_1a554ab989862f85f4d76bb061187aa42d`
+- :ref:`exhale_function_Allocator_8h_1a1ac2c70ec7110c279bcbe26da16ef26e`
 
-- :ref:`exhale_function_Allocator_8h_1a7fb3fb5c8de18f06bd093a3626d3404c`
+- :ref:`exhale_function_Allocator_8h_1a8b5aaebb57cb303913d9e68918352ab7`
 
-- :ref:`exhale_function_Allocator_8h_1a634ca901b949df0a50ddd34da67f9a12`
+- :ref:`exhale_function_Allocator_8h_1a011cea5e977cca0861c7be88b8f84353`
 
-- :ref:`exhale_function_Allocator_8h_1a816dd205d6941468375ee0b6fb40e15a`
+- :ref:`exhale_function_Allocator_8h_1aa30f2addb1b16fbc0a97624818bde81c`
 
-- :ref:`exhale_function_Allocator_8h_1a6eb27ae5f0958d34ca6d3ec52be44577`
+- :ref:`exhale_function_Allocator_8h_1abf6bf3f96488f5aedc974081ca9b9f2a`
 
-- :ref:`exhale_function_Allocator_8h_1a3ca86a86f4aa1d2dbc9c7602910cfa9b`
+- :ref:`exhale_function_Allocator_8h_1a2027f13101d05498c82aa5c3665e96a4`
 
-- :ref:`exhale_function_Allocator_8h_1ac7b4d988f82d8d97c1f35c99b53ef25a`
+- :ref:`exhale_function_Allocator_8h_1aca074da96abd27babcd3015f2c40f646`
 
-- :ref:`exhale_function_Allocator_8h_1abe4a2db57717d469ce6b086233a3fb47`
+- :ref:`exhale_function_Allocator_8h_1a6b1607bff628f143b45e59aaa20342ce`
 
-- :ref:`exhale_function_Allocator_8h_1ad14d45cbf5851e146d0b0bd137cb28e5`
+- :ref:`exhale_function_Allocator_8h_1a724da405daeb164f61727537e68fa296`
 
-- :ref:`exhale_function_Allocator_8h_1ac12cb0457052f19e8ed983df85b784f5`
+- :ref:`exhale_function_Allocator_8h_1a47cf27f569f1f19df63470416cc60b0c`
 
-- :ref:`exhale_function_Allocator_8h_1a4c725a34e376b6931916764654e50142`
+- :ref:`exhale_function_Allocator_8h_1ada049089438e2b0e74dfba12419e8997`
 
-- :ref:`exhale_function_Allocator_8h_1a7a10d6fc4b511b8b736f9f299c33e48a`
+- :ref:`exhale_function_Allocator_8h_1a9c5825eab70a68256e5b4cc0b143fde2`
+
+- :ref:`exhale_function_Allocator_8h_1a0ad268b73bbd46c2486c967d606c9981`
 
 
 Defines

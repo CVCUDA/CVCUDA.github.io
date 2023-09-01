@@ -54,9 +54,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MORPHOLOGY_1gaebb9dcf0490a4418784383e902358d79`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MORPHOLOGY_1ga03a6951d92ff0b0fd6c8ef4e34e028b8`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MORPHOLOGY_1gaede0989fabe5046ded496f467a24e052`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MORPHOLOGY_1ga245bcadfe4691ebd5aace1608d611473`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MORPHOLOGY_1ga0b161fea624412a442848ca76be14e36`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MORPHOLOGY_1gaf063ed00623a471c122be9d0c37a453c`
 

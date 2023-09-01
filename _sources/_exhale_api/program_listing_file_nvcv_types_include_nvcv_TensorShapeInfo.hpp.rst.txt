@@ -117,8 +117,9 @@ Program Listing for File TensorShapeInfo.hpp
        using Base = detail::TensorShapeInfoImpl<TensorLayoutInfo>;
    
    public:
-       static bool IsCompatible(const TensorShape &)
+       static bool IsCompatible(const TensorShape &tshape)
        {
+           (void)tshape;
            return true;
        }
    

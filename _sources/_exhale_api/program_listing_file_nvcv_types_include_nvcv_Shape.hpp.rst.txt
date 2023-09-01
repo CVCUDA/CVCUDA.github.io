@@ -11,7 +11,7 @@ Program Listing for File Shape.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -56,22 +56,24 @@ Program Listing for File Shape.hpp
    
        constexpr static int MAX_RANK = N;
    
+       // Constructors
        Shape();
        Shape(const Shape &that);
+   
        explicit Shape(size_type size);
    
-       // copy 'n' elements from buffer pointed by 'data'
        Shape(const T *data, size_t n);
    
        Shape(std::initializer_list<value_type> shape);
    
-       reference       operator[](int i);
+       reference       operator[](int i); 
        const_reference operator[](int i) const;
    
-       size_type rank() const;
-       size_type size() const;
-       bool      empty() const;
+       size_type rank() const;  
+       size_type size() const;  
+       bool      empty() const; 
    
+       // iterators
        iterator begin();
        iterator end();
    
@@ -81,6 +83,7 @@ Program Listing for File Shape.hpp
        const_iterator cbegin() const;
        const_iterator cend() const;
    
+       // Comparison operators
        bool operator==(const Shape &that) const;
        bool operator!=(const Shape &that) const;
    

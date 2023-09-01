@@ -55,11 +55,14 @@ Program Listing for File Image.hpp
        static Requirements CalcRequirements(const Size2D &size, ImageFormat fmt, const MemAlignment &bufAlign = {});
    
        NVCV_IMPLEMENT_SHARED_RESOURCE(Image, Base);
+   
        explicit Image(const Requirements &reqs, const Allocator &alloc = nullptr);
+   
        explicit Image(const Size2D &size, ImageFormat fmt, const Allocator &alloc = nullptr,
                       const MemAlignment &bufAlign = {});
    
-       Size2D      size() const;
+       Size2D size() const;
+   
        ImageFormat format() const;
    
        ImageData exportData() const;
@@ -67,7 +70,8 @@ Program Listing for File Image.hpp
        template<typename DATA>
        Optional<DATA> exportData() const;
    
-       void  setUserPointer(void *ptr);
+       void setUserPointer(void *ptr);
+   
        void *userPointer() const;
    };
    

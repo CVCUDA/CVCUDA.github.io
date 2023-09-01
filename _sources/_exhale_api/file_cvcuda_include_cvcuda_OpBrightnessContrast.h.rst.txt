@@ -54,9 +54,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__BRIGHTNESS__CONTRAST_1ga90644c6b5a8f5ef096463651ebcc10fe`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__BRIGHTNESS__CONTRAST_1ga6456fca8ff9e24f67dc34a1111fb65a7`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__BRIGHTNESS__CONTRAST_1gae0db04325a8019f8fa4be1a01a1416a9`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__BRIGHTNESS__CONTRAST_1ga84844158f4a030e61f22db66222ca985`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__BRIGHTNESS__CONTRAST_1gafbe3577671b7939b9900f38d52204244`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__BRIGHTNESS__CONTRAST_1gac249843772b7017e6707bf2dee3e2a85`
 

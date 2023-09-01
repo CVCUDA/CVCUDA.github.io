@@ -42,6 +42,8 @@ Classes
 
 - :ref:`exhale_struct_structnvcv_1_1detail_1_1InPlaceT`
 
+- :ref:`exhale_struct_structnvcv_1_1detail_1_1invoke__result`
+
 - :ref:`exhale_struct_structnvcv_1_1detail_1_1IsCallback`
 
 - :ref:`exhale_struct_structnvcv_1_1detail_1_1IsCallback_3_01Callback_3_01Cpp_00_01C_00_01Tr_00_01SingleUse_01_4_01_4`
@@ -68,6 +70,8 @@ Classes
 
 - :ref:`exhale_struct_structnvcv_1_1detail_1_1UniqueHandleOps`
 
+- :ref:`exhale_class_classnvcv_1_1detail_1_1ArrayDataAccessImpl`
+
 - :ref:`exhale_class_classnvcv_1_1detail_1_1BaseFromMember`
 
 - :ref:`exhale_class_classnvcv_1_1detail_1_1BaseFromMember_3_01T_01_6_00_01ID_01_4`
@@ -93,9 +97,9 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1_1detail_1a573b94456f0d11807e691e7b1179f4da`
 
-- :ref:`exhale_function_namespacenvcv_1_1detail_1a0217862088c62335f4c9a6dec7f11446`
-
 - :ref:`exhale_function_namespacenvcv_1_1detail_1a782c15a44f61060439861c44f61297d3`
+
+- :ref:`exhale_function_namespacenvcv_1_1detail_1a0217862088c62335f4c9a6dec7f11446`
 
 - :ref:`exhale_function_namespacenvcv_1_1detail_1ad2a0244b153747f179e5916e4eb7fbbe`
 

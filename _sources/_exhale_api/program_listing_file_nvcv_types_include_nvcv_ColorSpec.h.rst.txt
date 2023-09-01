@@ -11,7 +11,7 @@ Program Listing for File ColorSpec.h
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -48,6 +48,8 @@ Program Listing for File ColorSpec.h
        NVCV_COLOR_MODEL_RAW       = 2 + 7, 
        NVCV_COLOR_MODEL_XYZ,               
        NVCV_COLOR_MODEL_HSV,               
+       NVCV_COLOR_MODEL_CMYK,              
+       NVCV_COLOR_MODEL_YCCK               
    } NVCVColorModel;
    
    typedef enum
@@ -199,6 +201,12 @@ Program Listing for File ColorSpec.h
        NVCV_CSS_411R,
    
        NVCV_CSS_420,
+   
+       NVCV_CSS_440 = NVCV_CSS_422R,
+   
+       NVCV_CSS_410,
+   
+       NVCV_CSS_410R
    } NVCVChromaSubsampling;
    
    NVCV_PUBLIC NVCVStatus nvcvMakeChromaSubsampling(NVCVChromaSubsampling *outCSS, int32_t samplesHoriz,

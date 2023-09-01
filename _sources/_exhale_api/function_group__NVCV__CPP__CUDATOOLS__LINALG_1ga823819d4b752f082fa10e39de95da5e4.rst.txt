@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga823819d4b752f082fa10e39de95da5e4:
+
+Template Function nvcv::cuda::math::solve_inplace(const Matrix<T, N, N>&, const Vector<int, N>&, Vector<T, N>&)
+===============================================================================================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_cuda_math_LinAlg.hpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::math::solve_inplace(const Matrix<T, N, N>&, const Vector<int, N>&, Vector<T, N>&)
+   :project: cvcuda

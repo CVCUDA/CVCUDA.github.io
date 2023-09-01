@@ -54,9 +54,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MEDIAN__BLUR_1ga4ea89bdad586b35aac01a73f839b5bf6`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MEDIAN__BLUR_1ga0ea1b953e0182b1d56d5ce8e413b862b`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MEDIAN__BLUR_1ga1126bd7573595636a49566f555b91e88`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MEDIAN__BLUR_1gabc8ddabcb539f63ac05e6a97625fcd83`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MEDIAN__BLUR_1ga363374dd31ae941e0cf5d64293230b9a`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__MEDIAN__BLUR_1ga8aa5766b947ff2115b8f620f9fb2b58d`
 

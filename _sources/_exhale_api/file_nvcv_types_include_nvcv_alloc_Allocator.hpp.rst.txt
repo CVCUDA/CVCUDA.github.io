@@ -44,6 +44,8 @@ Included By
 -----------
 
 
+- :ref:`file_nvcv_types_include_nvcv_Array.hpp`
+
 - :ref:`file_nvcv_types_include_nvcv_Image.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_Tensor.hpp`

@@ -11,7 +11,7 @@ Program Listing for File Config.hpp
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -48,6 +48,11 @@ Program Listing for File Config.hpp
    inline void SetMaxTensorCount(int32_t maxCount)
    {
        detail::CheckThrow(nvcvConfigSetMaxTensorCount(maxCount));
+   }
+   
+   inline void SetMaxArrayCount(int32_t maxCount)
+   {
+       detail::CheckThrow(nvcvConfigSetMaxArrayCount(maxCount));
    }
    
    inline void SetMaxAllocatorCount(int32_t maxCount)

@@ -29,6 +29,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpAdaptiveThreshold.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpAdvCvtColor.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpAverageBlur.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.h`
@@ -63,6 +65,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_Operator.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpFindContours.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpFlip.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.h`
@@ -71,17 +75,29 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussianNoise.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpHistogram.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpHistogramEq.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpInpaint.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpMinAreaRect.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMinMaxLoc.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpMorphology.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpNonMaximumSuppression.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpNormalize.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpOSD.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
 
@@ -96,6 +112,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpResize.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpSIFT.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpThreshold.h`
 

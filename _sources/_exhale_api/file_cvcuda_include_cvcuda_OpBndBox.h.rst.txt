@@ -52,7 +52,7 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM____BND__BOX_1gace9be82285819da069111203c11f2a9d`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM____BND__BOX_1gaa619985c2589ffec1056f949b270a881`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM____BND__BOX_1gae948728a0872e4263757dae8b382916f`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM____BND__BOX_1gaad0bdf472a68330a7fa9025bce6ced27`
 

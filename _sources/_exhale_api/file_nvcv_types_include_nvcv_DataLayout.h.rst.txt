@@ -50,6 +50,8 @@ Classes
 -------
 
 
+- :ref:`exhale_struct_structNVCVExtraChannelInfo`
+
 - :ref:`exhale_struct_structNVCVPackingParams`
 
 
@@ -57,11 +59,15 @@ Enums
 -----
 
 
+- :ref:`exhale_enum_group__NVCV__C__CORE__DATALAYOUT_1gac94002ce78dca7def215cef7747cdd49`
+
 - :ref:`exhale_enum_group__NVCV__C__CORE__DATALAYOUT_1ga7331c5b8dadde7c924309ea200bb564f`
 
 - :ref:`exhale_enum_group__NVCV__C__CORE__DATALAYOUT_1ga989019c1cdc301ea91c0b86e558387c3`
 
 - :ref:`exhale_enum_group__NVCV__C__CORE__DATALAYOUT_1ga696bcdf0c9bdfa1b064dfdad0f9e6740`
+
+- :ref:`exhale_enum_group__NVCV__C__CORE__DATALAYOUT_1gab6dbed180f228c9deb5c390cf63297e9`
 
 - :ref:`exhale_enum_group__NVCV__C__CORE__DATALAYOUT_1ga289e93b9fc00b0721c38603814dedae5`
 
@@ -109,7 +115,9 @@ Defines
 -------
 
 
-- :ref:`exhale_define_group__NVCV__C__CORE__DATALAYOUT_1gaf3516090dd13239abca0ff29e8e0c580`
-
 - :ref:`exhale_define_group__NVCV__C__CORE__DATALAYOUT_1ga499463885c15471a0941539049535143`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__DATALAYOUT_1ga7efbaa2a4c273be7f89a1b1b5c0a7ca1`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__DATALAYOUT_1ga11505772b73ec43934a2d3a3f5cd708b`
 

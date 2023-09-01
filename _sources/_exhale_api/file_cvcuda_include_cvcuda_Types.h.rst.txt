@@ -27,6 +27,8 @@ Includes
 
 - ``detail/Export.h`` (:ref:`file_cvcuda_include_cvcuda_detail_Export.h`)
 
+- ``stdbool.h``
+
 
 
 Included By
@@ -36,6 +38,8 @@ Included By
 - :ref:`file_nvcv_types_include_nvcv_cuda_InterpolationWrap.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpAdaptiveThreshold.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpAdvCvtColor.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpBilateralFilter.h`
 
@@ -57,6 +61,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpErase.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpFindContours.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpFlip.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.h`
@@ -64,6 +70,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussianNoise.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpInpaint.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`
 
@@ -74,6 +82,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpMorphology.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpNonMaximumSuppression.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpOSD.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
 
@@ -86,6 +96,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpResize.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpSIFT.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpThreshold.h`
 
@@ -104,6 +116,8 @@ Classes
 -------
 
 
+- :ref:`exhale_struct_structNVCVArrow`
+
 - :ref:`exhale_struct_structNVCVBlurBoxesI`
 
 - :ref:`exhale_struct_structNVCVBlurBoxI`
@@ -114,7 +128,29 @@ Classes
 
 - :ref:`exhale_struct_structNVCVBoxI`
 
+- :ref:`exhale_struct_structNVCVCircle`
+
+- :ref:`exhale_struct_structNVCVClock`
+
 - :ref:`exhale_struct_structNVCVColorRGBA`
+
+- :ref:`exhale_struct_structNVCVElement`
+
+- :ref:`exhale_struct_structNVCVElements`
+
+- :ref:`exhale_struct_structNVCVLine`
+
+- :ref:`exhale_struct_structNVCVPoint`
+
+- :ref:`exhale_struct_structNVCVPointI`
+
+- :ref:`exhale_struct_structNVCVPolyLine`
+
+- :ref:`exhale_struct_structNVCVRotatedBox`
+
+- :ref:`exhale_struct_structNVCVSegment`
+
+- :ref:`exhale_struct_structNVCVText`
 
 
 Enums
@@ -123,15 +159,28 @@ Enums
 
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1gab5fd5eb713bb7ab84ba02107cd311a21`
 
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1ga28fdf651b7c4ba680c25ba092331321b`
+
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1ga1b0c8e931110b304a5db967abbfa3099`
 
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1gab529f9ddbef23848c189fa7459dbf9fb`
 
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1ga0dd853096644bdd240132736a88cdac0`
 
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1ga1475aab12cb21ca59a16a19a439c7a69`
+
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1gade8f1bf75be5e165c522000340909eff`
 
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1ga1203e8efb997ef02a1c5e4cbee8d6e07`
+
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1ga324de33010335ccf8a5fe4e994c28d4f`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_group__NVCV__C__TYPES_1ga0c18a6cb8b40af56ea78a007c3656375`
 
 
 Typedefs

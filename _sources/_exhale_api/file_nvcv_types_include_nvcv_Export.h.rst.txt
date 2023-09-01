@@ -29,6 +29,8 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_alloc_Allocator.h`
 
+- :ref:`file_nvcv_types_include_nvcv_Array.h`
+
 - :ref:`file_nvcv_types_include_nvcv_ColorSpec.h`
 
 - :ref:`file_nvcv_types_include_nvcv_Config.h`

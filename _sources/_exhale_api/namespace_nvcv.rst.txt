@@ -33,6 +33,8 @@ Classes
 
 - :ref:`exhale_struct_structnvcv_1_1Size2D`
 
+- :ref:`exhale_struct_structnvcv_1_1TranslateArrayDataCleanup`
+
 - :ref:`exhale_struct_structnvcv_1_1TranslateImageDataCleanup`
 
 - :ref:`exhale_struct_structnvcv_1_1TranslateImageToHandle`
@@ -40,6 +42,24 @@ Classes
 - :ref:`exhale_struct_structnvcv_1_1TranslateTensorDataCleanup`
 
 - :ref:`exhale_class_classnvcv_1_1Allocator`
+
+- :ref:`exhale_class_classnvcv_1_1Array`
+
+- :ref:`exhale_class_classnvcv_1_1ArrayData`
+
+- :ref:`exhale_class_classnvcv_1_1ArrayDataAccess`
+
+- :ref:`exhale_class_classnvcv_1_1ArrayDataAccessCuda`
+
+- :ref:`exhale_class_classnvcv_1_1ArrayDataAccessHost`
+
+- :ref:`exhale_class_classnvcv_1_1ArrayDataAccessHostPinned`
+
+- :ref:`exhale_class_classnvcv_1_1ArrayDataCuda`
+
+- :ref:`exhale_class_classnvcv_1_1ArrayDataHost`
+
+- :ref:`exhale_class_classnvcv_1_1ArrayDataHostPinned`
 
 - :ref:`exhale_class_classnvcv_1_1Callback`
 
@@ -146,6 +166,8 @@ Enums
 -----
 
 
+- :ref:`exhale_enum_group__NVCV__CPP__CORE__DATALAYOUT_1ga544c5636c55cc0eeba6c493d7029c39e`
+
 - :ref:`exhale_enum_namespacenvcv_1af921ab47450ed999f4eb09e9abd85569`
 
 - :ref:`exhale_enum_group__NVCV__CPP__CORE__DATALAYOUT_1ga5f4996b34fd86cb881f08fd90f4ae35e`
@@ -165,6 +187,8 @@ Enums
 - :ref:`exhale_enum_namespacenvcv_1a893bda0840fe00a793808f37822e6966`
 
 - :ref:`exhale_enum_group__NVCV__CPP__CORE__DATALAYOUT_1ga08e808a08be98700d81947cc1b0eefc3`
+
+- :ref:`exhale_enum_group__NVCV__CPP__CORE__DATALAYOUT_1ga5788ba1da0d9165a566d66509c3d3684`
 
 - :ref:`exhale_enum_group__NVCV__CPP__CORE__DATALAYOUT_1ga5c916a14bc5cee28d56022ab40ae36dd`
 
@@ -186,6 +210,8 @@ Enums
 Functions
 ---------
 
+
+- :ref:`exhale_function_namespacenvcv_1a2962e2b5139355d5842c7622c5a9a0f7`
 
 - :ref:`exhale_function_namespacenvcv_1a282132e4ccf00038c66957cf0478ed58`
 
@@ -217,21 +243,49 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1a3fd41c5646f7c47493a10b658ad24b5b`
 
+- :ref:`exhale_function_namespacenvcv_1a210b96886a86d2ea3d7b57ec07fc5f8d`
+
+- :ref:`exhale_function_namespacenvcv_1a7889f25fc06b0e1f12d5056296e0421a`
+
+- :ref:`exhale_function_namespacenvcv_1a2b5ffadb5851da81fd44d85c43e232f7`
+
+- :ref:`exhale_function_namespacenvcv_1a9a8a275f7d60b9eed9bdfe355de0a72f`
+
+- :ref:`exhale_function_namespacenvcv_1a3f545068e99a08006f48a7a9771517df`
+
 - :ref:`exhale_function_namespacenvcv_1a8e3c041aa3bc91a3231d5315aaec91b6`
 
 - :ref:`exhale_function_namespacenvcv_1a76fe262ac060fde6834dcbdd8eee172f`
 
+- :ref:`exhale_function_namespacenvcv_1a7ba99af1e8bb825266aeb65db644d207`
+
+- :ref:`exhale_function_namespacenvcv_1a454b4f87e1a312631100c22641b150a7`
+
+- :ref:`exhale_function_namespacenvcv_1ae659b5949d127f18660dfb3dc059f160`
+
+- :ref:`exhale_function_namespacenvcv_1a1963aaf68a56760289d1771f2aae31ae`
+
+- :ref:`exhale_function_namespacenvcv_1a061bc4449f777627c10d13f15e16c28b`
+
 - :ref:`exhale_function_namespacenvcv_1ac45859e650ee349e772f9573ae54e74c`
 
 - :ref:`exhale_function_namespacenvcv_1ad470464d5493708d0d2b02c951f6f8e6`
+
+- :ref:`exhale_function_namespacenvcv_1a72a9d7dc923e4fe44d20c2fdb6a22469`
+
+- :ref:`exhale_function_namespacenvcv_1a0b875a958f42984c57bb245a5a048873`
+
+- :ref:`exhale_function_namespacenvcv_1a96080b4679b9d6af067a5eb0739d4265`
+
+- :ref:`exhale_function_namespacenvcv_1ac8d5caa5e89e30ef5b3eb6b57208dcab`
+
+- :ref:`exhale_function_namespacenvcv_1a22b8555a054be3e847770352956385dd`
 
 - :ref:`exhale_function_group__NVCV__CPP__CORE__IMAGETYPE_1ga0661225051b72b25dea066d7ec403bca`
 
 - :ref:`exhale_function_namespacenvcv_1a39702e6379a44a7dd7c7695c87aa2849`
 
 - :ref:`exhale_function_namespacenvcv_1ae5ae5948181c37e27adf8aeea6af7cc2`
-
-- :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga20a7c2219e38a7b29f8e0d24c2ff805f`
 
 - :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga8c92261f24e903a1e07172af1b20afea`
 
@@ -240,14 +294,6 @@ Functions
 - :ref:`exhale_function_namespacenvcv_1a5cd83a06033da6d9632f20e1485a8f20`
 
 - :ref:`exhale_function_namespacenvcv_1a988b6827a1d0fb1c1e128df2199335f9`
-
-- :ref:`exhale_function_namespacenvcv_1a2f6215a7a3da10ecf7d4d6acb591ec7f`
-
-- :ref:`exhale_function_namespacenvcv_1a7eb0a0129a4921f596195d27531b9a95`
-
-- :ref:`exhale_function_namespacenvcv_1ad840bc43e8a918dfba5204e4699d2347`
-
-- :ref:`exhale_function_namespacenvcv_1a094b660ed403089ee875ebfb6b52a75f`
 
 - :ref:`exhale_function_namespacenvcv_1adfe7fb628d5bf8f0cbf69c6caeb85f03`
 
@@ -343,7 +389,7 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1ab6fd1bac15045b4f9cfef78cae376800`
 
-- :ref:`exhale_function_namespacenvcv_1ad24fb00c4da494562b76085e80d8b14f`
+- :ref:`exhale_function_namespacenvcv_1ac0a6c7927027b3956f3601d35e1c0876`
 
 - :ref:`exhale_function_namespacenvcv_1ac4e4c81dd93510df85e8b38d9ea7df0e`
 
@@ -352,6 +398,12 @@ Typedefs
 --------
 
 
+- :ref:`exhale_typedef_namespacenvcv_1a08f17b88e65a6fafe6981f36a7b51819`
+
+- :ref:`exhale_typedef_namespacenvcv_1a232540df9587d635a3d46ab405dcca88`
+
+- :ref:`exhale_typedef_namespacenvcv_1a801cbe3f069173e77e483e846de79b11`
+
 - :ref:`exhale_typedef_namespacenvcv_1ac45b2c0b49b2d190372eb764ae761f09`
 
 - :ref:`exhale_typedef_namespacenvcv_1a5470a545cf24011baa4304acf9543d36`
@@ -359,6 +411,8 @@ Typedefs
 - :ref:`exhale_typedef_namespacenvcv_1a2a991a8a3f4e1cfa288e37a705cc3058`
 
 - :ref:`exhale_typedef_namespacenvcv_1af77f93ef256b7bca7b5ac04cf0b2351b`
+
+- :ref:`exhale_typedef_group__NVCV__CPP__CORE__DATALAYOUT_1ga1086bbbc779f68c5eb0bd43c20b078ce`
 
 - :ref:`exhale_typedef_namespacenvcv_1aad6d953ca608451d5fd50ab598abffcc`
 
@@ -376,6 +430,10 @@ Typedefs
 
 - :ref:`exhale_typedef_namespacenvcv_1a085202fcdc0080f6d17097f012256098`
 
+- :ref:`exhale_typedef_namespacenvcv_1af2be7680bea231ee3fc92b04db422c3d`
+
+- :ref:`exhale_typedef_namespacenvcv_1a5c25b36997885faf274b2589e7b49d42`
+
 - :ref:`exhale_typedef_namespacenvcv_1a9d6e867ce019b36fec6e4b0cbc78a7b0`
 
 - :ref:`exhale_typedef_namespacenvcv_1adaec8087c883ab0d144f9ef666ceded6`
@@ -388,3 +446,5 @@ Variables
 
 
 - :ref:`exhale_variable_namespacenvcv_1ab067f036d5d745d9807fa4c1861148f4`
+
+- :ref:`exhale_variable_namespacenvcv_1a6c5ef48d93c8da8875c83ef4b85ffb49`

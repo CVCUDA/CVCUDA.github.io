@@ -121,6 +121,9 @@ Program Listing for File ColorSpec.hpp
        CSS_411  = NVCV_CSS_411,
        CSS_411R = NVCV_CSS_411R,
        CSS_420  = NVCV_CSS_420,
+       CSS_440  = NVCV_CSS_440,
+       CSS_410  = NVCV_CSS_410,
+       CSS_410R = NVCV_CSS_410R
    };
    
    class ColorSpec
@@ -139,20 +142,26 @@ Program Listing for File ColorSpec.hpp
    
        constexpr operator NVCVColorSpec() const;
    
-       ColorSpec      chromaLoc(ChromaLocation locHoriz, ChromaLocation locVert) const;
+       ColorSpec chromaLoc(ChromaLocation locHoriz, ChromaLocation locVert) const;
+   
        ChromaLocation chromaLocHoriz() const;
+   
        ChromaLocation chromaLocVert() const;
    
-       ColorSpec  colorSpace(ColorSpace cspace) const;
+       ColorSpec colorSpace(ColorSpace cspace) const;
+   
        ColorSpace colorSpace() const;
    
-       ColorSpec     yCbCrEncoding(YCbCrEncoding encoding) const;
+       ColorSpec yCbCrEncoding(YCbCrEncoding encoding) const;
+   
        YCbCrEncoding yCbCrEncoding() const;
    
-       ColorSpec             colorTransferFunction(ColorTransferFunction xferFunc) const;
+       ColorSpec colorTransferFunction(ColorTransferFunction xferFunc) const;
+   
        ColorTransferFunction colorTransferFunction() const;
    
-       ColorSpec  colorRange(ColorRange range) const;
+       ColorSpec colorRange(ColorRange range) const;
+   
        ColorRange colorRange() const;
    
    private:

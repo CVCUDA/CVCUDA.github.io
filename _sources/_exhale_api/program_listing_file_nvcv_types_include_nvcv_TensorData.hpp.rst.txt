@@ -38,16 +38,18 @@ Program Listing for File TensorData.hpp
    
    namespace nvcv {
    
-   // Interface hierarchy of tensor contents
    class TensorData
    {
    public:
        TensorData(const NVCVTensorData &data);
    
-       int                         rank() const;
-       const TensorShape          &shape() const &;
+       int rank() const;
+   
+       const TensorShape &shape() const &;
+   
        const TensorShape::DimType &shape(int d) const &;
-       const TensorLayout         &layout() const &;
+   
+       const TensorLayout &layout() const &;
    
        TensorShape shape() &&
        {
@@ -97,7 +99,8 @@ Program Listing for File TensorData.hpp
    class TensorDataStrided : public TensorData
    {
    public:
-       Byte          *basePtr() const;
+       Byte *basePtr() const;
+   
        const int64_t &stride(int d) const;
    
        static bool IsCompatibleKind(NVCVTensorBufferType kind)
@@ -115,6 +118,7 @@ Program Listing for File TensorData.hpp
        using Buffer = NVCVTensorBufferStrided;
    
        TensorDataStridedCuda(const NVCVTensorData &data);
+   
        TensorDataStridedCuda(const TensorShape &tshape, const DataType &dtype, const Buffer &buffer);
    
        static bool IsCompatibleKind(NVCVTensorBufferType kind)

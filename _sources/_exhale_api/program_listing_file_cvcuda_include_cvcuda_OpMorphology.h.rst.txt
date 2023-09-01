@@ -44,18 +44,19 @@ Program Listing for File OpMorphology.h
    {
    #endif
    
-   CVCUDA_PUBLIC NVCVStatus cvcudaMorphologyCreate(NVCVOperatorHandle *handle, const int32_t maxVarShapeBatchSize);
+   CVCUDA_PUBLIC NVCVStatus cvcudaMorphologyCreate(NVCVOperatorHandle *handle);
    
    CVCUDA_PUBLIC NVCVStatus cvcudaMorphologySubmit(NVCVOperatorHandle handle, cudaStream_t stream, NVCVTensorHandle in,
-                                                   NVCVTensorHandle out, NVCVMorphologyType morphType, int32_t maskWidth,
-                                                   int32_t maskHeight, int32_t anchorX, int32_t anchorY, int32_t iteration,
+                                                   NVCVTensorHandle out, NVCVTensorHandle workspace,
+                                                   NVCVMorphologyType morphType, int32_t maskWidth, int32_t maskHeight,
+                                                   int32_t anchorX, int32_t anchorY, int32_t iteration,
                                                    const NVCVBorderType borderMode);
    
    CVCUDA_PUBLIC NVCVStatus cvcudaMorphologyVarShapeSubmit(NVCVOperatorHandle handle, cudaStream_t stream,
                                                            NVCVImageBatchHandle in, NVCVImageBatchHandle out,
-                                                           NVCVMorphologyType morphType, NVCVTensorHandle masks,
-                                                           NVCVTensorHandle anchors, int32_t iteration,
-                                                           const NVCVBorderType borderMode);
+                                                           NVCVImageBatchHandle workspace, NVCVMorphologyType morphType,
+                                                           NVCVTensorHandle masks, NVCVTensorHandle anchors,
+                                                           int32_t iteration, const NVCVBorderType borderMode);
    
    #ifdef __cplusplus
    }

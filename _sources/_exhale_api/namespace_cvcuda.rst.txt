@@ -12,6 +12,8 @@ Classes
 
 - :ref:`exhale_class_classcvcuda_1_1AdaptiveThreshold`
 
+- :ref:`exhale_class_classcvcuda_1_1AdvCvtColor`
+
 - :ref:`exhale_class_classcvcuda_1_1AverageBlur`
 
 - :ref:`exhale_class_classcvcuda_1_1BilateralFilter`
@@ -44,6 +46,8 @@ Classes
 
 - :ref:`exhale_class_classcvcuda_1_1Erase`
 
+- :ref:`exhale_class_classcvcuda_1_1FindContours`
+
 - :ref:`exhale_class_classcvcuda_1_1Flip`
 
 - :ref:`exhale_class_classcvcuda_1_1GammaContrast`
@@ -51,6 +55,12 @@ Classes
 - :ref:`exhale_class_classcvcuda_1_1Gaussian`
 
 - :ref:`exhale_class_classcvcuda_1_1GaussianNoise`
+
+- :ref:`exhale_class_classcvcuda_1_1Histogram`
+
+- :ref:`exhale_class_classcvcuda_1_1HistogramEq`
+
+- :ref:`exhale_class_classcvcuda_1_1Inpaint`
 
 - :ref:`exhale_class_classcvcuda_1_1IOperator`
 
@@ -60,11 +70,17 @@ Classes
 
 - :ref:`exhale_class_classcvcuda_1_1MedianBlur`
 
+- :ref:`exhale_class_classcvcuda_1_1MinAreaRect`
+
+- :ref:`exhale_class_classcvcuda_1_1MinMaxLoc`
+
 - :ref:`exhale_class_classcvcuda_1_1Morphology`
 
 - :ref:`exhale_class_classcvcuda_1_1NonMaximumSuppression`
 
 - :ref:`exhale_class_classcvcuda_1_1Normalize`
+
+- :ref:`exhale_class_classcvcuda_1_1OSD`
 
 - :ref:`exhale_class_classcvcuda_1_1PadAndStack`
 
@@ -79,6 +95,8 @@ Classes
 - :ref:`exhale_class_classcvcuda_1_1Resize`
 
 - :ref:`exhale_class_classcvcuda_1_1Rotate`
+
+- :ref:`exhale_class_classcvcuda_1_1SIFT`
 
 - :ref:`exhale_class_classcvcuda_1_1Threshold`
 

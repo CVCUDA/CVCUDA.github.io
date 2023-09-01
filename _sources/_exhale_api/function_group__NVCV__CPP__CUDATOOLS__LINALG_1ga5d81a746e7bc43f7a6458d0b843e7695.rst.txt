@@ -1,0 +1,14 @@
+.. _exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga5d81a746e7bc43f7a6458d0b843e7695:
+
+Template Function nvcv::cuda::math::lu_inplace
+==============================================
+
+- Defined in :ref:`file_nvcv_types_include_nvcv_cuda_math_LinAlg.hpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: nvcv::cuda::math::lu_inplace(Matrix<T, N, N>&, Vector<int, N>&)
+   :project: cvcuda

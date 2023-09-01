@@ -39,5 +39,5 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_nvcv__types_2include_2nvcv_2Version_8h_1aabb0682c617511bd305ae772d6ac0fd0`
+- :ref:`exhale_function_nvcv__types_2include_2nvcv_2Version_8h_1a80060a7a18073b6658956d2dd8fd3688`
 

@@ -50,7 +50,7 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__CHANNEL__REORDER_1ga61ff194d845cb5b01e715fd0f0839cea`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__CHANNEL__REORDER_1ga7777686cffd8c1ee144ad1ce17549614`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__CHANNEL__REORDER_1gac72a0e3bd39843fe9484cdb8440d0eb3`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__CHANNEL__REORDER_1gab7a94682671c42a7def09b14e601e640`
 

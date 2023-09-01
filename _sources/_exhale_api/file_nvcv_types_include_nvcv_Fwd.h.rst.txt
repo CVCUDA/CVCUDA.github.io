@@ -33,6 +33,8 @@ Included By
 -----------
 
 
+- :ref:`file_nvcv_types_include_nvcv_Array.h`
+
 - :ref:`file_nvcv_types_include_nvcv_Image.h`
 
 - :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
@@ -45,6 +47,8 @@ Included By
 Typedefs
 --------
 
+
+- :ref:`exhale_typedef_Fwd_8h_1ad17516fde4a2743e4de6bdacd47bd6d7`
 
 - :ref:`exhale_typedef_Fwd_8h_1abe7066d4b604e453aff818758d0753cd`
 

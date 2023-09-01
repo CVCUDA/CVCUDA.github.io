@@ -43,6 +43,8 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_alloc_Requirements.hpp`
 
+- :ref:`file_nvcv_types_include_nvcv_Array.h`
+
 - :ref:`file_nvcv_types_include_nvcv_Image.h`
 
 - :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
@@ -65,13 +67,13 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_Requirements_8h_1ae62a273012440a03f4b51f339bd0ea60`
+- :ref:`exhale_function_Requirements_8h_1add4abba6723e4f7576131f0222155690`
 
-- :ref:`exhale_function_Requirements_8h_1aa21eb2a9fb046adc34204556055fd658`
+- :ref:`exhale_function_Requirements_8h_1ae02040f448ee1bba1586e535ab1f37ac`
 
-- :ref:`exhale_function_Requirements_8h_1a4a303dad5246cd93da5e19ffc0808062`
+- :ref:`exhale_function_Requirements_8h_1a856efeefae3c55bbc6d32c7c1511c06b`
 
-- :ref:`exhale_function_Requirements_8h_1a992f35f930a781e72141d541bdcbed85`
+- :ref:`exhale_function_Requirements_8h_1adbcf582ce4d9a52668dd8829c0bca5df`
 
 
 Defines

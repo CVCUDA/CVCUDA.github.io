@@ -54,9 +54,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__AVERAGEBLUR_1gaeade7cb7a11020cb8fdb9620216d9a68`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__AVERAGEBLUR_1gaa23d937c1f7ae314bfe700ac459f5454`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__AVERAGEBLUR_1ga6eea78f8c90f4978370bf59af2b38fe3`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__AVERAGEBLUR_1gaa138aa890c065582d5423ba33e826c2f`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__AVERAGEBLUR_1gac249eea9c59eac314a051116de3c0e8a`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__AVERAGEBLUR_1gae9271f84cc64febe88dd79fc11de70f8`
 

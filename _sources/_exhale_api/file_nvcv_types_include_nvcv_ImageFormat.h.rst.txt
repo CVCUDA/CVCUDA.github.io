@@ -39,6 +39,8 @@ Included By
 -----------
 
 
+- :ref:`file_nvcv_types_include_nvcv_ArrayData.h`
+
 - :ref:`file_nvcv_types_include_nvcv_Image.h`
 
 - :ref:`file_nvcv_types_include_nvcv_ImageBatch.h`
@@ -60,6 +62,8 @@ Functions
 ---------
 
 
+- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1ga0cb5e138dc7fa902d0a27c86ad32f5be`
+
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1ga232e5c3623e134b7c81a3f12e4819dab`
 
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gaf4a4ef3f2426efd354649bb8e01ce78d`
@@ -69,6 +73,8 @@ Functions
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gafce4c9bb04ed761c2119309a420076e8`
 
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1ga304a6f9b74a34534d201ed29b9e20bcb`
+
+- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gaec2add49673198f700e1abb024874478`
 
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gab40334b9659950c8e6b1b0b575727eca`
 
@@ -100,11 +106,15 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gacf77ecef0b87f17bc3e41f34dfd55398`
 
+- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gac2b2f4eeed55a84272b44d9ba03cc9a6`
+
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gac4515a9014f778f4056a2a62636b150f`
 
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1ga613aafc14884fbeca16f5cfad462512e`
 
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gaade5a9368cd4740286bac9ea223bc3d0`
+
+- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gace29cd15eaecf215ef1c2e6041a812c1`
 
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1ga6caecc1931aae1e0f7b99da414d028cd`
 
@@ -114,17 +124,17 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1ga6313264cb866d7410bb436d719de75f6`
 
-- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gac878b7a2b896a666beb3e69d8a178224`
+- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gab963b29ad9fa9021a31c9db22278d1d9`
 
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1ga4d315e984a7c06e7896a2875d1d7cad2`
 
 - :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gaf68add0c3fa02b14a841b9b29750f7cb`
 
-- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gade63dbe01c595b3c93c22b52e815183d`
+- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gaa0c9649403cdf845412215bb6ffdca90`
 
-- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1ga919202359a2f21475e36d5f2e14d6bcb`
+- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1gaa3aeaa2a6e304ae369d95930e1bf92d1`
 
-- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1ga6da59907b3f0e456c745cc72269a7ea3`
+- :ref:`exhale_function_group__NVCV__C__CORE__IMAGETYPE_1ga58d93b747af7f862f4a2114ff4e937de`
 
 
 Defines
@@ -171,6 +181,8 @@ Defines
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga323516c83bf14fb5119e23408086053d`
 
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1gaa03157498244f3ea587d60ce48fa6548`
+
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga6c377dc966c6f4f1d2e21399a4c4ffbf`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga9f556be7295af9dae078594611b19f1d`
@@ -189,6 +201,10 @@ Defines
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga75cca6c0d0d6be757b7217e27b8255c8`
 
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1gadca62fc9b6e97117359c185417242fad`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga4d69d222f4a4b543bd4520378fddd80a`
+
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga773505e5f83a0bc35040a5d0e82255be`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga5e447dc2a5bd4449382459070a28bac1`
@@ -199,9 +215,21 @@ Defines
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga4f1307a8017230b480e46d5d61c31bfb`
 
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga4a327cd3a094a6e2be541c715d1c7df4`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga9e6648a5828b51796833203c4c618c7e`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga5c093c5ef91df969905e8bec5f992fb8`
+
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga8881fd291a2614ca6c5a465d62c8cbe1`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga663ab71b529b0cd730ac7439e3725547`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga2432abca60dd9b05ada0364965aa956f`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga8e279c6f56db355d22736480227e4f46`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga1c8a2c3688c6b3df74ac69a2314e22aa`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga7b59745821d6da61c9904799980c7290`
 
@@ -260,6 +288,10 @@ Defines
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga3d2e800fa3f478778f8a295877af06a9`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga3d21a098ab7e0407086e69cadceea84a`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1gadc74c5b90e2dcc4e851e23d80f24f852`
+
+- :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1ga441c6d3265526ba0209979df0d65b66a`
 
 - :ref:`exhale_define_group__NVCV__C__CORE__IMAGETYPE_1gab280fc39ef0d40c2c904388ae18ef08a`
 

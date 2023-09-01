@@ -32,17 +32,271 @@ Classes
 
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType`
 
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01char_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01char_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01char_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01char_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01char_00_014_01_4`
+
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01const_01T_00_01C_01_4`
 
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01const_01volatile_01T_00_01C_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01double_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01double_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01double_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01double_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01double_00_014_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01float_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01float_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01float_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01float_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01float_00_014_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01int_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01int_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01int_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01int_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01int_00_014_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01long_01long_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01long_01long_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01long_01long_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01long_01long_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01long_01long_00_014_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01long_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01long_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01long_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01long_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01long_00_014_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01short_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01short_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01short_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01short_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01short_00_014_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01signed_01char_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01signed_01char_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01signed_01char_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01signed_01char_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01signed_01char_00_014_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01char_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01char_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01char_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01char_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01char_00_014_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01int_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01int_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01int_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01int_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01int_00_014_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01long_01long_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01long_01long_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01long_01long_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01long_01long_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01long_01long_00_014_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01long_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01long_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01long_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01long_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01long_00_014_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01short_00_010_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01short_00_011_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01short_00_012_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01short_00_013_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01unsigned_01short_00_014_01_4`
 
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1MakeType_3_01volatile_01T_00_01C_01_4`
 
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits`
 
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01char_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01char1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01char2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01char3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01char4_01_4`
+
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01const_01T_01_4`
 
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01const_01volatile_01T_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01dim3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01double_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01double1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01double2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01double3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01double4_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01float_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01float1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01float2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01float3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01float4_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01int_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01int1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01int2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01int3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01int4_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01long_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01long_01long_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01long1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01long2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01long3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01long4_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01longlong1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01longlong2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01longlong3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01longlong4_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01short_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01short1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01short2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01short3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01short4_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01signed_01char_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01uchar1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01uchar2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01uchar3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01uchar4_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01uint1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01uint2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01uint3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01uint4_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ulong1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ulong2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ulong3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ulong4_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ulonglong1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ulonglong2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ulonglong3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ulonglong4_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01unsigned_01char_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01unsigned_01int_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01unsigned_01long_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01unsigned_01long_01long_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01unsigned_01short_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ushort1_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ushort2_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ushort3_01_4`
+
+- :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01ushort4_01_4`
 
 - :ref:`exhale_struct_structnvcv_1_1cuda_1_1detail_1_1TypeTraits_3_01volatile_01T_01_4`
 
@@ -61,60 +315,6 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a0438290d7a559104f5a5f5c6bf44f0c0`
 
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a019f39f100dff456e9c0fff35616b3d4`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a77fb282d7213fc18aa94133520a54ffb`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a0195b7b4228f1db3455d7772caeda5f3`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1afccff056feaa14f0ef46992324470f3c`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a0d1076206d24c08222c8303101b19fea`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a01a62edffbb1a297ec505df9f3ba0eb8`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a6163e54e3e60226fcbba04fdf9e110a3`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a8e5b8c7cfb0eacf6dd58ec1c1e79d817`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a3563a073e46531525566a37f301fd25b`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1afe81e31a850961d894453faa89dac2cb`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ad4528d1a1ffdd3feb63bed97a46fc594`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ae82fe658a443e3e847761861206ffda6`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a4d2b7f4e28e4128ffbcde312c8d29c6b`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ae78a04c779e581625b3e9529d15c11bb`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a7332960b44187e88ca8af52ec9c1b484`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a47071812c68c4bdfe5fb841c7f195a19`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ac2df16af2773c91e945a6b30056580e3`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a5ed973463343b3998b02b90112d32824`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a5f03239f28d1d8a2c449de53e7a8b198`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ab9be9d6574d84d0d45a780ccaf69abf3`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a14f0d336ac414be41c73934244b938ca`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a5f62a55feef05b435370c76261446d27`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a3f728387cadd627162645b7c9c152fff`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a241c79cb50184e45bd87cc979112fa3f`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1af56aace8243d05e78471f367c7755e6b`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1af1e7bfd49dd0f09a7fc4de5eb2264af2`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a794d34e9bd1f113fe0174c9e8bc1f417`
-
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1af24aaf7073ffb36b126f8213d9ca80c6`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a75a681a5cb21e7f6c1916a491b70e7e4`
@@ -124,86 +324,6 @@ Functions
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a1bd7a3b5a313395299038cfa89df86ab`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa4b0905609af92ac3bd853fa6a2734b1`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1adea5e2344eaddbca4fcc171d31bb81b3`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1afe97122544011cfb5ed27cbd302cf3f2`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a372d2cf0d32d30e7f7eb87625d6183dd`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a0548603040f15f76ad766e6f076c0ef9`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a115c3eeb122f3cce6a37d5df359208e1`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a7fbcd63dc3dc68c7e74d5fbd56ee9575`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a175752cd0ce75e99f865a0a9c8d17bb3`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa31cb7ac4ae1e16a660fd5314cf381f5`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a00c3019d72b86802f2a14a6773ef5993`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a931c7e320317a40e284e8c3881c6c25e`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ada26bf9a68f817f19587e5eaffb17624`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a3e443956e6b5889ce43a440b0f97fa0f`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a3a754061d1a930ebf1e1ba6720625bec`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa5c94fd6ae3647bd429f8839a3c41597`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a39ab4698301afe5b2dfabcb27586b822`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a2537cfb9b5a6305fd17f1d6ea3d14262`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa29a6bb5031dcaecd5c3ced6a8f87b9b`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a0080cfe3cd36a11db52a513922ba388f`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a0b720a291993e8100f91262a2fe9d643`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a33cc05303e9701866fb72e035c20388a`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a455adf6a5e0db79b1ed936bea53609cf`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a66d857400eb065a879cbd4a97d388f63`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ad911f186c3c43c7c7d13f7c14d456787`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a533a9af993a7f0adb28ad8af2a67fb4b`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a470d2693986a6199d78b7ce6ab5b5ce6`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a1b0ba2f21e9a7271d8e367acdc75f742`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a89153cfb0a8a6139d1606921f15c9ef7`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a71c804dbdb23c6b893b64f33f4876f7a`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a35962f8b8927594358f5d3d406aad974`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a852043a0b8ccf5d63a0e3d0c56cf114a`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a92bfae47731f84e87c8c4a2aba9bc21f`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a47b3a5dbc2694977faed64082531297c`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a6f3ec49e7e7b086eef8e11855203a21c`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ac8de7e26c978b7a1cf1c1d6bef1558dc`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a82bb71bc546592ba894dc371790049db`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ad5d572cd177323e5d84e10e0d6b4538f`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa7e9ac7d531520ce365be7afffb638f5`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a24ab4fcce02ee8c5f31c69a4d9a1cbed`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a23240e4273eb85572d7513e3b6d7f7dd`
-
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a07daf5dafb5c3c8202a6fbd24c35dd2d`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1abc54c427721a92bd3ca2c18267277ed9`
 
@@ -216,6 +336,72 @@ Functions
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ab907f0717d8cbc21a41a1b6c5f67aa7b`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ae3a984c6451355c4f3744c63e08e07dd`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a036d4fe82f4b7e91968cac6350f8f9e1`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a32b70af361bc82042ac91a067bc695e0`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a3b6b18fd54a5a031cda7c3905fcc48ef`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ab06dfc054b1f890510a558dc5a9e933e`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1acd5758a13269ebe801d3c8ef2e58b915`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a46d0bf65e17ada4163c5dc3c9b96fe81`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a93e0e2846ed496bb6e4863f81b653fba`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a91d4a3aae69f82d6a10284225f9a417a`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1af4bf74eb9ea9bf8cff38f0241b9548b5`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a884a4acdd6a12f75c8ffef7763420537`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a09b489a7308951548541aef1ed6391a7`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ab0d074349aa24c4ec89d9f3fa453e6a9`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa1c4fbf447d7d0e884634015da67a5a8`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a90d044444a514355080dd1935b1baa5c`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a9e37ff0a874e5bc64df41c7d58cd7184`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a7ebfb83bdb8fde243562ed56055a089c`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a7302ce3b02f4fb91f9bce9acca9fa13e`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a2f17b8aabd11d8f5ef5b48fde78866ca`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a7d72202cbd2a41b113492a70947514b7`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a59d08a15400e035a0c44417d1b62021f`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a279594961a83a0de8b8d243e39773cd8`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1af3c93364c2a8f4c30276d175a3cb801b`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a1b091ca0f1addbc4828f353358a4cbbc`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1abe6f6bfd6dd6460385314fac22435c1f`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a1937d8959df181a8285b43828aab11be`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1af35765859b029893922b62e957109268`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa4438c4e022b77ed6b6e90c999adbaeb`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a8152c043d554c3b82c68dabe9cc3a9b7`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a6dde764d8bab2fa7f1708f96d7de51a6`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a8900b7f1b4b4ef5d77e6911993bc6f4e`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa93a5b4b73b550540a2cd240cfbad68e`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a4adccf35b1c710ffb77d32f8f780e2ff`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a472b37f69dbf1470c073b6a00f7ab1f3`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a634b80154b747368b26be681fba97cd8`
 
@@ -239,14 +425,6 @@ Variables
 ---------
 
 
-- :ref:`exhale_variable_namespacenvcv_1_1cuda_1_1detail_1aa0ff1ae34dd13dbed3723715419ee6c1`
-
-- :ref:`exhale_variable_namespacenvcv_1_1cuda_1_1detail_1a547536c23df0d1adca15d34d21b0b0a8`
-
-- :ref:`exhale_variable_namespacenvcv_1_1cuda_1_1detail_1a92d3eccfc40fa9b275103a18684d4d32`
-
-- :ref:`exhale_variable_namespacenvcv_1_1cuda_1_1detail_1a75d16c481ad252859138a8f11bdf08ec`
-
 - :ref:`exhale_variable_namespacenvcv_1_1cuda_1_1detail_1a30a096c8d293c2fa169748efe7593e54`
 
 - :ref:`exhale_variable_namespacenvcv_1_1cuda_1_1detail_1a2dc653c16cee0a2c4048f1dee0b4a358`
@@ -256,5 +434,3 @@ Variables
 - :ref:`exhale_variable_namespacenvcv_1_1cuda_1_1detail_1ae347c7c9b775680aaef665168fabcd95`
 
 - :ref:`exhale_variable_namespacenvcv_1_1cuda_1_1detail_1a18a72368c428699e02d03e8f8150470e`
-
-- :ref:`exhale_variable_namespacenvcv_1_1cuda_1_1detail_1aea9fd80b2c50f179dfa6ac08475d11c9`

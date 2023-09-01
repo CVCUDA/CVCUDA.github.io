@@ -56,11 +56,11 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__WARP__PERSPECTIVE_1gaa09976be5ea753b23f601c30387e41cd`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__WARP__PERSPECTIVE_1gab5c2e7e9d73dfef5efec783cc2700dc3`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__WARP__PERSPECTIVE_1ga6f0dcdc1aa75407e63c50d284f3ec084`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__WARP__PERSPECTIVE_1ga2b04d96043f46b99f7f4c7d8aae3df75`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__WARP__PERSPECTIVE_1gab8298aa590bb6c003f2496576dcc1d84`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__WARP__PERSPECTIVE_1ga0ce56f5b52034c5bc7be6b2ae7b90f40`
 
 
 Typedefs

@@ -1,0 +1,17 @@
+.. _exhale_struct_structNVCVElements:
+
+Struct NVCVElements
+===================
+
+- Defined in :ref:`file_cvcuda_include_cvcuda_Types.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: NVCVElements
+   :project: cvcuda
+   :members:
+   :protected-members:
+   :undoc-members:

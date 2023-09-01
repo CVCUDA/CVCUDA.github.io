@@ -125,6 +125,7 @@ Program Listing for File Optional.hpp
            new (&m_storage) T(std::forward<AA>(args)...);
        }
    
+       // Dtor
        ~Optional()
        {
            if (m_hasValue)
@@ -196,6 +197,7 @@ Program Listing for File Optional.hpp
            return *this;
        }
    
+       // copy/move assignment
        Optional &operator=(const Optional &that)
        {
            return this->operator=<T>(that);

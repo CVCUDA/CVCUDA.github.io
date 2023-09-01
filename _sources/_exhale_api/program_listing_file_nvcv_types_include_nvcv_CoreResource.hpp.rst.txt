@@ -162,10 +162,12 @@ Program Listing for File CoreResource.hpp
        }
    
        NonOwningResource(const NonOwningResource &) = delete;
-       NonOwningResource(NonOwningResource &&)      = default;
+   
+       NonOwningResource(NonOwningResource &&) = default;
    
        NonOwningResource &operator=(const NonOwningResource &) = delete;
-       NonOwningResource &operator=(NonOwningResource &&)      = default;
+   
+       NonOwningResource &operator=(NonOwningResource &&) = default;
    
        const HandleType handle() const
        {

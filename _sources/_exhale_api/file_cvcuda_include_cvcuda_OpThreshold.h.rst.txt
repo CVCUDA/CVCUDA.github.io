@@ -49,9 +49,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__THRESHOLD_1ga48cf795678b86cbc68971d1becd28b8f`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__THRESHOLD_1ga7f61a5c99e5e284e61d433a73d6b5ae2`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__THRESHOLD_1ga70621aef99f590b3187887e657a06941`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__THRESHOLD_1gaf18f9f4761d9b0119d36c3a95ced5d90`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__THRESHOLD_1ga071da16b380fd5df642497434225e7b9`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__THRESHOLD_1gaddb217129cd6511863bc782b5d5e95d8`
 

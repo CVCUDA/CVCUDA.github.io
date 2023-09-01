@@ -54,9 +54,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__RANDOMRESIZEDCROP_1ga983bb1e6663c4dde03a171df22f693dd`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__RANDOMRESIZEDCROP_1ga8d1d56a8d0ff5dcb54e0b2b52d280127`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__RANDOMRESIZEDCROP_1ga62454bbeb06eaa177a4a5ab958823c2b`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__RANDOMRESIZEDCROP_1gad3736c2fd95032dddecf246aca41c914`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__RANDOMRESIZEDCROP_1gafd0dbaad0034d0682dabc820cd037f62`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__RANDOMRESIZEDCROP_1ga2d922894d9b549d1fcf6b62153578d35`
 

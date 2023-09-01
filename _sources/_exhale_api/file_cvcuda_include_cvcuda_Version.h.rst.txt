@@ -39,5 +39,5 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_cvcuda_2include_2cvcuda_2Version_8h_1aa58f802c1681353a87d2553bc074386c`
+- :ref:`exhale_function_cvcuda_2include_2cvcuda_2Version_8h_1a5ef1dafa5f5d340c8d16b3bf556fe207`
 

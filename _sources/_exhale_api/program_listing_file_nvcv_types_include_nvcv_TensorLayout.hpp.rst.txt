@@ -95,7 +95,8 @@ Program Listing for File TensorLayout.hpp
        }
    
        constexpr char operator[](int idx) const;
-       constexpr int  rank() const;
+   
+       constexpr int rank() const;
    
        int find(char dimLabel, int start = 0) const;
    

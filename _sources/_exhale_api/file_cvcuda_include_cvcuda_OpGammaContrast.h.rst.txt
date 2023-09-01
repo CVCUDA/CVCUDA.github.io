@@ -52,7 +52,7 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__GAMMA__CONTRAST_1ga1ae92d72b636832c15daef28df5fcdf2`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__GAMMA__CONTRAST_1ga8029670b453d48bc23a1413708924f5a`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__GAMMA__CONTRAST_1ga962b534825c0182fa0cc813c8d754e2b`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__GAMMA__CONTRAST_1ga1e7658757f39b01bd27efb600f62dd20`
 

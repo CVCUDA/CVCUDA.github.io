@@ -95,6 +95,46 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_nvcv_types_include_nvcv_Array.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_Array.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ArrayData.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ArrayData.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_ArrayDataAccess.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_ArrayDataImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_ArrayImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_ArrayWrap.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_nvcv_types_include_nvcv_cuda_Atomics.hpp.rst
 
 .. toctree::
@@ -390,6 +430,16 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpAdvCvtColor.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpAdvCvtColor.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpAverageBlur.h.rst
 
 .. toctree::
@@ -555,6 +605,16 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpFindContours.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpFindContours.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpFlip.h.rst
 
 .. toctree::
@@ -595,6 +655,36 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpHistogram.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpHistogram.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpHistogramEq.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpHistogramEq.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpInpaint.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpInpaint.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpJointBilateralFilter.h.rst
 
 .. toctree::
@@ -625,6 +715,26 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpMinAreaRect.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpMinAreaRect.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpMinMaxLoc.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpMinMaxLoc.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpMorphology.h.rst
 
 .. toctree::
@@ -651,6 +761,16 @@ Files
    :maxdepth: 1
 
    file_cvcuda_include_cvcuda_OpNormalize.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpOSD.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpOSD.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -721,6 +841,16 @@ Files
    :maxdepth: 1
 
    file_cvcuda_include_cvcuda_OpRotate.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpSIFT.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpSIFT.hpp.rst
 
 .. toctree::
    :maxdepth: 1

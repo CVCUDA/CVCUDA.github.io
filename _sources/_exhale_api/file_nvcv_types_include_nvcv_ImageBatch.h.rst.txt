@@ -69,13 +69,19 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpErase.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpFindContours.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussianNoise.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpInpaint.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpMinMaxLoc.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpNormalize.h`
 
@@ -118,43 +124,43 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_ImageBatch_8h_1a748062bbe626efd3aa98dc430d3bcfe8`
+- :ref:`exhale_function_ImageBatch_8h_1ad54ca00c56dc8fcf94e9b01e45d02529`
 
-- :ref:`exhale_function_ImageBatch_8h_1a1ba6d25de5366cd42375aa55134fceab`
+- :ref:`exhale_function_ImageBatch_8h_1a8754756ab21b075834bc0e3cc8b8451d`
 
-- :ref:`exhale_function_ImageBatch_8h_1a4637c537504744bdc800fae20a9fbeb8`
+- :ref:`exhale_function_ImageBatch_8h_1a1f6a6b5c36ac0203a70946499aa37b92`
 
-- :ref:`exhale_function_ImageBatch_8h_1af2ecd66de8d879ebf134dcc2e3bcd1da`
+- :ref:`exhale_function_ImageBatch_8h_1a8b88ee4f7c0f9dcec7e9c58ba1151e44`
 
-- :ref:`exhale_function_ImageBatch_8h_1a41d456aa595a44e5e7dac327f1151758`
+- :ref:`exhale_function_ImageBatch_8h_1aeafb55c5318cf3f5ce8bf13dd4af4f74`
 
-- :ref:`exhale_function_ImageBatch_8h_1a0686bab196e250289d933264c900cb3b`
+- :ref:`exhale_function_ImageBatch_8h_1a058d2e4638b247748f80e375bce480a0`
 
-- :ref:`exhale_function_ImageBatch_8h_1af60694ceead121f703820c227db4cf21`
+- :ref:`exhale_function_ImageBatch_8h_1a7a2adde74ae6ef4abe93b1df449aa6fa`
 
-- :ref:`exhale_function_ImageBatch_8h_1a64522ef34447dc57b27ed8b52c74469e`
+- :ref:`exhale_function_ImageBatch_8h_1aabbd0a7ef57ef5437e0268324a21cd6b`
 
-- :ref:`exhale_function_ImageBatch_8h_1ac9ccacb43963b27893c6db11c45a01bb`
+- :ref:`exhale_function_ImageBatch_8h_1a723d144e75d4f1d1236275474b15fcef`
 
-- :ref:`exhale_function_ImageBatch_8h_1a63492344c73e85de776c5506cf59d870`
+- :ref:`exhale_function_ImageBatch_8h_1a799231e2815dabf3195c5b55b0a6bde8`
 
-- :ref:`exhale_function_ImageBatch_8h_1a1b7237be10915e916db576724e00797a`
+- :ref:`exhale_function_ImageBatch_8h_1aeb816060b04d929aa953b7b91fcf8f91`
 
-- :ref:`exhale_function_ImageBatch_8h_1a19b19750a46cddf976dc951d3fe3853f`
+- :ref:`exhale_function_ImageBatch_8h_1a82ef57a0cf73ce645a8650a1a1092ee8`
 
-- :ref:`exhale_function_ImageBatch_8h_1aa75f517e0f4442c2034dda9d7ebcd1a0`
+- :ref:`exhale_function_ImageBatch_8h_1aafc0307a6ef9ee48bfe8a49f1a70c06e`
 
-- :ref:`exhale_function_ImageBatch_8h_1aa7639e25d2ee0bda5da8a47c959a7eef`
+- :ref:`exhale_function_ImageBatch_8h_1a2b3fdec18cc31ac17dd2d22590f0fb7f`
 
-- :ref:`exhale_function_ImageBatch_8h_1a695acf13b682d5791d2f5ea057712adc`
+- :ref:`exhale_function_ImageBatch_8h_1ad172b087b36e98cf4784deef5cb9440d`
 
-- :ref:`exhale_function_ImageBatch_8h_1a83647b898658f2d53ab56bdf51388b78`
+- :ref:`exhale_function_ImageBatch_8h_1af8b8ca1a181888ad7bd6b1b431b42c25`
 
-- :ref:`exhale_function_ImageBatch_8h_1a384c6338c4dfdcbaf56e865898d37046`
+- :ref:`exhale_function_ImageBatch_8h_1abdbcd81a12e2f8ad439bdf1e72db0258`
 
-- :ref:`exhale_function_ImageBatch_8h_1a8f13f6c5234fcb26452eed18c0794259`
+- :ref:`exhale_function_ImageBatch_8h_1afd9fa2523c9256823fc1c381e4d21c27`
 
-- :ref:`exhale_function_ImageBatch_8h_1a5641c1781ee33fef20c7cce912328e9d`
+- :ref:`exhale_function_ImageBatch_8h_1a665e3834892562a5dbe105635b8291e8`
 
 
 Typedefs

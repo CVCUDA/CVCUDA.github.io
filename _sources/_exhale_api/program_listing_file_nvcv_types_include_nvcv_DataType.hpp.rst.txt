@@ -45,13 +45,16 @@ Program Listing for File DataType.hpp
    {
    public:
        constexpr DataType();
+   
        explicit constexpr DataType(NVCVDataType type);
+   
        DataType(DataKind dataKind, Packing packing);
    
        static constexpr DataType ConstCreate(DataKind dataKind, Packing packing);
    
        constexpr operator NVCVDataType() const;
    
+       // Accessors for data type properties
        Packing                packing() const;
        std::array<int32_t, 4> bitsPerChannel() const;
        DataKind               dataKind() const;

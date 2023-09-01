@@ -52,11 +52,11 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__NORMALIZE_1ga2a636ee9c202d1c50739abba8d8450c4`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__NORMALIZE_1ga9914adee7fd3f5f8f635080abfaf82d8`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__NORMALIZE_1gad67fba06748f15cd77628cfd5ae012f3`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__NORMALIZE_1ga5cebd33f05ce350fe7d6856f0f29d062`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__NORMALIZE_1gad08b5698701accf432543de445183cc8`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__NORMALIZE_1ga5707dbd9aa0de4f4dd65d015eb259043`
 
 
 Defines
