@@ -101,6 +101,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpLabel.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.hpp`
@@ -130,6 +132,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpRotate.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpSIFT.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpStack.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpThreshold.hpp`
 

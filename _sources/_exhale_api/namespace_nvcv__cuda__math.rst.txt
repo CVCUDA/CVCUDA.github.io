@@ -56,11 +56,9 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga5d81a746e7bc43f7a6458d0b843e7695`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga3f0edfd57fe5a46c2887b78cb8b73646`
-
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gafdc5277fb6b5a7a85621e9cb870dbe09`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga4641b8acd8201cefc83ae7038c84a54b`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga3f0edfd57fe5a46c2887b78cb8b73646`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga55442e9aec2c9a22d976c29aabcaee06`
 
@@ -78,9 +76,7 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gacbfca4bec140b21976fde0124fb0bd64`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gae866187ff6bfe2b7ffd92df2e8d4e158`
-
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gab5237ee7bd1f9837d21305b088be5e4d`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga4641b8acd8201cefc83ae7038c84a54b`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gaf1a0ef986e5a5346f4a76940c03ec552`
 
@@ -88,23 +84,23 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga68c527c4c40c95827a168599c74cdde9`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga0b58a61d5e74d699e7f74d4e747c6fe5`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gae866187ff6bfe2b7ffd92df2e8d4e158`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga9e5581f1b932a9b97c306b315e8d02ec`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gab5237ee7bd1f9837d21305b088be5e4d`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga2a20d2ed19f2c2c0eb4ae57eeb21ec0d`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gaeb473950151e9756134932bb894171fe`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga0b58a61d5e74d699e7f74d4e747c6fe5`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga9e5581f1b932a9b97c306b315e8d02ec`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gab077bb53fc3027baa5549a412b131a0b`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga75f929ac9e57341cb9efed933131c007`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga0e1164149e7074ccaa525b1419df5a21`
-
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gacd7517409494f4b12c1e95f48971e748`
-
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga2dbfa09a6d13318bdc670e84e189b43f`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gad8503401b026728b852f622069278ae9`
 
@@ -114,11 +110,15 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga2bdfa7b84376c2324a83efe89a319c95`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga9459dd4a569f35a7715964993abc3180`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gacd7517409494f4b12c1e95f48971e748`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga2dbfa09a6d13318bdc670e84e189b43f`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gad2a8d2e2d12d47bdcf320180b48eb15e`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga25c574c898d89cc6a81a5c205bd7db7b`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga9459dd4a569f35a7715964993abc3180`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga8b48b04de8ebbbe9bd075125e115e5e3`
 
@@ -130,25 +130,25 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga212c976f9e98e4dd92e5cdfba6170a98`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga7dd2ac34921108fe21f8a1b3898f8e36`
-
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga46b5e7ad6144ea10f839edc6193b4fdd`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga7dd2ac34921108fe21f8a1b3898f8e36`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga2a769438e079c168d503e98e928ee942`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga4b2746e4a0393c7cafa4f1655bbc01b8`
-
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga3f64f3c07d87221cfe945a6be42d5be9`
-
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gaeacfae5e702055d2d2934cdb484d245d`
-
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gaafaa76c476d8db32ded0c7eb474160c4`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga7218ebffed48c176678641503955b6d7`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga6553cc745b5ddfdff17d2b4da9331398`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga133ae1033097c26c509e6576fbe91cba`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga3f64f3c07d87221cfe945a6be42d5be9`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gaeacfae5e702055d2d2934cdb484d245d`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1gaafaa76c476d8db32ded0c7eb474160c4`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__LINALG_1ga89fdf516cdf7508bb361a9b0c0324074`
 

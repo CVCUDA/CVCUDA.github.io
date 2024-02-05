@@ -29,6 +29,8 @@ Includes
 
 - ``OpPillowResize.h`` (:ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`)
 
+- ``Workspace.hpp`` (:ref:`file_cvcuda_include_cvcuda_Workspace.hpp`)
+
 - ``cuda_runtime.h``
 
 - ``nvcv/ImageBatch.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageBatch.hpp`)

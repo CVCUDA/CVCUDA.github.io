@@ -73,6 +73,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpFindContours.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpFindHomography.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpFlip.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.h`
@@ -88,6 +90,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpInpaint.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpLabel.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
 
@@ -107,6 +111,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpPairwiseMatcher.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpRandomResizedCrop.h`
@@ -120,6 +126,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpSIFT.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpStack.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpThreshold.h`
 

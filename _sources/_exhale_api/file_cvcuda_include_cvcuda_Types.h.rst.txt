@@ -63,6 +63,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpFindContours.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpFindHomography.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpFlip.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.h`
@@ -75,6 +77,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpLabel.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpMedianBlur.h`
@@ -86,6 +90,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpOSD.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpPairwiseMatcher.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
 
@@ -118,11 +124,7 @@ Classes
 
 - :ref:`exhale_struct_structNVCVArrow`
 
-- :ref:`exhale_struct_structNVCVBlurBoxesI`
-
 - :ref:`exhale_struct_structNVCVBlurBoxI`
-
-- :ref:`exhale_struct_structNVCVBndBoxesI`
 
 - :ref:`exhale_struct_structNVCVBndBoxI`
 
@@ -130,13 +132,7 @@ Classes
 
 - :ref:`exhale_struct_structNVCVCircle`
 
-- :ref:`exhale_struct_structNVCVClock`
-
 - :ref:`exhale_struct_structNVCVColorRGBA`
-
-- :ref:`exhale_struct_structNVCVElement`
-
-- :ref:`exhale_struct_structNVCVElements`
 
 - :ref:`exhale_struct_structNVCVLine`
 
@@ -144,13 +140,7 @@ Classes
 
 - :ref:`exhale_struct_structNVCVPointI`
 
-- :ref:`exhale_struct_structNVCVPolyLine`
-
 - :ref:`exhale_struct_structNVCVRotatedBox`
-
-- :ref:`exhale_struct_structNVCVSegment`
-
-- :ref:`exhale_struct_structNVCVText`
 
 
 Enums
@@ -163,11 +153,19 @@ Enums
 
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1ga1b0c8e931110b304a5db967abbfa3099`
 
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1gad78f2ecd22f5a4390dc142289a89bf0e`
+
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1gab529f9ddbef23848c189fa7459dbf9fb`
+
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1ga73fc84787a3b5c7adf092dee158e8345`
 
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1ga0dd853096644bdd240132736a88cdac0`
 
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1ga5a10825b8622af0bc78bc03cc66fec2a`
+
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1ga1475aab12cb21ca59a16a19a439c7a69`
+
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1gafcac8b774c583b8fe2cd5c4f9b1b2427`
 
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1gade8f1bf75be5e165c522000340909eff`
 
@@ -176,18 +174,17 @@ Enums
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1ga324de33010335ccf8a5fe4e994c28d4f`
 
 
-Defines
--------
-
-
-- :ref:`exhale_define_group__NVCV__C__TYPES_1ga0c18a6cb8b40af56ea78a007c3656375`
-
-
 Typedefs
 --------
 
 
 - :ref:`exhale_typedef_group__NVCV__C__TYPES_1ga32f2e37ee053cf2ce8ca28d1f74630e5`
+
+- :ref:`exhale_typedef_group__NVCV__C__TYPES_1ga50bb1d2d9be892500639865c993a8ed4`
+
+- :ref:`exhale_typedef_group__NVCV__C__TYPES_1gafec890b9086025adbf20f5232f701144`
+
+- :ref:`exhale_typedef_group__NVCV__C__TYPES_1ga56f99b73da1a54d1f8d9fc8fed1bb90f`
 
 - :ref:`exhale_typedef_group__NVCV__C__TYPES_1gaba7bc1797add20fe3efdf37ced1182c5`
 

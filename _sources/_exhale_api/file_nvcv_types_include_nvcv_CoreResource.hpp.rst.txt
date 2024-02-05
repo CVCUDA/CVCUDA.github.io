@@ -38,6 +38,8 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_Tensor.hpp`
 
+- :ref:`file_nvcv_types_include_nvcv_TensorBatch.hpp`
+
 
 
 

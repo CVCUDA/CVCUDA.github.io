@@ -30,33 +30,56 @@ Program Listing for File Size.hpp
    #ifndef NVCV_SIZE_HPP
    #define NVCV_SIZE_HPP
    
+   #include "Size.h"
+   
    #include <cassert>
    #include <iostream>
    #include <tuple>
    
    namespace nvcv {
    
-   struct Size2D
+   struct Size2D : NVCVSize2D
    {
-       int w, h;
+       using NVCVSize2D::NVCVSize2D;
+   
+       constexpr Size2D(int32_t w, int32_t h)
+           : NVCVSize2D{w, h}
+       {
+       }
+   
+       constexpr Size2D(const NVCVSize2D &s)
+           : NVCVSize2D{s.w, s.h}
+       {
+       }
+   
+       inline Size2D &operator=(const NVCVSize2D &s)
+       {
+           static_cast<NVCVSize2D &>(*this) = s;
+           return *this;
+       }
+   
+       constexpr bool operator==(const Size2D &rhs) const
+       {
+           return w == rhs.w && h == rhs.h;
+       }
+   
+       constexpr bool operator!=(const Size2D &rhs) const
+       {
+           return !(*this == rhs);
+       }
+   
+       inline bool operator<(const nvcv::Size2D &rhs) const
+       {
+           return std::tie(w, h) < std::tie(rhs.w, rhs.h);
+       }
    };
    
-   inline bool operator==(const Size2D &a, const Size2D &b)
+   constexpr Size2D MaxSize(const Size2D &a, const Size2D &b)
    {
-       return std::tie(a.w, a.h) == std::tie(b.w, b.h);
+       return {b.w > a.w ? b.w : a.w, b.h > a.h ? b.h : a.h};
    }
    
-   inline bool operator!=(const Size2D &a, const Size2D &b)
-   {
-       return !(a == b);
-   }
-   
-   inline bool operator<(const Size2D &a, const Size2D &b)
-   {
-       return std::tie(a.w, a.h) < std::tie(b.w, b.h);
-   }
-   
-   inline std::ostream &operator<<(std::ostream &out, const Size2D &size)
+   inline std::ostream &operator<<(std::ostream &out, const nvcv::Size2D &size)
    {
        return out << size.w << "x" << size.h;
    }

@@ -131,7 +131,7 @@ Program Listing for File LinAlg.hpp
        }
    
        // On-purpose public data to allow POD-class direct initialization.
-       T m_data[N] = {};
+       T m_data[N];
    };
    
    template<class T, int M, int N = M>

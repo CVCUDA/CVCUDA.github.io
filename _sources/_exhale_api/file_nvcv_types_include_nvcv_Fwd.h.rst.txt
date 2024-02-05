@@ -41,6 +41,8 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_Tensor.h`
 
+- :ref:`file_nvcv_types_include_nvcv_TensorBatch.h`
+
 
 
 
@@ -53,6 +55,8 @@ Typedefs
 - :ref:`exhale_typedef_Fwd_8h_1abe7066d4b604e453aff818758d0753cd`
 
 - :ref:`exhale_typedef_Fwd_8h_1af873f6710f9bf1820e511610d0cd348a`
+
+- :ref:`exhale_typedef_Fwd_8h_1a78fe67a4152df1b6bb04f0d364ed4fc9`
 
 - :ref:`exhale_typedef_Fwd_8h_1a06e34fc1dcef513d36b0ee3b9e78b6b6`
 

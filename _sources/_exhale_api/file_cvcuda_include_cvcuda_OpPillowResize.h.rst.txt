@@ -29,11 +29,15 @@ Includes
 
 - ``Types.h`` (:ref:`file_cvcuda_include_cvcuda_Types.h`)
 
+- ``Workspace.h`` (:ref:`file_cvcuda_include_cvcuda_Workspace.h`)
+
 - ``cuda_runtime.h``
 
 - ``detail/Export.h`` (:ref:`file_cvcuda_include_cvcuda_detail_Export.h`)
 
 - ``nvcv/ImageBatch.h`` (:ref:`file_nvcv_types_include_nvcv_ImageBatch.h`)
+
+- ``nvcv/Size.h`` (:ref:`file_nvcv_types_include_nvcv_Size.h`)
 
 - ``nvcv/Status.h`` (:ref:`file_nvcv_types_include_nvcv_Status.h`)
 
@@ -54,9 +58,13 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PILLOW__RESIZE_1gadd89bd8965c58a137e2ab7e903df7f3c`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PILLOW__RESIZE_1ga5c2b3679cac5804020473147199bf2ab`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PILLOW__RESIZE_1gaf6325268accb33fc0a475c6fbcac2cf2`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PILLOW__RESIZE_1ga57e8f780ee367f8ae085701a4bfd2aca`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PILLOW__RESIZE_1ga3e3474642d22544bff72ea2643d9618a`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PILLOW__RESIZE_1gaeb92c8336629bf25e23e785e427fe7a5`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PILLOW__RESIZE_1gaf45a41972ffa20a9116b323dad38db00`
+
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__PILLOW__RESIZE_1ga6f426eb76ba53468e11a6125e3c3807e`
 

@@ -25,6 +25,8 @@ Includes
 --------
 
 
+- ``Size.h`` (:ref:`file_nvcv_types_include_nvcv_Size.h`)
+
 - ``cassert``
 
 - ``iostream``

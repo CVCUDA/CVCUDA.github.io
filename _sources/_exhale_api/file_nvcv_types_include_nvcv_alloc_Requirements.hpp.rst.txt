@@ -75,6 +75,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpFindContours.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpFindHomography.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpFlip.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.hpp`
@@ -90,6 +92,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpInpaint.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpLabel.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.hpp`
 
@@ -109,6 +113,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.hpp`
 
+- :ref:`file_cvcuda_include_cvcuda_OpPairwiseMatcher.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpPillowResize.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpRandomResizedCrop.hpp`
@@ -122,6 +128,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpRotate.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpSIFT.hpp`
+
+- :ref:`file_cvcuda_include_cvcuda_OpStack.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpThreshold.hpp`
 

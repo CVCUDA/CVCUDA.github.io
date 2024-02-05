@@ -45,6 +45,8 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_Tensor.h`
 
+- :ref:`file_nvcv_types_include_nvcv_TensorBatch.h`
+
 - :ref:`file_nvcv_types_include_nvcv_TensorLayout.h`
 
 - :ref:`file_nvcv_types_include_nvcv_Version.h`

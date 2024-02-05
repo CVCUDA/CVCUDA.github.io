@@ -217,12 +217,12 @@ Program Listing for File ImageBatchVarShapeWrap.hpp
    
        inline __host__ __device__ T &operator[](int4 c) const
        {
-           return *doGetPtr(c.z, c.y, c.x, c.w);
+           return *doGetPtr(c.x, c.y, c.z, c.w);
        }
    
        inline __host__ __device__ T &operator[](int3 c) const
        {
-           return *doGetPtr(c.z, c.y, c.x, 0);
+           return *doGetPtr(c.x, c.y, c.z, 0);
        }
    
        inline __host__ __device__ T *ptr(int s, int y, int x, int c) const

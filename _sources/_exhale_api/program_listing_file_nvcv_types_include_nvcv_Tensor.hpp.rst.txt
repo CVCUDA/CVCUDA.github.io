@@ -71,6 +71,8 @@ Program Listing for File Tensor.hpp
    
        void *userPointer() const;
    
+       Tensor reshape(const TensorShape &new_shape);
+   
        static Requirements CalcRequirements(const TensorShape &shape, DataType dtype, const MemAlignment &bufAlign = {});
    
        static Requirements CalcRequirements(int numImages, Size2D imgSize, ImageFormat fmt,

@@ -10,10 +10,10 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1math_1_1detail_1aa2ea41f58cb84f0d3d1bc30089d7ae65`
-
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1math_1_1detail_1ad7ba51619bb76b6d88a1415fb9f24812`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1math_1_1detail_1abec3ce0e7a24cfe894848268a66829cc`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1math_1_1detail_1aa2ea41f58cb84f0d3d1bc30089d7ae65`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1math_1_1detail_1aa43c22e54cc163f14af8dfe331ba8db4`

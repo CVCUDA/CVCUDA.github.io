@@ -11,7 +11,7 @@ Program Listing for File OpPillowResize.h
 .. code-block:: cpp
 
    /*
-    * SPDX-FileCopyrightText: Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+    * SPDX-FileCopyrightText: Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
     * SPDX-License-Identifier: Apache-2.0
     *
     * Licensed under the Apache License, Version 2.0 (the "License");
@@ -32,10 +32,12 @@ Program Listing for File OpPillowResize.h
    
    #include "Operator.h"
    #include "Types.h"
+   #include "Workspace.h"
    #include "detail/Export.h"
    
    #include <cuda_runtime.h>
    #include <nvcv/ImageBatch.h>
+   #include <nvcv/Size.h>
    #include <nvcv/Status.h>
    #include <nvcv/Tensor.h>
    
@@ -44,15 +46,28 @@ Program Listing for File OpPillowResize.h
    {
    #endif
    
-   CVCUDA_PUBLIC NVCVStatus cvcudaPillowResizeCreate(NVCVOperatorHandle *handle, int32_t maxWidth, int32_t maxHeight,
-                                                     int32_t maxBatchSize, NVCVImageFormat fmt);
+   CVCUDA_PUBLIC NVCVStatus cvcudaPillowResizeCreate(NVCVOperatorHandle *handle);
    
-   CVCUDA_PUBLIC NVCVStatus cvcudaPillowResizeSubmit(NVCVOperatorHandle handle, cudaStream_t stream, NVCVTensorHandle in,
-                                                     NVCVTensorHandle out, const NVCVInterpolationType interpolation);
+   CVCUDA_PUBLIC NVCVStatus cvcudaPillowResizeGetWorkspaceRequirements(NVCVOperatorHandle handle, int maxBatchSize,
+                                                                       int32_t maxInWidth, int32_t maxInHeight,
+                                                                       int32_t maxOutWidth, int32_t maxOutHeight,
+                                                                       NVCVImageFormat            fmt,
+                                                                       NVCVWorkspaceRequirements *reqOut);
    
-   CVCUDA_PUBLIC NVCVStatus nvcvopPillowResizeVarShapeSubmit(NVCVOperatorHandle handle, cudaStream_t stream,
-                                                             NVCVImageBatchHandle in, NVCVImageBatchHandle out,
-                                                             const NVCVInterpolationType interpolation);
+   CVCUDA_PUBLIC NVCVStatus cvcudaPillowResizeVarShapeGetWorkspaceRequirements(NVCVOperatorHandle handle, int batchSize,
+                                                                               const NVCVSize2D          *inputSizesWH,
+                                                                               const NVCVSize2D          *outputSizesWH,
+                                                                               NVCVImageFormat            fmt,
+                                                                               NVCVWorkspaceRequirements *reqOut);
+   
+   CVCUDA_PUBLIC NVCVStatus cvcudaPillowResizeSubmit(NVCVOperatorHandle handle, cudaStream_t stream,
+                                                     const NVCVWorkspace *workspace, NVCVTensorHandle in,
+                                                     NVCVTensorHandle out, NVCVInterpolationType interpolation);
+   
+   CVCUDA_PUBLIC NVCVStatus cvcudaPillowResizeVarShapeSubmit(NVCVOperatorHandle handle, cudaStream_t stream,
+                                                             const NVCVWorkspace *workspace, NVCVImageBatchHandle in,
+                                                             NVCVImageBatchHandle  out,
+                                                             NVCVInterpolationType interpolation);
    #ifdef __cplusplus
    }
    #endif

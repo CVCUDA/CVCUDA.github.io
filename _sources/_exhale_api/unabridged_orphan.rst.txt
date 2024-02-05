@@ -80,6 +80,11 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_nvcv_types_include_nvcv_detail_Align.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_nvcv_types_include_nvcv_alloc_Allocator.h.rst
 
 .. toctree::
@@ -615,6 +620,16 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpFindHomography.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpFindHomography.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpFlip.h.rst
 
 .. toctree::
@@ -691,6 +706,16 @@ Files
    :maxdepth: 1
 
    file_cvcuda_include_cvcuda_OpJointBilateralFilter.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpLabel.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpLabel.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -785,6 +810,16 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpPairwiseMatcher.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpPairwiseMatcher.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpPillowResize.h.rst
 
 .. toctree::
@@ -851,6 +886,16 @@ Files
    :maxdepth: 1
 
    file_cvcuda_include_cvcuda_OpSIFT.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpStack.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpStack.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -930,6 +975,11 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_nvcv_types_include_nvcv_Size.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_nvcv_types_include_nvcv_Size.hpp.rst
 
 .. toctree::
@@ -956,6 +1006,31 @@ Files
    :maxdepth: 1
 
    file_nvcv_types_include_nvcv_Tensor.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorBatch.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorBatch.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorBatchData.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_TensorBatchData.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_detail_TensorBatchImpl.hpp.rst
 
 .. toctree::
    :maxdepth: 1
@@ -1041,3 +1116,13 @@ Files
    :maxdepth: 1
 
    file_cvcuda_include_cvcuda_Version.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_Workspace.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_Workspace.hpp.rst

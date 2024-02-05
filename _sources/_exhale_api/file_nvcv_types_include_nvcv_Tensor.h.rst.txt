@@ -51,6 +51,8 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_Tensor.hpp`
 
+- :ref:`file_nvcv_types_include_nvcv_TensorBatch.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpAdaptiveThreshold.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpAdvCvtColor.h`
@@ -89,6 +91,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpFindContours.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpFindHomography.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpFlip.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGammaContrast.h`
@@ -104,6 +108,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpInpaint.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpLabel.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpLaplacian.h`
 
@@ -123,6 +129,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpPadAndStack.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpPairwiseMatcher.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpPillowResize.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpRandomResizedCrop.h`
@@ -136,6 +144,8 @@ Included By
 - :ref:`file_cvcuda_include_cvcuda_OpRotate.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpSIFT.h`
+
+- :ref:`file_cvcuda_include_cvcuda_OpStack.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpThreshold.h`
 
@@ -180,6 +190,8 @@ Functions
 - :ref:`exhale_function_Tensor_8h_1a2dfd3ee8b7f258d2ec11a8f3d1970717`
 
 - :ref:`exhale_function_Tensor_8h_1af05335fb3d200163f8448a7252dece72`
+
+- :ref:`exhale_function_Tensor_8h_1a6c68e1f78bfbd9f1f21ede6b4449f8be`
 
 - :ref:`exhale_function_Tensor_8h_1a2a3e4b848e0431f174326cda60c61e7b`
 

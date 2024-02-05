@@ -331,9 +331,9 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1a2d56a4740368bbd3423fe7ad408f3ddd`
 
-- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa298bd281be563b242872a39d1ac26c3`
-
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ab907f0717d8cbc21a41a1b6c5f67aa7b`
+
+- :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1aa298bd281be563b242872a39d1ac26c3`
 
 - :ref:`exhale_function_namespacenvcv_1_1cuda_1_1detail_1ae3a984c6451355c4f3744c63e08e07dd`
 

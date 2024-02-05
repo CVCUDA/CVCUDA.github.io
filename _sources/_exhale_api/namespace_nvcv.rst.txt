@@ -133,6 +133,16 @@ Classes
 
 - :ref:`exhale_class_classnvcv_1_1Tensor`
 
+- :ref:`exhale_class_classnvcv_1_1TensorBatch`
+
+- :ref:`exhale_class_classnvcv_1_1TensorBatch_1_1Iterator`
+
+- :ref:`exhale_class_classnvcv_1_1TensorBatchData`
+
+- :ref:`exhale_class_classnvcv_1_1TensorBatchDataStrided`
+
+- :ref:`exhale_class_classnvcv_1_1TensorBatchDataStridedCuda`
+
 - :ref:`exhale_class_classnvcv_1_1TensorData`
 
 - :ref:`exhale_class_classnvcv_1_1TensorDataAccessStrided`
@@ -251,6 +261,8 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1a9a8a275f7d60b9eed9bdfe355de0a72f`
 
+- :ref:`exhale_function_namespacenvcv_1a5e8f28d47c8a5874d3ed23dd2a3f099d`
+
 - :ref:`exhale_function_namespacenvcv_1a3f545068e99a08006f48a7a9771517df`
 
 - :ref:`exhale_function_namespacenvcv_1a8e3c041aa3bc91a3231d5315aaec91b6`
@@ -264,6 +276,8 @@ Functions
 - :ref:`exhale_function_namespacenvcv_1ae659b5949d127f18660dfb3dc059f160`
 
 - :ref:`exhale_function_namespacenvcv_1a1963aaf68a56760289d1771f2aae31ae`
+
+- :ref:`exhale_function_namespacenvcv_1ade0cd5cf760a413963179edafcaabe57`
 
 - :ref:`exhale_function_namespacenvcv_1a061bc4449f777627c10d13f15e16c28b`
 
@@ -279,6 +293,8 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1ac8d5caa5e89e30ef5b3eb6b57208dcab`
 
+- :ref:`exhale_function_namespacenvcv_1a6d8fac531d71315b40dfcdd91d5aa23a`
+
 - :ref:`exhale_function_namespacenvcv_1a22b8555a054be3e847770352956385dd`
 
 - :ref:`exhale_function_group__NVCV__CPP__CORE__IMAGETYPE_1ga0661225051b72b25dea066d7ec403bca`
@@ -290,6 +306,8 @@ Functions
 - :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1ga8c92261f24e903a1e07172af1b20afea`
 
 - :ref:`exhale_function_group__NVCV__CPP__CORE__DATALAYOUT_1gabda265dd58098753687257bc2d9991eb`
+
+- :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1ga88200f7741e1bf5c9212619894e7c1e2`
 
 - :ref:`exhale_function_namespacenvcv_1a5cd83a06033da6d9632f20e1485a8f20`
 
@@ -305,13 +323,9 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1a7287be07a21b89f9f8aeadd615ebff80`
 
-- :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1gab28f6f8bfbc0ce09032f0d9068056e7c`
-
 - :ref:`exhale_function_namespacenvcv_1aee055d6e69a66715e9517a4d33522156`
 
 - :ref:`exhale_function_namespacenvcv_1ad0b10330cf7df321cb76eefc93c99067`
-
-- :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1gacda569b090ddeea9957bd76e2503fea0`
 
 - :ref:`exhale_function_namespacenvcv_1a30daa8004f7b1e15b52502c44467bfc1`
 
@@ -353,7 +367,7 @@ Functions
 
 - :ref:`exhale_function_namespacenvcv_1a9da346e617827c30247d7097aed25a84`
 
-- :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1ga45246c41fe62d206dfaa5a2a1dc794e8`
+- :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1ga4091670f65f8ad6dc4c4483eb48fac85`
 
 - :ref:`exhale_function_group__NVCV__CPP__UTIL__STATUS_1ga56c60a25f3e2b79393493ae862e30478`
 
@@ -374,8 +388,6 @@ Functions
 - :ref:`exhale_function_namespacenvcv_1a741364304ede5673e941b78c6c6c289c`
 
 - :ref:`exhale_function_namespacenvcv_1aa8597b738290ef0ba0c6beafe6dc0c78`
-
-- :ref:`exhale_function_group__NVCV__CPP__CORE__SIZE_1ga14cffef3be0413a40be154887198651d`
 
 - :ref:`exhale_function_namespacenvcv_1a115831c728891c3d1ed3d3c322a57454`
 
@@ -433,6 +445,8 @@ Typedefs
 - :ref:`exhale_typedef_namespacenvcv_1af2be7680bea231ee3fc92b04db422c3d`
 
 - :ref:`exhale_typedef_namespacenvcv_1a5c25b36997885faf274b2589e7b49d42`
+
+- :ref:`exhale_typedef_namespacenvcv_1a95fdec384483e9df8e319c60eba9a99e`
 
 - :ref:`exhale_typedef_namespacenvcv_1a9d6e867ce019b36fec6e4b0cbc78a7b0`
 

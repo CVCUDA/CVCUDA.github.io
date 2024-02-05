@@ -111,6 +111,9 @@ Program Listing for File Tensor.h
    
    NVCV_PUBLIC NVCVStatus nvcvTensorGetShape(NVCVTensorHandle handle, int32_t *rank, int64_t *shape);
    
+   NVCV_PUBLIC NVCVStatus nvcvTensorReshape(NVCVTensorHandle handle, int32_t rank, const int64_t *shape,
+                                            NVCVTensorLayout layout, NVCVTensorHandle *out_handle);
+   
    #ifdef __cplusplus
    }
    #endif
