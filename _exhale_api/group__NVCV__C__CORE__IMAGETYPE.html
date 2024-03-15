@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="en">
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Image Formats &mdash; CV-CUDA Beta documentation</title>
-      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/collapsible-lists/css/tree_view.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=76b435a8" />
+      <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
     <link rel="shortcut icon" href="../_static/nv_icon.png"/>
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/doctools.js"></script>
-        <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
-        <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js?v=bd46b8a5"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=4825356b"></script>
+        <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+        <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
         <script src="../_static/pk_scripts.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -113,6 +116,7 @@
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAMMA__CONTRAST.html">Gamma Contrast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN.html">Gaussian</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE.html">GaussianNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__HQ__RESIZE.html">HQ Resize</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__INPAINT.html">Inpaint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__JOINT__BILATERAL__FILTER.html">Joint Bilateral Filter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__LABEL.html">Label</a></li>
@@ -182,6 +186,7 @@
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAMMA__CONTRAST.html">Gamma Contrast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN.html">Gaussian</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE.html">GaussianNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__HQ__RESIZE.html">HQ Resize</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__INPAINT.html">Inpaint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__JOINT__BILATERAL__FILTER.html">Joint Bilateral Filter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__LABEL.html">Label</a></li>
@@ -230,6 +235,8 @@
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__RANGECAST.html">Range cast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__SATURATECAST.html">Saturate cast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__STATICCAST.html">Static Cast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAP.html">TensorBatchWrap classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS.html">TensorBatchWrap shortcuts</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORWRAP.html">TensorWrap classes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORWRAPS.html">TensorWrap shortcuts</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TYPETRAITS.html">Type Traits</a></li>
@@ -237,8 +244,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../modules/python_modules.html">Python Modules</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../modules/python_modules.html#cv-cuda-python-api-reference">CV-CUDA Python API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modules/python_modules.html">Python Modules</a><ul class="simple">
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="cvcuda_api.html">Index</a><ul>
@@ -260,6 +266,10 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="cvcuda_api.html#classes-and-structs">Classes and Structs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeRoiF.html">Struct HQResizeRoiF</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeRoisF.html">Struct HQResizeRoisF</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeTensorShapeI.html">Struct HQResizeTensorShapeI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeTensorShapesI.html">Struct HQResizeTensorShapesI</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1Callback_3_01Ret_07Args_8_8_8_08_00_01CRet_07CtxArg_00_01CArgs_8_8_8_08_00_01Transb7b914e11bb6d38fbd5e59f4add41c3d.html">Template Struct Callback&lt; Ret(Args…), CRet(CtxArg, CArgs…), TranslateCall, SingleUse &gt;::TargetBlob</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1cuda_1_1detail_1_1BorderWrapImpl_1_1ActiveMap.html">Struct BorderWrapImpl::ActiveMap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1cuda_1_1detail_1_1ConvertBaseTypeTo.html">Template Struct ConvertBaseTypeTo</a></li>
@@ -514,6 +524,7 @@
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1GaussianNoise.html">Class GaussianNoise</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1Histogram.html">Class Histogram</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1HistogramEq.html">Class HistogramEq</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1HQResize.html">Class HQResize</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1Inpaint.html">Class Inpaint</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1IOperator.html">Class IOperator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1JointBilateralFilter.html">Class JointBilateralFilter</a></li>
@@ -582,6 +593,8 @@
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1InterpolationWrap_3_01BW_00_01NVCV__INTERP__NEAREST_01_4.html">Template Class InterpolationWrap&lt; BW, NVCV_INTERP_NEAREST &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1math_1_1Matrix.html">Template Class Matrix</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1math_1_1Vector.html">Template Class Vector</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorBatchWrap.html">Template Class TensorBatchWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorBatchWrap_3_01const_01T_00_01Strides_8_8_8_01_4.html">Template Class TensorBatchWrap&lt; const T, Strides… &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorWrap.html">Template Class TensorWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorWrap_3_01const_01T_00_01Strides_8_8_8_01_4.html">Template Class TensorWrap&lt; const T, Strides… &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1CudaMemAllocator.html">Class CudaMemAllocator</a></li>
@@ -721,6 +734,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="cvcuda_api.html#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1a67c87474f4882ef63e891633a107438b.html">Function cvcuda::AlignUp</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1a006defc158090d28a55098df4b7aa537.html">Function cvcuda::AllocateWorkspace</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1a10aa05cedebe13d0b0217b4e102f8e41.html">Function cvcuda::MaxWorkspaceReq(WorkspaceMemRequirements, WorkspaceMemRequirements)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1aa784addbd30224bbefc91a66ef21c71f.html">Function cvcuda::MaxWorkspaceReq(const WorkspaceRequirements&amp;, const WorkspaceRequirements&amp;)</a></li>
@@ -792,6 +806,13 @@
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM____HISTOGRAM__EQ_1ga338200a4d4946a001d552a779fb8c4f0.html">Function cvcudaHistogramEqSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM____HISTOGRAM__EQ_1ga83e9c622375cd89c252f83dcedadaf90.html">Function cvcudaHistogramEqVarShapeSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM____HISTOGRAM_1ga3c67a278ed187d45457479e9f680cab7.html">Function cvcudaHistogramSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga0726d2f0bcad43d71cff1730c35cafbc.html">Function cvcudaHQResizeCreate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1gaa01850dcfb983815c9676729a453f6a9.html">Function cvcudaHQResizeGetMaxWorkspaceRequirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga6fa5715947ed04eb747374f3270c4f7f.html">Function cvcudaHQResizeImageBatchSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga0da8809825f2b52f8b4fe398911de2cb.html">Function cvcudaHQResizeSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga828ed7ef2dc3cc1b16213e06d5878e3d.html">Function cvcudaHQResizeTensorBatchGetWorkspaceRequirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1gae2b084f8df61c05c481eef0ef7a98efa.html">Function cvcudaHQResizeTensorBatchSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga72d85de75c9cc22827a6cecfbc6b8105.html">Function cvcudaHQResizeTensorGetWorkspaceRequirements</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__INPAINT_1ga19928e4e99ac468e48484d27f1a16053.html">Function cvcudaInpaintCreate</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__INPAINT_1gaef5276c46ac886dc7a1843c2f4bdb129.html">Function cvcudaInpaintSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__INPAINT_1ga4e986bd975af21c5e8d60d5db65a92a8.html">Function cvcudaInpaintVarShapeSubmit</a></li>
@@ -1575,6 +1596,7 @@
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a6e220f5a007a8fe757ab15a8474d8bb4.html">Define NVCV_DETAIL_MAKE_YCbCr_FORMAT4</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a92180dcf02ae12991ef194a4e98b2e5a.html">Define NVCV_DETAIL_SET_BITFIELD</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a40e535255d5afebc666dbe48bf3fdf8d.html">Define NVCV_DETAIL_SET_EXTRA_CHANNEL_INFO</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga966ed1566c383f75cae82857c6eb3a5b.html">Define NVCV_HQ_RESIZE_MAX_RESIZED_NDIM</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_CompilerUtils_8h_1ad54e4e5ea625ee5e56f86b71e63c36c5.html">Define NVCV_IF_CONSTEXPR</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_ImageBatch_8hpp_1a366f385bffd0273a8359c63222350fe9.html">Define NVCV_IMAGE_BATCH_VAR_SHAPE_HANDLE_TO_OPTIONAL</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga07b3066e709ba024f9811448c933d279.html">Define NVCV_IMAGE_FORMAT_2C128</a></li>
@@ -1708,7 +1730,14 @@
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gab393e759b75d7039b4faf7519c35798c.html">Typedef nvcv::cuda::Tensor2DWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1ga849270e14890911a82e5f7c1601fafb8.html">Typedef nvcv::cuda::Tensor3DWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gaee996a011705513c21fa20d602a05cc0.html">Typedef nvcv::cuda::Tensor4DWrap</a></li>
-<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gaf7c730f72cf3adc7fb16dbbe9935b76f.html">Typedef nvcv::cuda::TensorNDWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gabe1eafd7d185b78adc075b7e42fdaad5.html">Typedef nvcv::cuda::Tensor5DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1gaf35ae88f20c587496f14942d1e8ecfc3.html">Typedef nvcv::cuda::TensorBatch1DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1gac357ab44b586f1abc979fde6223e82a2.html">Typedef nvcv::cuda::TensorBatch2DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga7bf58059d6f587a2cd1b9f5f4bd106df.html">Typedef nvcv::cuda::TensorBatch3DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga5d18edd01f9abcc0ed6e223fdff4c1d1.html">Typedef nvcv::cuda::TensorBatch4DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga24564c4309bbc0fe21c1ced07a9f1f39.html">Typedef nvcv::cuda::TensorBatch5DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga7ff737987f66ba391bab1bd3007c51e7.html">Typedef nvcv::cuda::TensorBatchNDWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1ga3be18874b116544228b6e814eb1d33e4.html">Typedef nvcv::cuda::TensorNDWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a5470a545cf24011baa4304acf9543d36.html">Typedef nvcv::CustomCudaMemAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a2a991a8a3f4e1cfa288e37a705cc3058.html">Typedef nvcv::CustomHostMemAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1af77f93ef256b7bca7b5ac04cf0b2351b.html">Typedef nvcv::CustomHostPinnedMemAllocator</a></li>
@@ -1812,6 +1841,14 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Release Notes</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../relnotes/v0.6.0-beta.html">Beta.4</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#release-highlights">Release Highlights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#compatibility-and-known-limitations">Compatibility and Known Limitations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#license">License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#resources">Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#acknowledgements">Acknowledgements</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../relnotes/v0.5.0-beta.html">Beta.3</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.5.0-beta.html#release-highlights">Release Highlights</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.5.0-beta.html#compatibility">Compatibility</a></li>
@@ -1898,7 +1935,7 @@
            <div itemprop="articleBody">
              
   <section id="image-formats">
-<h1>Image Formats<a class="headerlink" href="#image-formats" title="Permalink to this headline"></a></h1>
+<h1>Image Formats<a class="headerlink" href="#image-formats" title="Permalink to this heading"></a></h1>
 <dl>
 <dt class="sig sig-object cpp">
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE"></span><em><span class="pre">group</span></em> <span class="sig-name descname"><span class="pre">NVCV_C_CORE_IMAGETYPE</span></span></dt>
@@ -2515,7 +2552,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <p>It’s not guaranteed that algorithms will work correctly with use-defined image formats. It’s recommended to check if the results are correct prior deploying the solution in a production environment.</p>
 </div>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>colorModel</strong> – <strong>[in]</strong> <a class="reference internal" href="group__NVCV__C__CORE__COLORSPEC.html#group__NVCV__C__CORE__COLORSPEC_1gaef682281101838767e95875bed5efdb8"><span class="std std-ref">NVCVColorModel</span></a> to be used. </p></li>
 <li><p><strong>colorSpec</strong> – <strong>[in]</strong> <a class="reference internal" href="group__NVCV__C__CORE__COLORSPEC.html#group__NVCV__C__CORE__COLORSPEC_1ga1b475019946b97bd2e531806bc112f70"><span class="std std-ref">NVCVColorSpec</span></a> to be used. </p></li>
@@ -2588,19 +2625,19 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>exChannelInfo</strong> – <strong>[in]</strong> <a class="reference internal" href="group__NVCV__C__CORE__DATALAYOUT.html#structNVCVExtraChannelInfo"><span class="std std-ref">NVCVExtraChannelInfo</span></a> to be used. Default: NULL.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Returns</dt>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>The user-defined image format. Creates a user-defined color image format constant.</p>
 </dd>
-<dt class="field-odd">Returns</dt>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
 <dd class="field-odd"><p>The user-defined image format. Creates a user-defined non-color image format constant.</p>
 </dd>
-<dt class="field-even">Returns</dt>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>The user-defined image format. Creates a user-defined raw (Bayer pattern) image format constant.</p>
 </dd>
-<dt class="field-odd">Returns</dt>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
 <dd class="field-odd"><p>The user-defined image format. Creates a user-defined YCbCr color image format.</p>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2621,7 +2658,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <p>It’s not guaranteed that algorithms will work correctly with use-defined image formats. It’s recommended to check if the results are correct prior deploying the solution in a production environment.</p>
 </div>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>outFormat</strong> – <strong>[out]</strong> The created image format.<ul>
 <li><p>Cannot be NULL. </p></li>
@@ -2641,7 +2678,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>exChannelInfo</strong> – <strong>[in]</strong> <a class="reference internal" href="group__NVCV__C__CORE__DATALAYOUT.html#structNVCVExtraChannelInfo"><span class="std std-ref">NVCVExtraChannelInfo</span></a> to be used. Default: NULL.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2660,7 +2697,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <p>It’s not guaranteed that algorithms will work correctly with use-defined image formats. It’s recommended to check if the results are correct prior deploying the solution in a production environment.</p>
 </div>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>outFormat</strong> – <strong>[out]</strong> The created image format.<ul>
 <li><p>Cannot be NULL. </p></li>
@@ -2678,7 +2715,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>exChannelInfo</strong> – <strong>[in]</strong> <a class="reference internal" href="group__NVCV__C__CORE__DATALAYOUT.html#structNVCVExtraChannelInfo"><span class="std std-ref">NVCVExtraChannelInfo</span></a> to be used. Default: NULL.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2697,7 +2734,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <p>It’s not guaranteed that algorithms will work correctly with use-defined image formats. It’s recommended to check if the results are correct prior deploying the solution in a production environment.</p>
 </div>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>outFormat</strong> – <strong>[out]</strong> The created image format.<ul>
 <li><p>Cannot be NULL. </p></li>
@@ -2716,7 +2753,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>exChannelInfo</strong> – <strong>[in]</strong> <a class="reference internal" href="group__NVCV__C__CORE__DATALAYOUT.html#structNVCVExtraChannelInfo"><span class="std std-ref">NVCVExtraChannelInfo</span></a> to be used. Default: NULL.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2731,7 +2768,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <dd><p>Creates a image format from a FourCC code.</p>
 <p>See <a class="reference external" href="https://www.fourcc.org">https://www.fourcc.org</a> for more information about FourCC.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>outFormat</strong> – <strong>[out]</strong> The image format corresponding to the FourCC code.<ul>
 <li><p>Cannot be NULL. </p></li>
@@ -2742,7 +2779,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>memLayout</strong> – <strong>[in]</strong> <a class="reference internal" href="group__NVCV__C__CORE__DATALAYOUT.html#group__NVCV__C__CORE__DATALAYOUT_1ga289e93b9fc00b0721c38603814dedae5"><span class="std std-ref">NVCVMemLayout</span></a> to be used.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2756,7 +2793,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga6313264cb866d7410bb436d719de75f6"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatToFourCC</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">uint32_t</span> <span class="pre">*outFourCC)</span></span></dt>
 <dd><p>Returns the FourCC code corresponding to an image format.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried. </p></li>
 <li><p><strong>outFourCC</strong> – <strong>[out]</strong> The FourCC code corresponding to the image format.<ul>
@@ -2765,7 +2802,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2779,7 +2816,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gaeeb25c987510242b0ab64e7b656d6d7a"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetPlanePacking</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">int32_t</span> <span class="pre">plane,</span> <span class="pre">NVCVPacking</span> <span class="pre">*outPacking)</span></span></dt>
 <dd><p>Get the packing for a given plane of an image format.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried. </p></li>
 <li><p><strong>plane</strong> – <strong>[in]</strong> Which plane whose packing must be returned. If plane doesn’t exist, outPacking will be set to <a class="reference internal" href="group__NVCV__C__CORE__DATALAYOUT.html#group__NVCV__C__CORE__DATALAYOUT_1gga5ec157e0ddcbfb0a4bf9114b4c6b6a69aaf4e14a1ff0d6b95bb4ea25bf3e5b071"><span class="std std-ref">NVCV_PACKING_0</span></a>.</p></li>
@@ -2789,7 +2826,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2803,7 +2840,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gac36b131886db6171db97035f7baeb1c5"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetPlaneSize</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">int32_t</span> <span class="pre">plane,</span> <span class="pre">int32_t</span> <span class="pre">imgWidth,</span> <span class="pre">int32_t</span> <span class="pre">imgHeight,</span> <span class="pre">int32_t</span> <span class="pre">*outPlaneWidth,</span> <span class="pre">int32_t</span> <span class="pre">*outPlaneHeight)</span></span></dt>
 <dd><p>Get the plane width of an image with the given image format and width.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried. </p></li>
 <li><p><strong>imgWidth, imgHeight</strong> – <strong>[in]</strong> Size of the image.<ul>
@@ -2820,7 +2857,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2835,7 +2872,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <dd><p>Replaces the swizzle and packing of an existing image format.</p>
 <p>The number of channels represented by the swizzle must be equal to the sum of the number of channels represented by the packings. For instance, XYZ1 -&gt; X8,X8Y8 is a valid combination with 3 channels. XYZW -&gt; X8,X8Y8 isn’t as swizzle has 4 channels, and X8,X8Y8 represents in total 3 channels.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[inout]</strong> Image format to have its packing replaced.<ul>
 <li><p>Cannot be NULL. </p></li>
@@ -2848,7 +2885,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2862,7 +2899,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga24e77ad0ab703d455aa46e9de38564fb"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetPlaneBitsPerPixel</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">int32_t</span> <span class="pre">plane,</span> <span class="pre">int32_t</span> <span class="pre">*outBPP)</span></span></dt>
 <dd><p>Get the image format’s plane bits per pixel count.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried. </p></li>
 <li><p><strong>plane</strong> – <strong>[in]</strong> Which plane is to be queried.</p></li>
@@ -2872,7 +2909,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2886,7 +2923,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gaade5a9368cd4740286bac9ea223bc3d0"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatSetDataKind</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">*fmt,</span> <span class="pre">NVCVDataKind</span> <span class="pre">dataKind)</span></span></dt>
 <dd><p>Set the image format’s data type.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[inout]</strong> Image format have its data type replaced.<ul>
 <li><p>Cannot be NULL. </p></li>
@@ -2895,7 +2932,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>dataKind</strong> – <strong>[in]</strong> The new data type.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2909,7 +2946,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga304a6f9b74a34534d201ed29b9e20bcb"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetDataKind</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">NVCVDataKind</span> <span class="pre">*outDataKind)</span></span></dt>
 <dd><p>Get the image format’s data type.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>outDataKind</strong> – <strong>[out]</strong> The image format’s data type.<ul>
@@ -2918,7 +2955,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2932,7 +2969,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga7465a833e21f10d4523b413c2ad0b36a"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetSwizzle</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">NVCVSwizzle</span> <span class="pre">*outSwizzle)</span></span></dt>
 <dd><p>Get the image format’s channel swizzle operation.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>outSwizzle</strong> – <strong>[out]</strong> The image format’s swizzle operation.<ul>
@@ -2941,7 +2978,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2955,7 +2992,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga945e1a358fe818acab3eaee4522a3054"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetPlaneSwizzle</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">int32_t</span> <span class="pre">plane,</span> <span class="pre">NVCVSwizzle</span> <span class="pre">*outPlaneSwizzle)</span></span></dt>
 <dd><p>Get the swizzle operation of the given image format’s plane.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.<ul>
 <li><p>Image format should have less packing channels and swizzle channels. </p></li>
@@ -2971,7 +3008,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -2985,7 +3022,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga6caecc1931aae1e0f7b99da414d028cd"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatSetMemLayout</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">*fmt,</span> <span class="pre">NVCVMemLayout</span> <span class="pre">memLayout)</span></span></dt>
 <dd><p>Set the image format’s memory layout.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[inout]</strong> Image format have its memory layout replaced.<ul>
 <li><p>Cannot be NULL. </p></li>
@@ -2994,7 +3031,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>memLayout</strong> – <strong>[in]</strong> The new memory layout.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3008,7 +3045,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gab40334b9659950c8e6b1b0b575727eca"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetMemLayout</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">NVCVMemLayout</span> <span class="pre">*outMemLayout)</span></span></dt>
 <dd><p>Get the image format’s memory layout.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>outMemLayout</strong> – <strong>[out]</strong> The image format’s memory layout.<ul>
@@ -3017,7 +3054,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3031,7 +3068,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga613aafc14884fbeca16f5cfad462512e"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatSetColorSpec</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">*fmt,</span> <span class="pre">NVCVColorSpec</span> <span class="pre">colorSpec)</span></span></dt>
 <dd><p>Set the image format’s color standard.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[inout]</strong> Image format have its color spec replaced.<ul>
 <li><p>Cannot be NULL.</p></li>
@@ -3041,7 +3078,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>colorSpec</strong> – <strong>[in]</strong> The new color standard.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3055,7 +3092,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gafce4c9bb04ed761c2119309a420076e8"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetColorSpec</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">NVCVColorSpec</span> <span class="pre">*outColorSpec)</span></span></dt>
 <dd><p>Get the image format’s color standard.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>outColorSpec</strong> – <strong>[out]</strong> The image format’s color standard.<ul>
@@ -3064,7 +3101,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3078,7 +3115,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gaaa7a8f6cab369df945b619b3a15fa99c"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetColorModel</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">NVCVColorModel</span> <span class="pre">*outColorModel)</span></span></dt>
 <dd><p>Get the image format’s color model.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>outColorModel</strong> – <strong>[out]</strong> The image format’s color model.<ul>
@@ -3087,7 +3124,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3101,7 +3138,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gac4515a9014f778f4056a2a62636b150f"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatSetChromaSubsampling</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">*fmt,</span> <span class="pre">NVCVChromaSubsampling</span> <span class="pre">css)</span></span></dt>
 <dd><p>Set the image format’s chroma subsampling type.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[inout]</strong> Image format have its chroma subsampling type replaced.<ul>
 <li><p>It’s only applicable if format has YCbCr color model.</p></li>
@@ -3111,7 +3148,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>css</strong> – <strong>[in]</strong> The new chroma subsampling type.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3125,7 +3162,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gaf4a4ef3f2426efd354649bb8e01ce78d"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetChromaSubsampling</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">NVCVChromaSubsampling</span> <span class="pre">*outCSS)</span></span></dt>
 <dd><p>Get the image format’s chroma subsampling type.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>outCSS</strong> – <strong>[out]</strong> The image format’s chroma subsampling type.<ul>
@@ -3134,7 +3171,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3148,7 +3185,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gab83685426e6e9ae8ed530d2dfbea646a"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetPlaneNumChannels</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">int32_t</span> <span class="pre">plane,</span> <span class="pre">int32_t</span> <span class="pre">*outPlaneNumChannels)</span></span></dt>
 <dd><p>Get the number of channels in a plane of an image format.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>plane</strong> – <strong>[in]</strong> Plane to be queried.<ul>
@@ -3161,7 +3198,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3175,7 +3212,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gab2339352cb2f3435f8ba391f3b5732cd"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetNumPlanes</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">int32_t</span> <span class="pre">*outNumPlanes)</span></span></dt>
 <dd><p>Get the number of planes of an image format.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>outNumPlanes</strong> – <strong>[out]</strong> Number of planes defined by the given image format.<ul>
@@ -3184,7 +3221,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3198,7 +3235,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gad8275fa2a716354db3e2f5b117067104"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetNumChannels</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">int32_t</span> <span class="pre">*outNumChannels)</span></span></dt>
 <dd><p>Get the total number of channels of an image format.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>outNumChannels</strong> – <strong>[out]</strong> The sum of all channel counts in all planes.<ul>
@@ -3207,7 +3244,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3221,7 +3258,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga232e5c3623e134b7c81a3f12e4819dab"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetBitsPerChannel</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">int32_t</span> <span class="pre">*bits)</span></span></dt>
 <dd><p>Get the image format’s bit size for each channel.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>bits</strong> – <strong>[out]</strong> Pointer to an int32_t array with 4 elements where output will be stored.<ul>
@@ -3230,7 +3267,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3244,7 +3281,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gaee98eb381f4cd4dcc76b4ff0541450ce"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetPlaneDataType</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">int32_t</span> <span class="pre">plane,</span> <span class="pre">NVCVDataType</span> <span class="pre">*outPixType)</span></span></dt>
 <dd><p>Get the data type of image format’s plane.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried. </p></li>
 <li><p><strong>plane</strong> – <strong>[in]</strong> Plane to be queried.<ul>
@@ -3255,7 +3292,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>outPixType</strong> – <strong>[out]</strong> The data type of the given plane.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3269,7 +3306,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga65fdf8203d76489a75d2df86b7145992"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetPlaneFormat</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">int32_t</span> <span class="pre">plane,</span> <span class="pre">NVCVImageFormat</span> <span class="pre">*outFormat)</span></span></dt>
 <dd><p>Get the plane format of an image format.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried. </p></li>
 <li><p><strong>plane</strong> – <strong>[in]</strong> Plane to be queried.<ul>
@@ -3282,7 +3319,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3296,7 +3333,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga99dc7f534245bc9390f073a6d63acff8"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetPlanePixelStrideBytes</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">int32_t</span> <span class="pre">plane,</span> <span class="pre">int32_t</span> <span class="pre">*outStrideBytes)</span></span></dt>
 <dd><p>Get the stride of the pixel in the given plane of an image format.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>plane</strong> – <strong>[in]</strong> Plane to be queried.<ul>
@@ -3309,7 +3346,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3323,7 +3360,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gaf68add0c3fa02b14a841b9b29750f7cb"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvMakeImageFormatFromPlanes</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">*outFormat,</span> <span class="pre">NVCVImageFormat</span> <span class="pre">plane0,</span> <span class="pre">NVCVImageFormat</span> <span class="pre">plane1,</span> <span class="pre">NVCVImageFormat</span> <span class="pre">plane2,</span> <span class="pre">NVCVImageFormat</span> <span class="pre">plane3)</span></span></dt>
 <dd><p>Constructs an image format given the format of each plane.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>outFormat</strong> – <strong>[out]</strong> The image format whose planes have the given formats.</p></li>
 <li><p><strong>plane0, plane1, plane2, plane3</strong> – <strong>[in]</strong> Image format of each plane.<ul>
@@ -3339,7 +3376,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3353,10 +3390,10 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gae8f70d4130019a18f862f3988863c47a"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">const</span> <span class="pre">char</span> <span class="pre">*</span> <span class="pre">nvcvImageFormatGetName</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt)</span></span></dt>
 <dd><p>Returns a string representation of the image format.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>fmt</strong> – <strong>[in]</strong> Image format whose name is to be returned.</p>
 </dd>
-<dt class="field-even">Returns</dt>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>The string representation of the image format. Returned string is valid until next call of this function from the same calling thread. Returned pointer must not be freed. </p>
 </dd>
 </dl>
@@ -3367,7 +3404,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga05baf832468d84900491aebcf316defd"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetRawPattern</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">NVCVRawPattern</span> <span class="pre">*outRawPattern)</span></span></dt>
 <dd><p>Returns the raw color pattern of the image format.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.<ul>
 <li><p>Its color model must be <a class="reference internal" href="group__NVCV__C__CORE__COLORSPEC.html#group__NVCV__C__CORE__COLORSPEC_1ggaef682281101838767e95875bed5efdb8a045dfcb007f5eef46285a1c6be17da88"><span class="std std-ref">NVCV_COLOR_MODEL_RAW</span></a> .</p></li>
@@ -3379,7 +3416,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3393,7 +3430,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga97175a02bc3445657d1ceeaff99ed11b"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatSetRawPattern</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">*fmt,</span> <span class="pre">NVCVRawPattern</span> <span class="pre">rawPattern)</span></span></dt>
 <dd><p>Sets the raw color pattern of the image format.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[inout]</strong> Image format to be updated.<ul>
 <li><p>Its color model must be <a class="reference internal" href="group__NVCV__C__CORE__COLORSPEC.html#group__NVCV__C__CORE__COLORSPEC_1ggaef682281101838767e95875bed5efdb8a045dfcb007f5eef46285a1c6be17da88"><span class="std std-ref">NVCV_COLOR_MODEL_RAW</span></a>.</p></li>
@@ -3403,7 +3440,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>rawPattern</strong> – <strong>[in]</strong> The new raw pattern.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3427,13 +3464,13 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </ul>
 </p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>a, b</strong> – <strong>[in]</strong> Image formats to be compared. </p></li>
 <li><p><strong>outBool</strong> – <strong>[out]</strong> != 0 if image formats compares equal with respect to how pixels are laid out in memory, 0 otherwise.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3447,7 +3484,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1ga0cb5e138dc7fa902d0a27c86ad32f5be"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetAlphaType</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">NVCVAlphaType</span> <span class="pre">*outAlphaChannelType)</span></span></dt>
 <dd><p>Get the image format’s alpha Channel type.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>outAlphaChannelType</strong> – <strong>[out]</strong> The image format’s alpha channel type.<ul>
@@ -3456,7 +3493,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3470,7 +3507,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gac2b2f4eeed55a84272b44d9ba03cc9a6"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatSetAlphaType</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">*fmt,</span> <span class="pre">NVCVAlphaType</span> <span class="pre">alphaChannelType)</span></span></dt>
 <dd><p>Set the image format’s alpha channel type.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[inout]</strong> Image format have its data type replaced.<ul>
 <li><p>Cannot be NULL. </p></li>
@@ -3479,7 +3516,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>alphaChannelType</strong> – <strong>[in]</strong> The new alphaChannel type.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3493,7 +3530,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gaec2add49673198f700e1abb024874478"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatGetExtraChannelInfo</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">fmt,</span> <span class="pre">NVCVExtraChannelInfo</span> <span class="pre">*outExChannelInfo)</span></span></dt>
 <dd><p>Get the image format’s extra channel information.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[in]</strong> Image format to be queried.</p></li>
 <li><p><strong>outExChannelInfo</strong> – <strong>[out]</strong> The image format’s extra channel information.<ul>
@@ -3502,7 +3539,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3516,7 +3553,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <span class="target" id="group__NVCV__C__CORE__IMAGETYPE_1gace29cd15eaecf215ef1c2e6041a812c1"></span><span class="sig-name descname"><span class="pre">NVCV_PUBLIC</span> <span class="pre">NVCVStatus</span> <span class="pre">nvcvImageFormatSetExtraChannelInfo</span> <span class="pre">(NVCVImageFormat</span> <span class="pre">*fmt,</span> <span class="pre">const</span> <span class="pre">NVCVExtraChannelInfo</span> <span class="pre">*exChannelInfo)</span></span></dt>
 <dd><p>Set the image format’s extra channel information.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fmt</strong> – <strong>[inout]</strong> Image format have its data type replaced.<ul>
 <li><p>Cannot be NULL. </p></li>
@@ -3525,7 +3562,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 <li><p><strong>exChannelInfo</strong> – <strong>[in]</strong> The new extra channel info.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some argument is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -3551,7 +3588,7 @@ Example to create a RGGB Bayer pattern format: <div class="highlight-c notransla
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022-2023, NVIDIA..
-      <span class="lastupdated">Last updated on Feb 05, 2024.
+      <span class="lastupdated">Last updated on Mar 15, 2024.
       </span></p>
   </div>
 

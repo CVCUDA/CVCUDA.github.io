@@ -67,6 +67,13 @@ Program Listing for File Workspace.hpp
        return ret;
    }
    
+   inline void AlignUp(WorkspaceRequirements &ws)
+   {
+       ws.hostMem.size   = nvcv::detail::AlignUp(ws.hostMem.size, ws.hostMem.alignment);
+       ws.pinnedMem.size = nvcv::detail::AlignUp(ws.pinnedMem.size, ws.pinnedMem.alignment);
+       ws.cudaMem.size   = nvcv::detail::AlignUp(ws.cudaMem.size, ws.cudaMem.alignment);
+   }
+   
    class UniqueWorkspace
    {
    public:

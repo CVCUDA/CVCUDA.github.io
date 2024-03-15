@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="en">
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Class ColorSpec &mdash; CV-CUDA Beta documentation</title>
-      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/collapsible-lists/css/tree_view.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=76b435a8" />
+      <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
     <link rel="shortcut icon" href="../_static/nv_icon.png"/>
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/doctools.js"></script>
-        <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
-        <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js?v=bd46b8a5"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=4825356b"></script>
+        <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+        <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
         <script src="../_static/pk_scripts.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -113,6 +116,7 @@
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAMMA__CONTRAST.html">Gamma Contrast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN.html">Gaussian</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE.html">GaussianNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__HQ__RESIZE.html">HQ Resize</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__INPAINT.html">Inpaint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__JOINT__BILATERAL__FILTER.html">Joint Bilateral Filter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__LABEL.html">Label</a></li>
@@ -182,6 +186,7 @@
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAMMA__CONTRAST.html">Gamma Contrast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN.html">Gaussian</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE.html">GaussianNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__HQ__RESIZE.html">HQ Resize</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__INPAINT.html">Inpaint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__JOINT__BILATERAL__FILTER.html">Joint Bilateral Filter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__LABEL.html">Label</a></li>
@@ -230,6 +235,8 @@
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__RANGECAST.html">Range cast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__SATURATECAST.html">Saturate cast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__STATICCAST.html">Static Cast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAP.html">TensorBatchWrap classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS.html">TensorBatchWrap shortcuts</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORWRAP.html">TensorWrap classes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORWRAPS.html">TensorWrap shortcuts</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TYPETRAITS.html">Type Traits</a></li>
@@ -237,8 +244,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../modules/python_modules.html">Python Modules</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../modules/python_modules.html#cv-cuda-python-api-reference">CV-CUDA Python API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modules/python_modules.html">Python Modules</a><ul class="simple">
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="reference internal" href="cvcuda_api.html">Index</a><ul class="current">
@@ -260,6 +266,10 @@
 </ul>
 </li>
 <li class="toctree-l3 current"><a class="reference internal" href="cvcuda_api.html#classes-and-structs">Classes and Structs</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeRoiF.html">Struct HQResizeRoiF</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeRoisF.html">Struct HQResizeRoisF</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeTensorShapeI.html">Struct HQResizeTensorShapeI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeTensorShapesI.html">Struct HQResizeTensorShapesI</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1Callback_3_01Ret_07Args_8_8_8_08_00_01CRet_07CtxArg_00_01CArgs_8_8_8_08_00_01Transb7b914e11bb6d38fbd5e59f4add41c3d.html">Template Struct Callback&lt; Ret(Args…), CRet(CtxArg, CArgs…), TranslateCall, SingleUse &gt;::TargetBlob</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1cuda_1_1detail_1_1BorderWrapImpl_1_1ActiveMap.html">Struct BorderWrapImpl::ActiveMap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1cuda_1_1detail_1_1ConvertBaseTypeTo.html">Template Struct ConvertBaseTypeTo</a></li>
@@ -514,6 +524,7 @@
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1GaussianNoise.html">Class GaussianNoise</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1Histogram.html">Class Histogram</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1HistogramEq.html">Class HistogramEq</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1HQResize.html">Class HQResize</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1Inpaint.html">Class Inpaint</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1IOperator.html">Class IOperator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1JointBilateralFilter.html">Class JointBilateralFilter</a></li>
@@ -582,6 +593,8 @@
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1InterpolationWrap_3_01BW_00_01NVCV__INTERP__NEAREST_01_4.html">Template Class InterpolationWrap&lt; BW, NVCV_INTERP_NEAREST &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1math_1_1Matrix.html">Template Class Matrix</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1math_1_1Vector.html">Template Class Vector</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorBatchWrap.html">Template Class TensorBatchWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorBatchWrap_3_01const_01T_00_01Strides_8_8_8_01_4.html">Template Class TensorBatchWrap&lt; const T, Strides… &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorWrap.html">Template Class TensorWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorWrap_3_01const_01T_00_01Strides_8_8_8_01_4.html">Template Class TensorWrap&lt; const T, Strides… &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1CudaMemAllocator.html">Class CudaMemAllocator</a></li>
@@ -721,6 +734,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="cvcuda_api.html#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1a67c87474f4882ef63e891633a107438b.html">Function cvcuda::AlignUp</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1a006defc158090d28a55098df4b7aa537.html">Function cvcuda::AllocateWorkspace</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1a10aa05cedebe13d0b0217b4e102f8e41.html">Function cvcuda::MaxWorkspaceReq(WorkspaceMemRequirements, WorkspaceMemRequirements)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1aa784addbd30224bbefc91a66ef21c71f.html">Function cvcuda::MaxWorkspaceReq(const WorkspaceRequirements&amp;, const WorkspaceRequirements&amp;)</a></li>
@@ -792,6 +806,13 @@
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM____HISTOGRAM__EQ_1ga338200a4d4946a001d552a779fb8c4f0.html">Function cvcudaHistogramEqSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM____HISTOGRAM__EQ_1ga83e9c622375cd89c252f83dcedadaf90.html">Function cvcudaHistogramEqVarShapeSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM____HISTOGRAM_1ga3c67a278ed187d45457479e9f680cab7.html">Function cvcudaHistogramSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga0726d2f0bcad43d71cff1730c35cafbc.html">Function cvcudaHQResizeCreate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1gaa01850dcfb983815c9676729a453f6a9.html">Function cvcudaHQResizeGetMaxWorkspaceRequirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga6fa5715947ed04eb747374f3270c4f7f.html">Function cvcudaHQResizeImageBatchSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga0da8809825f2b52f8b4fe398911de2cb.html">Function cvcudaHQResizeSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga828ed7ef2dc3cc1b16213e06d5878e3d.html">Function cvcudaHQResizeTensorBatchGetWorkspaceRequirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1gae2b084f8df61c05c481eef0ef7a98efa.html">Function cvcudaHQResizeTensorBatchSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga72d85de75c9cc22827a6cecfbc6b8105.html">Function cvcudaHQResizeTensorGetWorkspaceRequirements</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__INPAINT_1ga19928e4e99ac468e48484d27f1a16053.html">Function cvcudaInpaintCreate</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__INPAINT_1gaef5276c46ac886dc7a1843c2f4bdb129.html">Function cvcudaInpaintSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__INPAINT_1ga4e986bd975af21c5e8d60d5db65a92a8.html">Function cvcudaInpaintVarShapeSubmit</a></li>
@@ -1575,6 +1596,7 @@
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a6e220f5a007a8fe757ab15a8474d8bb4.html">Define NVCV_DETAIL_MAKE_YCbCr_FORMAT4</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a92180dcf02ae12991ef194a4e98b2e5a.html">Define NVCV_DETAIL_SET_BITFIELD</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a40e535255d5afebc666dbe48bf3fdf8d.html">Define NVCV_DETAIL_SET_EXTRA_CHANNEL_INFO</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga966ed1566c383f75cae82857c6eb3a5b.html">Define NVCV_HQ_RESIZE_MAX_RESIZED_NDIM</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_CompilerUtils_8h_1ad54e4e5ea625ee5e56f86b71e63c36c5.html">Define NVCV_IF_CONSTEXPR</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_ImageBatch_8hpp_1a366f385bffd0273a8359c63222350fe9.html">Define NVCV_IMAGE_BATCH_VAR_SHAPE_HANDLE_TO_OPTIONAL</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga07b3066e709ba024f9811448c933d279.html">Define NVCV_IMAGE_FORMAT_2C128</a></li>
@@ -1708,7 +1730,14 @@
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gab393e759b75d7039b4faf7519c35798c.html">Typedef nvcv::cuda::Tensor2DWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1ga849270e14890911a82e5f7c1601fafb8.html">Typedef nvcv::cuda::Tensor3DWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gaee996a011705513c21fa20d602a05cc0.html">Typedef nvcv::cuda::Tensor4DWrap</a></li>
-<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gaf7c730f72cf3adc7fb16dbbe9935b76f.html">Typedef nvcv::cuda::TensorNDWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gabe1eafd7d185b78adc075b7e42fdaad5.html">Typedef nvcv::cuda::Tensor5DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1gaf35ae88f20c587496f14942d1e8ecfc3.html">Typedef nvcv::cuda::TensorBatch1DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1gac357ab44b586f1abc979fde6223e82a2.html">Typedef nvcv::cuda::TensorBatch2DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga7bf58059d6f587a2cd1b9f5f4bd106df.html">Typedef nvcv::cuda::TensorBatch3DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga5d18edd01f9abcc0ed6e223fdff4c1d1.html">Typedef nvcv::cuda::TensorBatch4DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga24564c4309bbc0fe21c1ced07a9f1f39.html">Typedef nvcv::cuda::TensorBatch5DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga7ff737987f66ba391bab1bd3007c51e7.html">Typedef nvcv::cuda::TensorBatchNDWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1ga3be18874b116544228b6e814eb1d33e4.html">Typedef nvcv::cuda::TensorNDWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a5470a545cf24011baa4304acf9543d36.html">Typedef nvcv::CustomCudaMemAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a2a991a8a3f4e1cfa288e37a705cc3058.html">Typedef nvcv::CustomHostMemAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1af77f93ef256b7bca7b5ac04cf0b2351b.html">Typedef nvcv::CustomHostPinnedMemAllocator</a></li>
@@ -1812,6 +1841,14 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Release Notes</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../relnotes/v0.6.0-beta.html">Beta.4</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#release-highlights">Release Highlights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#compatibility-and-known-limitations">Compatibility and Known Limitations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#license">License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#resources">Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#acknowledgements">Acknowledgements</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../relnotes/v0.5.0-beta.html">Beta.3</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.5.0-beta.html#release-highlights">Release Highlights</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.5.0-beta.html#compatibility">Compatibility</a></li>
@@ -1897,12 +1934,12 @@
            <div itemprop="articleBody">
              
   <section id="class-colorspec">
-<span id="exhale-class-classnvcv-1-1colorspec"></span><h1>Class ColorSpec<a class="headerlink" href="#class-colorspec" title="Permalink to this headline"></a></h1>
+<span id="exhale-class-classnvcv-1-1colorspec"></span><h1>Class ColorSpec<a class="headerlink" href="#class-colorspec" title="Permalink to this heading"></a></h1>
 <ul class="simple">
 <li><p>Defined in <a class="reference internal" href="file_nvcv_types_include_nvcv_ColorSpec.hpp.html#file-nvcv-types-include-nvcv-colorspec-hpp"><span class="std std-ref">File ColorSpec.hpp</span></a></p></li>
 </ul>
 <section id="class-documentation">
-<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline"></a></h2>
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this heading"></a></h2>
 <dl class="cpp class">
 <dt class="sig sig-object cpp" id="_CPPv4N4nvcv9ColorSpecE">
 <span id="_CPPv3N4nvcv9ColorSpecE"></span><span id="_CPPv2N4nvcv9ColorSpecE"></span><span id="nvcv::ColorSpec"></span><span class="target" id="classnvcv_1_1ColorSpec"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ColorSpec</span></span></span><a class="headerlink" href="#_CPPv4N4nvcv9ColorSpecE" title="Permalink to this definition"></a><br /></dt>
@@ -1915,7 +1952,7 @@
 <span id="_CPPv3N4nvcv9ColorSpec9ColorSpecE13NVCVColorSpec"></span><span id="_CPPv2N4nvcv9ColorSpec9ColorSpecE13NVCVColorSpec"></span><span id="nvcv::ColorSpec::ColorSpec__NVCVColorSpecCE"></span><span class="target" id="classnvcv_1_1ColorSpec_1a4a3ac2f31e66c976a0ab57f42b2cd03f"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ColorSpec</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="enum_group__NVCV__C__CORE__COLORSPEC_1ga1b475019946b97bd2e531806bc112f70.html#_CPPv413NVCVColorSpec" title="NVCVColorSpec"><span class="n"><span class="pre">NVCVColorSpec</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">cspec</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4nvcv9ColorSpec9ColorSpecE13NVCVColorSpec" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Construct a new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a> object. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>cspec</strong> – Existing NVCVColorSpec object. </p>
 </dd>
 </dl>
@@ -1926,7 +1963,7 @@
 <span id="_CPPv3N4nvcv9ColorSpec9ColorSpecE10ColorSpace13YCbCrEncoding21ColorTransferFunction10ColorRange14ChromaLocation14ChromaLocation"></span><span id="_CPPv2N4nvcv9ColorSpec9ColorSpecE10ColorSpace13YCbCrEncoding21ColorTransferFunction10ColorRange14ChromaLocation14ChromaLocation"></span><span id="nvcv::ColorSpec::ColorSpec__ColorSpace.YCbCrEncoding.ColorTransferFunction.ColorRange.ChromaLocation.ChromaLocation"></span><span class="target" id="classnvcv_1_1ColorSpec_1a25b91d96a11cd6dd9abc0ab5e76f04fc"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ColorSpec</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="enum_namespacenvcv_1acffea8da1131190848c888bd7f589aa7.html#_CPPv4N4nvcv10ColorSpaceE" title="nvcv::ColorSpace"><span class="n"><span class="pre">ColorSpace</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">cspace</span></span>, <a class="reference internal" href="enum_namespacenvcv_1a858bcb07a88426579e24b98979078573.html#_CPPv4N4nvcv13YCbCrEncodingE" title="nvcv::YCbCrEncoding"><span class="n"><span class="pre">YCbCrEncoding</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">encoding</span></span>, <a class="reference internal" href="enum_namespacenvcv_1a893bda0840fe00a793808f37822e6966.html#_CPPv4N4nvcv21ColorTransferFunctionE" title="nvcv::ColorTransferFunction"><span class="n"><span class="pre">ColorTransferFunction</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">xferFunc</span></span>, <a class="reference internal" href="enum_namespacenvcv_1ae88251944fa945ac4da94863fd480374.html#_CPPv4N4nvcv10ColorRangeE" title="nvcv::ColorRange"><span class="n"><span class="pre">ColorRange</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">range</span></span>, <a class="reference internal" href="enum_namespacenvcv_1a4997b35073af2050a9116c9c34f859d1.html#_CPPv4N4nvcv14ChromaLocationE" title="nvcv::ChromaLocation"><span class="n"><span class="pre">ChromaLocation</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">locHoriz</span></span>, <a class="reference internal" href="enum_namespacenvcv_1a4997b35073af2050a9116c9c34f859d1.html#_CPPv4N4nvcv14ChromaLocationE" title="nvcv::ChromaLocation"><span class="n"><span class="pre">ChromaLocation</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">locVert</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4nvcv9ColorSpec9ColorSpecE10ColorSpace13YCbCrEncoding21ColorTransferFunction10ColorRange14ChromaLocation14ChromaLocation" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Construct a new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a> object. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>cspace</strong> – Color space. </p></li>
 <li><p><strong>encoding</strong> – YCbCr encoding. </p></li>
@@ -1944,7 +1981,7 @@
 <span id="_CPPv3NK4nvcv9ColorSpeccv13NVCVColorSpecEv"></span><span id="_CPPv2NK4nvcv9ColorSpeccv13NVCVColorSpecEv"></span><span id="nvcv::ColorSpec::castto-NVCVColorSpec-operatorCCE"></span><span class="target" id="classnvcv_1_1ColorSpec_1a61c5afdb79b7bb85d2a30c6f06518db0"></span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><a class="reference internal" href="enum_group__NVCV__C__CORE__COLORSPEC_1ga1b475019946b97bd2e531806bc112f70.html#_CPPv413NVCVColorSpec" title="NVCVColorSpec"><span class="n"><span class="pre">NVCVColorSpec</span></span></a></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpeccv13NVCVColorSpecEv" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Get the NVCVColorSpec object. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
 <dd class="field-odd"><p>NVCVColorSpec object. </p>
 </dd>
 </dl>
@@ -1955,13 +1992,13 @@
 <span id="_CPPv3NK4nvcv9ColorSpec9chromaLocE14ChromaLocation14ChromaLocation"></span><span id="_CPPv2NK4nvcv9ColorSpec9chromaLocE14ChromaLocation14ChromaLocation"></span><span id="nvcv::ColorSpec::chromaLoc__ChromaLocation.ChromaLocationC"></span><span class="target" id="classnvcv_1_1ColorSpec_1a9e60d2e86f4ad841ede4cff1bbcc08a2"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4nvcv9ColorSpecE" title="nvcv::ColorSpec"><span class="n"><span class="pre">ColorSpec</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">chromaLoc</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="enum_namespacenvcv_1a4997b35073af2050a9116c9c34f859d1.html#_CPPv4N4nvcv14ChromaLocationE" title="nvcv::ChromaLocation"><span class="n"><span class="pre">ChromaLocation</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">locHoriz</span></span>, <a class="reference internal" href="enum_namespacenvcv_1a4997b35073af2050a9116c9c34f859d1.html#_CPPv4N4nvcv14ChromaLocationE" title="nvcv::ChromaLocation"><span class="n"><span class="pre">ChromaLocation</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">locVert</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpec9chromaLocE14ChromaLocation14ChromaLocation" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Set the chroma location and return a new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a>. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>locHoriz</strong> – Horizontal chroma location. </p></li>
 <li><p><strong>locVert</strong> – Vertical chroma location. </p></li>
 </ul>
 </dd>
-<dt class="field-even">Returns</dt>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>A new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a> with the specified chroma location. </p>
 </dd>
 </dl>
@@ -1972,7 +2009,7 @@
 <span id="_CPPv3NK4nvcv9ColorSpec14chromaLocHorizEv"></span><span id="_CPPv2NK4nvcv9ColorSpec14chromaLocHorizEv"></span><span id="nvcv::ColorSpec::chromaLocHorizC"></span><span class="target" id="classnvcv_1_1ColorSpec_1a1ef743db9389b32c23a8a48d7093aa31"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="enum_namespacenvcv_1a4997b35073af2050a9116c9c34f859d1.html#_CPPv4N4nvcv14ChromaLocationE" title="nvcv::ChromaLocation"><span class="n"><span class="pre">ChromaLocation</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">chromaLocHoriz</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpec14chromaLocHorizEv" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Get the horizontal chroma location. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
 <dd class="field-odd"><p>Horizontal chroma location. </p>
 </dd>
 </dl>
@@ -1983,7 +2020,7 @@
 <span id="_CPPv3NK4nvcv9ColorSpec13chromaLocVertEv"></span><span id="_CPPv2NK4nvcv9ColorSpec13chromaLocVertEv"></span><span id="nvcv::ColorSpec::chromaLocVertC"></span><span class="target" id="classnvcv_1_1ColorSpec_1a8f5e2720d874a78415c00094aaae004b"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="enum_namespacenvcv_1a4997b35073af2050a9116c9c34f859d1.html#_CPPv4N4nvcv14ChromaLocationE" title="nvcv::ChromaLocation"><span class="n"><span class="pre">ChromaLocation</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">chromaLocVert</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpec13chromaLocVertEv" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Get the vertical chroma location. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
 <dd class="field-odd"><p>Vertical chroma location. </p>
 </dd>
 </dl>
@@ -1994,10 +2031,10 @@
 <span id="_CPPv3NK4nvcv9ColorSpec10colorSpaceE10ColorSpace"></span><span id="_CPPv2NK4nvcv9ColorSpec10colorSpaceE10ColorSpace"></span><span id="nvcv::ColorSpec::colorSpace__ColorSpaceC"></span><span class="target" id="classnvcv_1_1ColorSpec_1a1983b7893269b47a4605375466b9e930"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4nvcv9ColorSpecE" title="nvcv::ColorSpec"><span class="n"><span class="pre">ColorSpec</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">colorSpace</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="enum_namespacenvcv_1acffea8da1131190848c888bd7f589aa7.html#_CPPv4N4nvcv10ColorSpaceE" title="nvcv::ColorSpace"><span class="n"><span class="pre">ColorSpace</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">cspace</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpec10colorSpaceE10ColorSpace" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Set the color space and return a new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a>. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>cspace</strong> – Color space. </p>
 </dd>
-<dt class="field-even">Returns</dt>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>A new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a> with the specified color space. </p>
 </dd>
 </dl>
@@ -2008,7 +2045,7 @@
 <span id="_CPPv3NK4nvcv9ColorSpec10colorSpaceEv"></span><span id="_CPPv2NK4nvcv9ColorSpec10colorSpaceEv"></span><span id="nvcv::ColorSpec::colorSpaceC"></span><span class="target" id="classnvcv_1_1ColorSpec_1af882de02f53abfb8e7a3dbd02eae6439"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="enum_namespacenvcv_1acffea8da1131190848c888bd7f589aa7.html#_CPPv4N4nvcv10ColorSpaceE" title="nvcv::ColorSpace"><span class="n"><span class="pre">ColorSpace</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">colorSpace</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpec10colorSpaceEv" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Get the color space. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
 <dd class="field-odd"><p>Color space. </p>
 </dd>
 </dl>
@@ -2019,10 +2056,10 @@
 <span id="_CPPv3NK4nvcv9ColorSpec13yCbCrEncodingE13YCbCrEncoding"></span><span id="_CPPv2NK4nvcv9ColorSpec13yCbCrEncodingE13YCbCrEncoding"></span><span id="nvcv::ColorSpec::yCbCrEncoding__YCbCrEncodingC"></span><span class="target" id="classnvcv_1_1ColorSpec_1ae348d7b09541afe579e2e1da4c9a4547"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4nvcv9ColorSpecE" title="nvcv::ColorSpec"><span class="n"><span class="pre">ColorSpec</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">yCbCrEncoding</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="enum_namespacenvcv_1a858bcb07a88426579e24b98979078573.html#_CPPv4N4nvcv13YCbCrEncodingE" title="nvcv::YCbCrEncoding"><span class="n"><span class="pre">YCbCrEncoding</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">encoding</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpec13yCbCrEncodingE13YCbCrEncoding" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Set the YCbCr encoding and return a new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a>. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>encoding</strong> – YCbCr encoding. </p>
 </dd>
-<dt class="field-even">Returns</dt>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>A new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a> with the specified YCbCr encoding. </p>
 </dd>
 </dl>
@@ -2033,7 +2070,7 @@
 <span id="_CPPv3NK4nvcv9ColorSpec13yCbCrEncodingEv"></span><span id="_CPPv2NK4nvcv9ColorSpec13yCbCrEncodingEv"></span><span id="nvcv::ColorSpec::yCbCrEncodingC"></span><span class="target" id="classnvcv_1_1ColorSpec_1a735914353fb4c435b2d4dfa7b0d889ba"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="enum_namespacenvcv_1a858bcb07a88426579e24b98979078573.html#_CPPv4N4nvcv13YCbCrEncodingE" title="nvcv::YCbCrEncoding"><span class="n"><span class="pre">YCbCrEncoding</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">yCbCrEncoding</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpec13yCbCrEncodingEv" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Get the YCbCr encoding. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
 <dd class="field-odd"><p>YCbCr encoding. </p>
 </dd>
 </dl>
@@ -2044,10 +2081,10 @@
 <span id="_CPPv3NK4nvcv9ColorSpec21colorTransferFunctionE21ColorTransferFunction"></span><span id="_CPPv2NK4nvcv9ColorSpec21colorTransferFunctionE21ColorTransferFunction"></span><span id="nvcv::ColorSpec::colorTransferFunction__ColorTransferFunctionC"></span><span class="target" id="classnvcv_1_1ColorSpec_1a58c076f2c2ad222fd0b6c37274362920"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4nvcv9ColorSpecE" title="nvcv::ColorSpec"><span class="n"><span class="pre">ColorSpec</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">colorTransferFunction</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="enum_namespacenvcv_1a893bda0840fe00a793808f37822e6966.html#_CPPv4N4nvcv21ColorTransferFunctionE" title="nvcv::ColorTransferFunction"><span class="n"><span class="pre">ColorTransferFunction</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">xferFunc</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpec21colorTransferFunctionE21ColorTransferFunction" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Set the color transfer function and return a new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a>. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>xferFunc</strong> – Color transfer function. </p>
 </dd>
-<dt class="field-even">Returns</dt>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>A new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a> with the specified color transfer function. </p>
 </dd>
 </dl>
@@ -2058,7 +2095,7 @@
 <span id="_CPPv3NK4nvcv9ColorSpec21colorTransferFunctionEv"></span><span id="_CPPv2NK4nvcv9ColorSpec21colorTransferFunctionEv"></span><span id="nvcv::ColorSpec::colorTransferFunctionC"></span><span class="target" id="classnvcv_1_1ColorSpec_1abc504b159a91af21fb293e0b07de9fda"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="enum_namespacenvcv_1a893bda0840fe00a793808f37822e6966.html#_CPPv4N4nvcv21ColorTransferFunctionE" title="nvcv::ColorTransferFunction"><span class="n"><span class="pre">ColorTransferFunction</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">colorTransferFunction</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpec21colorTransferFunctionEv" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Get the color transfer function. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
 <dd class="field-odd"><p>Color transfer function. </p>
 </dd>
 </dl>
@@ -2069,10 +2106,10 @@
 <span id="_CPPv3NK4nvcv9ColorSpec10colorRangeE10ColorRange"></span><span id="_CPPv2NK4nvcv9ColorSpec10colorRangeE10ColorRange"></span><span id="nvcv::ColorSpec::colorRange__ColorRangeC"></span><span class="target" id="classnvcv_1_1ColorSpec_1a832e5eeefa707888ff4438927c4bece2"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4nvcv9ColorSpecE" title="nvcv::ColorSpec"><span class="n"><span class="pre">ColorSpec</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">colorRange</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="enum_namespacenvcv_1ae88251944fa945ac4da94863fd480374.html#_CPPv4N4nvcv10ColorRangeE" title="nvcv::ColorRange"><span class="n"><span class="pre">ColorRange</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">range</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpec10colorRangeE10ColorRange" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Set the color range and return a new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a>. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>range</strong> – Color range. </p>
 </dd>
-<dt class="field-even">Returns</dt>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>A new <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a> with the specified color range. </p>
 </dd>
 </dl>
@@ -2083,7 +2120,7 @@
 <span id="_CPPv3NK4nvcv9ColorSpec10colorRangeEv"></span><span id="_CPPv2NK4nvcv9ColorSpec10colorRangeEv"></span><span id="nvcv::ColorSpec::colorRangeC"></span><span class="target" id="classnvcv_1_1ColorSpec_1a15d16e2b869c58ffb9c28214184b384c"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="enum_namespacenvcv_1ae88251944fa945ac4da94863fd480374.html#_CPPv4N4nvcv10ColorRangeE" title="nvcv::ColorRange"><span class="n"><span class="pre">ColorRange</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">colorRange</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4nvcv9ColorSpec10colorRangeEv" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Get the color range. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
 <dd class="field-odd"><p>Color range. </p>
 </dd>
 </dl>
@@ -2097,7 +2134,7 @@
 <span id="_CPPv3N4nvcv9ColorSpec11ConstCreateE10ColorSpace13YCbCrEncoding21ColorTransferFunction10ColorRange14ChromaLocation14ChromaLocation"></span><span id="_CPPv2N4nvcv9ColorSpec11ConstCreateE10ColorSpace13YCbCrEncoding21ColorTransferFunction10ColorRange14ChromaLocation14ChromaLocation"></span><span id="nvcv::ColorSpec::ConstCreate__ColorSpace.YCbCrEncoding.ColorTransferFunction.ColorRange.ChromaLocation.ChromaLocationCE"></span><span class="target" id="classnvcv_1_1ColorSpec_1ae5588066b9cd2c184d68bfdc10b72cc0"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4nvcv9ColorSpecE" title="nvcv::ColorSpec"><span class="n"><span class="pre">ColorSpec</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ConstCreate</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="enum_namespacenvcv_1acffea8da1131190848c888bd7f589aa7.html#_CPPv4N4nvcv10ColorSpaceE" title="nvcv::ColorSpace"><span class="n"><span class="pre">ColorSpace</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">cspace</span></span>, <a class="reference internal" href="enum_namespacenvcv_1a858bcb07a88426579e24b98979078573.html#_CPPv4N4nvcv13YCbCrEncodingE" title="nvcv::YCbCrEncoding"><span class="n"><span class="pre">YCbCrEncoding</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">encoding</span></span>, <a class="reference internal" href="enum_namespacenvcv_1a893bda0840fe00a793808f37822e6966.html#_CPPv4N4nvcv21ColorTransferFunctionE" title="nvcv::ColorTransferFunction"><span class="n"><span class="pre">ColorTransferFunction</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">xferFunc</span></span>, <a class="reference internal" href="enum_namespacenvcv_1ae88251944fa945ac4da94863fd480374.html#_CPPv4N4nvcv10ColorRangeE" title="nvcv::ColorRange"><span class="n"><span class="pre">ColorRange</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">range</span></span>, <a class="reference internal" href="enum_namespacenvcv_1a4997b35073af2050a9116c9c34f859d1.html#_CPPv4N4nvcv14ChromaLocationE" title="nvcv::ChromaLocation"><span class="n"><span class="pre">ChromaLocation</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">locHoriz</span></span>, <a class="reference internal" href="enum_namespacenvcv_1a4997b35073af2050a9116c9c34f859d1.html#_CPPv4N4nvcv14ChromaLocationE" title="nvcv::ChromaLocation"><span class="n"><span class="pre">ChromaLocation</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">locVert</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4nvcv9ColorSpec11ConstCreateE10ColorSpace13YCbCrEncoding21ColorTransferFunction10ColorRange14ChromaLocation14ChromaLocation" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Create a <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a> object. </p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>cspace</strong> – Color space. </p></li>
 <li><p><strong>encoding</strong> – YCbCr encoding. </p></li>
@@ -2107,7 +2144,7 @@
 <li><p><strong>locVert</strong> – Vertical chroma location. </p></li>
 </ul>
 </dd>
-<dt class="field-even">Returns</dt>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>A <a class="reference internal" href="#classnvcv_1_1ColorSpec"><span class="std std-ref">ColorSpec</span></a> object. </p>
 </dd>
 </dl>
@@ -2131,7 +2168,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022-2023, NVIDIA..
-      <span class="lastupdated">Last updated on Feb 05, 2024.
+      <span class="lastupdated">Last updated on Mar 15, 2024.
       </span></p>
   </div>
 

@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="en">
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Function nvcvArrayGetDataType &mdash; CV-CUDA Beta documentation</title>
-      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/collapsible-lists/css/tree_view.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=76b435a8" />
+      <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
     <link rel="shortcut icon" href="../_static/nv_icon.png"/>
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/doctools.js"></script>
-        <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
-        <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js?v=bd46b8a5"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=4825356b"></script>
+        <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+        <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
         <script src="../_static/pk_scripts.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -113,6 +116,7 @@
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAMMA__CONTRAST.html">Gamma Contrast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN.html">Gaussian</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE.html">GaussianNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__HQ__RESIZE.html">HQ Resize</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__INPAINT.html">Inpaint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__JOINT__BILATERAL__FILTER.html">Joint Bilateral Filter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__LABEL.html">Label</a></li>
@@ -182,6 +186,7 @@
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAMMA__CONTRAST.html">Gamma Contrast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN.html">Gaussian</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE.html">GaussianNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__HQ__RESIZE.html">HQ Resize</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__INPAINT.html">Inpaint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__JOINT__BILATERAL__FILTER.html">Joint Bilateral Filter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__C__ALGORITHM__LABEL.html">Label</a></li>
@@ -230,6 +235,8 @@
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__RANGECAST.html">Range cast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__SATURATECAST.html">Saturate cast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__STATICCAST.html">Static Cast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAP.html">TensorBatchWrap classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS.html">TensorBatchWrap shortcuts</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORWRAP.html">TensorWrap classes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TENSORWRAPS.html">TensorWrap shortcuts</a></li>
 <li class="toctree-l3"><a class="reference internal" href="group__NVCV__CPP__CUDATOOLS__TYPETRAITS.html">Type Traits</a></li>
@@ -237,8 +244,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../modules/python_modules.html">Python Modules</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../modules/python_modules.html#cv-cuda-python-api-reference">CV-CUDA Python API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modules/python_modules.html">Python Modules</a><ul class="simple">
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="reference internal" href="cvcuda_api.html">Index</a><ul class="current">
@@ -260,6 +266,10 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="cvcuda_api.html#classes-and-structs">Classes and Structs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeRoiF.html">Struct HQResizeRoiF</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeRoisF.html">Struct HQResizeRoisF</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeTensorShapeI.html">Struct HQResizeTensorShapeI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structHQResizeTensorShapesI.html">Struct HQResizeTensorShapesI</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1Callback_3_01Ret_07Args_8_8_8_08_00_01CRet_07CtxArg_00_01CArgs_8_8_8_08_00_01Transb7b914e11bb6d38fbd5e59f4add41c3d.html">Template Struct Callback&lt; Ret(Args…), CRet(CtxArg, CArgs…), TranslateCall, SingleUse &gt;::TargetBlob</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1cuda_1_1detail_1_1BorderWrapImpl_1_1ActiveMap.html">Struct BorderWrapImpl::ActiveMap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="structnvcv_1_1cuda_1_1detail_1_1ConvertBaseTypeTo.html">Template Struct ConvertBaseTypeTo</a></li>
@@ -514,6 +524,7 @@
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1GaussianNoise.html">Class GaussianNoise</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1Histogram.html">Class Histogram</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1HistogramEq.html">Class HistogramEq</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1HQResize.html">Class HQResize</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1Inpaint.html">Class Inpaint</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1IOperator.html">Class IOperator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classcvcuda_1_1JointBilateralFilter.html">Class JointBilateralFilter</a></li>
@@ -582,6 +593,8 @@
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1InterpolationWrap_3_01BW_00_01NVCV__INTERP__NEAREST_01_4.html">Template Class InterpolationWrap&lt; BW, NVCV_INTERP_NEAREST &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1math_1_1Matrix.html">Template Class Matrix</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1math_1_1Vector.html">Template Class Vector</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorBatchWrap.html">Template Class TensorBatchWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorBatchWrap_3_01const_01T_00_01Strides_8_8_8_01_4.html">Template Class TensorBatchWrap&lt; const T, Strides… &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorWrap.html">Template Class TensorWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1cuda_1_1TensorWrap_3_01const_01T_00_01Strides_8_8_8_01_4.html">Template Class TensorWrap&lt; const T, Strides… &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="classnvcv_1_1CudaMemAllocator.html">Class CudaMemAllocator</a></li>
@@ -721,6 +734,7 @@
 </ul>
 </li>
 <li class="toctree-l3 current"><a class="reference internal" href="cvcuda_api.html#functions">Functions</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1a67c87474f4882ef63e891633a107438b.html">Function cvcuda::AlignUp</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1a006defc158090d28a55098df4b7aa537.html">Function cvcuda::AllocateWorkspace</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1a10aa05cedebe13d0b0217b4e102f8e41.html">Function cvcuda::MaxWorkspaceReq(WorkspaceMemRequirements, WorkspaceMemRequirements)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_namespacecvcuda_1aa784addbd30224bbefc91a66ef21c71f.html">Function cvcuda::MaxWorkspaceReq(const WorkspaceRequirements&amp;, const WorkspaceRequirements&amp;)</a></li>
@@ -792,6 +806,13 @@
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM____HISTOGRAM__EQ_1ga338200a4d4946a001d552a779fb8c4f0.html">Function cvcudaHistogramEqSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM____HISTOGRAM__EQ_1ga83e9c622375cd89c252f83dcedadaf90.html">Function cvcudaHistogramEqVarShapeSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM____HISTOGRAM_1ga3c67a278ed187d45457479e9f680cab7.html">Function cvcudaHistogramSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga0726d2f0bcad43d71cff1730c35cafbc.html">Function cvcudaHQResizeCreate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1gaa01850dcfb983815c9676729a453f6a9.html">Function cvcudaHQResizeGetMaxWorkspaceRequirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga6fa5715947ed04eb747374f3270c4f7f.html">Function cvcudaHQResizeImageBatchSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga0da8809825f2b52f8b4fe398911de2cb.html">Function cvcudaHQResizeSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga828ed7ef2dc3cc1b16213e06d5878e3d.html">Function cvcudaHQResizeTensorBatchGetWorkspaceRequirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1gae2b084f8df61c05c481eef0ef7a98efa.html">Function cvcudaHQResizeTensorBatchSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga72d85de75c9cc22827a6cecfbc6b8105.html">Function cvcudaHQResizeTensorGetWorkspaceRequirements</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__INPAINT_1ga19928e4e99ac468e48484d27f1a16053.html">Function cvcudaInpaintCreate</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__INPAINT_1gaef5276c46ac886dc7a1843c2f4bdb129.html">Function cvcudaInpaintSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="function_group__NVCV__C__ALGORITHM__INPAINT_1ga4e986bd975af21c5e8d60d5db65a92a8.html">Function cvcudaInpaintVarShapeSubmit</a></li>
@@ -1575,6 +1596,7 @@
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a6e220f5a007a8fe757ab15a8474d8bb4.html">Define NVCV_DETAIL_MAKE_YCbCr_FORMAT4</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a92180dcf02ae12991ef194a4e98b2e5a.html">Define NVCV_DETAIL_SET_BITFIELD</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_FormatUtils_8h_1a40e535255d5afebc666dbe48bf3fdf8d.html">Define NVCV_DETAIL_SET_EXTRA_CHANNEL_INFO</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga966ed1566c383f75cae82857c6eb3a5b.html">Define NVCV_HQ_RESIZE_MAX_RESIZED_NDIM</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_CompilerUtils_8h_1ad54e4e5ea625ee5e56f86b71e63c36c5.html">Define NVCV_IF_CONSTEXPR</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_ImageBatch_8hpp_1a366f385bffd0273a8359c63222350fe9.html">Define NVCV_IMAGE_BATCH_VAR_SHAPE_HANDLE_TO_OPTIONAL</a></li>
 <li class="toctree-l4"><a class="reference internal" href="define_group__NVCV__C__CORE__IMAGETYPE_1ga07b3066e709ba024f9811448c933d279.html">Define NVCV_IMAGE_FORMAT_2C128</a></li>
@@ -1708,7 +1730,14 @@
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gab393e759b75d7039b4faf7519c35798c.html">Typedef nvcv::cuda::Tensor2DWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1ga849270e14890911a82e5f7c1601fafb8.html">Typedef nvcv::cuda::Tensor3DWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gaee996a011705513c21fa20d602a05cc0.html">Typedef nvcv::cuda::Tensor4DWrap</a></li>
-<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gaf7c730f72cf3adc7fb16dbbe9935b76f.html">Typedef nvcv::cuda::TensorNDWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gabe1eafd7d185b78adc075b7e42fdaad5.html">Typedef nvcv::cuda::Tensor5DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1gaf35ae88f20c587496f14942d1e8ecfc3.html">Typedef nvcv::cuda::TensorBatch1DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1gac357ab44b586f1abc979fde6223e82a2.html">Typedef nvcv::cuda::TensorBatch2DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga7bf58059d6f587a2cd1b9f5f4bd106df.html">Typedef nvcv::cuda::TensorBatch3DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga5d18edd01f9abcc0ed6e223fdff4c1d1.html">Typedef nvcv::cuda::TensorBatch4DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga24564c4309bbc0fe21c1ced07a9f1f39.html">Typedef nvcv::cuda::TensorBatch5DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga7ff737987f66ba391bab1bd3007c51e7.html">Typedef nvcv::cuda::TensorBatchNDWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1ga3be18874b116544228b6e814eb1d33e4.html">Typedef nvcv::cuda::TensorNDWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a5470a545cf24011baa4304acf9543d36.html">Typedef nvcv::CustomCudaMemAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1a2a991a8a3f4e1cfa288e37a705cc3058.html">Typedef nvcv::CustomHostMemAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="typedef_namespacenvcv_1af77f93ef256b7bca7b5ac04cf0b2351b.html">Typedef nvcv::CustomHostPinnedMemAllocator</a></li>
@@ -1812,6 +1841,14 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Release Notes</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../relnotes/v0.6.0-beta.html">Beta.4</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#release-highlights">Release Highlights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#compatibility-and-known-limitations">Compatibility and Known Limitations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#license">License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#resources">Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.6.0-beta.html#acknowledgements">Acknowledgements</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../relnotes/v0.5.0-beta.html">Beta.3</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.5.0-beta.html#release-highlights">Release Highlights</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../relnotes/v0.5.0-beta.html#compatibility">Compatibility</a></li>
@@ -1897,18 +1934,18 @@
            <div itemprop="articleBody">
              
   <section id="function-nvcvarraygetdatatype">
-<span id="exhale-function-array-8h-1a5f6c4eead97c73c515882e2ddd9415ee"></span><h1>Function nvcvArrayGetDataType<a class="headerlink" href="#function-nvcvarraygetdatatype" title="Permalink to this headline"></a></h1>
+<span id="exhale-function-array-8h-1a5f6c4eead97c73c515882e2ddd9415ee"></span><h1>Function nvcvArrayGetDataType<a class="headerlink" href="#function-nvcvarraygetdatatype" title="Permalink to this heading"></a></h1>
 <ul class="simple">
 <li><p>Defined in <a class="reference internal" href="file_nvcv_types_include_nvcv_Array.h.html#file-nvcv-types-include-nvcv-array-h"><span class="std std-ref">File Array.h</span></a></p></li>
 </ul>
 <section id="function-documentation">
-<h2>Function Documentation<a class="headerlink" href="#function-documentation" title="Permalink to this headline"></a></h2>
+<h2>Function Documentation<a class="headerlink" href="#function-documentation" title="Permalink to this heading"></a></h2>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv420nvcvArrayGetDataType15NVCVArrayHandleP12NVCVDataType">
-<span id="_CPPv320nvcvArrayGetDataType15NVCVArrayHandleP12NVCVDataType"></span><span id="_CPPv220nvcvArrayGetDataType15NVCVArrayHandleP12NVCVDataType"></span><span id="nvcvArrayGetDataType__NVCVArrayHandle.NVCVDataTypeP"></span><span class="target" id="Array_8h_1a5f6c4eead97c73c515882e2ddd9415ee"></span><a class="reference internal" href="group__NVCV__C__UTIL__STATUS.html#_CPPv410NVCVStatus" title="NVCVStatus"><span class="n"><span class="pre">NVCVStatus</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">nvcvArrayGetDataType</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="typedef_Array_8h_1ad17516fde4a2743e4de6bdacd47bd6d7.html#_CPPv415NVCVArrayHandle" title="NVCVArrayHandle"><span class="n"><span class="pre">NVCVArrayHandle</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">handle</span></span>, <a class="reference internal" href="typedef_group__NVCV__C__CORE__DATATYPE_1gab7d8dd5e0d686295410883ab5d61d649.html#_CPPv412NVCVDataType" title="NVCVDataType"><span class="n"><span class="pre">NVCVDataType</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">type</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv420nvcvArrayGetDataType15NVCVArrayHandleP12NVCVDataType" title="Permalink to this definition"></a><br /></dt>
+<span id="_CPPv320nvcvArrayGetDataType15NVCVArrayHandleP12NVCVDataType"></span><span id="_CPPv220nvcvArrayGetDataType15NVCVArrayHandleP12NVCVDataType"></span><span id="nvcvArrayGetDataType__NVCVArrayHandle.NVCVDataTypeP"></span><span class="target" id="Array_8h_1a5f6c4eead97c73c515882e2ddd9415ee"></span><a class="reference internal" href="enum_group__NVCV__C__UTIL__STATUS_1gab0aaf56c79437759a25a24d3bfe895bf.html#_CPPv410NVCVStatus" title="NVCVStatus"><span class="n"><span class="pre">NVCVStatus</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">nvcvArrayGetDataType</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="typedef_Array_8h_1ad17516fde4a2743e4de6bdacd47bd6d7.html#_CPPv415NVCVArrayHandle" title="NVCVArrayHandle"><span class="n"><span class="pre">NVCVArrayHandle</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">handle</span></span>, <a class="reference internal" href="typedef_group__NVCV__C__CORE__DATATYPE_1gab7d8dd5e0d686295410883ab5d61d649.html#_CPPv412NVCVDataType" title="NVCVDataType"><span class="n"><span class="pre">NVCVDataType</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">type</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv420nvcvArrayGetDataType15NVCVArrayHandleP12NVCVDataType" title="Permalink to this definition"></a><br /></dt>
 <dd><p>Get the type of the array elements (its data type).</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>handle</strong> – <strong>[in]</strong> Array to be queried.<ul>
 <li><p>Must not be NULL.</p></li>
@@ -1920,7 +1957,7 @@
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Return values</dt>
+<dt class="field-even">Return values<span class="colon">:</span></dt>
 <dd class="field-even"><ul class="simple">
 <li><p><strong>NVCV_ERROR_INVALID_ARGUMENT</strong> – Some parameter is outside its valid range. </p></li>
 <li><p><strong>NVCV_SUCCESS</strong> – Operation executed successfully. </p></li>
@@ -1944,7 +1981,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022-2023, NVIDIA..
-      <span class="lastupdated">Last updated on Feb 05, 2024.
+      <span class="lastupdated">Last updated on Mar 15, 2024.
       </span></p>
   </div>
 

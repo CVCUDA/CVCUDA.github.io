@@ -36,6 +36,7 @@ Derived Types
 - ``public cvcuda::GammaContrast`` (:ref:`exhale_class_classcvcuda_1_1GammaContrast`)
 - ``public cvcuda::Gaussian`` (:ref:`exhale_class_classcvcuda_1_1Gaussian`)
 - ``public cvcuda::GaussianNoise`` (:ref:`exhale_class_classcvcuda_1_1GaussianNoise`)
+- ``public cvcuda::HQResize`` (:ref:`exhale_class_classcvcuda_1_1HQResize`)
 - ``public cvcuda::Histogram`` (:ref:`exhale_class_classcvcuda_1_1Histogram`)
 - ``public cvcuda::HistogramEq`` (:ref:`exhale_class_classcvcuda_1_1HistogramEq`)
 - ``public cvcuda::Inpaint`` (:ref:`exhale_class_classcvcuda_1_1Inpaint`)

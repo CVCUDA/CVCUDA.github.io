@@ -38,6 +38,8 @@ Included By
 -----------
 
 
+- :ref:`file_cvcuda_include_cvcuda_OpHQResize.hpp`
+
 - :ref:`file_cvcuda_include_cvcuda_OpPillowResize.hpp`
 
 

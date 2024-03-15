@@ -62,6 +62,8 @@ Classes
 
 - :ref:`exhale_class_classcvcuda_1_1HistogramEq`
 
+- :ref:`exhale_class_classcvcuda_1_1HQResize`
+
 - :ref:`exhale_class_classcvcuda_1_1Inpaint`
 
 - :ref:`exhale_class_classcvcuda_1_1IOperator`
@@ -118,6 +120,8 @@ Classes
 Functions
 ---------
 
+
+- :ref:`exhale_function_namespacecvcuda_1a67c87474f4882ef63e891633a107438b`
 
 - :ref:`exhale_function_namespacecvcuda_1a006defc158090d28a55098df4b7aa537`
 

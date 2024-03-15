@@ -87,6 +87,8 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpHistogramEq.h`
 
+- :ref:`file_cvcuda_include_cvcuda_OpHQResize.h`
+
 - :ref:`file_cvcuda_include_cvcuda_OpInpaint.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpJointBilateralFilter.h`

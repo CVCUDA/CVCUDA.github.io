@@ -67,6 +67,16 @@ Program Listing for File TensorWrap.hpp
            static_assert(sizeof...(Args) == kVariableStrides);
        }
    
+       template<typename DataType, typename StrideType>
+       explicit __host__ __device__ TensorWrap(const DataType *data, StrideType *strides)
+           : m_data(reinterpret_cast<const std::byte *>(data))
+       {
+           for (int i = 0; i < kVariableStrides; ++i)
+           {
+               m_strides[i] = strides[i];
+           }
+       }
+   
        __host__ TensorWrap(const ImageDataStridedCuda &image)
        {
            static_assert(kVariableStrides == 1 && kNumDimensions == 2);
@@ -194,6 +204,12 @@ Program Listing for File TensorWrap.hpp
        {
        }
    
+       template<typename DataType, typename StrideType>
+       explicit __host__ __device__ TensorWrap(DataType *data, StrideType *strides)
+           : Base(data, strides)
+       {
+       }
+   
        __host__ TensorWrap(const ImageDataStridedCuda &image)
            : Base(image)
        {
@@ -259,11 +275,16 @@ Program Listing for File TensorWrap.hpp
    template<typename T>
    using Tensor4DWrap = TensorWrap<T, -1, -1, -1, sizeof(T)>;
    
+   template<typename T>
+   using Tensor5DWrap = TensorWrap<T, -1, -1, -1, -1, sizeof(T)>;
+   
    template<typename T, int N>
    using TensorNDWrap = std::conditional_t<
        N == 1, Tensor1DWrap<T>,
        std::conditional_t<N == 2, Tensor2DWrap<T>,
-                          std::conditional_t<N == 3, Tensor3DWrap<T>, std::conditional_t<N == 4, Tensor4DWrap<T>, void>>>>;
+                          std::conditional_t<N == 3, Tensor3DWrap<T>,
+                                             std::conditional_t<N == 4, Tensor4DWrap<T>,
+                                                                std::conditional_t<N == 5, Tensor5DWrap<T>, void>>>>>;
    
    template<typename T, class = Require<HasTypeTraits<T>>>
    __host__ auto CreateTensorWrapNHW(const TensorDataStridedCuda &tensor)

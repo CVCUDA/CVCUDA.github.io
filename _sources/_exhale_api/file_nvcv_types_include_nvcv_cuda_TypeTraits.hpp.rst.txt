@@ -61,6 +61,8 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_cuda_StaticCast.hpp`
 
+- :ref:`file_nvcv_types_include_nvcv_cuda_TensorBatchWrap.hpp`
+
 - :ref:`file_nvcv_types_include_nvcv_cuda_TensorWrap.hpp`
 
 

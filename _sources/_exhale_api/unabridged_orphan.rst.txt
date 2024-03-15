@@ -690,6 +690,16 @@ Files
 .. toctree::
    :maxdepth: 1
 
+   file_cvcuda_include_cvcuda_OpHQResize.h.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_cvcuda_include_cvcuda_OpHQResize.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
    file_cvcuda_include_cvcuda_OpInpaint.h.rst
 
 .. toctree::
@@ -1031,6 +1041,11 @@ Files
    :maxdepth: 1
 
    file_nvcv_types_include_nvcv_detail_TensorBatchImpl.hpp.rst
+
+.. toctree::
+   :maxdepth: 1
+
+   file_nvcv_types_include_nvcv_cuda_TensorBatchWrap.hpp.rst
 
 .. toctree::
    :maxdepth: 1

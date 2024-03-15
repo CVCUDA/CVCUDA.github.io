@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="en">
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Semantic Segmentation &mdash; CV-CUDA Beta documentation</title>
-      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
-      <link rel="stylesheet" href="../../_static/collapsible-lists/css/tree_view.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=76b435a8" />
+      <link rel="stylesheet" type="text/css" href="../../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
     <link rel="shortcut icon" href="../../_static/nv_icon.png"/>
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-        <script src="../../_static/jquery.js"></script>
-        <script src="../../_static/underscore.js"></script>
-        <script src="../../_static/doctools.js"></script>
-        <script src="../../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
-        <script src="../../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js?v=bd46b8a5"></script>
+        <script src="../../_static/doctools.js?v=888ff710"></script>
+        <script src="../../_static/sphinx_highlight.js?v=4825356b"></script>
+        <script src="../../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+        <script src="../../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
         <script src="../../_static/pk_scripts.js"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
@@ -113,6 +116,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__GAMMA__CONTRAST.html">Gamma Contrast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__GAUSSIAN.html">Gaussian</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE.html">GaussianNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__HQ__RESIZE.html">HQ Resize</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__INPAINT.html">Inpaint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__JOINT__BILATERAL__FILTER.html">Joint Bilateral Filter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__LABEL.html">Label</a></li>
@@ -182,6 +186,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__GAMMA__CONTRAST.html">Gamma Contrast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__GAUSSIAN.html">Gaussian</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__GAUSSIAN__NOISE.html">GaussianNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__HQ__RESIZE.html">HQ Resize</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__INPAINT.html">Inpaint</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__JOINT__BILATERAL__FILTER.html">Joint Bilateral Filter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__C__ALGORITHM__LABEL.html">Label</a></li>
@@ -230,6 +235,8 @@
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__CPP__CUDATOOLS__RANGECAST.html">Range cast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__CPP__CUDATOOLS__SATURATECAST.html">Saturate cast</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__CPP__CUDATOOLS__STATICCAST.html">Static Cast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAP.html">TensorBatchWrap classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS.html">TensorBatchWrap shortcuts</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__CPP__CUDATOOLS__TENSORWRAP.html">TensorWrap classes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__CPP__CUDATOOLS__TENSORWRAPS.html">TensorWrap shortcuts</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/group__NVCV__CPP__CUDATOOLS__TYPETRAITS.html">Type Traits</a></li>
@@ -237,8 +244,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../modules/python_modules.html">Python Modules</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../modules/python_modules.html#cv-cuda-python-api-reference">CV-CUDA Python API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modules/python_modules.html">Python Modules</a><ul class="simple">
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../_exhale_api/cvcuda_api.html">Index</a><ul>
@@ -260,6 +266,10 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/cvcuda_api.html#classes-and-structs">Classes and Structs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/structHQResizeRoiF.html">Struct HQResizeRoiF</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/structHQResizeRoisF.html">Struct HQResizeRoisF</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/structHQResizeTensorShapeI.html">Struct HQResizeTensorShapeI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/structHQResizeTensorShapesI.html">Struct HQResizeTensorShapesI</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/structnvcv_1_1Callback_3_01Ret_07Args_8_8_8_08_00_01CRet_07CtxArg_00_01CArgs_8_8_8_08_00_01Transb7b914e11bb6d38fbd5e59f4add41c3d.html">Template Struct Callback&lt; Ret(Args…), CRet(CtxArg, CArgs…), TranslateCall, SingleUse &gt;::TargetBlob</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/structnvcv_1_1cuda_1_1detail_1_1BorderWrapImpl_1_1ActiveMap.html">Struct BorderWrapImpl::ActiveMap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/structnvcv_1_1cuda_1_1detail_1_1ConvertBaseTypeTo.html">Template Struct ConvertBaseTypeTo</a></li>
@@ -514,6 +524,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classcvcuda_1_1GaussianNoise.html">Class GaussianNoise</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classcvcuda_1_1Histogram.html">Class Histogram</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classcvcuda_1_1HistogramEq.html">Class HistogramEq</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classcvcuda_1_1HQResize.html">Class HQResize</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classcvcuda_1_1Inpaint.html">Class Inpaint</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classcvcuda_1_1IOperator.html">Class IOperator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classcvcuda_1_1JointBilateralFilter.html">Class JointBilateralFilter</a></li>
@@ -582,6 +593,8 @@
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classnvcv_1_1cuda_1_1InterpolationWrap_3_01BW_00_01NVCV__INTERP__NEAREST_01_4.html">Template Class InterpolationWrap&lt; BW, NVCV_INTERP_NEAREST &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classnvcv_1_1cuda_1_1math_1_1Matrix.html">Template Class Matrix</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classnvcv_1_1cuda_1_1math_1_1Vector.html">Template Class Vector</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classnvcv_1_1cuda_1_1TensorBatchWrap.html">Template Class TensorBatchWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classnvcv_1_1cuda_1_1TensorBatchWrap_3_01const_01T_00_01Strides_8_8_8_01_4.html">Template Class TensorBatchWrap&lt; const T, Strides… &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classnvcv_1_1cuda_1_1TensorWrap.html">Template Class TensorWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classnvcv_1_1cuda_1_1TensorWrap_3_01const_01T_00_01Strides_8_8_8_01_4.html">Template Class TensorWrap&lt; const T, Strides… &gt;</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/classnvcv_1_1CudaMemAllocator.html">Class CudaMemAllocator</a></li>
@@ -721,6 +734,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../_exhale_api/cvcuda_api.html#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_namespacecvcuda_1a67c87474f4882ef63e891633a107438b.html">Function cvcuda::AlignUp</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_namespacecvcuda_1a006defc158090d28a55098df4b7aa537.html">Function cvcuda::AllocateWorkspace</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_namespacecvcuda_1a10aa05cedebe13d0b0217b4e102f8e41.html">Function cvcuda::MaxWorkspaceReq(WorkspaceMemRequirements, WorkspaceMemRequirements)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_namespacecvcuda_1aa784addbd30224bbefc91a66ef21c71f.html">Function cvcuda::MaxWorkspaceReq(const WorkspaceRequirements&amp;, const WorkspaceRequirements&amp;)</a></li>
@@ -792,6 +806,13 @@
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM____HISTOGRAM__EQ_1ga338200a4d4946a001d552a779fb8c4f0.html">Function cvcudaHistogramEqSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM____HISTOGRAM__EQ_1ga83e9c622375cd89c252f83dcedadaf90.html">Function cvcudaHistogramEqVarShapeSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM____HISTOGRAM_1ga3c67a278ed187d45457479e9f680cab7.html">Function cvcudaHistogramSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga0726d2f0bcad43d71cff1730c35cafbc.html">Function cvcudaHQResizeCreate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1gaa01850dcfb983815c9676729a453f6a9.html">Function cvcudaHQResizeGetMaxWorkspaceRequirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga6fa5715947ed04eb747374f3270c4f7f.html">Function cvcudaHQResizeImageBatchSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga0da8809825f2b52f8b4fe398911de2cb.html">Function cvcudaHQResizeSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga828ed7ef2dc3cc1b16213e06d5878e3d.html">Function cvcudaHQResizeTensorBatchGetWorkspaceRequirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1gae2b084f8df61c05c481eef0ef7a98efa.html">Function cvcudaHQResizeTensorBatchSubmit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga72d85de75c9cc22827a6cecfbc6b8105.html">Function cvcudaHQResizeTensorGetWorkspaceRequirements</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM__INPAINT_1ga19928e4e99ac468e48484d27f1a16053.html">Function cvcudaInpaintCreate</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM__INPAINT_1gaef5276c46ac886dc7a1843c2f4bdb129.html">Function cvcudaInpaintSubmit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/function_group__NVCV__C__ALGORITHM__INPAINT_1ga4e986bd975af21c5e8d60d5db65a92a8.html">Function cvcudaInpaintVarShapeSubmit</a></li>
@@ -1575,6 +1596,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/define_FormatUtils_8h_1a6e220f5a007a8fe757ab15a8474d8bb4.html">Define NVCV_DETAIL_MAKE_YCbCr_FORMAT4</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/define_FormatUtils_8h_1a92180dcf02ae12991ef194a4e98b2e5a.html">Define NVCV_DETAIL_SET_BITFIELD</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/define_FormatUtils_8h_1a40e535255d5afebc666dbe48bf3fdf8d.html">Define NVCV_DETAIL_SET_EXTRA_CHANNEL_INFO</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/define_group__NVCV__C__ALGORITHM__HQ__RESIZE_1ga966ed1566c383f75cae82857c6eb3a5b.html">Define NVCV_HQ_RESIZE_MAX_RESIZED_NDIM</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/define_CompilerUtils_8h_1ad54e4e5ea625ee5e56f86b71e63c36c5.html">Define NVCV_IF_CONSTEXPR</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/define_ImageBatch_8hpp_1a366f385bffd0273a8359c63222350fe9.html">Define NVCV_IMAGE_BATCH_VAR_SHAPE_HANDLE_TO_OPTIONAL</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/define_group__NVCV__C__CORE__IMAGETYPE_1ga07b3066e709ba024f9811448c933d279.html">Define NVCV_IMAGE_FORMAT_2C128</a></li>
@@ -1708,7 +1730,14 @@
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gab393e759b75d7039b4faf7519c35798c.html">Typedef nvcv::cuda::Tensor2DWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1ga849270e14890911a82e5f7c1601fafb8.html">Typedef nvcv::cuda::Tensor3DWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gaee996a011705513c21fa20d602a05cc0.html">Typedef nvcv::cuda::Tensor4DWrap</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gaf7c730f72cf3adc7fb16dbbe9935b76f.html">Typedef nvcv::cuda::TensorNDWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1gabe1eafd7d185b78adc075b7e42fdaad5.html">Typedef nvcv::cuda::Tensor5DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1gaf35ae88f20c587496f14942d1e8ecfc3.html">Typedef nvcv::cuda::TensorBatch1DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1gac357ab44b586f1abc979fde6223e82a2.html">Typedef nvcv::cuda::TensorBatch2DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga7bf58059d6f587a2cd1b9f5f4bd106df.html">Typedef nvcv::cuda::TensorBatch3DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga5d18edd01f9abcc0ed6e223fdff4c1d1.html">Typedef nvcv::cuda::TensorBatch4DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga24564c4309bbc0fe21c1ced07a9f1f39.html">Typedef nvcv::cuda::TensorBatch5DWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORBATCHWRAPS_1ga7ff737987f66ba391bab1bd3007c51e7.html">Typedef nvcv::cuda::TensorBatchNDWrap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_group__NVCV__CPP__CUDATOOLS__TENSORWRAPS_1ga3be18874b116544228b6e814eb1d33e4.html">Typedef nvcv::cuda::TensorNDWrap</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_namespacenvcv_1a5470a545cf24011baa4304acf9543d36.html">Typedef nvcv::CustomCudaMemAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_namespacenvcv_1a2a991a8a3f4e1cfa288e37a705cc3058.html">Typedef nvcv::CustomHostMemAllocator</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../_exhale_api/typedef_namespacenvcv_1af77f93ef256b7bca7b5ac04cf0b2351b.html">Typedef nvcv::CustomHostPinnedMemAllocator</a></li>
@@ -1812,6 +1841,14 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Release Notes</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../relnotes/v0.6.0-beta.html">Beta.4</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../relnotes/v0.6.0-beta.html#release-highlights">Release Highlights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../relnotes/v0.6.0-beta.html#compatibility-and-known-limitations">Compatibility and Known Limitations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../relnotes/v0.6.0-beta.html#license">License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../relnotes/v0.6.0-beta.html#resources">Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../relnotes/v0.6.0-beta.html#acknowledgements">Acknowledgements</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../../relnotes/v0.5.0-beta.html">Beta.3</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../relnotes/v0.5.0-beta.html#release-highlights">Release Highlights</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../relnotes/v0.5.0-beta.html#compatibility">Compatibility</a></li>
@@ -1899,10 +1936,10 @@
            <div itemprop="articleBody">
              
   <section id="semantic-segmentation">
-<span id="segmentation"></span><h1>Semantic Segmentation<a class="headerlink" href="#semantic-segmentation" title="Permalink to this headline"></a></h1>
+<span id="segmentation"></span><h1>Semantic Segmentation<a class="headerlink" href="#semantic-segmentation" title="Permalink to this heading"></a></h1>
 <p>In this example, we use CVCUDA to accelerate the pre and post processing pipelines in the deep learning inference use case involving a semantic segmentation model. The deep learning model can utilize either PyTorch or TensorRT to run the inference. The pre-processing pipeline converts the input into the format required by the input layer of the model whereas the post processing pipeline converts the output produced by the model into a visualization-friendly frame. We use the FCN ResNet101 model (from torchvision) to generate the predictions. This sample can work on a single image or a folder full of images or on a single video. All images have to be in the JPEG format and with the same dimensions unless run under the batch size of one. Video has to be in mp4 format with a fixed frame rate. We use the torchnvjpeg library to read the images and NVIDIA’s Video Processing Framework (VPF) to read/write videos.</p>
 <p><strong>The exact pre-processing operations are:</strong></p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">Decode</span><span class="w"> </span><span class="n">Data</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Resize</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Convert</span><span class="w"> </span><span class="n">Datatype</span><span class="p">(</span><span class="n">Float</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Normalize</span><span class="w"> </span><span class="p">(</span><span class="n">to</span><span class="w"> </span><span class="mi">0-1</span><span class="w"> </span><span class="n">range</span><span class="p">,</span><span class="w"> </span><span class="n">mean</span><span class="w"> </span><span class="n">and</span><span class="w"> </span><span class="n">stddev</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">convert</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">NCHW</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">Decode</span><span class="w"> </span><span class="n">Data</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Resize</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Convert</span><span class="w"> </span><span class="n">Datatype</span><span class="p">(</span><span class="n">Float</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Normalize</span><span class="w"> </span><span class="p">(</span><span class="n">to</span><span class="w"> </span><span class="mi">0-1</span><span class="w"> </span><span class="n">range</span><span class="p">,</span><span class="w"> </span><span class="n">mean</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="n">stddev</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">convert</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">NCHW</span>
 </pre></div>
 </div>
 <p><strong>The exact post-processing operations are:</strong></p>
@@ -1910,13 +1947,13 @@
 </pre></div>
 </div>
 <section id="writing-the-sample-app">
-<h2>Writing the Sample App<a class="headerlink" href="#writing-the-sample-app" title="Permalink to this headline"></a></h2>
+<h2>Writing the Sample App<a class="headerlink" href="#writing-the-sample-app" title="Permalink to this heading"></a></h2>
 <p>The segmentation sample app has been designed to be modular in all aspects. It imports and uses various modules such as data decoders, encoders, pipeline pre and post processors and the model inference. Some of these modules are defined in the same folder as the sample whereas the rest are defined in the common scripts folder for a wider re-use.</p>
 <ol class="arabic simple">
-<li><p>Modules used by this sample app that are defined in the common folder (i.e. not specific just to this sample) are the <code class="docutils literal notranslate"><span class="pre">ImageBatchDecoderPyTorch</span></code> and <code class="docutils literal notranslate"><span class="pre">ImageBatchEncoderPyTorch</span></code> for PyTorch based image decoding and encoding and <code class="docutils literal notranslate"><span class="pre">VideoBatchDecoderVPF</span></code> and <code class="docutils literal notranslate"><span class="pre">VideoBatchEncoderVPF</span></code> for VPF based video decoding and encoding.</p></li>
+<li><p>Modules used by this sample app that are defined in the common folder (i.e. not specific just to this sample) are the <code class="docutils literal notranslate"><span class="pre">ImageBatchDecoder</span></code> and <code class="docutils literal notranslate"><span class="pre">ImageBatchEncoder</span></code> for nvImageCodec based image decoding and encoding and <code class="docutils literal notranslate"><span class="pre">VideoBatchDecoder</span></code> and <code class="docutils literal notranslate"><span class="pre">VideoBatchEncoder</span></code> for PyNvVideoCodec based video decoding and encoding.</p></li>
 <li><p>Modules specific to this sample (i.e. defined in the segmentation sample folder) are <code class="docutils literal notranslate"><span class="pre">PreprocessorCvcuda</span></code> and <code class="docutils literal notranslate"><span class="pre">PostprocessorCvcuda</span></code> for CVCUDA based pre and post processing pipelines and <code class="docutils literal notranslate"><span class="pre">SegmentationPyTorch</span></code> and <code class="docutils literal notranslate"><span class="pre">SegmentationTensorRT</span></code> for the model inference.</p></li>
 </ol>
-<p>The first stage in our pipeline is importing all necessary python modules. Apart from the modules described above, this also includes modules such as torch and torchvision, torchnvjpeg, vpf and the main package of CVCUDA (i.e. nvcv) among others. Be sure to import <code class="docutils literal notranslate"><span class="pre">pycuda.driver</span></code> before importing any other GPU packages like torch or cvcuda to ensure a proper initialization.</p>
+<p>The first stage in our pipeline is importing all necessary python modules. Apart from the modules described above, this also includes modules such as torch and torchvision, torchnvjpeg, vpf and the main package of CVCUDA among others. Be sure to import <code class="docutils literal notranslate"><span class="pre">pycuda.driver</span></code> before importing any other GPU packages like torch or cvcuda to ensure a proper initialization.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1"># NOTE: One must import PyCuda driver first, before CVCUDA or VPF otherwise</span>
 <span class="linenos"> 2</span><span class="c1"># things may throw unexpected errors.</span>
 <span class="linenos"> 3</span><span class="kn">import</span> <span class="nn">pycuda.driver</span> <span class="k">as</span> <span class="nn">cuda</span>
@@ -1925,27 +1962,27 @@
 <span class="linenos"> 6</span><span class="kn">import</span> <span class="nn">logging</span>
 <span class="linenos"> 7</span><span class="kn">import</span> <span class="nn">cvcuda</span>
 <span class="linenos"> 8</span><span class="kn">import</span> <span class="nn">torch</span>
-<span class="linenos"> 9</span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
-<span class="linenos">10</span>
-<span class="linenos">11</span><span class="c1"># Bring module folders from the samples directory into our path so that</span>
-<span class="linenos">12</span><span class="c1"># we can import modules from it.</span>
-<span class="linenos">13</span><span class="n">samples_dir</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>  <span class="c1"># samples/</span>
-<span class="linenos">14</span><span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">samples_dir</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">))</span>
-<span class="linenos">15</span>
-<span class="linenos">16</span><span class="kn">from</span> <span class="nn">common.python.perf_utils</span> <span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
-<span class="linenos">17</span>    <span class="n">CvCudaPerf</span><span class="p">,</span>
-<span class="linenos">18</span>    <span class="n">get_default_arg_parser</span><span class="p">,</span>
-<span class="linenos">19</span>    <span class="n">parse_validate_default_args</span><span class="p">,</span>
-<span class="linenos">20</span><span class="p">)</span>
-<span class="linenos">21</span>
-<span class="linenos">22</span><span class="kn">from</span> <span class="nn">common.python.torch_utils</span> <span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
-<span class="linenos">23</span>    <span class="n">ImageBatchDecoderPyTorch</span><span class="p">,</span>
-<span class="linenos">24</span>    <span class="n">ImageBatchEncoderPyTorch</span><span class="p">,</span>
-<span class="linenos">25</span><span class="p">)</span>
-<span class="linenos">26</span>
-<span class="linenos">27</span><span class="kn">from</span> <span class="nn">common.python.vpf_utils</span> <span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
-<span class="linenos">28</span>    <span class="n">VideoBatchDecoderVPF</span><span class="p">,</span>
-<span class="linenos">29</span>    <span class="n">VideoBatchEncoderVPF</span><span class="p">,</span>
+<span class="linenos"> 9</span>
+<span class="linenos">10</span><span class="c1"># Bring the commons folder from the samples directory into our path so that</span>
+<span class="linenos">11</span><span class="c1"># we can import modules from it.</span>
+<span class="linenos">12</span><span class="n">common_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+<span class="linenos">13</span>    <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)))),</span>
+<span class="linenos">14</span>    <span class="s2">&quot;common&quot;</span><span class="p">,</span>
+<span class="linenos">15</span>    <span class="s2">&quot;python&quot;</span><span class="p">,</span>
+<span class="linenos">16</span><span class="p">)</span>
+<span class="linenos">17</span><span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">common_dir</span><span class="p">)</span>
+<span class="linenos">18</span>
+<span class="linenos">19</span><span class="kn">from</span> <span class="nn">perf_utils</span> <span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
+<span class="linenos">20</span>    <span class="n">CvCudaPerf</span><span class="p">,</span>
+<span class="linenos">21</span>    <span class="n">get_default_arg_parser</span><span class="p">,</span>
+<span class="linenos">22</span>    <span class="n">parse_validate_default_args</span><span class="p">,</span>
+<span class="linenos">23</span><span class="p">)</span>
+<span class="linenos">24</span>
+<span class="linenos">25</span><span class="kn">from</span> <span class="nn">nvcodec_utils</span> <span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
+<span class="linenos">26</span>    <span class="n">VideoBatchDecoder</span><span class="p">,</span>
+<span class="linenos">27</span>    <span class="n">VideoBatchEncoder</span><span class="p">,</span>
+<span class="linenos">28</span>    <span class="n">ImageBatchDecoder</span><span class="p">,</span>
+<span class="linenos">29</span>    <span class="n">ImageBatchEncoder</span><span class="p">,</span>
 <span class="linenos">30</span><span class="p">)</span>
 <span class="linenos">31</span>
 <span class="linenos">32</span><span class="kn">from</span> <span class="nn">pipelines</span> <span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
@@ -2004,10 +2041,10 @@ arguments. This sample allows configuring following parameters. All of them have
 <p>Next, we instantiate various classes to help us run the sample. These classes are:</p>
 <ol class="arabic simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">PreprocessorCvcuda</span></code> : A CVCUDA based pre-processing pipeline for semantic segmentation.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">ImageBatchDecoderPyTorch</span></code> : A PyTorch based image decoder to read the images.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">ImageBatchEncoderPyTorch</span></code> : A PyTorch based image encoder to write the images.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">VideoBatchDecoderVPF</span></code> : A VPF based video decoder to read the video.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">VideoBatchEncoderVPF</span></code> : A VPF based video encoder to write the video.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ImageBatchDecoder</span></code> : A nvImageCodec based image decoder to read the images.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ImageBatchEncoder</span></code> : A nvImageCodec based image encoder to write the images.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">VideoBatchDecoder</span></code> : A PyNvVideoCodec based video decoder to read the video.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">VideoBatchEncoder</span></code> : A PyNvVideoCodec based video encoder to write the video.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">PostprocessorCvcuda</span></code> : A CVCUDA based post-processing pipeline for semantic segmentation.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">SegmentationPyTorch</span></code> : A PyTorch based semantic segmentation model to execute inference.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">SegmentationTensorRT</span></code> : A TensorRT based semantic segmentation model to execute inference.</p></li>
@@ -2019,7 +2056,7 @@ arguments. This sample allows configuring following parameters. All of them have
 <span class="linenos"> 3</span>
 <span class="linenos"> 4</span><span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">input_path</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;.jpg&quot;</span> <span class="ow">or</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">input_path</span><span class="p">):</span>
 <span class="linenos"> 5</span>    <span class="c1"># Treat this as data modality of images</span>
-<span class="linenos"> 6</span>    <span class="n">decoder</span> <span class="o">=</span> <span class="n">ImageBatchDecoderPyTorch</span><span class="p">(</span>
+<span class="linenos"> 6</span>    <span class="n">decoder</span> <span class="o">=</span> <span class="n">ImageBatchDecoder</span><span class="p">(</span>
 <span class="linenos"> 7</span>        <span class="n">input_path</span><span class="p">,</span>
 <span class="linenos"> 8</span>        <span class="n">batch_size</span><span class="p">,</span>
 <span class="linenos"> 9</span>        <span class="n">device_id</span><span class="p">,</span>
@@ -2027,60 +2064,58 @@ arguments. This sample allows configuring following parameters. All of them have
 <span class="linenos">11</span>        <span class="n">cvcuda_perf</span><span class="p">,</span>
 <span class="linenos">12</span>    <span class="p">)</span>
 <span class="linenos">13</span>
-<span class="linenos">14</span>    <span class="n">encoder</span> <span class="o">=</span> <span class="n">ImageBatchEncoderPyTorch</span><span class="p">(</span>
+<span class="linenos">14</span>    <span class="n">encoder</span> <span class="o">=</span> <span class="n">ImageBatchEncoder</span><span class="p">(</span>
 <span class="linenos">15</span>        <span class="n">output_dir</span><span class="p">,</span>
-<span class="linenos">16</span>        <span class="n">fps</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
-<span class="linenos">17</span>        <span class="n">device_id</span><span class="o">=</span><span class="n">device_id</span><span class="p">,</span>
-<span class="linenos">18</span>        <span class="n">cuda_ctx</span><span class="o">=</span><span class="n">cuda_ctx</span><span class="p">,</span>
-<span class="linenos">19</span>        <span class="n">cvcuda_perf</span><span class="o">=</span><span class="n">cvcuda_perf</span><span class="p">,</span>
-<span class="linenos">20</span>    <span class="p">)</span>
-<span class="linenos">21</span><span class="k">else</span><span class="p">:</span>
-<span class="linenos">22</span>    <span class="c1"># Treat this as data modality of videos</span>
-<span class="linenos">23</span>    <span class="n">decoder</span> <span class="o">=</span> <span class="n">VideoBatchDecoderVPF</span><span class="p">(</span>
-<span class="linenos">24</span>        <span class="n">input_path</span><span class="p">,</span>
-<span class="linenos">25</span>        <span class="n">batch_size</span><span class="p">,</span>
-<span class="linenos">26</span>        <span class="n">device_id</span><span class="p">,</span>
-<span class="linenos">27</span>        <span class="n">cuda_ctx</span><span class="p">,</span>
-<span class="linenos">28</span>        <span class="n">cvcuda_perf</span><span class="p">,</span>
-<span class="linenos">29</span>    <span class="p">)</span>
-<span class="linenos">30</span>
-<span class="linenos">31</span>    <span class="n">encoder</span> <span class="o">=</span> <span class="n">VideoBatchEncoderVPF</span><span class="p">(</span>
-<span class="linenos">32</span>        <span class="n">output_dir</span><span class="p">,</span>
-<span class="linenos">33</span>        <span class="n">decoder</span><span class="o">.</span><span class="n">fps</span><span class="p">,</span>
-<span class="linenos">34</span>        <span class="n">device_id</span><span class="p">,</span>
-<span class="linenos">35</span>        <span class="n">cuda_ctx</span><span class="p">,</span>
-<span class="linenos">36</span>        <span class="n">cvcuda_perf</span><span class="p">,</span>
-<span class="linenos">37</span>    <span class="p">)</span>
-<span class="linenos">38</span>
-<span class="linenos">39</span><span class="c1"># Define the post-processor</span>
-<span class="linenos">40</span><span class="n">postprocess</span> <span class="o">=</span> <span class="n">PostprocessorCvcuda</span><span class="p">(</span>
-<span class="linenos">41</span>    <span class="n">encoder</span><span class="o">.</span><span class="n">input_layout</span><span class="p">,</span>
-<span class="linenos">42</span>    <span class="n">encoder</span><span class="o">.</span><span class="n">gpu_input</span><span class="p">,</span>
-<span class="linenos">43</span>    <span class="n">device_id</span><span class="p">,</span>
-<span class="linenos">44</span>    <span class="n">cvcuda_perf</span><span class="p">,</span>
-<span class="linenos">45</span><span class="p">)</span>
-<span class="linenos">46</span>
-<span class="linenos">47</span><span class="c1"># Setup the segmentation models.</span>
-<span class="linenos">48</span><span class="k">if</span> <span class="n">backend</span> <span class="o">==</span> <span class="s2">&quot;pytorch&quot;</span><span class="p">:</span>
-<span class="linenos">49</span>    <span class="n">inference</span> <span class="o">=</span> <span class="n">SegmentationPyTorch</span><span class="p">(</span>
-<span class="linenos">50</span>        <span class="n">output_dir</span><span class="p">,</span>
-<span class="linenos">51</span>        <span class="n">class_name</span><span class="p">,</span>
-<span class="linenos">52</span>        <span class="n">batch_size</span><span class="p">,</span>
-<span class="linenos">53</span>        <span class="n">image_size</span><span class="p">,</span>
-<span class="linenos">54</span>        <span class="n">device_id</span><span class="p">,</span>
-<span class="linenos">55</span>        <span class="n">cvcuda_perf</span><span class="p">,</span>
-<span class="linenos">56</span>    <span class="p">)</span>
-<span class="linenos">57</span><span class="k">elif</span> <span class="n">backend</span> <span class="o">==</span> <span class="s2">&quot;tensorrt&quot;</span><span class="p">:</span>
-<span class="linenos">58</span>    <span class="n">inference</span> <span class="o">=</span> <span class="n">SegmentationTensorRT</span><span class="p">(</span>
-<span class="linenos">59</span>        <span class="n">output_dir</span><span class="p">,</span>
-<span class="linenos">60</span>        <span class="n">class_name</span><span class="p">,</span>
-<span class="linenos">61</span>        <span class="n">batch_size</span><span class="p">,</span>
-<span class="linenos">62</span>        <span class="n">image_size</span><span class="p">,</span>
-<span class="linenos">63</span>        <span class="n">device_id</span><span class="p">,</span>
-<span class="linenos">64</span>        <span class="n">cvcuda_perf</span><span class="p">,</span>
-<span class="linenos">65</span>    <span class="p">)</span>
-<span class="linenos">66</span><span class="k">else</span><span class="p">:</span>
-<span class="linenos">67</span>    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Unknown backend: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">backend</span><span class="p">)</span>
+<span class="linenos">16</span>        <span class="n">device_id</span><span class="o">=</span><span class="n">device_id</span><span class="p">,</span>
+<span class="linenos">17</span>        <span class="n">cvcuda_perf</span><span class="o">=</span><span class="n">cvcuda_perf</span><span class="p">,</span>
+<span class="linenos">18</span>    <span class="p">)</span>
+<span class="linenos">19</span><span class="k">else</span><span class="p">:</span>
+<span class="linenos">20</span>    <span class="c1"># Treat this as data modality of videos</span>
+<span class="linenos">21</span>    <span class="n">decoder</span> <span class="o">=</span> <span class="n">VideoBatchDecoder</span><span class="p">(</span>
+<span class="linenos">22</span>        <span class="n">input_path</span><span class="p">,</span>
+<span class="linenos">23</span>        <span class="n">batch_size</span><span class="p">,</span>
+<span class="linenos">24</span>        <span class="n">device_id</span><span class="p">,</span>
+<span class="linenos">25</span>        <span class="n">cuda_ctx</span><span class="p">,</span>
+<span class="linenos">26</span>        <span class="n">cvcuda_perf</span><span class="p">,</span>
+<span class="linenos">27</span>    <span class="p">)</span>
+<span class="linenos">28</span>
+<span class="linenos">29</span>    <span class="n">encoder</span> <span class="o">=</span> <span class="n">VideoBatchEncoder</span><span class="p">(</span>
+<span class="linenos">30</span>        <span class="n">output_dir</span><span class="p">,</span>
+<span class="linenos">31</span>        <span class="n">decoder</span><span class="o">.</span><span class="n">fps</span><span class="p">,</span>
+<span class="linenos">32</span>        <span class="n">device_id</span><span class="p">,</span>
+<span class="linenos">33</span>        <span class="n">cuda_ctx</span><span class="p">,</span>
+<span class="linenos">34</span>        <span class="n">cvcuda_perf</span><span class="p">,</span>
+<span class="linenos">35</span>    <span class="p">)</span>
+<span class="linenos">36</span>
+<span class="linenos">37</span><span class="c1"># Define the post-processor</span>
+<span class="linenos">38</span><span class="n">postprocess</span> <span class="o">=</span> <span class="n">PostprocessorCvcuda</span><span class="p">(</span>
+<span class="linenos">39</span>    <span class="n">encoder</span><span class="o">.</span><span class="n">input_layout</span><span class="p">,</span>
+<span class="linenos">40</span>    <span class="n">encoder</span><span class="o">.</span><span class="n">gpu_input</span><span class="p">,</span>
+<span class="linenos">41</span>    <span class="n">device_id</span><span class="p">,</span>
+<span class="linenos">42</span>    <span class="n">cvcuda_perf</span><span class="p">,</span>
+<span class="linenos">43</span><span class="p">)</span>
+<span class="linenos">44</span>
+<span class="linenos">45</span><span class="c1"># Setup the segmentation models.</span>
+<span class="linenos">46</span><span class="k">if</span> <span class="n">backend</span> <span class="o">==</span> <span class="s2">&quot;pytorch&quot;</span><span class="p">:</span>
+<span class="linenos">47</span>    <span class="n">inference</span> <span class="o">=</span> <span class="n">SegmentationPyTorch</span><span class="p">(</span>
+<span class="linenos">48</span>        <span class="n">output_dir</span><span class="p">,</span>
+<span class="linenos">49</span>        <span class="n">class_name</span><span class="p">,</span>
+<span class="linenos">50</span>        <span class="n">batch_size</span><span class="p">,</span>
+<span class="linenos">51</span>        <span class="n">image_size</span><span class="p">,</span>
+<span class="linenos">52</span>        <span class="n">device_id</span><span class="p">,</span>
+<span class="linenos">53</span>        <span class="n">cvcuda_perf</span><span class="p">,</span>
+<span class="linenos">54</span>    <span class="p">)</span>
+<span class="linenos">55</span><span class="k">elif</span> <span class="n">backend</span> <span class="o">==</span> <span class="s2">&quot;tensorrt&quot;</span><span class="p">:</span>
+<span class="linenos">56</span>    <span class="n">inference</span> <span class="o">=</span> <span class="n">SegmentationTensorRT</span><span class="p">(</span>
+<span class="linenos">57</span>        <span class="n">output_dir</span><span class="p">,</span>
+<span class="linenos">58</span>        <span class="n">class_name</span><span class="p">,</span>
+<span class="linenos">59</span>        <span class="n">batch_size</span><span class="p">,</span>
+<span class="linenos">60</span>        <span class="n">image_size</span><span class="p">,</span>
+<span class="linenos">61</span>        <span class="n">device_id</span><span class="p">,</span>
+<span class="linenos">62</span>        <span class="n">cvcuda_perf</span><span class="p">,</span>
+<span class="linenos">63</span>    <span class="p">)</span>
+<span class="linenos">64</span><span class="k">else</span><span class="p">:</span>
+<span class="linenos">65</span>    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Unknown backend: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">backend</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>With all of these components initialized, the overall data flow per a data batch looks like the following:</p>
@@ -2145,17 +2180,17 @@ arguments. This sample allows configuring following parameters. All of them have
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="segmentation/preprocessor_cvcuda.html">PreprocessorCvcuda</a></li>
 <li class="toctree-l1"><a class="reference internal" href="segmentation/postprocessor_cvcuda.html">PostprocessorCvcuda</a></li>
-<li class="toctree-l1"><a class="reference internal" href="commons/imagebatchdecoder_pytorch.html">ImageBatchDecoderPyTorch</a></li>
-<li class="toctree-l1"><a class="reference internal" href="commons/imagebatchencoder_pytorch.html">ImageBatchEncoderPyTorch</a></li>
-<li class="toctree-l1"><a class="reference internal" href="commons/videobatchdecoder_vpf.html">VideoBatchDecoderVPF</a></li>
-<li class="toctree-l1"><a class="reference internal" href="commons/videobatchencoder_vpf.html">VideoBatchEncoderVPF</a></li>
+<li class="toctree-l1"><a class="reference internal" href="commons/imagebatchdecoder_nvcodec.html">ImageBatchDecoder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="commons/imagebatchencoder_nvcodec.html">ImageBatchEncoder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="commons/videobatchdecoder_nvcodec.html">VideoBatchDecoder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="commons/videobatchencoder_nvcodec.html">VideoBatchEncoder</a></li>
 <li class="toctree-l1"><a class="reference internal" href="segmentation/segmentation_pytorch.html">SegmentationPyTorch</a></li>
 <li class="toctree-l1"><a class="reference internal" href="segmentation/segmentation_tensorrt.html">SegmentationTensorRT</a></li>
 </ul>
 </div>
 </section>
 <section id="running-the-sample">
-<h2>Running the Sample<a class="headerlink" href="#running-the-sample" title="Permalink to this headline"></a></h2>
+<h2>Running the Sample<a class="headerlink" href="#running-the-sample" title="Permalink to this heading"></a></h2>
 <p>This sample can be invoked without any command-line arguments like the following. In that case it will use the default values. It uses TensorRT as the inference engine, Weimaraner.jpg as the input image, writes the output overlay for the background class to the /tmp directory with batch size of 4. Upon the first run, generating serialized TensorRT model may take some time for a given batch size.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python3<span class="w"> </span>segmentation/python/main.py
 </pre></div>
@@ -2182,11 +2217,11 @@ arguments. This sample allows configuring following parameters. All of them have
 </div>
 </section>
 <section id="understanding-the-output">
-<h2>Understanding the Output<a class="headerlink" href="#understanding-the-output" title="Permalink to this headline"></a></h2>
+<h2>Understanding the Output<a class="headerlink" href="#understanding-the-output" title="Permalink to this heading"></a></h2>
 <p>This sample takes as input the one or more images or one video and generates the semantic segmentation mask overlay on the inputs corresponding to a class of your choice and saves it in a directory. Since this sample works on batches, sometimes the batch size and the number of images read may not be a perfect multiple. In such cases, the last batch may have a smaller batch size. If the batch size to anything above 1 for one image input case, the same image is fed in the entire batch and identical image masks are generated and saved for all of them.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>user@machine:~/cvcuda/samples$<span class="w"> </span>python3<span class="w"> </span>segmentation/python/main.py<span class="w"> </span>-b<span class="w"> </span><span class="m">5</span><span class="w"> </span>-c<span class="w"> </span>__background__<span class="w"> </span>-o<span class="w"> </span>/tmp<span class="w"> </span>-i<span class="w"> </span>assets/images/
 <span class="o">[</span>perf_utils:85<span class="o">]</span><span class="w"> </span><span class="m">2023</span>-07-27<span class="w"> </span><span class="m">23</span>:17:49<span class="w"> </span>WARNING<span class="w"> </span>perf_utils<span class="w"> </span>is<span class="w"> </span>used<span class="w"> </span>without<span class="w"> </span>benchmark.py.<span class="w"> </span>Benchmarking<span class="w"> </span>mode<span class="w"> </span>is<span class="w"> </span>turned<span class="w"> </span>off.
-<span class="o">[</span>perf_utils:89<span class="o">]</span><span class="w"> </span><span class="m">2023</span>-07-27<span class="w"> </span><span class="m">23</span>:17:49<span class="w"> </span>INFO<span class="w">   </span>Using<span class="w"> </span>CV-CUDA<span class="w"> </span>version:<span class="w"> </span><span class="m">0</span>.5.0-beta
+<span class="o">[</span>perf_utils:89<span class="o">]</span><span class="w"> </span><span class="m">2023</span>-07-27<span class="w"> </span><span class="m">23</span>:17:49<span class="w"> </span>INFO<span class="w">   </span>Using<span class="w"> </span>CV-CUDA<span class="w"> </span>version:<span class="w"> </span><span class="m">0</span>.6.0-beta
 <span class="o">[</span>pipelines:35<span class="o">]</span><span class="w"> </span><span class="m">2023</span>-07-27<span class="w"> </span><span class="m">23</span>:17:50<span class="w"> </span>INFO<span class="w">   </span>Using<span class="w"> </span>CVCUDA<span class="w"> </span>as<span class="w"> </span>preprocessor.
 <span class="o">[</span>torch_utils:60<span class="o">]</span><span class="w"> </span><span class="m">2023</span>-07-27<span class="w"> </span><span class="m">23</span>:17:50<span class="w"> </span>INFO<span class="w">   </span>Found<span class="w"> </span>a<span class="w"> </span>total<span class="w"> </span>of<span class="w"> </span><span class="m">3</span><span class="w"> </span>JPEG<span class="w"> </span>images.
 <span class="o">[</span>torch_utils:77<span class="o">]</span><span class="w"> </span><span class="m">2023</span>-07-27<span class="w"> </span><span class="m">23</span>:17:50<span class="w"> </span>INFO<span class="w">   </span>Using<span class="w"> </span>torchnvjpeg<span class="w"> </span>as<span class="w"> </span>decoder.
@@ -2215,7 +2250,7 @@ arguments. This sample allows configuring following parameters. All of them have
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022-2023, NVIDIA..
-      <span class="lastupdated">Last updated on Feb 05, 2024.
+      <span class="lastupdated">Last updated on Mar 15, 2024.
       </span></p>
   </div>
 
