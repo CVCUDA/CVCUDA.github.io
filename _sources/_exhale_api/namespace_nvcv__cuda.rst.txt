@@ -131,13 +131,13 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__RANGECAST_1ga3c70f4a4c5508987ad2acec5a6b602ca`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga9a680f15dae1e68d48d46e0fbb87f586`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga402b86ab1e88e9e05e8ce6c91b20d9cd`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1gae536b61d72b9131123237c0f01736243`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga9a680f15dae1e68d48d46e0fbb87f586`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga6e2b7a07ea5f5abebe26db182eb7f3dd`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1ga402b86ab1e88e9e05e8ce6c91b20d9cd`
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHWRAPPERS_1gae536b61d72b9131123237c0f01736243`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__SATURATECAST_1ga4acebb213025a928fb944ce6726f6874`
 

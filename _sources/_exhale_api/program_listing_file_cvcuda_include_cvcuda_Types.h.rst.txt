@@ -399,6 +399,12 @@ Program Listing for File Types.h
        NVCV_LABEL_SEQUENTIAL, 
    } NVCVLabelType;
    
+   // @brief Defines how mask affects label operation
+   typedef enum
+   {
+       NVCV_REMOVE_ISLANDS_OUTSIDE_MASK_ONLY, 
+   } NVCVLabelMaskType;
+   
    // @brief Defines pair-wise matcher algorithms of choice
    typedef enum
    {

@@ -65,8 +65,6 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_Operator.h`
 
-- :ref:`file_cvcuda_include_cvcuda_OpFindContours.h`
-
 - :ref:`file_cvcuda_include_cvcuda_OpFindHomography.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpFlip.h`

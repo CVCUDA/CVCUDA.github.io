@@ -27,13 +27,13 @@ Includes
 
 - ``TypeTraits.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_TypeTraits.hpp`)
 
+- ``cassert``
+
 - ``nvcv/ImageData.hpp`` (:ref:`file_nvcv_types_include_nvcv_ImageData.hpp`)
 
 - ``nvcv/TensorData.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorData.hpp`)
 
 - ``nvcv/TensorDataAccess.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorDataAccess.hpp`)
-
-- ``util/Assert.h``
 
 - ``utility``
 

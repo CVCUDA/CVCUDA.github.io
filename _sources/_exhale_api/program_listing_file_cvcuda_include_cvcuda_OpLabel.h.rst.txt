@@ -48,8 +48,9 @@ Program Listing for File OpLabel.h
    CVCUDA_PUBLIC NVCVStatus cvcudaLabelSubmit(NVCVOperatorHandle handle, cudaStream_t stream, NVCVTensorHandle in,
                                               NVCVTensorHandle out, NVCVTensorHandle bgLabel, NVCVTensorHandle minThresh,
                                               NVCVTensorHandle maxThresh, NVCVTensorHandle minSize, NVCVTensorHandle count,
-                                              NVCVTensorHandle stats, NVCVConnectivityType connectivity,
-                                              NVCVLabelType assignLabels);
+                                              NVCVTensorHandle stats, NVCVTensorHandle mask,
+                                              NVCVConnectivityType connectivity, NVCVLabelType assignLabels,
+                                              NVCVLabelMaskType maskType);
    
    #ifdef __cplusplus
    }

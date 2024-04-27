@@ -30,7 +30,6 @@ Derived Types
 - ``public cvcuda::CustomCrop`` (:ref:`exhale_class_classcvcuda_1_1CustomCrop`)
 - ``public cvcuda::CvtColor`` (:ref:`exhale_class_classcvcuda_1_1CvtColor`)
 - ``public cvcuda::Erase`` (:ref:`exhale_class_classcvcuda_1_1Erase`)
-- ``public cvcuda::FindContours`` (:ref:`exhale_class_classcvcuda_1_1FindContours`)
 - ``public cvcuda::FindHomography`` (:ref:`exhale_class_classcvcuda_1_1FindHomography`)
 - ``public cvcuda::Flip`` (:ref:`exhale_class_classcvcuda_1_1Flip`)
 - ``public cvcuda::GammaContrast`` (:ref:`exhale_class_classcvcuda_1_1GammaContrast`)

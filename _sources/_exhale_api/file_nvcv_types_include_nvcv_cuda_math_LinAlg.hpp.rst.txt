@@ -33,11 +33,13 @@ Includes
 
 - ``cstdlib``
 
+- ``initializer_list``
+
 - ``nvcv/cuda/MathWrappers.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_MathWrappers.hpp`)
 
-- ``ostream``
+- ``nvcv/cuda/TypeTraits.hpp`` (:ref:`file_nvcv_types_include_nvcv_cuda_TypeTraits.hpp`)
 
-- ``type_traits``
+- ``ostream``
 
 - ``vector``
 

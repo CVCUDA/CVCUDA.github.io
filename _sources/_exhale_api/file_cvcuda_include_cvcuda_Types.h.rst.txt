@@ -61,8 +61,6 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpErase.h`
 
-- :ref:`file_cvcuda_include_cvcuda_OpFindContours.h`
-
 - :ref:`file_cvcuda_include_cvcuda_OpFindHomography.h`
 
 - :ref:`file_cvcuda_include_cvcuda_OpFlip.h`
@@ -158,6 +156,8 @@ Enums
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1gad78f2ecd22f5a4390dc142289a89bf0e`
 
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1gab529f9ddbef23848c189fa7459dbf9fb`
+
+- :ref:`exhale_enum_group__NVCV__C__TYPES_1ga1d947fb3ac6c1f8c7bc7aab9beb10ff6`
 
 - :ref:`exhale_enum_group__NVCV__C__TYPES_1ga73fc84787a3b5c7adf092dee158e8345`
 

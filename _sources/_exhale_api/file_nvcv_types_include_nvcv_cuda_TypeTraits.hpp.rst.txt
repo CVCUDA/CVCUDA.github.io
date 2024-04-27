@@ -51,6 +51,8 @@ Included By
 
 - :ref:`file_nvcv_types_include_nvcv_cuda_ImageBatchVarShapeWrap.hpp`
 
+- :ref:`file_nvcv_types_include_nvcv_cuda_math_LinAlg.hpp`
+
 - :ref:`file_nvcv_types_include_nvcv_cuda_MathOps.hpp`
 
 - :ref:`file_nvcv_types_include_nvcv_cuda_MathWrappers.hpp`

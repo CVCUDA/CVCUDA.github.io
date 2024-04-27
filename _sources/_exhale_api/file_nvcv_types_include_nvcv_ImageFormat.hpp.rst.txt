@@ -85,8 +85,6 @@ Included By
 
 - :ref:`file_cvcuda_include_cvcuda_OpErase.hpp`
 
-- :ref:`file_cvcuda_include_cvcuda_OpFindContours.hpp`
-
 - :ref:`file_cvcuda_include_cvcuda_OpFlip.hpp`
 
 - :ref:`file_cvcuda_include_cvcuda_OpGaussian.hpp`

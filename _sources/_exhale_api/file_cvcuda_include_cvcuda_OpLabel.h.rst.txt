@@ -54,5 +54,5 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__C__ALGORITHM__LABEL_1ga0efb4be79144982c4c656d749ab5ae15`
 
-- :ref:`exhale_function_group__NVCV__C__ALGORITHM__LABEL_1ga611d8b52eaf5357323db8858a7a2429d`
+- :ref:`exhale_function_group__NVCV__C__ALGORITHM__LABEL_1gac33eb7edf532120ec9df01cfbdeb3728`
 

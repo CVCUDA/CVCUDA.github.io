@@ -37,8 +37,6 @@ Includes
 
 - ``nvcv/TensorDataAccess.hpp`` (:ref:`file_nvcv_types_include_nvcv_TensorDataAccess.hpp`)
 
-- ``util/Assert.h``
-
 
 
 Included By

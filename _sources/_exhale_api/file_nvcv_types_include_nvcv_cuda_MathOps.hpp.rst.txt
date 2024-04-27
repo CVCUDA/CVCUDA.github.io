@@ -71,9 +71,9 @@ Functions
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHOPERATORS_1gae1b69d898a2c0f7736402b8a3c47a4e2`
 
-- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHOPERATORS_1ga2ee87e7c4831ab5209ea9a56c2d08c6f`
-
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHOPERATORS_1gaa312f05e96b106ce365abee4d8e48d83`
+
+- :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHOPERATORS_1ga2ee87e7c4831ab5209ea9a56c2d08c6f`
 
 - :ref:`exhale_function_group__NVCV__CPP__CUDATOOLS__MATHOPERATORS_1gad4a460c4ca8b9068f8e8e53a39709bc6`
 

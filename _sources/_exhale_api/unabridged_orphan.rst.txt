@@ -610,16 +610,6 @@ Files
 .. toctree::
    :maxdepth: 1
 
-   file_cvcuda_include_cvcuda_OpFindContours.h.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   file_cvcuda_include_cvcuda_OpFindContours.hpp.rst
-
-.. toctree::
-   :maxdepth: 1
-
    file_cvcuda_include_cvcuda_OpFindHomography.h.rst
 
 .. toctree::

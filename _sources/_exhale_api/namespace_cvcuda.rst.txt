@@ -46,8 +46,6 @@ Classes
 
 - :ref:`exhale_class_classcvcuda_1_1Erase`
 
-- :ref:`exhale_class_classcvcuda_1_1FindContours`
-
 - :ref:`exhale_class_classcvcuda_1_1FindHomography`
 
 - :ref:`exhale_class_classcvcuda_1_1Flip`

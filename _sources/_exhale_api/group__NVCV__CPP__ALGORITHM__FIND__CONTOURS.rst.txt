@@ -1,7 +1,0 @@
-:orphan:
-
-Find Contours
-=============
-
-.. doxygengroup:: NVCV_CPP_ALGORITHM_FIND_CONTOURS
-   :project: cvcuda
