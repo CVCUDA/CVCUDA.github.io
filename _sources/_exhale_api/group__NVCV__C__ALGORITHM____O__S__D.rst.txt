@@ -1,7 +1,0 @@
-:orphan:
-
-OSD
-===
-
-.. doxygengroup:: NVCV_C_ALGORITHM__O_S_D
-   :project: cvcuda

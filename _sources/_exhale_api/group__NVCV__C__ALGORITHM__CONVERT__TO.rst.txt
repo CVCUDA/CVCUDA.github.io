@@ -1,7 +1,0 @@
-:orphan:
-
-Convert To
-==========
-
-.. doxygengroup:: NVCV_C_ALGORITHM_CONVERT_TO
-   :project: cvcuda

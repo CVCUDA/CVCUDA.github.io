@@ -1,7 +1,0 @@
-:orphan:
-
-Copy Make Border
-================
-
-.. doxygengroup:: NVCV_C_ALGORITHM_COPYMAKEBORDER
-   :project: cvcuda

@@ -1,7 +1,0 @@
-:orphan:
-
-Pillow Resize
-=============
-
-.. doxygengroup:: NVCV_C_ALGORITHM_PILLOW_RESIZE
-   :project: cvcuda

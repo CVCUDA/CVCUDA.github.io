@@ -1,7 +1,0 @@
-:orphan:
-
-GaussianNoise
-=============
-
-.. doxygengroup:: NVCV_C_ALGORITHM_GAUSSIAN_NOISE
-   :project: cvcuda

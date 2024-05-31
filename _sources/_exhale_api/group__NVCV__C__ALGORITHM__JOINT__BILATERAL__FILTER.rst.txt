@@ -1,7 +1,0 @@
-:orphan:
-
-Joint Bilateral Filter
-======================
-
-.. doxygengroup:: NVCV_C_ALGORITHM_JOINT_BILATERAL_FILTER
-   :project: cvcuda
